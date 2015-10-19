@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+   font-family:Georgia;
+   font-size:100%;
+}
+header {
+    width:20%;
+    height:100%;
+    float:left;
+}
+nav {
+    line-height:25px;
+    background-color:#beeeee;
+    width:20%;
+    height:100%;
+    padding:25px;	      
+    position:fixed;
+}
+section {
+    width:70%;
+    float:right;
+    padding:25px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p,li {
+    font-size: 0.875em;
+}
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:green; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+
+a.contact_link { 
+   font-size: 0.875em;
+}
+a.contact_link:hover { 
+   color:red; 
+   background-color:transparent; 
+   text-decoration:none;
+}
+
+</style>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<nav>
+   <h1>Praveen Chandrashekar</h1>
+
+   <p>
+   <a href="index.html">Home</a><br>
+   <a href="teaching.html">Teaching</a><br>
+   <a href="people.html">People</a><br>
+   <a href="pub.html">Publications</a><br>
+   <a href="forstudents.html">For students</a><br>
+   <a href="contact.html">Contact</a><br>
+   <a href="localinfo.html">Local information</a><br>
+   <a href="cal.html">Calendar</a>
+   </p>
+
+   <p>
+
+<a class="contact_link" href="https://twitter.com/cfdlab">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-stack-1x"></i>
+</span>
+</a>
+
+<a class="contact_link" href="https://github.com/cpraveen">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-github fa-stack-1x"></i>
+</span>
+</a>
+
+<a class="contact_link" href="https://bitbucket.org/cpraveen">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-bitbucket fa-stack-1x"></i>
+</span>
+</a>
+
+<a class="contact_link" href="https://www.youtube.com/channel/UC0kuy9roaaK5z5II9_6QNcg">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square-o fa-stack-2x"></i>
+  <i class="fa fa-youtube fa-stack-1x"></i>
+</span>
+</a>
+
+</p>
+
+</nav>
+
+
+<section>
+<h1>HyFLO: Hybridizable DG for CNS</h1>
+
+<p>
+   DG schemes provide a basis for developing very higher order accurate codes for solving PDEs. However they have more degrees of freedom compared to continuous Galerkin methods. Hybridizable DG (HDG) schemes were developed in order to overcome some of the problems with DG schemes. Apart from the solution inside the cells, HDG schemes make use of an additional solution variable which lives only on the skeleton of the mesh (edges in 2-d and faces in 3-d). The solution in two neighbouring cells is coupled only through the skeleton solution. This allows us to eliminate the cell solutions and form a global problem involving only the skeleton solution, which has fewer degrees of freedom.
+</p>
+
+<p>
+HyFLO is a HDG code for compressible Navier-Stokes equations built on top of the deal.II finite element library. It currently has the following features
+
+   <ul>
+      <li>2-d compressible NS</li>
+      <li>Quadrilateral meshes</li>
+      <li>Steady state, BDF1, BDF2 solvers</li>
+      <li>Newton method with exact jacobians computed using Sacado</li>
+      <li>Uses linear solvers from Trilinos</li>
+   </ul>
+   </p>
+
+   <p>
+   Future work will focus on
+   <ul>
+      <li>MPI-based parallel implementation using p4est</li>
+      <li>3-d compressible NS</li>
+      <li>Isoparametric elements</li>
+      <li>Grid adaptation</li>
+      <li>LES</li>
+   </ul>
+   </p>
+
+   <p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/P5ngplCZpS8" frameborder="0" allowfullscreen></iframe>
+   </p>
+<footer>
+&copy; 2015 Praveen Chandrashekar
+</footer>
+
+</section>
+
+</body>
+</html>
