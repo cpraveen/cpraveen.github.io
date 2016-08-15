@@ -66,8 +66,10 @@ p,li {
 code {
     font-size: 1.2em;
     color: blue;
-    white-space: pre-wrap;
-    display: block;
+}
+pre {
+    font-size: 1.2em;
+    color: blue;
 }
 a:link    {color:green; background-color:transparent; text-decoration:none}
 a:visited {color:green; background-color:transparent; text-decoration:none}
@@ -184,51 +186,51 @@ A bunch of useful commands and tips for using git.
 Create a new branch
 </p>
 
-<code>
+<pre>
 git branch my_branch
-</code>
+</pre>
 
 <p>
 Make your changes, add files and commit them to your branch. Then push them to remote
 </p>
 
-<code>
+<pre>
 git push origin my_branch
-</code>
+</pre>
 
 <h2>Make your fork track original upstream repo</h2>
 
-<code>
+<pre>
 git checkout master
 git remote add upstream git@github.com:upstreamname/projectname.git
-</code>
+</pre>
 
 <p>
 Now you can get updates from upstream
 </p>
 
-<code>
+<pre>
 git fetch upstream
 git merge upstream/master
-</code>
+</pre>
 
 <p>
 To send these changes to your own remote
 </p>
 
-<code>
+<pre>
 git push origin master
-</code>
+</pre>
 
 <h2>Rebase branch to master</h2>
 
-<code>
+<pre>
 git checkout master 
 git pull origin master
 git pull upstream master
 git checkout my_branch
 git rebase master
-</code>
+</pre>
 
 <p>
 The last step might indicate some conflicts which have to be resolved.
@@ -236,18 +238,18 @@ The last step might indicate some conflicts which have to be resolved.
 
 <h2>Delete branch which is not merged</h2>
 
-<code>
+<pre>
 git branch -D my_branch
 git push origin :my_branch
-</code>
+</pre>
 
 <h2>Accepting and merging a pull request</h2>
 
-<code>
+<pre>
 git checkout master
 git remote add contributor git://github.com/contributor/projectname
 git fetch contributor
 git merge contributor/newfeature
 git push origin master
-</code>
-<footer> Last modified: Mon Aug 15 11:42:06 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+</pre>
+<footer> Last modified: Mon Aug 15 11:55:35 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
