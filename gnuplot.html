@@ -173,93 +173,51 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Git HowTo</h1>
+<h1>Gnuplot tips</h1>
+
+<h2>Simple animation</h2>
 
 <p>
-A bunch of useful commands and tips for using git.
-</p>
-
-
-<h2>Some rules to follow</h2>
-
-<ol>
-
-<li>Do not commit trivial changes like adding extra blank line or blank space.  </li>
-
-<li>Make sure that files you add don't have execute permission.</li>
-
-</ol>
-
-<h2>Making a branch</h2>
-
-<p>
-Create a new branch
+This example shows how to directly pipe data to gnuplot to get an animation.
 </p>
 
 <pre>
-git branch my_branch
+      program main
+      implicit none
+
+      integer it, i, np
+      real*8  t, dt, dx, x, PI
+      parameter(PI=4.0d0*datan(1.0d0))
+
+      dt = 0.1d0
+      t  = 0.0d0
+      np = 100
+      dx = 1.0d0/(np-1)
+
+      do it=1,100
+         t = t + dt
+         print*,"set title 'Iter=",it,"  Time =",t,"'"
+         print*,"set xlabel 'x'"
+         print*,"set ylabel 'f'"
+         print*,"plot [0:1][-1.1:1.1] '-' w l lw 2"
+         do i=1,np
+            x = (i-1)*dx - t
+            print*,(i-1)*dx,dsin(2.0d0*PI*x)
+         enddo
+         print*,"e"
+         print*,"pause 0.2"
+      enddo
+
+      stop
+      end
 </pre>
 
 <p>
-Make your changes, add files and commit them to your branch. Then push them to remote
+Compile the fortran program and run it as follows
 </p>
 
 <pre>
-git push origin my_branch
-</pre>
-
-<h2>Make your fork track original upstream repo</h2>
-
-<pre>
-git checkout master
-git remote add upstream git@github.com:upstreamname/projectname.git
-</pre>
-
-<p>
-Now you can get updates from upstream
-</p>
-
-<pre>
-git fetch upstream
-git merge upstream/master
-</pre>
-
-<p>
-To send these changes to your own remote
-</p>
-
-<pre>
-git push origin master
-</pre>
-
-<h2>Rebase branch to master</h2>
-
-<pre>
-git checkout master 
-git pull origin master
-git pull upstream master
-git checkout my_branch
-git rebase master
-</pre>
-
-<p>
-The last step might indicate some conflicts which have to be resolved.
-</p>
-
-<h2>Delete branch which is not merged</h2>
-
-<pre>
-git branch -D my_branch
-git push origin :my_branch
-</pre>
-
-<h2>Accepting and merging a pull request</h2>
-
-<pre>
-git checkout master
-git remote add contributor git://github.com/contributor/projectname
-git fetch contributor
-git merge contributor/newfeature
-git push origin master
+gfortran anim.f
+./a.out | gnuplot
 </pre>
 <footer> Last modified: Fri Aug 19 12:01:20 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
