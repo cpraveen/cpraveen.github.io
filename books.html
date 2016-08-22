@@ -173,115 +173,111 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Git HowTo</h1>
+<h1>Books and other learning material</h1>
 
 <p>
-A bunch of useful commands and tips for using git.
+In this page, you will find a list of essential reading material that is relevant to the kind of work I do. In each section, the books are roughly arranged in the order of increasing complexity.
 </p>
 
-
-<h2>Some rules to follow</h2>
+<h2>Fluid Dynamics</h2>
 
 <ol>
 
-<li>Do not commit trivial changes like adding extra blank line or blank space.  </li>
+<li>
+D. J. Tritton, Physical Fluid Dynamics
+</li>
 
-<li>Make sure that files you add don't have execute permission.</li>
+<li>
+L. D. Landau and E. M. Lifschitz, Fluid Mechanics
+</li>
+
+<li>
+G. K. Batchelor, An Introduction to Fluid Dynamics
+</li>
 
 </ol>
 
-<h2>Adding files</h2>
+<h2>Partial Differential Equations</h2>
 
-<p>
-To add all modified files which are already tracked
-</p>
+<ol>
 
-<code>git add -u</code>
+<li>
+Karl E. Gustafson, Introduction to PDE and Hilbert Space Methods
+</li>
 
-<h2>Cleaning up</h2>
+<li>
+Heinz-Otto Kreiss and Jens Lorenz, Initial-Boundary Value Problems and the Navier-Stokes Equations.
+</li>
 
-<p>
-To remove all untracked files in the current directory
-</p>
+<li>
+L. C. Evans, Partial Differential Equations
+</li>
 
-<code>git clean . -f -x</code>
+</ol>
 
-<p>
-To remove all untracked files and directories in the current directory
-</p>
+<h2>Numerical methods for PDE</h2>
 
-<code>git clean . -f -x -d</code>
+<ol>
 
-<h2>Making a branch</h2>
+<li>
+Thomee and Larsson, Partial Differential Equations with Numerical Methods
+</li>
 
-<p>
-Create a new branch
-</p>
+<li>
+Randall J. LeVeque, Numerical Methods for Conservation Laws.
+</li>
 
-<pre>
-git branch my_branch
-</pre>
+<li>
+Randall J. LeVeque, Finite Volume Methods for Hyperbolic Problems.
+</li>
 
-<p>
-Make your changes, add files and commit them to your branch. Then push them to remote
-</p>
+<li>
+E. Godlewski and P. Raviart, Hyperbolic Systems of Conservation Laws.
+</li>
 
-<pre>
-git push origin my_branch
-</pre>
+<li>
+E. Godlewski and P. Raviart, Numerical Approximation of Hyperbolic Systems of Conservation Laws.
+</li>
 
-<h2>Make your fork track original upstream repo</h2>
+</ol>
 
-<pre>
-git checkout master
-git remote add upstream git@github.com:upstreamname/projectname.git
-</pre>
+<h2>Computational Fluid Dynamics</h2>
 
-<p>
-Now you can get updates from upstream
-</p>
+<ol>
 
-<pre>
-git fetch upstream
-git merge upstream/master
-</pre>
+<li>
+John D. Anderson Jr., Computational Fluid Dynamics: The basics with applications
+</li>
 
-<p>
-To send these changes to your own remote
-</p>
+<li>
+E. F. Toro, Riemann solvers and numerical methods for fluid dynamics.
+</li>
 
-<pre>
-git push origin master
-</pre>
+<li>
+Charles Hirsch, Numerical Computation of Internal and External Flows.
+</li>
 
-<h2>Rebase branch to master</h2>
+</ol>
 
-<pre>
-git checkout master 
-git pull origin master
-git pull upstream master
-git checkout my_branch
-git rebase master
-</pre>
+<h2>Finite Element Methods</h2>
 
-<p>
-The last step might indicate some conflicts which have to be resolved.
-</p>
+<ol>
 
-<h2>Delete branch which is not merged</h2>
+<li>
+Claes Johnson, Numerical Solution of Partial Differential Equations by the Finite Element Method.
+</li>
 
-<pre>
-git branch -D my_branch
-git push origin :my_branch
-</pre>
+<li>
+Dietrich Braess, Finite elements: Theory, fast solvers and applications in solid mechanics.
+</li>
 
-<h2>Accepting and merging a pull request</h2>
+<li>
+Alfio Quarteroni and Alberto Valli, Numerical Approximation of Partial Differential Equations
+</li>
 
-<pre>
-git checkout master
-git remote add contributor git://github.com/contributor/projectname
-git fetch contributor
-git merge contributor/newfeature
-git push origin master
-</pre>
+<li>
+Philippe Ciarlet, The Finite Element Method for Elliptic Problems.
+</li>
+
+</ol>
 <footer> Last modified: Mon Aug 22 09:33:04 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
