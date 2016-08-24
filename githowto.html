@@ -212,6 +212,20 @@ To remove all untracked files and directories in the current directory
 
 <code>git clean . -f -x -d</code>
 
+<h2>Checkout old version</h2>
+
+<p>
+If you want to use an old version of the code, then find the SHA checksum of the commit using <code>git log</code> and then do
+</p>
+
+<code>git checkout &lt;checksum&gt;</code>
+
+<p>
+The HEAD is now set to the selected commit and you can see this by doing <code>git branch</code>. If you now want to go back to master, do
+</p>
+
+<code>git checkout master</code>
+
 <h2>Making a branch</h2>
 
 <p>
@@ -284,4 +298,4 @@ git fetch contributor
 git merge contributor/newfeature
 git push origin master
 </pre>
-<footer> Last modified: Mon Aug 22 09:33:04 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Aug 24 22:15:16 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
