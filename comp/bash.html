@@ -173,137 +173,46 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Git HowTo</h1>
+<h1>Bash programming</h1>
+
+<h2>Conditional operators</h2>
+
+<pre>
+^  operator  ^  produces true if...  ^  no. of operands  ^
+|  -n   | operand has non zero length                                                      |  1  |
+|  -z   | operand has zero length                                                          |  1  |
+|  -d   | there exists a directory whose name is operand                                   |  1  |
+|  -f   | there exists a file whose name is operand                                        |  1  |
+|  -eq  | the operands are integers and they are equal                                     |  2  |
+|  -neq | the opposite of -eq                                                              |  2  |
+|  =    | the operands are equal (as strings)                                              |  2  |
+|  !=   | opposite of =                                                                    |  2  |
+|  -lt  | operand1 is strictly less than operand2 (both operands should be integers)       |  2  |
+|  -gt  | operand1 is strictly greater than operand2 (both operands should be integers)    |  2  |
+|  -ge  | operand1 is greater than or equal to operand2 (both operands should be integers) |  2  |
+|  -le  | operand1 is less than or equal to operand2 (both operands should be integers)    |  2  |
+</pre>
+
+<h2>For loops</h2>
 
 <p>
-A bunch of useful commands and tips for using git.
-</p>
-
-
-<h2>Some rules to follow</h2>
-
-<ol>
-
-<li>
-Do not commit trivial changes like adding extra blank line or blank space.  
-</li>
-
-<li>
-Before a commit or when creating a pull request, check every changed line and ensure that you made the change and that you would like to check it in.
-</li>
-
-<li>
-Make sure that files you add don't have execute permission.
-</li>
-
-</ol>
-
-<h2>Adding files</h2>
-
-<p>
-To add all modified files which are already tracked
-</p>
-
-<code>git add -u</code>
-
-<h2>Cleaning up</h2>
-
-<p>
-To remove all untracked files in the current directory
-</p>
-
-<code>git clean . -f -x</code>
-
-<p>
-To remove all untracked files and directories in the current directory
-</p>
-
-<code>git clean . -f -x -d</code>
-
-<h2>Checkout old version</h2>
-
-<p>
-If you want to use an old version of the code, then find the SHA checksum of the commit using <code>git log</code> and then do
-</p>
-
-<code>git checkout &lt;checksum&gt;</code>
-
-<p>
-The HEAD is now set to the selected commit and you can see this by doing <code>git branch</code>. If you now want to go back to master, do
-</p>
-
-<code>git checkout master</code>
-
-<h2>Making a branch</h2>
-
-<p>
-Create a new branch
+A loop over integers:
 </p>
 
 <pre>
-git branch my_branch
+for ((i=1;i<=10;i+=1)); do
+echo $i
+done
 </pre>
 
-<p>
-Make your changes, add files and commit them to your branch. Then push them to remote
-</p>
+<h2>While loops</h2>
 
 <pre>
-git push origin my_branch
+myvar=0
+while [ $myvar -le 10 ]
+do
+    echo $myvar
+    myvar=$(( $myvar + 1 ))
+done
 </pre>
-
-<h2>Make your fork track original upstream repo</h2>
-
-<pre>
-git checkout master
-git remote add upstream git@github.com:upstreamname/projectname.git
-</pre>
-
-<p>
-Now you can get updates from upstream
-</p>
-
-<pre>
-git fetch upstream
-git merge upstream/master
-</pre>
-
-<p>
-To send these changes to your own remote
-</p>
-
-<pre>
-git push origin master
-</pre>
-
-<h2>Rebase branch to master</h2>
-
-<pre>
-git checkout master 
-git pull origin master
-git pull upstream master
-git checkout my_branch
-git rebase master
-</pre>
-
-<p>
-The last step might indicate some conflicts which have to be resolved.
-</p>
-
-<h2>Delete branch which is not merged</h2>
-
-<pre>
-git branch -D my_branch
-git push origin :my_branch
-</pre>
-
-<h2>Accepting and merging a pull request</h2>
-
-<pre>
-git checkout master
-git remote add contributor git://github.com/contributor/projectname
-git fetch contributor
-git merge contributor/newfeature
-git push origin master
-</pre>
-<footer> Last modified: Fri Aug 26 10:25:20 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Aug 26 10:25:39 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
