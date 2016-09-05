@@ -173,65 +173,63 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Teaching</h1>
+<h1>PETSc</h1>
 
-<h2>Workshops</h2>
-
-<ol>
-
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/aispde2012">Finite Difference Method, AISPDE, TIFR-CAM, 2012</a></li>
-
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/control2013">IFCAM Workshop on numerical and control of PDE, 22 July - 2 August, 2013</a></li>
-
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/femnse2014">Discontinuous Galerkin method for hyperbolic PDE, FEMNSE, SERC, IISc, Sep 2014</a></li>
-
-<li>
-<a href="http://www.lnmiit.ac.in/DisplayDeptPage.aspx?page=om">Advanced Workshop on Hyperbolic PDEs: Theory, Numerics &amp; Applications and Conference on Partial Differential Equations (HPTNA-2014), 1-11 December, 2014, LNMIT, Jaipur</a>
-</li>
-
-<li>
-Finite difference/volume methods for wave problems, NPDE PG level Workshop, IIT Kanpur, June 2015
-</li>
-
-<li>
-<a href="teaching/ncmatmw2016.html">Discontinuous Galerkin Method, NCM ATM School on PDE and Mechanics, Feb 2016, Kerala School of Mathematics, Kozhikode</a>
-</li>
-
-<li>
-<a href="http://conlaw.tifrbng.res.in/">Advanced Summer School on Hyperbolic Conservation Laws, 16 May -- 4 June, 2016, TIFR-CAM</a>
-</li>
-
-<li>
-<a href="http://www.npde-tca.math.iitb.ac.in/html/advanced.html">NPDE Advanced Level Training Programme, BITS Hyderabad, 25 May--14 June, 2016</a><br>
-</li>
-
-</ol>
-
-<h2>Courses</h2>
-
-<ol>
-<li>Numerical Analysis, ISI, Bangalore, 2009</li>
-<li>Mechanics, TIFR-CAM, Jan-April, 2010</li>
-<li>Mechanics, TIFR-CAM, Jan-April, 2011</li>
-<li>Computational Methods, TIFR-CAM, Jan-April 2012</li>
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/cm2013">Computational Methods, TIFR-CAM, Jan-April 2013</a></li>
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/acfd2013">Advanced CFD, IITGn, March-April, 2013</a></li>
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/na2013">Numerical Analysis, TIFR-CAM, August-December 2013</a></li>
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/na2014">Numerical Analysis, TIFR-CAM, August-December 2014</a></li>
-<li><a href="teaching/cm2016.html">Computational Methods, TIFR-CAM, Jan-April, 2016</a></li>
-</ol>
-
-<h2>Miscellaneous</h2>
+<p>
+<a href="https://www.mcs.anl.gov/petsc/">PETSc</a> is a library for large scale numerical linear algebra but it also has support for finite elements, time stepping schemes, mesh management, etc. The three main methods for solving equations are
+</p>
 
 <ol>
 
 <li>
-<a href="teaching/chebpy.html">Spectral methods in Python</a>
+KSP: Methods for solving matrix equations, i.e., linear solvers
 </li>
 
 <li>
-<a href="teaching/petsc.html">PETSc</a>: Some resources for learning PETSc
+SNES: Newton method for solving non-linear equations
+</li>
+
+<li>
+TS: Time stepping schemes
 </li>
 
 </ol>
+
+<p>
+You should subscribe to the <a href="https://lists.mcs.anl.gov/mailman/listinfo/petsc-users">mailing list</a> if you want help, and the PETSc developers are incredibly helpful (of course, please do your homework first before asking questions).
+</p>
+
+<h2>Tutorials and examples</h2>
+
+<p>
+If you download the PETSc source code and extract it to some place, you can access example codes which are well documented. You can access an index page that links to examples and documentation here (<a href="https://www.mcs.anl.gov/petsc/documentation/index.html">online version</a>)
+</p>
+
+<pre>
+docs/index.html
+</pre>
+
+<p>
+The location of the example source codes is
+</p>
+
+<pre>
+src/ksp/ksp/examples/tutorials
+src/snes/examples/tutorials
+src/ts/examples/tutorials
+</pre>
+
+<p>
+It is easier to view the examples through the html index which gives better documentation, see
+</p>
+
+<pre>
+src/ksp/ksp/examples/tutorials/index.html
+src/snes/examples/tutorials/index.html
+src/ts/examples/tutorials/index.html
+</pre>
+
+<p>
+For a quick introduction to some of the methods, see the <a href="https://www.mcs.anl.gov/petsc/documentation/tutorials/HandsOnExercise.html">Hands on Excercises</a>.
+</p>
 <footer> Last modified: Mon Sep 5 12:03:12 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
