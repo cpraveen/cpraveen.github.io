@@ -180,67 +180,77 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Contact</h1>
-
-<h2>Mailing address</h2>
+<h1>Homebrew</h1>
 
 <p>
-Praveen. C<br>
-TIFR-CAM<br>
-Post Bag No. 6503<br>
-GKVK PO<br>
-Bangalore 560065<br>
-India<br>
+Install some package, e.g., gcc
 </p>
 
-<h2>Geographical address</h2>
+<pre>
+brew install gcc
+</pre>
 
 <p>
+Uninstall a package
+</p>
 
-(See map below)<br>
-
-Tata Institute of Fundamental Research<br>
-Center for Applicable Mathematics<br>
-Near Yelahanka New Town Bus Stand<br>
-Sharada Nagar<br>
-Chikkabommasandra<br>
-Bangalore 560065<br>
-Karnataka, India
-
-<h2>Office</h2>
+<pre>
+brew uninstall gcc
+</pre>
 
 <p>
-Room No. 120<br>
+Check package information
 </p>
 
-<h2>Telephone</h2>
+<pre>
+brew info gcc
+</pre>
 
 <p>
-(+91)(0)(80) 66953719 (My Office) <br>
-(+91)(0)(80) 66953794 (TIFR Reception) <br>
-(+91)(0)(80) 66953700 (TIFR Security) <br>
+Update package list (needs internet connection)
 </p>
+
+<pre>
+brew update
+</pre>
 
 <p>
-I am usually available at this number from Monday to Friday between 8:30 AM to 4:30 PM (Indian time). The (0) is for dialling from within India using STD.
+See outdated packages
 </p>
 
-<h2>Email</h2>
+<pre>
+brew outdated
+</pre>
 
 <p>
-cpraveen @ gmail.com
+Upgrade all outdated packages
 </p>
 
-<h2>Important Note</h2>
+<pre>
+brew upgrade
+</pre>
 
-<ul>
-   <li>Email is the preferred way of contacting me.</li>
-<li>If you are sending a mass email (ie. to multiple recipients) please put the email addresses in the BCC field.</li>
-<li>Please do not send me any email invitations to join some website.</li>
-<li>Please do not send me any Microsoft Word or Powerpoint attachments.</li>
-</ul>
-
-<p style="text-align:center;">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.343870278963!2d77.576731!3d13.093738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24b3b29221f7ee50!2sTIFR+Centre+for+Applicable+Mathematics!5e0!3m2!1sen!2sus!4v1445236857442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<p>
+Remove old versions of packages
 </p>
+
+<pre>
+brew cleanup
+</pre>
+
+<p>
+Check dependencies for PACKAGENAME
+</p>
+
+<pre>
+brew deps PACKAGENAME
+</pre>
+
+<p>
+Check which installed packages depend on PACKAGENAME
+</p>
+
+<pre>
+brew uses --installed PACKAGENAME
+</pre>
 <footer> Last modified: Tue Sep 27 18:58:21 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
