@@ -180,89 +180,23 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Homebrew</h1>
+<h1>Suse Tips</h1>
 
-<p>
-Install some package, e.g., gcc
-</p>
+<p>Update package description from repositories</p>
 
 <pre>
-brew install gcc
+zypper refresh
 </pre>
 
-<p>
-Uninstall a package
-</p>
+<p>List upgradable packages</p>
 
 <pre>
-brew uninstall gcc
+zypper lu
 </pre>
 
-<p>
-Check package information
-</p>
+<p>Upgrade packages</p>
 
 <pre>
-brew info gcc
-</pre>
-
-<p>
-Update package list (needs internet connection)
-</p>
-
-<pre>
-brew update
-</pre>
-
-<p>
-See outdated packages
-</p>
-
-<pre>
-brew outdated
-</pre>
-
-<p>
-Upgrade all outdated packages
-</p>
-
-<pre>
-brew upgrade
-</pre>
-
-<p>Upgrade a specific package</p>
-
-<pre>
-brew upgrade youtube-dl
-</pre>
-
-<p>
-Remove old versions of packages
-</p>
-
-<pre>
-brew cleanup
-</pre>
-
-<p>
-Check dependencies for PACKAGENAME
-</p>
-
-<pre>
-brew deps PACKAGENAME
-</pre>
-
-<p>
-Check which installed packages depend on PACKAGENAME
-</p>
-
-<pre>
-brew uses --installed PACKAGENAME
-</pre>
-
-<p>List packages which are not required any installed package</p>
-
-<pre>
-brew leaves
+zypper up
 </pre>
 <footer> Last modified: Tue Dec 27 16:25:20 IST 2016; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
