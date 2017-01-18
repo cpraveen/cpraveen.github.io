@@ -334,6 +334,39 @@ git rebase master
 The last step might indicate some conflicts which have to be resolved.
 </p>
 
+<h2>Squash commits</h2>
+
+<p>
+You may want to squash several commits into one before creating a pull request.
+</p>
+
+<ol>
+
+<li>
+<code>
+git rebase -i yourbranchname
+</code>
+</li>
+
+<li>
+A file in an editor program will be automatically open.
+</li>
+
+<li>
+Change all commits from "pick" to "fixup" but one commit must have "pick"!
+</li>
+
+<li>
+Save the file and close.
+</li>
+
+<li>
+<code>git push -f origin yourbranchname</code>
+</li>
+
+</ol>
+
+
 <h2>Delete branch which is not merged</h2>
 
 <pre>
@@ -350,4 +383,4 @@ git fetch contributor
 git merge contributor/newfeature
 git push origin master
 </pre>
-<footer> Last modified: Tue Jan 10 18:28:31 IST 2017; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Jan 18 19:03:25 IST 2017; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
