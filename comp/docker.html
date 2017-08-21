@@ -69,7 +69,7 @@ code {
     color: blue;
 }
 pre {
-    font-size: 0.875em;
+    font-size: 1.2em;
     color: blue;
 }
 a:link    {color:green; background-color:transparent; text-decoration:none}
@@ -208,35 +208,35 @@ a.contact_link:hover {
 Once docker is started, enable it to start automatically
 </p>
 
-<code>
+<pre>
 sudo systemctl enable docker
-</code>
+</pre>
 
 <p>
 If you are behind a proxy, you need to set the proxy server 
 </p>
 
-<code>
+<pre>
 sudo mkdir -p /etc/systemd/system/docker.service.d
 sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 systemctl show --property=Environment docker
-</code>
+</pre>
 
 <p>
 Now test that docker is working
 </p>
 
-<code>
+<pre>
 docker run hello-world
-</code>
+</pre>
 
 <p>
 For a non-root user to run docker, you must add them to docker group
 </p>
 
-<code>
+<pre>
 sudo usermod -aG docker USERNAME
-</code>
-<footer> Last modified: Mon Aug 21 08:49:14 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+</pre>
+<footer> Last modified: Mon Aug 21 08:52:14 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
