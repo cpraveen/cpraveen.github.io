@@ -219,13 +219,29 @@ If you are behind a proxy, you need to set the proxy server
 <pre>
 sudo mkdir -p /etc/systemd/system/docker.service.d
 sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
+</pre>
+
+<p>
+Put the following in this file
+</p>
+
+<pre>
+[Service]
+Environment="HTTP_PROXY=http://192.168.1.1:3128"
+</pre>
+
+<p>
+Now restart to take effect
+</p>
+
+<pre>
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 systemctl show --property=Environment docker
 </pre>
 
 <p>
-Now test that docker is working
+The last command should show the proxy server. Now test that docker is working
 </p>
 
 <pre>
@@ -239,4 +255,4 @@ For a non-root user to run docker, you must add them to docker group
 <pre>
 sudo usermod -aG docker USERNAME
 </pre>
-<footer> Last modified: Mon Aug 21 08:52:14 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon Aug 28 12:09:49 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
