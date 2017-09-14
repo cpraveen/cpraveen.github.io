@@ -202,28 +202,115 @@ a.contact_link:hover {
 
 
 <section>
-<h1>OpenSuse Tips</h1>
+<h1>Installing Spack</h1>
 
 <p>
-The package manager is called <tt>zypper</tt>. Here are some useful commands
+Spack is a package manager which is useful to install scientific software. I usually install gcc and gfortran using my OS like Debian or OpenSUSE, and all other packages using Spack.
+</p>
+
+<p>
+Get Spack
 </p>
 
 <pre>
-zypper search gcc -- Search for string gcc
-zypper info   gcc -- Show description for package gcc
-zypper refresh    --  Update package description from repositories
-zypper lu         --  List upgradable packages
-zypper up         --  Upgrade packages
-zypper dup        --  Upgrade distribution
+sudo mkdir /home/spack (change permissions)
+cd /home
+sudo chown praveen:users spack
+git clone https://github.com/LLNL/spack
 </pre>
 
 <p>
-We will install most softwares using Spack. But first we need to get some basic stuff from Suse
+Add following to your <tt>.bashrc</tt>
 </p>
 
 <pre>
-zypper install gcc
-zypper install gfortran
-zypper install gnuplot
+export SPACK_ROOT=/home/spack
+. ${SPACK_ROOT}/share/spack/setup-env.sh
+</pre>
+
+<p>
+Some useful command
+</p>
+
+<pre>
+spack info gcc  -- show information for package gcc
+spack find      -- shows installed packages
+spack compilers -- show available compilers
+</pre>
+
+<p>
+You may have to add your compilers to the file <tt>$HOME/.spack/linux/compilers.yaml</tt>
+</p>
+
+<p>
+I will install the deal.II package which automatically installs all other software that I need.
+</p>
+
+<pre>
+spack install dealii
+</pre>
+
+<p>
+We will create a view of the softwares by sym linking into another directory
+</p>
+
+<pre>
+sudo mkdir /home/soft
+sudo chown praveen:users /home/soft
+$HOME/bin/spack_view.sh
+</pre>
+
+<p>
+The script <tt>spack_view.sh</tt> contains command like this
+</p>
+
+<pre>
+SPACK_VIEW_DIR=/home/soft
+ACTION=symlink
+spack view -v $ACTION $SPACK_VIEW_DIR openmpi
+spack view -v $ACTION $SPACK_VIEW_DIR petsc
+spack view -v $ACTION $SPACK_VIEW_DIR slepc
+spack view -v $ACTION $SPACK_VIEW_DIR trilinos
+spack view -v $ACTION $SPACK_VIEW_DIR oce
+spack view -v $ACTION $SPACK_VIEW_DIR suite-sparse
+spack view -v $ACTION $SPACK_VIEW_DIR mumps
+spack view -v $ACTION $SPACK_VIEW_DIR openblas
+spack view -v $ACTION $SPACK_VIEW_DIR bzip2
+spack view -v $ACTION $SPACK_VIEW_DIR boost
+spack view -v $ACTION $SPACK_VIEW_DIR p4est
+spack view -v $ACTION $SPACK_VIEW_DIR hdf5
+spack view -v $ACTION $SPACK_VIEW_DIR cmake
+spack view -v $ACTION $SPACK_VIEW_DIR gsl
+spack view -v $ACTION $SPACK_VIEW_DIR tbb
+spack view -v $ACTION $SPACK_VIEW_DIR muparser
+spack view -v $ACTION $SPACK_VIEW_DIR netcdf
+spack view -v $ACTION $SPACK_VIEW_DIR netcdf-cxx
+spack view -v $ACTION $SPACK_VIEW_DIR arpack-ng
+</pre>
+
+<p>
+You can set some variables in your <tt>.bashrc</tt>
+</p>
+
+<pre>
+export PETSC_DIR=/home/soft
+export SLEPC_DIR=/home/soft
+export METIS_DIR=/home/soft
+export HDF5_DIR=/home/soft
+
+export PATH=/home/soft/bin:$PATH
+</pre>
+
+<p>
+When I want to upgrade, I usually reinstall everything from scratch.
+</p>
+
+<pre>
+cd /home/spack
+git pull
+spack uninstall --all
+spack install dealii
+rm -rf /home/soft /home/soft/.*
+$HOME/bin/spack_view.sh
 </pre>
 <footer> Last modified: Thu Sep 14 13:43:14 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
