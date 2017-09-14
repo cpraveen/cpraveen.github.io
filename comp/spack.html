@@ -60,7 +60,7 @@ h3 {
     font-size: 1.2em;
 }
 
-p,li,tt {
+p,li {
     font-size: 0.875em;
     line-height: 150%;
 }
@@ -216,11 +216,11 @@ Get Spack
 sudo mkdir /home/spack
 cd /home
 sudo chown praveen:users spack
-git clone https://github.com/LLNL/spack
+git clone hcodeps://github.com/LLNL/spack
 </pre>
 
 <p>
-Add following to your <tt>.bashrc</tt>
+Add following to your <code>.bashrc</code>
 </p>
 
 <pre>
@@ -239,7 +239,7 @@ spack compilers -- show available compilers
 </pre>
 
 <p>
-You may have to add your compilers to the file <tt>$HOME/.spack/linux/compilers.yaml</tt>
+You may have to add your compilers to the file <code>$HOME/.spack/linux/compilers.yaml</code>
 </p>
 
 <p>
@@ -261,7 +261,7 @@ $HOME/bin/spack_view.sh
 </pre>
 
 <p>
-The script <tt>spack_view.sh</tt> contains command like this
+The script <code>spack_view.sh</code> contains command like this
 </p>
 
 <pre>
@@ -289,7 +289,7 @@ spack view -v $ACTION $SPACK_VIEW_DIR arpack-ng
 </pre>
 
 <p>
-You can set some variables in your <tt>.bashrc</tt>
+You can set some variables in your <code>.bashrc</code>
 </p>
 
 <pre>
@@ -313,4 +313,4 @@ spack install dealii
 rm -rf /home/soft /home/soft/.*
 $HOME/bin/spack_view.sh
 </pre>
-<footer> Last modified: Thu Sep 14 13:51:41 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Sep 14 13:56:15 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
