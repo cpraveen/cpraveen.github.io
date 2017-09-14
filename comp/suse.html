@@ -60,7 +60,7 @@ h3 {
     font-size: 1.2em;
 }
 
-p,li {
+p,li,tt {
     font-size: 0.875em;
     line-height: 150%;
 }
@@ -202,15 +202,15 @@ a.contact_link:hover {
 
 
 <section>
-<h1>OpenSuse Tips</h1>
+<h1>OpenSuse</h1>
 
 <p>
 The package manager is called <tt>zypper</tt>. Here are some useful commands
 </p>
 
 <pre>
-zypper search gcc -- Search for string gcc
-zypper info   gcc -- Show description for package gcc
+zypper search gcc --  Search for string gcc
+zypper info   gcc --  Show description for package gcc
 zypper refresh    --  Update package description from repositories
 zypper lu         --  List upgradable packages
 zypper up         --  Upgrade packages
@@ -226,4 +226,8 @@ zypper install gcc
 zypper install gfortran
 zypper install gnuplot
 </pre>
-<footer> Last modified: Thu Sep 14 13:43:14 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+After this, see the <a href="comp/spack.html">Spack</a> page on how to install scientific softwares.
+</p>
+<footer> Last modified: Thu Sep 14 13:50:26 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
