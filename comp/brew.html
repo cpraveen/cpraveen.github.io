@@ -49,6 +49,7 @@ h1,h2,h3 {
 }
 h1 {
     font-size: 1.6em;
+    text-align: center;
 }
 
 h2 {
@@ -204,86 +205,21 @@ a.contact_link:hover {
 <h1>Homebrew</h1>
 
 <p>
-Install some package, e.g., gcc
+Here are some useful commands.
 </p>
 
 <pre>
-brew install gcc
+brew install gcc          -- Install some package, e.g., gcc
+brew uninstall gcc        -- Uninstall a package
+brew info gcc             -- Check package information
+brew list                 -- List all installed packages
+brew update               -- Update package list (needs internet connection)
+brew outdated             -- See outdated packages
+brew upgrade              -- Upgrade all outdated packages
+brew upgrade gcc          -- Upgrade a specific package
+brew cleanup              -- Remove old versions of packages
+brew deps gcc             -- Check dependencies for gcc
+brew uses --installed gcc -- Check which installed packages depend on gcc
+brew leaves               -- List packages not required by any installed package
 </pre>
-
-<p>
-Uninstall a package
-</p>
-
-<pre>
-brew uninstall gcc
-</pre>
-
-<p>
-Check package information
-</p>
-
-<pre>
-brew info gcc
-</pre>
-
-<p>
-Update package list (needs internet connection)
-</p>
-
-<pre>
-brew update
-</pre>
-
-<p>
-See outdated packages
-</p>
-
-<pre>
-brew outdated
-</pre>
-
-<p>
-Upgrade all outdated packages
-</p>
-
-<pre>
-brew upgrade
-</pre>
-
-<p>Upgrade a specific package</p>
-
-<pre>
-brew upgrade youtube-dl
-</pre>
-
-<p>
-Remove old versions of packages
-</p>
-
-<pre>
-brew cleanup
-</pre>
-
-<p>
-Check dependencies for PACKAGENAME
-</p>
-
-<pre>
-brew deps PACKAGENAME
-</pre>
-
-<p>
-Check which installed packages depend on PACKAGENAME
-</p>
-
-<pre>
-brew uses --installed PACKAGENAME
-</pre>
-
-<p>List packages which are not required any installed package</p>
-
-<pre>
-brew leaves
-</pre>
-<footer> Last modified: Tue Jan 10 18:28:31 IST 2017; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Sep 15 08:32:16 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
