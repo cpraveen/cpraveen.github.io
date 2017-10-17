@@ -239,8 +239,12 @@ spack compilers -- show available compilers
 </pre>
 
 <p>
-You may have to add your compilers to the file <code>$HOME/.spack/linux/compilers.yaml</code>
+You may have to add your compilers to the file <code>$HOME/.spack/linux/compilers.yaml</code>; automatically add by
 </p>
+
+<pre>
+spack compiler find
+</pre>
 
 <p>
 I will install the deal.II package which automatically installs all other software that I need.
@@ -310,7 +314,7 @@ cd /home/spack
 git pull
 spack uninstall --all
 spack install dealii
-rm -rf /home/soft /home/soft/.*
+rm -rf /home/soft/* /home/soft/.*
 $HOME/bin/spack_view.sh
 </pre>
-<footer> Last modified: Fri Sep 15 08:32:16 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Oct 17 22:00:02 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>

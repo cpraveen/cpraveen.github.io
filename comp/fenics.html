@@ -202,159 +202,43 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Books and other learning material</h1>
+<h1>Fenics</h1>
+
+<h2>Install using Anaconda</h2>
+
+<pre>
+conda create -n fenics -c conda-forge fenics mshr ipython matplotlib scipy
+</pre>
 
 <p>
-In this page, you will find a list of essential reading material that is relevant to the kind of work I do. In each section, the books are roughly arranged in the order of increasing complexity.
+Now activate the environment and do your Fenics work
 </p>
 
-<h2>Fluid Dynamics</h2>
+<pre>
+source activate fenics
+</pre>
 
-<ol>
+<p>
+After you are done
+</p>
 
-<li>
-D. J. Tritton, Physical Fluid Dynamics
-</li>
+<pre>
+source deactivate
+</pre>
 
-<li>
-John D. Anderson Jr., Modern compressible flow: With historical perspective.
-</li>
+<p>
+Show list of packages in this environment
+</p>
 
-<li>
-L. D. Landau and E. M. Lifschitz, Fluid Mechanics
-</li>
+<pre>
+conda list -n fenics
+</pre>
 
-<li>
-G. K. Batchelor, An Introduction to Fluid Dynamics
-</li>
+<p>
+Update the packages in this environment
+</p>
 
-</ol>
-
-<h2>Partial Differential Equations</h2>
-
-<ol>
-
-<li>
-Karl E. Gustafson, Introduction to PDE and Hilbert Space Methods
-</li>
-
-<li>
-Heinz-Otto Kreiss and Jens Lorenz, Initial-Boundary Value Problems and the Navier-Stokes Equations.
-</li>
-
-<li>
-L. C. Evans, Partial Differential Equations
-</li>
-
-</ol>
-
-<h2>Numerical methods for PDE</h2>
-
-<ol>
-
-<li>
-Thomee and Larsson, Partial Differential Equations with Numerical Methods
-</li>
-
-<li>
-Randall J. LeVeque, Numerical Methods for Conservation Laws.
-</li>
-
-<li>
-Randall J. LeVeque, Finite Volume Methods for Hyperbolic Problems.
-</li>
-
-<li>
-E. Godlewski and P. Raviart, Hyperbolic Systems of Conservation Laws.
-</li>
-
-<li>
-E. Godlewski and P. Raviart, Numerical Approximation of Hyperbolic Systems of Conservation Laws.
-</li>
-
-</ol>
-
-<h2>Computational Fluid Dynamics</h2>
-
-<ol>
-
-<li>
-John D. Anderson Jr., Computational Fluid Dynamics: The basics with applications
-</li>
-
-<li>
-E. F. Toro, Riemann solvers and numerical methods for fluid dynamics.
-</li>
-
-<li>
-Charles Hirsch, Numerical Computation of Internal and External Flows, Vol. I &amp; II.
-</li>
-
-</ol>
-
-<h2>Finite Element Methods</h2>
-
-<ol>
-
-<li>
-Claes Johnson, Numerical Solution of Partial Differential Equations by the Finite Element Method.
-</li>
-
-<li>
-Dietrich Braess, Finite elements: Theory, fast solvers and applications in solid mechanics.
-</li>
-
-<li>
-Alfio Quarteroni and Alberto Valli, Numerical Approximation of Partial Differential Equations
-</li>
-
-<li>
-Philippe Ciarlet, The Finite Element Method for Elliptic Problems.
-</li>
-
-</ol>
-
-<h2>Numerical Linear Algebra, MPI, HPC</h2>
-
-<ol>
-
-<li>
-Yousef Saad, Iterative Methods for Sparse Linear Systems
-</li>
-
-<li>
-Victor Eijkhout, Introduction to High Performance Scientific Computing (<a href="https://bitbucket.org/VictorEijkhout/hpc-book-and-course/downloads/EijkhoutIntroToHPC.pdf">Download</a>)
-</li>
-
-<li>
-Victor Eijkhout, Parallel Programming in Science and Engineering (<a href="https://bitbucket.org/VictorEijkhout/parallel-computing-book/downloads/EijkhoutParComp.pdf">Download</a>)
-</li>
-
-</ol>
-
-<h2>Video lectures</h2>
-
-<ol>
-
-<li>
-<a href="http://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/" target="_blank">Gilbert Strang: Computational Science and Engineering I</a>
-</li>
-
-<li>
-<a href="http://ocw.mit.edu/courses/mathematics/18-086-mathematical-methods-for-engineers-ii-spring-2006/" target="_blank">Gilbert Strang: Mathematical Methods for Engineers II</a>
-</li>
-
-<li>
-<a href="https://www.youtube.com/playlist?list=PL30F4C5ABCE62CB61" target="_blank">Lorena Barba: Computational Fluid Dynamics</a>
-</li>
-
-<li>
-<a href="https://open.umich.edu/find/open-educational-resources/engineering/introduction-finite-element-methods" target="_blank">Krishna Garikipati: Introduction to Finite Element Methods</a>
-</li>
-
-<li>
-<a href="http://www.math.colostate.edu/~bangerth/videos.html" target="_blank">Wolfgang Bangerth: Finite element methods in scientific computing</a> (based on deal.II)
-</li>
-
-</ol>
+<pre>
+conda update -n fenics -c conda-forge --all
+</pre>
 <footer> Last modified: Tue Oct 17 22:00:02 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
