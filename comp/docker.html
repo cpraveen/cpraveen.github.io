@@ -255,4 +255,45 @@ For a non-root user to run docker, you must add them to docker group
 <pre>
 sudo usermod -aG docker USERNAME
 </pre>
-<footer> Last modified: Mon Aug 28 12:09:49 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+See installed docker images
+</p>
+
+<pre>
+docker images
+</pre>
+
+<p>
+Delete an image
+</p>
+
+<pre>
+docker rmi &lt;IMAGE ID&gt;
+</pre>
+
+<p>
+To see all containers
+</p>
+
+<pre>
+docker ps -a
+</pre>
+
+<p>
+To remove a container
+</p>
+
+<pre>
+docker rm &lt;CONTAINER ID&gt;
+</pre>
+
+<p>
+Stop and remove all docker containers
+</p>
+
+<pre>
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+</pre>
+<footer> Last modified: Wed Oct 18 16:50:03 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
