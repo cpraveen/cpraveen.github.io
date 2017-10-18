@@ -253,4 +253,34 @@ Update the packages in this environment
 <pre>
 conda update -n fenics -c conda-forge --all
 </pre>
-<footer> Last modified: Wed Oct 18 15:10:49 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Installing using Docker</h2>
+
+<p>
+First install Docker; this is easy on a Mac and needs some configuration on Linux, see <a href="docker.html">here</a>. After this, start Docker and install the fenics script
+</p>
+
+<pre>
+curl -s https://get.fenicsproject.org | bash
+</pre>
+
+<p>
+Then install a Fenics image
+</p>
+
+<pre>
+fenicsproject pull
+</pre>
+
+<p>
+You are ready to work with Fenics. Go into some directory where you want to do your work and do
+</p>
+
+<pre>
+fenicsproject run
+</pre>
+
+<p>
+Many things like plot windows will not work in Docker, so I prefer using the Conda option to install Fenics
+</p>
+<footer> Last modified: Wed Oct 18 17:17:26 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
