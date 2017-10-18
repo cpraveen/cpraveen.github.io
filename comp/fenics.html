@@ -206,8 +206,20 @@ a.contact_link:hover {
 
 <h2>Install using Anaconda</h2>
 
+<p>
+Let us create a new environment called <code>fenics</code> and install under this.
+</p>
+
 <pre>
-conda create -n fenics -c conda-forge fenics mshr ipython matplotlib scipy
+conda create -n fenics -c conda-forge fenics mshr
+</pre>
+
+<p>
+You may also want to install some other packages
+</p>
+
+<pre>
+conda install -n fenics -c conda-forge ipython notebook matplotlib scipy
 </pre>
 
 <p>
@@ -241,4 +253,4 @@ Update the packages in this environment
 <pre>
 conda update -n fenics -c conda-forge --all
 </pre>
-<footer> Last modified: Tue Oct 17 22:00:02 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Oct 18 15:10:49 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
