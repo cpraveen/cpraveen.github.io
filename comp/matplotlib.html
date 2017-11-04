@@ -202,119 +202,14 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Installing Spack</h1>
+<h1>Plotting with Matplotlib</h1>
 
-<p>
-<a href="https://spack.readthedocs.io">Spack</a> is a package manager which is useful to install scientific software. I usually install basic software gcc and gfortran using my OS like <a href="comp/debian.html">Debian</a> or <a href="comp/suse.html">OpenSUSE</a>, and all other packages using Spack.
-</p>
-
-<p>
-Get Spack
-</p>
+<h2>Global font setting</h2>
 
 <pre>
-sudo mkdir /home/spack
-cd /home
-sudo chown praveen:users spack
-git clone https://github.com/LLNL/spack
-</pre>
-
-<p>
-Add following to your <code>.bashrc</code>
-</p>
-
-<pre>
-export SPACK_ROOT=/home/spack
-. ${SPACK_ROOT}/share/spack/setup-env.sh
-</pre>
-
-<p>
-Some useful command
-</p>
-
-<pre>
-spack info gcc  -- show information for package gcc
-spack find      -- shows installed packages
-spack compilers -- show available compilers
-</pre>
-
-<p>
-You may have to add your compilers to the file <code>$HOME/.spack/linux/compilers.yaml</code>; automatically add by
-</p>
-
-<pre>
-spack compiler find
-</pre>
-
-<p>
-I will install the deal.II package which automatically installs all other software that I need.
-</p>
-
-<pre>
-spack install dealii
-</pre>
-
-<p>
-We will create a view of the softwares by sym linking into another directory
-</p>
-
-<pre>
-sudo mkdir /home/soft
-sudo chown praveen:users /home/soft
-$HOME/bin/spack_view.sh
-</pre>
-
-<p>
-The script <code>spack_view.sh</code> contains command like this
-</p>
-
-<pre>
-SPACK_VIEW_DIR=/home/soft
-ACTION=symlink
-spack view -v $ACTION $SPACK_VIEW_DIR openmpi
-spack view -v $ACTION $SPACK_VIEW_DIR petsc
-spack view -v $ACTION $SPACK_VIEW_DIR slepc
-spack view -v $ACTION $SPACK_VIEW_DIR trilinos
-spack view -v $ACTION $SPACK_VIEW_DIR oce
-spack view -v $ACTION $SPACK_VIEW_DIR suite-sparse
-spack view -v $ACTION $SPACK_VIEW_DIR mumps
-spack view -v $ACTION $SPACK_VIEW_DIR openblas
-spack view -v $ACTION $SPACK_VIEW_DIR bzip2
-spack view -v $ACTION $SPACK_VIEW_DIR boost
-spack view -v $ACTION $SPACK_VIEW_DIR p4est
-spack view -v $ACTION $SPACK_VIEW_DIR hdf5
-spack view -v $ACTION $SPACK_VIEW_DIR cmake
-spack view -v $ACTION $SPACK_VIEW_DIR gsl
-spack view -v $ACTION $SPACK_VIEW_DIR tbb
-spack view -v $ACTION $SPACK_VIEW_DIR muparser
-spack view -v $ACTION $SPACK_VIEW_DIR netcdf
-spack view -v $ACTION $SPACK_VIEW_DIR netcdf-cxx
-spack view -v $ACTION $SPACK_VIEW_DIR arpack-ng
-</pre>
-
-<p>
-You can set some variables in your <code>.bashrc</code>
-</p>
-
-<pre>
-export PETSC_DIR=/home/soft
-export SLEPC_DIR=/home/soft
-export METIS_DIR=/home/soft
-export HDF5_DIR=/home/soft
-
-export PATH=/home/soft/bin:$PATH
-</pre>
-
-<p>
-When I want to upgrade, I usually reinstall everything from scratch.
-</p>
-
-<pre>
-cd /home/spack
-git pull
-spack uninstall --all
-spack install dealii
-rm -rf /home/soft/* /home/soft/.*
-$HOME/bin/spack_view.sh
+import matplotlib.pyplot as plt
+plt.rc('font', size=16)
+plt.rc('font', family='serif') # for Times New Roman font (looks good)
+plt.rc('text', usetex=True)    # This will use Latex fonts (slow)
 </pre>
 <footer> Last modified: Sat Nov 4 19:51:37 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
