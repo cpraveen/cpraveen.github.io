@@ -49,6 +49,7 @@ h1,h2,h3 {
 }
 h1 {
     font-size: 1.6em;
+    text-align: center;
 }
 
 h2 {
@@ -64,11 +65,11 @@ p,li {
     line-height: 150%;
 }
 code {
-    font-size: 0.875em;
+    font-size: 1.2em;
     color: blue;
 }
 pre {
-    font-size: 0.875em;
+    font-size: 1.2em;
     color: blue;
 }
 a:link    {color:green; background-color:transparent; text-decoration:none}
@@ -237,6 +238,33 @@ To add all modified files which are already tracked
 
 <code>git add -u</code>
 
+<h2>Undoing commit</h2>
+
+<p>
+Suppose you have not pushed your commit to remote. Then undo last commit while keeping changes from it (unstaged)
+</p>
+
+<pre>
+git reset HEAD^
+</pre>
+
+<p>
+An equivalent command is
+</p>
+
+<pre>
+git reset --soft HEAD~1
+</pre>
+
+<p>
+If you want to throw away the changes
+</p>
+
+<pre>
+git reset --hard HEAD~1
+</pre>
+
+
 <h2>Cleaning up</h2>
 
 <p>
@@ -383,4 +411,4 @@ git fetch contributor
 git merge contributor/newfeature
 git push origin master
 </pre>
-<footer> Last modified: Thu Jan 19 14:29:53 IST 2017; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Nov 5 08:51:37 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
