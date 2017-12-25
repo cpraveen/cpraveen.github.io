@@ -202,32 +202,88 @@ a.contact_link:hover {
 
 
 <section>
-<h1>OpenSuse</h1>
+<h1>Latex style guide</h1>
 
-<p>
-The package manager is called <code>zypper</code>. Here are some useful commands
-</p>
+<ol>
 
+<li>
+How to put a figure
 <pre>
-zypper search gcc --  Search for string gcc
-zypper info   gcc --  Show description for package gcc
-zypper refresh    --  Update package description from repositories
-zypper lu         --  List upgradable packages
-zypper up         --  Upgrade packages
-zypper dup        --  Upgrade distribution
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figure.eps}
+\caption{This is a figure}
+\label{fig:figlabel}
+\end{center}
+\end{figure}
 </pre>
+</li>
 
-<p>
-We will install most softwares using Spack. But first we need to get some basic stuff from Suse
-</p>
+<li>
+Use <code>\textwidth</code> to specify figure size; NEVER specify both width and height, unless you have a really good reason to do so.
+</li>
 
+<li>
+Use tabular within figure to put several figures side-by-side
 <pre>
-zypper install gcc
-zypper install gfortran
-zypper install gnuplot
+\begin{figure}
+\begin{center}
+\begin{tabular}{cc}
+\includegraphics[width=0.48\textwidth]{fig1.eps} &
+\includegraphics[width=0.48\textwidth]{fig2.eps} \\
+(a) & (b)
+\end{tabular}
+\caption{This is a figure: (a) pressure, (b) Mach}
+\label{fig:figlabel}
+\end{center}
+\end{figure}
 </pre>
+The sum of widths must not exceed one.
+</li>
 
-<p>
-After this, see the <a href="comp/spack.html">Spack</a> page on how to install scientific softwares. openmpi will be installed by Spack, so do not install it with zypper.
-</p>
+<li>
+How to put a table
+<pre>
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+% other stuff
+\hline
+\end{tabular}
+\caption{This is a table}
+\label{tab:tablabel}
+\end{center}
+\end{table}
+</pre>
+</li>
+
+<li>
+Do not use <code>\hspace</code> and <code>\vspace</code>; do not put explicit line breaks.
+</li>
+
+<li>
+Do not use <code>[h]</code> or <code>[ht]</code> for tables and figures; they must be allowed to float.
+</li>
+
+<li>
+Do not use bold font unless really needed to highlight an important point.
+</li>
+
+<li>
+A un-numbered equation can be put as
+<pre>
+\[
+a = b + c
+\]
+</pre>
+or
+<pre>
+\begin{equation*}
+a = b + c
+\end{equation*}
+</pre>
+</li>
+
+</ol>
 <footer> Last modified: Mon Dec 25 17:55:53 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
