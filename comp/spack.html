@@ -339,7 +339,7 @@ Now create a Spack view by running the script spack_view.sh which will install s
 
 <pre>
 export SPACK_VIEW=/path/to/spack/view # Add to .bashrc or .profile file
-/path/to/spack_view.sh
+sh /path/to/spack_view.sh
 </pre>
 
 <p>
@@ -354,6 +354,48 @@ sudo chown praveen:users $SPACK_VIEW
 <p>
 and then run the spack_view.sh script. This is useful on a Linux computer where I want to install the software for all users. 
 </p>
+
+<p>
+Here is a sample spack_view.sh script which you can edit for your needs. If you use mpich, then change openmpi to mpich.
+</p>
+
+<pre>
+SPACK_VIEW=/opt/spack
+COMMAND="spack view -v -d no"
+ACTION=symlink
+
+if [ ! -d "$SPACK_VIEW" ]; then
+   echo "Directory $SPACK_VIEW does not exist"
+   exit
+fi
+
+# Delete all existing stuff
+rm -rf $SPACK_VIEW/*
+rm -rf $SPACK_VIEW/.spack
+
+$COMMAND $ACTION $SPACK_VIEW arpack-ng
+$COMMAND $ACTION $SPACK_VIEW boost
+$COMMAND $ACTION $SPACK_VIEW bzip2
+$COMMAND $ACTION $SPACK_VIEW cmake
+$COMMAND $ACTION $SPACK_VIEW gsl
+$COMMAND $ACTION $SPACK_VIEW hdf5
+$COMMAND $ACTION $SPACK_VIEW metis
+$COMMAND $ACTION $SPACK_VIEW muparser
+$COMMAND $ACTION $SPACK_VIEW mumps
+$COMMAND $ACTION $SPACK_VIEW netcdf
+$COMMAND $ACTION $SPACK_VIEW netcdf-cxx
+$COMMAND $ACTION $SPACK_VIEW oce
+$COMMAND $ACTION $SPACK_VIEW openblas
+$COMMAND $ACTION $SPACK_VIEW openmpi
+$COMMAND $ACTION $SPACK_VIEW p4est
+$COMMAND $ACTION $SPACK_VIEW petsc
+rm $SPACK_VIEW/include/index.html
+$COMMAND $ACTION $SPACK_VIEW slepc
+$COMMAND $ACTION $SPACK_VIEW suite-sparse
+$COMMAND $ACTION $SPACK_VIEW tbb
+$COMMAND $ACTION $SPACK_VIEW trilinos
+$COMMAND $ACTION $SPACK_VIEW zlib
+</pre>
 
 <p>
 You can set some variables in your .bashrc or .profile file
@@ -393,6 +435,6 @@ Now we create a new spack view but first delete the old one
 </p>
 
 <pre>
-/path/to/spack_view.sh
+sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Wed Dec 27 09:49:31 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Dec 27 10:38:53 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
