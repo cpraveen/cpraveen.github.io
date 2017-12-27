@@ -202,34 +202,50 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Installing Spack</h1>
+<h1>Spack</h1>
 
 <p>
-<a href="https://spack.readthedocs.io">Spack</a> is a package manager which is useful to install scientific software. I usually install basic software gcc and gfortran using my OS like <a href="comp/debian.html">Debian</a> or <a href="comp/suse.html">OpenSUSE</a>, and all other packages using Spack.
+<a href="https://spack.readthedocs.io">Spack</a> is a package manager which is very useful to install scientific software.
 </p>
 
+<h2>Preparing a Linux system</h2>
+
 <p>
-Get Spack
+We will install the gcc and gfortran compilers from the system package manager.  Dont install anything else since they will be installed using Spack. There are some instructions for <a href="comp/suse.html">OpenSUSE</a> and <a href="comp/debian.html">Debian</a>.
+</p>
+
+<h2>Preparing a Mac system</h2>
+
+<ul>
+
+<li>Make sure you have latest Xcode and corresponding command line tools.</li>
+
+<li>Install gcc from Homebrew which also provides the gfortran compiler. See <a href="comp/brew.html">here</a>.</li>
+
+
+</ul>
+
+<h2>Install Spack</h2>
+
+<p>
+We will install Spack into SPACK_ROOT directory. Add following lines to your .bashrc or .profile file
 </p>
 
 <pre>
-sudo mkdir /home/spack
-cd /home
-sudo chown praveen:users spack
-git clone https://github.com/LLNL/spack
-</pre>
-
-<p>
-Add following to your <code>.bashrc</code>
-</p>
-
-<pre>
-export SPACK_ROOT=/home/spack
+export SPACK_ROOT=/path/to/spack
 . ${SPACK_ROOT}/share/spack/setup-env.sh
 </pre>
 
 <p>
-Some useful command
+Now get Spack
+</p>
+
+<pre>
+git clone https://github.com/LLNL/spack $SPACK_ROOT
+</pre>
+
+<p>
+Here are some useful Spack commands
 </p>
 
 <pre>
@@ -238,83 +254,145 @@ spack find      -- shows installed packages
 spack compilers -- show available compilers
 </pre>
 
-<p>
-You may have to add your compilers to the file <code>$HOME/.spack/linux/compilers.yaml</code>; automatically add by
-</p>
+<p>Setup compilers by running</p>
 
 <pre>
 spack compiler find
 </pre>
 
 <p>
-I will install the deal.II package which automatically installs all other software that I need.
+which creates the file compilers.yaml inside $HOME/.spack directory. Edit it if needed. 
+</p>
+
+<p>
+On Mac, use clang from Xcode and gfortran from Homebrew. My file $HOME/.spack/darwin/compilers.yaml looks like this
 </p>
 
 <pre>
-spack install dealii
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: highsierra
+    paths:
+      cc: /usr/bin/clang
+      cxx: /usr/bin/clang++
+      f77: /usr/local/bin/gfortran
+      fc: /usr/local/bin/gfortran
+    spec: clang@9.0.0-apple
+    target: x86_64
+</pre>
+
+<p>On Linux, use the gcc and gfortran from your system.</p>
+
+
+<p>Set some package variants in packages.yaml file like this</p>
+
+<pre>
+packages:
+   hdf5:
+      variants: +fortran
+   petsc:
+      variants: +mumps
+   dealii:
+      variants: ~python
+   all:
+      providers:
+         mpi: [mpich]
 </pre>
 
 <p>
-We will create a view of the softwares by sym linking into another directory
+By default, Spack uses openmpi but you can select mpich as above. If you want to use openmpi, then remove the last few lines in packages.yaml file.
+</p>
+
+<h2>Install softwares</h2>
+
+<p>
+I install deal.II and its dependencies which provides all the softwares that I need for my work. On Mac, install the modules program
 </p>
 
 <pre>
-sudo mkdir /home/soft
-sudo chown praveen:users /home/soft
-$HOME/bin/spack_view.sh
+spack install -j4 environment-modules
 </pre>
 
 <p>
-The script <code>spack_view.sh</code> contains command like this
+On Linux you can install this from your system package manager or using Spack as above. Now install deal.II; since I like to compile deal.II myself, I will install only dependencies. But first check that all variants you need are correct by running
 </p>
 
 <pre>
-SPACK_VIEW_DIR=/home/soft
-ACTION=symlink
-spack view -v $ACTION $SPACK_VIEW_DIR openmpi
-spack view -v $ACTION $SPACK_VIEW_DIR petsc
-spack view -v $ACTION $SPACK_VIEW_DIR slepc
-spack view -v $ACTION $SPACK_VIEW_DIR trilinos
-spack view -v $ACTION $SPACK_VIEW_DIR oce
-spack view -v $ACTION $SPACK_VIEW_DIR suite-sparse
-spack view -v $ACTION $SPACK_VIEW_DIR mumps
-spack view -v $ACTION $SPACK_VIEW_DIR openblas
-spack view -v $ACTION $SPACK_VIEW_DIR bzip2
-spack view -v $ACTION $SPACK_VIEW_DIR boost
-spack view -v $ACTION $SPACK_VIEW_DIR p4est
-spack view -v $ACTION $SPACK_VIEW_DIR hdf5
-spack view -v $ACTION $SPACK_VIEW_DIR cmake
-spack view -v $ACTION $SPACK_VIEW_DIR gsl
-spack view -v $ACTION $SPACK_VIEW_DIR tbb
-spack view -v $ACTION $SPACK_VIEW_DIR muparser
-spack view -v $ACTION $SPACK_VIEW_DIR netcdf
-spack view -v $ACTION $SPACK_VIEW_DIR netcdf-cxx
-spack view -v $ACTION $SPACK_VIEW_DIR arpack-ng
+spack spec dealii@develop
 </pre>
 
 <p>
-You can set some variables in your <code>.bashrc</code>
+If this is ok, then we install
 </p>
 
 <pre>
-export PETSC_DIR=/home/soft
-export SLEPC_DIR=/home/soft
-export METIS_DIR=/home/soft
-export HDF5_DIR=/home/soft
-
-export PATH=/home/soft/bin:$PATH
+spack install -j4 --only dependencies dealii@develop
 </pre>
+
+<p>
+Now create a Spack view by running the script spack_view.sh which will install symlinks into SPACK_VIEW directory.
+</p>
+
+<pre>
+export SPACK_VIEW=/path/to/spack/view # Add to .bashrc or .profile file
+/path/to/spack_view.sh
+</pre>
+
+<p>
+If the SPACK_VIEW directory is in not in your home directory, then set ownership
+</p>
+
+<pre>
+sudo mkdir $SPACK_VIEW
+sudo chown praveen:users $SPACK_VIEW
+</pre>
+
+<p>
+and then run the spack_view.sh script. This is useful on a Linux computer where I want to install the software for all users. 
+</p>
+
+<p>
+You can set some variables in your .bashrc or .profile file
+</p>
+
+<pre>
+export PETSC_DIR=$SPACK_VIEW
+export SLEPC_DIR=$SPACK_VIEW
+export METIS_DIR=$SPACK_VIEW
+export HDF5_DIR=$SPACK_VIEW
+
+export PATH=$SPACK_VIEW/bin:$PATH
+</pre>
+
+<h2>Upgrading</h2>
 
 <p>
 When I want to upgrade, I usually reinstall everything from scratch.
 </p>
 
 <pre>
-cd /home/spack
+cd $SPACK_ROOT
 git pull
-spack uninstall --all
-spack install dealii
-rm -rf /home/soft/* /home/soft/.*
-$HOME/bin/spack_view.sh
 </pre>
-<footer> Last modified: Sat Nov 4 19:51:37 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+Update your compilers.yaml and packages.yaml files if needed. Verify that you get all package variants that you need. Then continue
+</p>
+
+<pre>
+spack uninstall --all
+spack install -j4 --only dependencies dealii@develop
+</pre>
+
+<p>
+Now we create a new spack view but first delete the old one
+</p>
+
+<pre>
+/path/to/spack_view.sh
+</pre>
+<footer> Last modified: Wed Dec 27 09:49:31 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
