@@ -211,7 +211,7 @@ a.contact_link:hover {
 <h2>Preparing a Linux system</h2>
 
 <p>
-We will install the gcc and gfortran compilers from the system package manager.  Dont install anything else since they will be installed using Spack. There are some instructions for <a href="comp/suse.html">OpenSUSE</a> and <a href="comp/debian.html">Debian</a>.
+We will install the gcc and gfortran compilers from the system package manager.  Dont install anything else since they will be installed using Spack. There are some instructions for <a href="comp/suse.html">OpenSUSE</a> and <a href="comp/debian.html">Debian</a>. Since Spack installs its own MPI library, it is best to uninstall any MPI you may have installed from your system package manager, since having multiple MPI around can cause problems.
 </p>
 
 <h2>Preparing a Mac system</h2>
@@ -334,6 +334,14 @@ spack install -j4 --only dependencies dealii@develop
 </pre>
 
 <p>
+The flag <code>-j4</code> means that four processes will be used while compiling; increase this if you have more cores on your computer. If you primarily use Petsc and Metis, and dont need other stuff, then do
+</p>
+
+<pre>
+spack install -j4 petsc
+</pre>
+
+<p>
 Now create a Spack view by running the script spack_view.sh which will install symlinks into SPACK_VIEW directory.
 </p>
 
@@ -436,4 +444,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Wed Dec 27 11:32:54 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Jan 5 09:01:40 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>

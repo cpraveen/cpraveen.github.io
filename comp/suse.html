@@ -230,4 +230,11 @@ zypper install gnuplot
 <p>
 After this, see the <a href="comp/spack.html">Spack</a> page on how to install scientific softwares. openmpi will be installed by Spack, so do not install it with zypper.
 </p>
-<footer> Last modified: Mon Dec 25 17:55:53 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Stop firewall</h2>
+
+<pre>
+systemctl -q is-enabled SuSEfirewall2 && systemctl disable SuSEfirewall2
+systemctl -q is-active SuSEfirewall2 && systemctl stop SuSEfirewall2
+</pre>
+<footer> Last modified: Fri Jan 5 09:01:40 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
