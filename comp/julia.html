@@ -205,11 +205,11 @@ a.contact_link:hover {
 <h1>Julia</h1>
 
 <p>
-Install some commonly needed packages and build them once.
+Install some commonly needed modules and build them once.
 </p>
 
 <pre>
-Pkg.add("Plots")                    # Plotting using matplotlib
+Pkg.add("Plots")                    # Base module for plotting
 Pkg.add("GR")                       # Plotting backend
 Pkg.add("MAT")                      # Read mat files
 Pkg.add("ControlSystems")           # Control system
@@ -218,11 +218,11 @@ Pkg.add("ApproxFun")                # Function approximation like Chebfun
 </pre>
 
 <p>
-After each add, build the package using
+After each add, build the module using
 </p>
 
 <pre>
-Pkg.build("PackageName")
+Pkg.build("Module")
 </pre>
 
 <p>
@@ -244,4 +244,4 @@ x = linspace(0,2*pi,100);
 y = sin.(x);
 plot(x,y)
 </pre>
-<footer> Last modified: Mon Feb 5 11:35:24 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon Feb 5 11:41:10 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
