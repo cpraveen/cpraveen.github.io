@@ -209,7 +209,8 @@ Install some commonly needed packages and build them once.
 </p>
 
 <pre>
-Pkg.add("PyPlot")                   # Plotting using matplotlib
+Pkg.add("Plots")                    # Plotting using matplotlib
+Pkg.add("GR")                       # Plotting backend
 Pkg.add("MAT")                      # Read mat files
 Pkg.add("ControlSystems")           # Control system
 Pkg.add("DifferentialEquations")    # ODE solvers
@@ -223,4 +224,24 @@ After each add, build the package using
 <pre>
 Pkg.build("PackageName")
 </pre>
-<footer> Last modified: Mon Feb 5 10:30:34 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+On Linux, to install MAT, you need the hdf5-tools package to be installed first
+</p>
+
+<pre>
+sudo apt install hdf5-tools
+</pre>
+
+<p>
+To test the plotting, do the following (you must have installed Plots and GR modules using Pkg.add)
+</p>
+
+<pre>
+using Plots
+gr()
+x = linspace(0,2*pi,100);
+y = sin.(x);
+plot(x,y)
+</pre>
+<footer> Last modified: Mon Feb 5 11:35:24 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
