@@ -2,9 +2,9 @@
 <html>
 
 <head>
-<meta name="keywords" content="CFD, FEM, PDE">
-<meta name="description" content="Homepage of Praveen. C">
-<meta name="author" content="Praveen. C">
+<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
+<meta name="description" content="Homepage of Praveen Chandrashekar">
+<meta name="author" content="Praveen Chandrashekar">
 <title>Homepage of Praveen Chandrashekar</title>
 <base href="http://cpraveen.github.io">
 <meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
@@ -223,7 +223,8 @@ We will install most softwares using Spack. But first we need to get some basic 
 
 <pre>
 zypper install gcc
-zypper install gfortran
+zypper install gcc-c++
+zypper install gcc-fortran
 zypper install gnuplot
 </pre>
 
@@ -237,4 +238,19 @@ After this, see the <a href="comp/spack.html">Spack</a> page on how to install s
 systemctl -q is-enabled SuSEfirewall2 && systemctl disable SuSEfirewall2
 systemctl -q is-active SuSEfirewall2 && systemctl stop SuSEfirewall2
 </pre>
-<footer> Last modified: Fri Jan 5 09:01:40 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Enable ssh connections</h2>
+
+<pre>
+systemctl start  sshd
+systemctl enable sshd  # to automatically start at next boot
+</pre>
+
+<p>
+Check that sshd is started using
+</p>
+
+<pre>
+systemctl status sshd | grep Active
+</pre>
+<footer> Last modified: Thu Mar 1 18:09:38 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
