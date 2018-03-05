@@ -226,6 +226,9 @@ zypper install gcc
 zypper install gcc-c++
 zypper install gcc-fortran
 zypper install gnuplot
+zypper install git
+zypper install patch
+zypper install vim-data       # for extended functionality
 </pre>
 
 <p>
@@ -253,4 +256,8 @@ Check that sshd is started using
 <pre>
 systemctl status sshd | grep Active
 </pre>
-<footer> Last modified: Thu Mar 1 18:09:38 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+You may also have to enable ssh connections by going into Yast - Firewall - public and enable ssh.
+</p>
+<footer> Last modified: Mon Mar 5 15:11:47 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
