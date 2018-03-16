@@ -2,9 +2,9 @@
 <html>
 
 <head>
-<meta name="keywords" content="CFD, FEM, PDE">
-<meta name="description" content="Homepage of Praveen. C">
-<meta name="author" content="Praveen. C">
+<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
+<meta name="description" content="Homepage of Praveen Chandrashekar">
+<meta name="author" content="Praveen Chandrashekar">
 <title>Homepage of Praveen Chandrashekar</title>
 <base href="http://cpraveen.github.io">
 <meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
@@ -209,7 +209,21 @@ A bunch of useful commands and tips for using git.
 </p>
 
 <p>
-It is recommended to use git via ssh instead of https. To save yourself the trouble of entering your password everytime, copy your ssh public key into your git account. This must be done by logging into your git account in your browser and going to the settings page.
+It is recommended to use git via ssh instead of https. To save yourself the trouble of entering your password everytime, copy your ssh public key into your git account. The public key is in <code>$HOME/.ssh/id_rsa.pub</code> file; if you dont have it, then generate it by typing this in terminal
+</p>
+
+<pre>
+ssh-keygen
+</pre>
+
+<p>
+and press enter to all the questions.  Now log in to your git account in your browser, go to settings page where you will find a place to copy the ssh key.
+</p>
+
+<h2>Watch repositories</h2>
+
+<p>
+When you are collaborating with me on some project, we have to share code via git. When I update the code in my repository, you must get a notification that there is an update. For this to happen, you must watch the repository. Go to the webpage of the repository and look for "Watch" link and enable it.
 </p>
 
 <h2>Some rules to follow</h2>
@@ -411,4 +425,4 @@ git fetch contributor
 git merge contributor/newfeature
 git push origin master
 </pre>
-<footer> Last modified: Sun Nov 5 08:51:37 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Mar 16 09:51:34 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
