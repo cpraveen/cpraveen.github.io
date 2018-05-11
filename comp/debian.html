@@ -204,6 +204,8 @@ a.contact_link:hover {
 <section>
 <h1>Debian</h1>
 
+<h2>apt commands</h2>
+
 <p>
 To search for package
 </p>
@@ -236,6 +238,22 @@ Remove a package
 sudo apt remove openmpi-bin
 </pre>
 
+<h2>Setting the locale</h2>
+
+<p>
+If the locale is not set correctly, you can get weird errors while installing some softwares. Edit the file <code>/etc/locale.gen</code> with this line
+</p>
+
+<pre>
+en_US.UTF-8 UTF-8
+</pre>
+
+<p>
+and run <code>sudo locale-gen</code> command in the terminal.
+</p>
+
+<h2>Install packages</h2>
+
 <p>
 I use <a href="comp/spack.html">Spack</a> to install scientific packages. Before that, install some needed dependencies
 </p>
@@ -247,4 +265,4 @@ sudo apt install gcc g++ gfortran gnuplot make curl wget git vim
 <p>
 Next see the <a href="comp/spack.html">Spack</a> tips for installing other softwares. openmpi will also be installed by Spack, so do not install it from apt.
 </p>
-<footer> Last modified: Tue Mar 13 15:35:08 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri May 11 10:45:39 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
