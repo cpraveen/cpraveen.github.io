@@ -269,11 +269,11 @@ spack compiler find
 </pre>
 
 <p>
-which creates the file compilers.yaml inside $HOME/.spack directory. Edit it if needed. 
+which creates the file compilers.yaml inside <code>$HOME/.spack/darwin</code> directory. Edit it if needed. 
 </p>
 
 <p>
-On Mac, use clang from Xcode and gfortran from Homebrew. My file $HOME/.spack/darwin/compilers.yaml looks like this
+On Mac, use clang from Xcode and gfortran from Homebrew. My file <code>$HOME/.spack/darwin/compilers.yaml</code> looks like this
 </p>
 
 <pre>
@@ -296,7 +296,7 @@ compilers:
 <p>On Linux, use the gcc and gfortran from your system.</p>
 
 
-<p>Set some package variants in packages.yaml file like this</p>
+<p>Set some package variants in <code>$HOME/.spack/darwin/packages.yaml</code> file like this</p>
 
 <pre>
 packages:
@@ -452,4 +452,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Mon Mar 5 15:11:47 IST 2018; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Jun 6 13:02:26 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
