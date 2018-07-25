@@ -427,4 +427,11 @@ git fetch contributor
 git merge contributor/newfeature
 git push origin master
 </pre>
-<footer> Last modified: Fri Mar 16 09:54:45 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Download private repo via ssh</h2>
+
+<pre>
+git archive --remote=ssh://git@bitbucket.org/USERNAME/REPO.git --format=zip \
+    --output="FILENAME.zip" master
+</pre>
+<footer> Last modified: Wed Jul 25 17:47:38 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
