@@ -2,9 +2,9 @@
 <html>
 
 <head>
-<meta name="keywords" content="CFD, FEM, PDE">
-<meta name="description" content="Homepage of Praveen. C">
-<meta name="author" content="Praveen. C">
+<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
+<meta name="description" content="Homepage of Praveen Chandrashekar">
+<meta name="author" content="Praveen Chandrashekar">
 <title>Homepage of Praveen Chandrashekar</title>
 <base href="http://cpraveen.github.io">
 <meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
@@ -204,12 +204,53 @@ a.contact_link:hover {
 <section>
 <h1>Plotting with Matplotlib</h1>
 
+<p>
+See <a href="http://nbviewer.jupyter.org/github/cpraveen/python/blob/master/04_matplotlib.ipynb">here</a> for some examples. The codes <a href="https://github.com/cpraveen/cfdlab/tree/master/python">here</a> show how to set plot parameters in one place and use it in other scripts.
+</p>
+
 <h2>Global font setting</h2>
 
 <pre>
-import matplotlib.pyplot as plt
-plt.rc('font', size=16)
-plt.rc('font', family='serif') # for Times New Roman font (looks good)
-plt.rc('text', usetex=True)    # This will use Latex fonts (slow)
+from matplotlib.pyplot import rc
+rc('font', size=16)
+rc('font', family='serif') # for Times New Roman font (looks good)
+rc('text', usetex=True)    # This will use Latex fonts (slow)
 </pre>
-<footer> Last modified: Sat Nov 4 19:51:37 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Tight axis</h2>
+
+<p>
+To make both axes tight
+</p>
+
+<pre>
+plt.axis('tight')
+</pre>
+
+<p>
+Make x axis tight
+</p>
+
+<pre>
+plt.autoscale(enable=True, axis='x', tight=True)
+</pre>
+
+<h2>Set axes range</h2>
+
+<p>
+To set both axes
+</p>
+
+<pre>
+plt.axis([0, 1, -1, 1])
+</pre>
+
+<p>
+To set independently
+</p>
+
+<pre>
+plt.xlim(0,1)
+plt.ylim(-1,1)
+</pre>
+<footer> Last modified: Wed Aug 15 11:21:00 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
