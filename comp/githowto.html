@@ -204,10 +204,6 @@ a.contact_link:hover {
 <section>
 <h1>Git HowTo</h1>
 
-<p>
-A bunch of useful commands and tips for using git.
-</p>
-
 <h2>Setup ssh keys</h2>
 
 <p>
@@ -254,7 +250,7 @@ To add all modified files which are already tracked
 
 <code>git add -u</code>
 
-<h2>Undoing commit</h2>
+<h2>Undoing commit which is not yet pushed</h2>
 
 <p>
 Suppose you have not pushed your commit to remote. Then undo last commit while keeping changes from it (unstaged)
@@ -273,7 +269,7 @@ git reset --soft HEAD~1
 </pre>
 
 <p>
-If you want to throw away the changes
+If you want to undo last commit and throw away the changes
 </p>
 
 <pre>
@@ -287,13 +283,13 @@ git reset --hard HEAD~1
 To remove all untracked files in the current directory
 </p>
 
-<code>git clean . -f -x</code>
+<code>git clean . -fx</code>
 
 <p>
 To remove all untracked files and directories in the current directory
 </p>
 
-<code>git clean . -f -x -d</code>
+<code>git clean . -fxd</code>
 
 <h2>Checkout old version</h2>
 
@@ -320,7 +316,15 @@ git branch my_branch
 </pre>
 
 <p>
-Make your changes, add files and commit them to your branch. Then push them to remote
+Checkout your new branch
+</p>
+
+<pre>
+git checkout my_branch
+</pre>
+
+<p>
+Make changes in this branch, add files and commit them to your branch. Then push them to remote
 </p>
 
 <pre>
@@ -434,4 +438,10 @@ git push origin master
 git archive --remote=ssh://git@bitbucket.org/USERNAME/REPO.git --format=zip \
     --output="FILENAME.zip" master
 </pre>
-<footer> Last modified: Wed Jul 25 17:47:38 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Find hash for your local version of code</h2>
+
+<pre>
+git describe --abbrev=16 --dirty --always
+</pre>
+<footer> Last modified: Tue Sep 11 17:58:21 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>

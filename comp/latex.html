@@ -214,7 +214,7 @@ How to put a figure
 <pre>
 \begin{figure}
 \begin{center}
-\includegraphics[width=0.8\textwidth]{figure.eps}
+\includegraphics[width=0.8\textwidth]{figure}
 \caption{This is a figure}
 \label{fig:figlabel}
 \end{center}
@@ -231,13 +231,17 @@ NEVER specify both width and height, unless you have a really good reason to do 
 </li>
 
 <li>
+Figure file formats must be either eps or pdf; NEVER use png or jpg files.
+</li>
+
+<li>
 Use tabular within figure to put several figures side-by-side
 <pre>
 \begin{figure}
 \begin{center}
 \begin{tabular}{cc}
-\includegraphics[width=0.48\textwidth]{fig1.eps} &
-\includegraphics[width=0.48\textwidth]{fig2.eps} \\
+\includegraphics[width=0.48\textwidth]{fig1} &
+\includegraphics[width=0.48\textwidth]{fig2} \\
 (a) & (b)
 \end{tabular}
 \caption{This is a figure: (a) pressure, (b) Mach}
@@ -270,7 +274,7 @@ Do not use <code>[h]</code> or <code>[ht]</code> for tables and figures; they mu
 </li>
 
 <li>
-Do not use <code>\hspace</code> and <code>\vspace</code>. Spacing must be automatically determined by Latex.
+Do not use <code>~</code>, <code>\hspace</code> and <code>\vspace</code> unless it is absolutely required. Spacing must be automatically determined by Latex.
 </li>
 
 <li>
@@ -350,4 +354,4 @@ Section headings must be lower case except the first letter and proper nouns
 </li>
 
 </ol>
-<footer> Last modified: Thu Aug 16 10:29:13 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Sep 11 17:58:21 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
