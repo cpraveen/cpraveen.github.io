@@ -206,7 +206,8 @@ a.contact_link:hover {
 
 <ol>
 
-<li>Do not use any indenting or tab in the tex files.
+<li>
+Do not use any indenting or tab in the tex files.
 </li>
 
 <li>
@@ -220,6 +221,7 @@ How to put a figure
 \end{center}
 \end{figure}
 </pre>
+DO NOT PUT FILENAME EXTENSION.
 </li>
 
 <li>
@@ -302,7 +304,7 @@ as shown in table~(\ref{tab:foo}), the solution ...
 </li>
 
 <li>
-Do not put dot/period/full stop at end of equations.
+Do not put comma/dot/period/full stop at end of equations.
 </li>
 
 <li>
@@ -346,6 +348,21 @@ a = b + c, \qquad x = y + z
 </li>
 
 <li>
+To use bigger brackets do
+<pre>
+a = \left[ 1 + \frac{1}{2}b \right]
+</pre>
+Do not use <code>\bigg[</code>, etc.
+</li>
+
+<li>
+To use bold math fonts, use the <code>bm</code> package and then
+<pre>
+\bm{v} = \frac{d \bm{x}}{dt}
+</pre>
+</li>
+
+<li>
 Section headings must be lower case except the first letter and proper nouns
 <pre>
 \section{Rising thermal bubble}
@@ -354,4 +371,4 @@ Section headings must be lower case except the first letter and proper nouns
 </li>
 
 </ol>
-<footer> Last modified: Tue Sep 11 17:58:21 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Oct 14 11:08:07 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
