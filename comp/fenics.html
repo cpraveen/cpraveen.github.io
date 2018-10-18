@@ -2,9 +2,9 @@
 <html>
 
 <head>
-<meta name="keywords" content="CFD, FEM, PDE">
-<meta name="description" content="Homepage of Praveen. C">
-<meta name="author" content="Praveen. C">
+<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
+<meta name="description" content="Homepage of Praveen Chandrashekar">
+<meta name="author" content="Praveen Chandrashekar">
 <title>Homepage of Praveen Chandrashekar</title>
 <base href="http://cpraveen.github.io">
 <meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
@@ -283,4 +283,22 @@ fenicsproject run
 <p>
 Many things like plot windows will not work in Docker, so I prefer using the Conda option to install Fenics
 </p>
-<footer> Last modified: Sun Oct 22 19:29:05 IST 2017; &copy; 2015-2017 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Installing an older version using Docker</h2>
+
+<p>
+To install an older version using Docker
+</p>
+
+<pre>
+docker pull quay.io/fenicsproject/stable:2017.2.0
+</pre>
+
+<p>
+Now, run this version like this
+</p>
+
+<pre>
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:2017.2.0
+</pre>
+<footer> Last modified: Thu Oct 18 12:00:22 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
