@@ -254,6 +254,10 @@ Update the packages in this environment
 conda update -n fenics -c conda-forge --all
 </pre>
 
+<p>
+NOTE: Fenics installed via Anaconda does not provide full functionality of Fenics, and Docker images are the best option for this.
+</p>
+
 <h2>Installing using Docker</h2>
 
 <p>
@@ -273,7 +277,7 @@ fenicsproject pull
 </pre>
 
 <p>
-You are ready to work with Fenics. Go into some directory where you want to do your work and do
+Note that this will install the latest image of Fenics. You are now ready to work with Fenics. Go into some directory where you want to do your work and do
 </p>
 
 <pre>
@@ -281,7 +285,7 @@ fenicsproject run
 </pre>
 
 <p>
-Many things like plot windows will not work in Docker, so I prefer using the Conda option to install Fenics
+To update the Fenics version at any time, just do <code>fenicsproject pull</code>. Many things like plot windows will not work in Docker, so you may want to use the Conda option to install Fenics.
 </p>
 
 <h2>Installing an older version using Docker</h2>
@@ -301,4 +305,4 @@ Now, run this version like this
 <pre>
 docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:2017.2.0
 </pre>
-<footer> Last modified: Thu Oct 18 12:00:22 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Oct 18 12:07:42 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
