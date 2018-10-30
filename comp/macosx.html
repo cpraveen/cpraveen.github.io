@@ -219,6 +219,12 @@ Mac OSX comes with a huge collection of tools pre-installed. Xcode has almost ev
 For C/C++, I prefer XCode but <a href="https://code.visualstudio.com">VS Code</a> is also nice. For Python and Fortran, I use <a href="https://macvim-dev.github.io/macvim/">MacVim</a>.
 </p>
 
+<h2>Diff tool</h2>
+
+<p>
+OSX comes with a nice diff tool called opendiff which can be invoked from the command line to compare two files side by side.
+</p>
+
 <h2>Version control</h2>
 
 <p>
@@ -231,14 +237,49 @@ git is already available and I use <a href="https://www.sourcetreeapp.com">Sourc
 OSX comes with Python2 but may not have all the packages you need. I use <a href="https://www.anaconda.com/download/#macos">Anaconda</a> to get a Python installation.
 </p>
 
-<h2>Latex</h2>
+<h2>Plotting/visualization tools</h2>
 
 <p>
-<a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the tex packages.
+Gnuplot is really useful to do some quick and simple visualizations. Install via brew and select the window system, x11 or aquaterm, or you can select both
+
+<pre>
+brew install gnuplot --with-x11        # Also install Xquartz
+brew install gnuplot --with-aquaterm
+</pre>
+</p>
+
+<p>
+To generate line plots for publication, Matplotlib is probably the most useful. Install this from your Python distribution.
+</p>
+
+<p>
+VisIt is my favourite program for visualizing PDE solutions coming from finite difference/volume/element methods.
+</p>
+
+<h2>Document preparation/viewing</h2>
+
+<p>
+<a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the Latex packages.
 </p>
 
 <p>
 To manage my bibliography, I have come to like <a href="https://www.zotero.org">Zotero</a> a lot.
+</p>
+
+<p>
+<a href="http://get.adobe.com/reader/otherversions/">Acrobat</a>: For viewing pdf files, but I find this a very heavy application and avoid using it normally. I prefer to use builtin Preview. But there are some times when your PDF doesnt display propertly and you absolutely need this. Keep it installed for those times.
+</p>
+
+<p>
+<a href="https://skim-app.sourceforge.io">Skim</a> is another PDF viewer that is light weight.
+</p>
+
+<p>
+<a href="http://djvu.sourceforge.net">djview</a>: For viewing djvu archive files. Most ebooks are packaged as djvu files. The available binaries are old versions; you can install this via brew (<code>brew install djview4</code>).
+</p>
+
+<p>
+Keynote is free with OSX and is surprisingly good, even better than PowerPoint. You also get Pages for free which is an alternative to Word.
 </p>
 
 <h2>File transfer</h2>
@@ -247,7 +288,31 @@ To manage my bibliography, I have come to like <a href="https://www.zotero.org">
 <a href="https://filezilla-project.org">FileZilla</a> lets you setup some servers so that you can quickly transfer files between your computers.
 </p>
 
+<h2>Image tools</h2>
+
+<p>
+<a href="http://asymptote.sourceforge.net">Asymptote</a>: Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations are typeset with LaTeX, for high-quality PostScript output. (free)
+</p>
+
+<p>
+<a href="https://www.imagemagick.org/script/index.php">ImageMagick</a>: Use ImageMagick to create, edit, compose, or convert bitmap images. It can read and write images in a variety of formats (over 200) including PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bezier curves.
+</p>
+
+<p>
+<a href="http://markummitchell.github.io/engauge-digitizer/">Engauge</a>: This open source, digitizing software converts an image file showing a graph or map, into numbers. The image file can come from a scanner, digital camera or screenshot. The numbers can be read on the screen, and written or copied to a spreadsheet
+</p>
+
+<h2>Video player</h2>
+
+<p>
+While I have experimented many, <a href="https://lhc70000.github.io/iina/">IINA</a> is the one I now use.
+</p>
+
 <h2>Miscellaneous stuff</h2>
+
+<p>
+<a href="https://freemacsoft.net/appcleaner/">AppCleaner</a> allows you to uninstall apps and all associated files.
+</p>
 
 <p>
 Hide Adium dock icon
@@ -256,4 +321,4 @@ Hide Adium dock icon
 <pre>
 defaults write /Applications/Adium.app/Contents/Info.plist LSUIElement true
 </pre>
-<footer> Last modified: Tue Oct 30 08:50:33 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Oct 30 18:23:02 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
