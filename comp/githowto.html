@@ -439,9 +439,16 @@ git archive --remote=ssh://git@bitbucket.org/USERNAME/REPO.git --format=zip \
     --output="FILENAME.zip" master
 </pre>
 
+<h2>Create archive locally (without .git)</h2>
+
+<pre>
+cd <your project dir>
+git archive -o latest.zip HEAD
+</pre>
+
 <h2>Find hash for your local version of code</h2>
 
 <pre>
 git describe --abbrev=16 --dirty --always
 </pre>
-<footer> Last modified: Tue Sep 11 17:58:21 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Oct 30 08:41:43 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
