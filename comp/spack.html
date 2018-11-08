@@ -245,14 +245,6 @@ git clone https://github.com/LLNL/spack $SPACK_ROOT
 </pre>
 
 <p>
-You can add following line to .bashrc/.profile to have full spack functionality available
-</p>
-
-<pre>
-. ${SPACK_ROOT}/share/spack/setup-env.sh
-</pre>
-
-<p>
 Here are some useful Spack commands
 </p>
 
@@ -301,11 +293,13 @@ compilers:
 <pre>
 packages:
    hdf5:
-      variants: +fortran
+      variants: +fortran +cxx +hl
    petsc:
       variants: +mumps
    dealii:
       variants: ~python
+   trilinos:
+      variants: +rol
    all:
       providers:
          mpi: [mpich]
@@ -318,15 +312,7 @@ By default, Spack uses openmpi but you can select mpich as above. If you want to
 <h2>Install softwares</h2>
 
 <p>
-I install deal.II and its dependencies which provides all the softwares that I need for my work. On Mac, install the modules program
-</p>
-
-<pre>
-spack install -j4 environment-modules
-</pre>
-
-<p>
-On Linux you can install this from your system package manager or using Spack as above. Now install deal.II; since I like to compile deal.II myself, I will install only dependencies. But first check that all variants you need are correct by running
+I install deal.II and its dependencies which provides all the softwares that I need for my work. Since I like to compile deal.II myself, I will install only dependencies. But first check that all variants you need are correct by running
 </p>
 
 <pre>
@@ -452,4 +438,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Wed Jun 6 13:02:26 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Nov 8 08:23:27 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>

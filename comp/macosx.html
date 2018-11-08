@@ -234,17 +234,16 @@ git is already available and I use <a href="https://www.sourcetreeapp.com">Sourc
 <h2>Python</h2>
 
 <p>
-OSX comes with Python2 but may not have all the packages you need. I use <a href="https://www.anaconda.com/download/#macos">Anaconda</a> to get a Python installation.
+OSX comes with Python2 but may not have all the packages you need. You can install Python using brew but I use <a href="https://www.anaconda.com/download/#macos">Anaconda</a> (in particular MiniConda) to get a Python installation.
 </p>
 
 <h2>Plotting/visualization tools</h2>
 
 <p>
-<a href="http://www.gnuplot.info">Gnuplot</a> is really useful to do some quick and simple visualizations. Install via brew and select the window system, x11 or aquaterm, or you can select both
+<a href="http://www.gnuplot.info">Gnuplot</a> is really useful to do some quick and simple visualizations. Install via brew and select the window system as x11
 
 <pre>
-brew install gnuplot --with-x11        # Also install Xquartz
-brew install gnuplot --with-aquaterm
+brew install gnuplot --with-x11        # First install Xquartz
 </pre>
 </p>
 
@@ -267,7 +266,11 @@ To manage my bibliography, I have come to like <a href="https://www.zotero.org">
 </p>
 
 <p>
-<a href="http://get.adobe.com/reader/otherversions/">Acrobat</a>: For viewing pdf files, but I find this a very heavy application and avoid using it normally. I prefer to use builtin Preview. But there are some times when your PDF doesnt display propertly and you absolutely need this. Keep it installed for those times.
+<a href="http://texmacs.org/">TexMacs</a> is a wysiwyg editor that seems to be getting very good. I sometimes use it for writing small notes and documents.
+</p>
+
+<p>
+<a href="http://get.adobe.com/reader/otherversions/">Acrobat</a>: For viewing pdf files, but I find this a very heavy application and avoid using it normally. I prefer to use builtin Preview. But there are some times when your PDF doesnt display properly and you absolutely need this. Keep it installed for those times.
 </p>
 
 <p>
@@ -291,7 +294,7 @@ Keynote is free with OSX and is surprisingly good, even better than PowerPoint. 
 <h2>Image tools</h2>
 
 <p>
-<a href="http://asymptote.sourceforge.net">Asymptote</a>: Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations are typeset with LaTeX, for high-quality PostScript output. (free)
+<a href="http://asymptote.sourceforge.net">Asymptote</a>: Asymptote is a powerful descriptive vector graphics language that provides a natural coordinate-based framework for technical drawing. Labels and equations are typeset with LaTeX, for high-quality PostScript output. If you installed MaxTex, then you already have asymptote. Otherwise you can install it using brew.
 </p>
 
 <p>
@@ -308,6 +311,12 @@ Keynote is free with OSX and is surprisingly good, even better than PowerPoint. 
 While I have experimented many, <a href="https://lhc70000.github.io/iina/">IINA</a> is the one I now use.
 </p>
 
+<h2>Browser</h2>
+
+<p>
+While Safari is not bad, <a href="https://www.opera.com">Opera</a> is also very nice since it has builtin ad blocking, VPN and seems to be very light weight and fast.
+</p>
+
 <h2>Miscellaneous stuff</h2>
 
 <p>
@@ -321,4 +330,4 @@ Hide Adium dock icon
 <pre>
 defaults write /Applications/Adium.app/Contents/Info.plist LSUIElement true
 </pre>
-<footer> Last modified: Tue Oct 30 18:35:07 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Nov 8 08:23:27 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
