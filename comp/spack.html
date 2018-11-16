@@ -362,8 +362,21 @@ Here is a sample spack_view.sh script which you can edit for your needs. If you 
 </p>
 
 <pre>
+#!/bin/bash
+
+# Set this to your actual spack view dir
+SPACK_VIEW=/opt/spack
+
 COMMAND="spack view -v -d no"
 ACTION=symlink
+
+dolink()
+{
+   $COMMAND $ACTION $SPACK_VIEW $1
+   # Delete some useless stuff
+   rm -f $SPACK_VIEW/include/index.html
+   rm -f $SPACK_VIEW/share/info/dir
+}
 
 if [ ! -d "$SPACK_VIEW" ]; then
    echo "Directory $SPACK_VIEW does not exist"
@@ -373,29 +386,36 @@ fi
 # Delete all existing stuff
 rm -rf $SPACK_VIEW/*
 rm -rf $SPACK_VIEW/.spack
+rm -rf $SPACK_VIEW/.spack-empty
+rm -rf $SPACK_VIEW/.nagged
 
-$COMMAND $ACTION $SPACK_VIEW arpack-ng
-$COMMAND $ACTION $SPACK_VIEW boost
-$COMMAND $ACTION $SPACK_VIEW bzip2
-$COMMAND $ACTION $SPACK_VIEW cmake
-$COMMAND $ACTION $SPACK_VIEW gsl
-$COMMAND $ACTION $SPACK_VIEW hdf5
-$COMMAND $ACTION $SPACK_VIEW metis
-$COMMAND $ACTION $SPACK_VIEW muparser
-$COMMAND $ACTION $SPACK_VIEW mumps
-$COMMAND $ACTION $SPACK_VIEW netcdf
-$COMMAND $ACTION $SPACK_VIEW netcdf-cxx
-$COMMAND $ACTION $SPACK_VIEW oce
-$COMMAND $ACTION $SPACK_VIEW openblas
-$COMMAND $ACTION $SPACK_VIEW openmpi
-$COMMAND $ACTION $SPACK_VIEW p4est
-$COMMAND $ACTION $SPACK_VIEW petsc
-rm $SPACK_VIEW/include/index.html
-$COMMAND $ACTION $SPACK_VIEW slepc
-$COMMAND $ACTION $SPACK_VIEW suite-sparse
-$COMMAND $ACTION $SPACK_VIEW tbb
-$COMMAND $ACTION $SPACK_VIEW trilinos
-$COMMAND $ACTION $SPACK_VIEW zlib
+dolink adol-c
+dolink arpack-ng
+dolink assimp
+dolink boost
+dolink bzip2
+dolink cmake
+dolink gmsh
+dolink gsl
+dolink hdf5
+dolink metis
+dolink muparser
+dolink mumps
+dolink nanoflann
+dolink netcdf
+dolink netcdf-cxx
+dolink netlib-scalapack
+dolink oce
+dolink openblas
+dolink openmpi
+dolink p4est
+dolink petsc
+dolink slepc
+dolink suite-sparse
+dolink sundials
+dolink tbb
+dolink trilinos
+dolink zlib
 </pre>
 
 <p>
@@ -407,7 +427,6 @@ export PETSC_DIR=$SPACK_VIEW
 export SLEPC_DIR=$SPACK_VIEW
 export METIS_DIR=$SPACK_VIEW
 export HDF5_DIR=$SPACK_VIEW
-
 export PATH=$SPACK_VIEW/bin:$PATH
 </pre>
 
@@ -438,4 +457,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Thu Nov 8 08:23:27 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Nov 16 08:15:22 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
