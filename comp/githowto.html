@@ -442,7 +442,7 @@ git archive --remote=ssh://git@bitbucket.org/USERNAME/REPO.git --format=zip \
 <h2>Create archive locally (without .git)</h2>
 
 <pre>
-cd <your project dir>
+cd DIRECTORY
 git archive -o latest.zip HEAD
 </pre>
 
@@ -451,4 +451,16 @@ git archive -o latest.zip HEAD
 <pre>
 git describe --abbrev=16 --dirty --always
 </pre>
-<footer> Last modified: Tue Oct 30 08:41:43 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Get a pull request for testing purpose</h2>
+
+<p>
+To test the commits in a pull request, you can fetch the pull, create a branch and then test it.
+</p>
+
+<pre>
+git fetch origin pull/9874/head:9874
+git checkout 9874
+</pre>
+
+<footer> Last modified: Thu Nov 22 08:23:26 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
