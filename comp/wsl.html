@@ -202,172 +202,57 @@ a.contact_link:hover {
 
 
 <section>
-<h1>People</h1>
+<h1>WSL</h1>
 
-<h2>PhD students</h2>
+<p>
+These tips are based on using the Ubuntu version of WSL which is currently at version 18.04 LTS. Windows drives (usually called C and D) are available in <code>/mnt</code> and you can work in these drives from the Linux command line. An important point to remember: <b>never edit a file under Linux using a Windows program</b>. The best approach is to save all your work files in C or D drive and never under Linux.
+</p>
 
-<ol>
+<p>
+In Ubuntu, we install some important programs using apt and the rest we install using <a href="comp/spack.html">Spack</a>.
+</p>
+
+<pre>
+sudo apt install gcc gfortran
+sudo apt install python                (required by spack)
+sudo apt install python3-numpy
+sudo apt install python3-scipy
+sudo apt install python3-sympy
+sudo apt install python3-matplotlib
+sudo apt install jupyter
+sudo apt install gnuplot               (install xming)
+</pre>
+
+<h2>Miscellaneous</h2>
+
+<ul>
+
 <li>
-Souvik Roy (jointly with A. S. Vasudevamurthy, TIFR-CAM) -- completed
+Search: press Windows Key and type your query.
 </li>
 
 <li>
-<a href="http://deepray.github.io/index.html" target="_blank">Deep Ray</a> (jointly with Siddhartha Mishra, ETH Zurich) -- completed
-</li>
-
-</ol>
-
-<h2>Post-docs</h2>
-<ol>
-
-<li>
-Tanmay Sarkar
+Lock screen: press Ctrl+Alt+Delete and select Lock, or press Windows key + L key.
 </li>
 
 <li>
-Pritam Giri (April 2016 - April 2017)
+Disable Windows bell sound in bash: Open <code>/etc/inputrc</code> and add the line <code>set bell-style none</code>.
 </li>
 
 <li>
-Rakesh Kumar (August 2016 - present)
+To set gvim font, add to file <code>/mnt/c/Users/Test/.gvimrc</code>
+
+<pre>
+set guifont=Consolas:h11
+</pre>
 </li>
 
-<li>
-Ruchi Sandilya (August 2017 - present)
+<li>OpenMPI would give some message at end of each run; do this to get rid of this issue
+
+<pre>
+echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+</pre>
 </li>
 
-<li>
-Arijit Hazra (January 2018 - present)
-</li>
-
-<li>
-Asha Meena (March 2018 - present)
-</li>
-
-</ol>
-
-<h2>Masters thesis</h2>
-
-<ol>
-<li>
-Shubham Pandey, IISER Pune, 2014</li>
-</ol>
-
-<h2>Bachelor thesis</h2>
-
-<ol>
-<li>
-Nisha Chandramoorthy, IIT Roorkee (jointly with K. Duraisamy), 2013-14
-</li>
-</ol>
-
-<h2>Project assistants</h2>
-
-<ol>
-
-<li>
-Digvijay Chauhan (Apr 2010 to Sep 2010); subsequent position: Airbus, Bangalore
-</li>
-
-<li>
-Ashish Garg (Feb 2011 to Jun 2011)
-</li>
-
-<li>
-Pranav Gujar (Jun 2011 to Nov 2011); subsequent position: CRL, Pune
-</li>
-
-<li>
-Ashish Garg (Jan 2012 to March 2012)
-</li>
-
-<li>
-Anant Diwakar (Jan 2013 to May 2015); joined for PhD in Aero Dept., IIT Bombay
-</li>
-
-<li>
-Himanshu Sharma (Nov 2014 to May 2015); joined for PhD, Iowa State Univ.
-</li>
-
-<li>
-Jayesh Badwaik (Aug 2015 to Apr 2016); joined for PhD in Dept. of Mathematics, Univ. of Wuerzburg, Germany.
-</li>
-
-<li>
-Jithin George (Jan 2016 to July 2016); joined for Masters in applied Mathematics at Univ. of Washington.
-</li>
-
-<li>
-Ashish Bhole (June 2016 to August 2017); joined for PhD in Univ. of Nice and INRIA Sophia-Antipolis.
-</li>
-
-<li>
-Deepak Varma (October 2016 to July 2018); joined for PhD in Mech. and Aerospace Engg. at North Carolina State University.
-</li>
-
-</ol>
-
-<h2>Interns</h2>
-
-<ol>
-<li>Ankit Pat, IIT Kharagpur, 1 June - 15 July, 2009</li>
-<li>Ravish Karve, Embry Riddle Aeronautical Univ., 10 June - 10 July, 2009</li>
-<li>Amitabh Vajpayee, Bits Pilani, May-July 2010</li>
-<li>Sanchit Singh, IIT Guwahati, May-July 2010</li>
-<li>Mayank Takker, IIT Guwahati, May-July 2010 (through IAS)</li>
-<li>Ankush Agrawal, IIT Kharagpur, May-July 2010</li>
-<li>Nisha Chandramoorthy, IIT Roorkee, May-July 2012 (through IAS)</li>
-<li>Pratik Nayak, RV College, Bangalore, May-July, 2015</li>
-<li>Pulkit Kumar Dubey, BITS Pilani, 11 Feb-10 June, 2016</li>
-<li>Aman Saxena, IIT Guwahati, Aug 2018</li>
-</ol>
-
-<h2>Visiting professors/scientists/postdocs</h2>
-
-<ol>
-<li>
-Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 8-16 April, 2017
-</li>
-<li>
-Shivasubramanian Gopalakrishnan, Dept. of Mech. Engg., IIT Bombay, 19 September, 2017
-</li>
-<li>
-Christian Klingenberg, Univ. of Wuerzburg, 21-29 September, 2017
-</li>
-<li>
-Deep Ray, EPFL Lausanne, 2-5 January, 2018
-</li>
-<li>
-Ganesh Natarajan, Dept. of Mech. Engg., IIT Guwahati, 25-28 Feb 2018
-</li>
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 22-25 February, 2018
-</li>
-<li>
-Dinshaw S. Balsara, Dept. of Physics, Univ. of Notre-Dame, 1-8 July 2018
-</li>
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 1-8 July 2018
-</li>
-<li>
-Christian Klingenberg, Univ. of Wuerzburg, 7-14 September, 2018
-</li>
-<li>
-Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 11 Oct to 9 Nov 2018
-</li>
-</ol>
-
-<h2>Visiting students</h2>
-
-<ol>
-<li>Markus Zenk, PhD student, Univ. of Wuerzburg, 11 Sep, 2014 (DAAD Passage to India)</li>
-<li>Juan Pablo Gallego, PhD student, Univ. of Wuerzburg, 11 Sep, 2014</li>
-<li>Daniel P. Howard, Master student, Univ. of Wisconsin-Madison, June-August, 2015 (through IUSSTF)</li>
-<li>Dominik Zoar, Master Student, Univ. of Wuerzburg, Sep-Oct 2015 (DAAD Passage to India)</li>
-<li>Asha Meena, PhD student, Dept. of Math., IIT Delhi, 11-24 Oct., 2015</li>
-<li>Jonas Berberich, Master student, Univ. of Wuerzburg, 2-31 May 2016</li>
-<li>Asha Meena, PhD student, Dept. of Math., IIT Delhi, 2 May - 5 June, 2016</li>
-<li>Ashish Bhole, PhD student, Univ. of Nice and INRIA Sophia-Antipolis, 11 Oct to 18 Nov 2018</li>
-<li>Deepak Varma, 25 Nov to 6 Dec, 2018.</li>
-</ol>
+</ul>
 <footer> Last modified: Fri Nov 30 13:34:18 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
