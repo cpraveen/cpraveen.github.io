@@ -236,7 +236,13 @@ Lock screen: press Ctrl+Alt+Delete and select Lock, or press Windows key + L key
 </li>
 
 <li>
-Disable Windows bell sound in bash: Open <code>/etc/inputrc</code> and add the line <code>set bell-style none</code>.
+Disable Windows bell sound, etc. in bash: Open <code>$HOME/.inputrc</code> and add the lines
+
+<pre>
+set bell-style none
+set completion-ignore-case on
+set show-all-if-ambiguous on
+</pre>
 </li>
 
 <li>
@@ -255,4 +261,4 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 </li>
 
 </ul>
-<footer> Last modified: Fri Nov 30 13:34:18 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Nov 30 13:41:30 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
