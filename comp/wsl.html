@@ -205,8 +205,16 @@ a.contact_link:hover {
 <h1>WSL</h1>
 
 <p>
-These tips are based on using the Ubuntu version of WSL which is currently at version 18.04 LTS. Windows drives (usually called C and D) are available in <code>/mnt</code> and you can work in these drives from the Linux command line. An important point to remember: <b>never edit a file under Linux using a Windows program</b>. The best approach is to save all your work files in C or D drive and never under Linux.
+These tips are based on using the Ubuntu version of WSL which is currently at version 18.04 LTS. Windows drives (usually called C and D) are available in <code>/mnt</code> and you can work in these drives from the Linux command line. An important point to remember: <b>never edit a file under Linux using a Windows program</b>. The best approach is to save all your work files in C or D drive and never under Linux. For example, you can create directories in D drive and make symlinks from your home directory under Linux
 </p>
+
+<pre>
+cd $HOME
+mkdir /mnt/d/Work
+ln -s /mnt/d/Work Work
+mkdir /mnt/d/Tex
+ln -s /mnt/d/Tex Tex
+</pre>
 
 <p>
 In Ubuntu, we install some important programs using apt and the rest we install using <a href="comp/spack.html">Spack</a>.
@@ -261,4 +269,4 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 </li>
 
 </ul>
-<footer> Last modified: Fri Nov 30 13:41:30 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon Dec 3 13:57:05 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
