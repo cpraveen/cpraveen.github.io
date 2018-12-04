@@ -217,7 +217,7 @@ ln -s /mnt/d/Tex Tex
 </pre>
 
 <p>
-In Ubuntu, we install some important programs using apt and the rest we install using <a href="comp/spack.html">Spack</a>.
+In Ubuntu, we install some important programs using apt
 </p>
 
 <pre>
@@ -230,6 +230,10 @@ sudo apt install python3-matplotlib
 sudo apt install jupyter
 sudo apt install gnuplot               (install xming)
 </pre>
+
+<p>
+and the rest we install using <a href="comp/spack.html">Spack</a>. Other applications can be installed on Windows side, e.g., FileZilla, FireFox, gVim, VisIt, VLC, gmsh, SourceTree, MikTex and VS Code. We can run this Windows programs from the Linux command line by defining some aliases, see sample bashrc file <a href="https://github.com/cpraveen/cfdlab/blob/master/bin/bashrc_wsl.txt">here</a> which you can at the end of your <code>$HOME/.bashrc</code> file.
+</p>
 
 <h2>Miscellaneous</h2>
 
@@ -254,14 +258,14 @@ set show-all-if-ambiguous on
 </li>
 
 <li>
-To set gvim font, add to file <code>/mnt/c/Users/Test/.gvimrc</code>
+To set gvim font, add following line to file <code>/mnt/c/Users/Test/.gvimrc</code>
 
 <pre>
 set guifont=Consolas:h11
 </pre>
 </li>
 
-<li>OpenMPI would give some message at end of each run; do this to get rid of this issue
+<li>OpenMPI would give some warning message at end of each run; do this to get rid of this message
 
 <pre>
 echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
@@ -269,4 +273,4 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 </li>
 
 </ul>
-<footer> Last modified: Mon Dec 3 13:57:05 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Dec 4 08:24:49 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
