@@ -205,7 +205,15 @@ a.contact_link:hover {
 <h1>WSL</h1>
 
 <p>
-These tips are based on using the Ubuntu version of WSL which is currently at version 18.04 LTS. Windows drives (usually called C and D) are available in <code>/mnt</code> and you can work in these drives from the Linux command line. An important point to remember: <b>never edit a file under Linux using a Windows program</b>. The best approach is to save all your work files in C or D drive and never under Linux. For example, you can create directories in D drive and make symlinks from your home directory under Linux
+These tips are based on using the Ubuntu version of <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL</a> which is currently at version 18.04 LTS. Before installing Ubuntu from the Microsoft Store, open Powershell as administrator and run this command
+</p>
+
+<pre>
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+</pre>
+
+<p>
+Windows drives (usually called C and D) are available in <code>/mnt</code> and you can work in these drives from the Linux command line. An important point to remember: <b>never edit a file under Linux using a Windows program</b>. The best approach is to save all your work files in C or D drive and never under Linux. For example, you can create directories in D drive and make symlinks from your home directory under Linux
 </p>
 
 <pre>
@@ -286,4 +294,4 @@ echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 </li>
 
 </ul>
-<footer> Last modified: Thu Dec 6 08:34:19 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Dec 9 09:39:01 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
