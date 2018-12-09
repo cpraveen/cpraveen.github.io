@@ -219,6 +219,10 @@ A blank line creates a new paragraph. Put a blank line only if you need a new pa
 </li>
 
 <li>
+Do not use <code>~</code>, <code>\hspace</code> and <code>\vspace</code> unless it is absolutely required. Spacing must be automatically determined by Latex.
+</li>
+
+<li>
 Do not use bold font unless really needed to highlight an important point.
 </li>
 
@@ -296,11 +300,6 @@ Do not use <code>[h]</code> or <code>[ht]</code> for tables and figures; they mu
 </li>
 
 <li>
-Do not use <code>~</code>, <code>\hspace</code> and <code>\vspace</code> unless it is absolutely required. Spacing must be automatically determined by Latex.
-</li>
-
-
-<li>
 Equation, figure and table labels must be of the form <code>\label{eq:foo}</code>, <code>\label{fig:foo}</code>, <code>\label{tab:foo}</code>, respectively.
 </li>
 
@@ -329,6 +328,10 @@ or
 a = b + c
 \end{equation*}
 </pre>
+</li>
+
+<li>
+An equation must be numbered ONLY if you refer to the equation number within the text.
 </li>
 
 <li>Inline math must be completely enclosed in dollars
@@ -361,7 +364,7 @@ To use bigger brackets do
 <pre>
 a = \left[ 1 + \frac{1}{2}b \right]
 </pre>
-Do not use <code>\bigg[</code>, etc.
+Do not use <code>\bigg[</code>, etc. unless there is a good reason to do so (may be required inside eqnarray).
 </li>
 
 <li>
@@ -373,4 +376,4 @@ To use bold math fonts, use the <code>bm</code> package and then
 
 
 </ol>
-<footer> Last modified: Sun Oct 14 11:19:19 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Dec 9 09:29:23 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
