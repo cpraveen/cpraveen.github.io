@@ -2,9 +2,9 @@
 <html>
 
 <head>
-<meta name="keywords" content="CFD, FEM, PDE">
-<meta name="description" content="Homepage of Praveen. C">
-<meta name="author" content="Praveen. C">
+<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
+<meta name="description" content="Homepage of Praveen Chandrashekar">
+<meta name="author" content="Praveen Chandrashekar">
 <title>Homepage of Praveen Chandrashekar</title>
 <base href="http://cpraveen.github.io">
 <meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
@@ -49,6 +49,7 @@ h1,h2,h3 {
 }
 h1 {
     font-size: 1.6em;
+    text-align: center;
 }
 
 h2 {
@@ -203,6 +204,47 @@ a.contact_link:hover {
 <section>
 <h1>Bash programming</h1>
 
+<h2>top and ps</h2>
+
+<p>
+<code>ps</code> shows running processes and is helpful to check if your code is running or not.
+</p>
+
+<pre>
+ps -u praveen # show processes owned by user praveen
+ps -ef        # gives lot more processess
+</pre>
+
+<p>
+<code>top</code> shows the processes taking most resources and is again useful to see whats going on in your computer.
+</p>
+
+<h2>Running programs in background</h2>
+
+<p>
+When a program prints a lot of stuff to the screen, it can slow down the code. It is always best to run it in background and direct the output to a file. For example
+</p>
+
+<pre>
+./a.out > log.txt &
+</pre>
+
+<p>
+If there is some error message, then you can capture them in the same file like this
+</p>
+
+<pre>
+./a.out > log.txt 2>&1 &
+</pre>
+
+<p>
+To ensure that the program does not get killed when you close your terminal or when you are running on a remote computer via ssh, use nohup like this
+</p>
+
+<pre>
+nohup ./a.out > log.txt 2>&1 &
+</pre>
+
 <h2>.bashrc file</h2>
 
 <p>
@@ -261,4 +303,4 @@ do
     myvar=$(( $myvar + 1 ))
 done
 </pre>
-<footer> Last modified: Tue Jan 10 18:28:31 IST 2017; &copy; 2015-2016 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Jan 1 14:20:17 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>

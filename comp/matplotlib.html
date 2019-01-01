@@ -261,4 +261,20 @@ To set independently
 plt.xlim(0,1)
 plt.ylim(-1,1)
 </pre>
-<footer> Last modified: Fri Oct 19 17:29:36 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Plotting backend</h2>
+
+<p>
+Plotting backends might create problems on mac. If this happens, then try this
+</p>
+
+<pre>
+import matplotlib
+matplotlib.use("TkAgg")
+import matplotlib.pyplot as plt
+</pre>
+
+<p>
+NOTE: You must set the backend before importing pyplot.
+</p>
+<footer> Last modified: Tue Jan 1 14:20:17 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
