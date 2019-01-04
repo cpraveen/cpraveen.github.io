@@ -277,4 +277,16 @@ import matplotlib.pyplot as plt
 <p>
 NOTE: You must set the backend before importing pyplot.
 </p>
-<footer> Last modified: Tue Jan 1 14:20:17 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+You can set this as default; for example in anaconda, I create a file
+<pre>
+/path/to/anaconda/lib/python3.6/site-packages/sitecustomize.py
+</pre>
+and in this put the following
+<pre>
+import matplotlib
+matplotlib.use("TkAgg")
+</pre>
+</p>
+<footer> Last modified: Fri Jan 4 17:57:04 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
