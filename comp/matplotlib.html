@@ -208,13 +208,18 @@ a.contact_link:hover {
 See <a href="http://nbviewer.jupyter.org/github/cpraveen/python/blob/master/04_matplotlib.ipynb">here</a> for some examples. The codes <a href="https://github.com/cpraveen/cfdlab/tree/master/python">here</a> show how to set plot parameters in one place and use it in other scripts.
 </p>
 
-<h2>Global font setting</h2>
+<h2>Matplotlib settings</h2>
 
 <pre>
-from matplotlib.pyplot import rc
-rc('font', size=16)
-rc('font', family='serif') # for Times New Roman font (looks good)
-rc('text', usetex=True)    # This will use Latex fonts (slow)
+from matplotlib import rcParams
+rcParams['font.size'] = 12
+rcParams['font.family'] = 'serif'
+rcParams['figure.autolayout'] = True
+rcParams['lines.linewidth'] = 2
+rcParams['lines.markersize'] = 2
+rcParams['axes.titlesize'] = 12
+rcParams['axes.labelsize'] = 12
+rcParams['text.usetex'] = True    # This will use Latex fonts (slow)
 </pre>
 
 <h2>Line width and marker size</h2>
@@ -289,4 +294,4 @@ import matplotlib
 matplotlib.use("TkAgg")
 </pre>
 </p>
-<footer> Last modified: Fri Jan 4 17:57:04 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Feb 6 09:32:34 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
