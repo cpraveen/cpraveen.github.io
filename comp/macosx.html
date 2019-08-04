@@ -216,7 +216,15 @@ Mac OSX comes with a huge collection of tools pre-installed. Xcode has almost ev
 <h2>Text editors</h2>
 
 <p>
-For C/C++ coding, I prefer XCode but <a href="https://code.visualstudio.com">VS Code</a> is also nice. For Python and Fortran coding, I use <a href="https://macvim-dev.github.io/macvim/">MacVim</a>.
+For C/C++ coding, I prefer XCode which is free and can be installed from Apple app store. Also make sure command line tools are installed, which should automatically come from software update, but you can also install it by
+</p>
+
+<pre>
+xcode-select --install
+</pre>
+
+<p>
+<a href="https://code.visualstudio.com">VS Code</a> is also an excellent code editor and I use this for Fortran and Python. For Python and Fortran coding, another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with NerdTree for file browsing.
 </p>
 
 <h2>Diff tool</h2>
@@ -259,6 +267,10 @@ To generate line plots for publication, <a href="https://matplotlib.org">Matplot
 
 <p>
 <a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the Latex packages.
+</p>
+
+<p>
+TexStudio is a great editor for Latex.
 </p>
 
 <p>
@@ -322,22 +334,21 @@ While I have experimented many, <a href="https://lhc70000.github.io/iina/">IINA<
 <h2>Browser</h2>
 
 <p>
-While Safari is not bad, <a href="https://www.opera.com">Opera</a> is also very nice since it has builtin ad blocking, VPN and seems to be very light weight and fast.
+While Safari is not bad, <a href="https://www.opera.com">Opera</a> is also very nice since it has builtin ad blocking, VPN and seems to be very light weight and fast. Currently, my main browser is Firefox. (Avoid Chrome like the plague)
 </p>
 
 <h2>Miscellaneous stuff</h2>
 
-<p>
+<ul>
+
+<li>
 If you are behind a proxy server, then to get server settings to be visible under sudo, you need to set some environment variables for http and rsync and do the following
-</p>
 
 <pre>
 sudo visudo
 </pre>
 
-<p>
 Enter your password and add the following additional lines and save the file. You need to know how to use vi/vim for this.
-</p>
 
 <pre>
 Defaults env_keep += "http_proxy HTTP_PROXY"
@@ -346,19 +357,46 @@ Defaults env_keep += "ftp_proxy FTP_PROXY"
 Defaults env_keep += "rsync_proxy RSYNC_PROXY"
 </pre>
 
-<p>
+</li>
+
+
+<li>
 <a href="https://freemacsoft.net/appcleaner/">AppCleaner</a> allows you to uninstall apps and all associated files.
-</p>
+</li>
 
-<p>
+<li>
 To see some info on your wireless connection, click Option + wifi icon in menubar.
-</p>
+</li>
 
-<p>
+<li>
+To disable network while sleeping on battery
+
+<pre>
+pmset -b tcpkeepalive 0 # Redo this is if you did SMC/NVRAM reset
+</pre>
+</li>
+
+<li>
+To disable laptop auto booting on lid opening
+
+<pre>
+sudo nvram AutoBoot=%00 # Redo if NVRAM is reset
+</pre>
+
+To reenable auto boot
+
+<pre>
+sudo nvram AutoBoot=%03
+</pre>
+</li>
+
+<li>
 Hide Adium dock icon (you may have to reopen Adium)
-</p>
 
 <pre>
 defaults write /Applications/Adium.app/Contents/Info.plist LSUIElement true
 </pre>
-<footer> Last modified: Tue Nov 27 15:40:07 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+</li>
+
+</ul>
+<footer> Last modified: Sun Aug 4 10:58:18 IST 2019; &copy; 2015-2019 Praveen Chandrashekar </footer> </section> </body> </html>
