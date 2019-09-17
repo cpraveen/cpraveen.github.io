@@ -382,17 +382,23 @@ git rebase master
 The last step might indicate some conflicts which have to be resolved.
 </p>
 
-<h2>Squash commits</h2>
+<h2>Sync branch to master</h2>
 
 <p>
-You may want to squash several commits into one before creating a pull request.
+If your master has changed, you can update your branch. You may also want to squash several commits into one before creating a pull request.
 </p>
 
 <ol>
 
 <li>
 <code>
-git rebase -i yourbranchname
+git checkout yourbranchname
+</code>
+</li>
+
+<li>
+<code>
+git rebase -i master
 </code>
 </li>
 
@@ -463,4 +469,4 @@ git fetch origin pull/9874/head:9874
 git checkout 9874
 </pre>
 
-<footer> Last modified: Thu Nov 22 08:23:26 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Sep 17 08:34:49 IST 2019; &copy; 2015-2019 Praveen Chandrashekar </footer> </section> </body> </html>
