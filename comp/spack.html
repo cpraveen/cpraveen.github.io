@@ -228,12 +228,11 @@ We will install the gcc and gfortran compilers from the system package manager. 
 <h2>Install Spack</h2>
 
 <p>
-We will install Spack into SPACK_ROOT directory. Add following lines to your .bashrc or .profile file
+We will install Spack into SPACK_ROOT directory.
 </p>
 
 <pre>
 export SPACK_ROOT=/path/to/spack
-. ${SPACK_ROOT}/share/spack/setup-env.sh
 </pre>
 
 <p>
@@ -242,6 +241,15 @@ Now get Spack
 
 <pre>
 git clone https://github.com/LLNL/spack $SPACK_ROOT
+</pre>
+
+<p>
+You can add following lines to your .bashrc or .profile file
+</p>
+
+<pre>
+export SPACK_ROOT=/path/to/spack
+. ${SPACK_ROOT}/share/spack/setup-env.sh
 </pre>
 
 <p>
@@ -459,4 +467,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Sat Feb 2 09:01:03 IST 2019; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon Feb 3 14:41:01 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
