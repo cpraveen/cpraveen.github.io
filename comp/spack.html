@@ -303,9 +303,7 @@ packages:
    hdf5:
       variants: +fortran +cxx +hl
    petsc:
-      variants: +mumps
-   dealii:
-      variants: ~python
+      variants: +mumps +suite-sparse
    cgns:
       variants: +fortran
    trilinos:
@@ -326,7 +324,7 @@ I install deal.II and its dependencies which provides all the softwares that I n
 </p>
 
 <pre>
-spack spec dealii@develop
+spack spec dealii
 </pre>
 
 <p>
@@ -334,7 +332,7 @@ If this is ok, then we install
 </p>
 
 <pre>
-spack install -j4 --only dependencies dealii@develop
+spack install -j4 --only dependencies dealii
 </pre>
 
 <p>
@@ -351,11 +349,11 @@ Now create a Spack view by running the script spack_view.sh which will install s
 
 <pre>
 export SPACK_VIEW=/path/to/spack/view # Add to .bashrc or .profile file
-sh /path/to/spack_view.sh
+sh /path/to/spack_view.sh /path/to/spack/view/dir
 </pre>
 
 <p>
-If the SPACK_VIEW directory is in not in your home directory, then set ownership
+If the SPACK_VIEW directory is in not in your home directory, then set ownership, e.g.,
 </p>
 
 <pre>
@@ -368,65 +366,8 @@ and then run the spack_view.sh script. This is useful on a Linux computer where 
 </p>
 
 <p>
-Here is a sample spack_view.sh script which you can edit for your needs. If you use mpich, then change openmpi to mpich.
+Here is a sample <a href="https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/spack_view.sh">spack_view.sh</a> script which you can edit for your needs. If you use mpich, then change openmpi to mpich in the script file.
 </p>
-
-<pre>
-#!/bin/bash
-
-# Set this to your actual spack view dir
-SPACK_VIEW=/opt/spack
-
-COMMAND="spack view -v -d no"
-ACTION=symlink
-
-dolink()
-{
-   $COMMAND $ACTION $SPACK_VIEW $1
-   # Delete some useless stuff
-   rm -f $SPACK_VIEW/include/index.html
-   rm -f $SPACK_VIEW/share/info/dir
-}
-
-if [ ! -d "$SPACK_VIEW" ]; then
-   echo "Directory $SPACK_VIEW does not exist"
-   exit
-fi
-
-# Delete all existing stuff
-rm -rf $SPACK_VIEW/*
-rm -rf $SPACK_VIEW/.spack
-rm -rf $SPACK_VIEW/.spack-empty
-rm -rf $SPACK_VIEW/.nagged
-
-dolink adol-c
-dolink arpack-ng
-dolink assimp
-dolink boost
-dolink bzip2
-dolink cmake
-dolink gmsh
-dolink gsl
-dolink hdf5
-dolink metis
-dolink muparser
-dolink mumps
-dolink nanoflann
-dolink netcdf
-dolink netcdf-cxx
-dolink netlib-scalapack
-dolink oce
-dolink openblas
-dolink openmpi
-dolink p4est
-dolink petsc
-dolink slepc
-dolink suite-sparse
-dolink sundials
-dolink tbb
-dolink trilinos
-dolink zlib
-</pre>
 
 <p>
 You can set some variables in your .bashrc or .profile file
@@ -439,6 +380,10 @@ export METIS_DIR=$SPACK_VIEW
 export HDF5_DIR=$SPACK_VIEW
 export PATH=$SPACK_VIEW/bin:$PATH
 </pre>
+
+<p>
+which can be used in your makefiles for compiling your applications.
+</p>
 
 <h2>Upgrading</h2>
 
@@ -457,7 +402,7 @@ Update your compilers.yaml and packages.yaml files if needed. Verify that you ge
 
 <pre>
 spack uninstall --all
-spack install -j4 --only dependencies dealii@develop
+spack install -j4 --only dependencies dealii
 </pre>
 
 <p>
@@ -467,4 +412,4 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Mon Feb 3 14:41:01 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Feb 13 20:20:20 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
