@@ -340,11 +340,20 @@ logout and login again for this to take effect. You can test that deal.II is wor
 <pre>
 mkdir $HOME/deal.II
 cd $HOME/deal.II
-cp -r $DEAL_II_DIR/examples .
+cp -r $DEAL_II_DIR/share/deal.II/examples .
 cd examples/step-1
 cmake .
 make
 ./step-1
+</pre>
+
+<p>
+Running the step-1 program should produce the following output and two eps files
+</p>
+
+<pre>
+Grid written to grid-1.eps
+Grid written to grid-2.eps
 </pre>
 
 <h2>References</h2>
@@ -397,4 +406,4 @@ Philippe Ciarlet, The Finite Element Method for Elliptic Problems.
 </ol>
 
 -->
-<footer> Last modified: Sat Feb 15 09:12:56 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Feb 15 09:32:38 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
