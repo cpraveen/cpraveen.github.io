@@ -260,6 +260,7 @@ A small introduction to some Python that is useful for this course is available 
 
 <pre>
 git clone https://github.com/cpraveen/python
+cd python
 </pre>
 
 <p>
@@ -271,13 +272,13 @@ or download a <a href="https://github.com/cpraveen/python/archive/master.zip">zi
 <ol>
 
 <li>
-Finite difference/volume codes used in the course can be obtained from the following urls: <a href="https://github.com/cpraveen/numpde">numpde</a>. If you use git, you should clone </br> </br>
+Finite difference/volume codes used in the course can be obtained from the following urls: <a href="https://github.com/cpraveen/numpde">numpde</a>. If you use git, you should clone </br>
 
-<code>
+<pre>
 git clone https://github.com/cpraveen/numpde
-</code>
+cd numpde
+</pre>
 
-</br> </br>
 Alternately, you can download a <a href="https://github.com/cpraveen/numpde/archive/master.zip">zip file</a>.
 
 </li>
@@ -293,13 +294,13 @@ Python examples solving boundary value problems are available <a href="https://g
 <ol>
 
 <li>
-The codes used in the course can be obtained from <a href="https://github.com/cpraveen/fembook">github</a>. If you use git, you should clone </br> </br>
+The codes used in the course can be obtained from <a href="https://github.com/cpraveen/fembook">github</a>. If you use git, you should clone </br>
 
-<code>
+<pre>
 git clone https://github.com/cpraveen/fembook
-</code>
+cd fembook
+</pre>
 
-</br> </br>
 Alternately, you can download a <a href="https://github.com/cpraveen/fembook/archive/master.zip">zip file</a>.
 
 </li>
@@ -333,8 +334,18 @@ deal.II is installed on all the lab computers. Add following line to your <code>
 </pre>
 
 <p>
-logout and login again for this to take effect.
+logout and login again for this to take effect. You can test that deal.II is working correctly by running an example code.
 </p>
+
+<pre>
+mkdir $HOME/deal.II
+cd $HOME/deal.II
+cp -r $DEAL_II_DIR/examples .
+cd examples/step-1
+cmake .
+make
+./step-1
+</pre>
 
 <h2>References</h2>
 
@@ -386,4 +397,4 @@ Philippe Ciarlet, The Finite Element Method for Elliptic Problems.
 </ol>
 
 -->
-<footer> Last modified: Thu Feb 13 20:20:20 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Feb 15 09:12:56 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
