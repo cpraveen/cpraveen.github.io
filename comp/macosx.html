@@ -371,13 +371,15 @@ To see some info on your wireless connection, click Option + wifi icon in menuba
 </li>
 
 <li>
-To disable network while sleeping on battery
+On new versions like Catalina, the battery discharges overnight even if the laptop is in sleep because it is waking up for network. In System Preferences -- Energy Saver -- Battery, disable "Enable Power Nap while on battery power". To disable network while sleeping on battery
 
 <pre>
-pmset -b tcpkeepalive 0 # Redo this is if you did SMC/NVRAM reset
+sudo pmset -b tcpkeepalive  0    # Redo if you did SMC/NVRAM reset or os update
+sudo pmset -a hibernatemode 25
+sudo pmset -a standby       1
 </pre>
 
-You can check the settings by
+You can check the settings by (do this check while using battery)
 <pre>
 pmset -g
 </pre>
@@ -423,4 +425,4 @@ defaults write /Applications/Adium.app/Contents/Info.plist LSUIElement true
 </li>
 
 </ul>
-<footer> Last modified: Fri May 22 08:41:40 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri May 29 08:23:07 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
