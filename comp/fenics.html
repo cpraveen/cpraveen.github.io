@@ -311,7 +311,8 @@ Now, run this version like this
 </p>
 
 <pre>
-docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared quay.io/fenicsproject/stable:2017.2.0
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared \
+       -w /home/fenics/shared quay.io/fenicsproject/stable:2017.2.0
 </pre>
 
 <p>
@@ -337,6 +338,7 @@ Run in docker
 </p>
 
 <pre>
-docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared -w /home/fenics/shared dolfinx/real
+docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared \
+       -w /home/fenics/shared dolfinx/real
 </pre>
-<footer> Last modified: Wed May 6 14:37:27 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Jun 14 11:37:14 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
