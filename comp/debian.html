@@ -256,6 +256,16 @@ Remove a package
 sudo apt remove openmpi-bin
 </pre>
 
+<p>
+To upgrade all packages to latest version
+</p>
+
+<pre>
+sudo apt update
+sudo apt list --upgradable # check if you really want to upgrade all packages
+sudo apt upgrade
+</pre>
+
 <h2>Setting the locale</h2>
 
 <p>
@@ -299,4 +309,4 @@ sudo apt install python3-numpy python3-scipy python3-matplotlib python3-sympy
 <p>
 Next see the <a href="comp/spack.html">Spack</a> tips for installing other softwares. openmpi will also be installed by Spack, so do not install it from apt.
 </p>
-<footer> Last modified: Sun Jun 14 11:37:14 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Jun 14 11:41:54 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
