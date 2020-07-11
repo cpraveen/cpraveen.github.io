@@ -205,7 +205,7 @@ a.contact_link:hover {
 <h1>Homebrew</h1>
 
 <p>
-<a href="https://brew.sh">Homebrew</a> is the best package manager for Mac. Before installing brew make sure XCode is installed. Nowadays, I have switched to Spack for installing scientific software since brew does not have all I need. I only install a few packages from brew, see below.
+<a href="https://brew.sh">Homebrew</a> is the best package manager for Mac. Before installing brew make sure XCode is installed. Nowadays, I have switched to <a href="comp/spack.html">Spack</a> for installing scientific software since brew does not have all the things that I need. I only install a few packages from brew, see below.
 </p>
 
 <p>
@@ -232,17 +232,30 @@ We will only install some basic packages from Homebrew and the rest of the scien
 </p>
 
 <pre>
+brew install aspell
 brew install astyle
 brew install chapel
 brew install colordiff
+brew install djview4
 brew install dos2unix
+brew install ffmpeg
 brew install gcc
 brew install gv
-brew install gnuplot --with-x11
+brew install gnuplot
+brew install ispell
 brew install wget
+brew install youtube-dl
+</pre>
+
+<p>
+Symlink djview app into /Applications
+</p>
+
+<pre>
+sudo ln -s /Applications/Djview.app /usr/local/opt/djview4/djview.app
 </pre>
 
 <p>
 Do not install any MPI library since Spack will install it for you.
 </p>
-<footer> Last modified: Thu Nov 8 08:23:27 IST 2018; &copy; 2015-2018 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Jul 11 19:02:50 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

@@ -204,6 +204,10 @@ a.contact_link:hover {
 <section>
 <h1>Git HowTo</h1>
 
+<p>
+There are some excellent gui for git like <a href="https://www.sourcetreeapp.com">Sourcetree</a> and <a href="https://desktop.github.com">Github Desktop</a> which work on Mac/Windows. There are programs for Linux also but I do not have experience with them.
+</p>
+
 <h2>Setup ssh keys</h2>
 
 <p>
@@ -221,19 +225,31 @@ and press enter to all the questions.  Now log in to your git account in your br
 <h2>Watch repositories</h2>
 
 <p>
-When you are collaborating with me on some project, we have to share code via git. When I update the code in my repository, you must get a notification that there is an update. For this to happen, you must watch the repository. Go to the webpage of the repository and look for "Watch" link and enable it.
+When you are collaborating with me on some project, we have to share code via git. When I update the code in my repository, you must get a notification that there is an update. For this to happen, you must watch the repository.
 </p>
+
+<ul>
+
+<li>
+Github: Go to    the webpage of the repository and look for "Watch" link and enable it.
+</li>
+
+<li>
+Bitbucket: Go to the webpage of the repository, click on three dots, then click on "Manage notifications" and enable watching.
+</li>
+
+</ul>
 
 <h2>Some rules to follow</h2>
 
 <ol>
 
 <li>
-Do not commit trivial changes like adding extra blank line or blank space.  
+Before a commit or when creating a pull request, check every changed line and ensure that you made the change and that you would like to check it in.
 </li>
 
 <li>
-Before a commit or when creating a pull request, check every changed line and ensure that you made the change and that you would like to check it in.
+Do not commit trivial changes like adding extra blank line or blank space.  
 </li>
 
 <li>
@@ -276,6 +292,18 @@ If you want to undo last commit and throw away the changes
 git reset --hard HEAD~1
 </pre>
 
+
+<h2>Merge previous commits into one</h2>
+
+<p>
+If we want to merge last 6 commits into a single one
+</p>
+
+<pre>
+git reset --soft HEAD~6
+git commit               # add message
+git push --force         # force needed if commit is already pushed to remote
+</pre>
 
 <h2>Cleaning up</h2>
 
@@ -486,4 +514,4 @@ Host gitlab.com
    HostName altssh.gitlab.com
    Port 443
 </pre>
-<footer> Last modified: Mon Feb 10 11:12:46 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Jul 11 19:02:50 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
