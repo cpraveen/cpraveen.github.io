@@ -412,4 +412,22 @@ Now we create a new spack view
 <pre>
 sh /path/to/spack_view.sh
 </pre>
-<footer> Last modified: Sat Jul 11 19:02:50 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Finding info on an installed package</h2>
+
+<pre>
+$ spack find -l petsc
+==> 1 installed package
+-- linux-opensuse_tumbleweed20200511-broadwell / gcc@9.3.1 ------
+c67eysz petsc@3.13.1
+</pre>
+
+<p>
+Find more about installed petsc
+</p>
+
+<pre>
+spack spec /c67eysz
+</pre>
+
+<footer> Last modified: Fri Jul 24 18:40:39 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
