@@ -384,6 +384,24 @@ You can check the settings by (do this check while using battery)
 pmset -g
 </pre>
 
+Use only integrated GPU when on battery
+<pre>
+sudo pmset -b gpuswitch 0
+</pre>
+
+Here are the various power states
+<pre>
+-a - global (same behavior for charging and battery states)
+-c - charging
+-b - battery
+</pre>
+
+Here are the possible options for gpuswitch
+<pre>
+0 - integrated GPU only
+1 - discrete GPU only
+2 - autoswitch GPU
+</pre>
 </li>
 
 <li>
@@ -435,4 +453,4 @@ defaults write /Applications/Adium.app/Contents/Info.plist LSUIElement true
 </li>
 
 </ul>
-<footer> Last modified: Sun Jun 14 11:37:14 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Aug 7 14:23:06 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
