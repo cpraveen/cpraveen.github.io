@@ -213,6 +213,7 @@ conda update conda
 conda install nomkl  # use openblas instead of mkl
 conda update --all
 conda install numpy scipy sympy matplotlib ipython jupyter tensorflow-eigen
+conda install pylint autopep8 # vscode wants these
 </pre>
 
 <p>
@@ -221,6 +222,22 @@ I set PATH to point to anaconda directory
 
 <pre>
 export PATH=/path/to/anaconda/bin:$PATH
+</pre>
+
+<p>
+See installed packages
+</p>
+
+<pre>
+conda list
+</pre>
+
+<p>
+Periodically, delete older versions of packages
+</p>
+
+<pre>
+conda clean --all
 </pre>
 
 <h2>Install Mayavi</h2>
@@ -237,4 +254,4 @@ To upgrade pip installed packages
 <pre>
 pip install --upgrade PyQt5 PyQt5-sip
 </pre>
-<footer> Last modified: Sat Feb 22 14:15:46 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Aug 8 11:13:03 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

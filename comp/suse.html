@@ -229,6 +229,7 @@ sudo zypper install gnuplot
 sudo zypper install git
 sudo zypper install patch
 sudo zypper install vim-data       # for extended functionality
+sudo zypper install mlocate && sudo updatedb
 </pre>
 
 <p>
@@ -276,4 +277,34 @@ systemctl status sshd | grep Active
 <p>
 You may also have to enable ssh connections by going into Yast - Firewall - public and enable ssh.
 </p>
-<footer> Last modified: Sun Jun 14 11:37:14 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>gcc alternatives</h2>
+
+<p>
+Opensuse Leap 15.2 has gcc7 as default. We can install newer gcc versions
+</p>
+
+<pre>
+sudo zypper install gcc9
+sudo zypper install gcc9-c++
+sudo zypper install gcc9-fortran
+</pre>
+
+<p>
+Now create links to this version
+</p>
+
+<pre>
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
+sudo update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-9 9
+</pre>
+
+<p>
+Check available versions; this will show list if there is more than one version available.
+</p>
+
+<pre>
+update-alternatives --config gcc
+</pre>
+<footer> Last modified: Sat Aug 8 11:13:03 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
