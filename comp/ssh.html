@@ -237,11 +237,11 @@ Everything you need should be installed already. If something is missing, tell m
 YOU SHOULD SETUP SSH KEYS so you can login without typing password everytime.
 
 On your laptop/desktop, run the following ONCE
+</p>
 
 <pre>
 ssh-keygen
 </pre>
-</p>
 
 <p>
 Then just enter for all questions. This creates a directory <code>$HOME/.ssh</code> which contains some files. The file <code>$HOME/.ssh/id_rsa.pub</code> is your public key which must be copied to the remote server. You can do this manually by logging into the remote server and copy the contents of <code>$HOME/.ssh/id_rsa.pub</code> from your local computer to <code>$HOME/.ssh/authorized_keys</code> on the remote computer. Alternately, you can use ssh-copy-id command.
@@ -251,11 +251,13 @@ Then just enter for all questions. This creates a directory <code>$HOME/.ssh</co
 
 <p>
 From your local computer, do
+</p>
 
 <pre>
 ssh-copy-id USERNAME@REMOTEHOST
 </pre>
 
+<p>
 where USERNAME is your username on the REMOTEHOST. Enter password for your REMOTEHOST to copy the ssh id.
 </p>
 
@@ -263,11 +265,13 @@ where USERNAME is your username on the REMOTEHOST. Enter password for your REMOT
 
 <p>
 From your local computer, do
+</p>
 
 <pre>
 ssh-copy-id -p PORT USERNAME@158.144.181.10
 </pre>
 
+<p>
 "PORT" depends on which computer you are connecting to, euler, fourier, etc. USERNAME is your username on the remote computer, euler, fourier, etc.
 </p>
 
@@ -276,4 +280,4 @@ ssh-copy-id -p PORT USERNAME@158.144.181.10
 <p>
 Copy the contents of your <code>$HOME/.ssh/id_rsa.pub</code> file into your github or bitbucket account by logging in through your browser. This option should be available somewhere in the settings part of your github/bitbucket account.
 </p>
-<footer> Last modified: Tue Oct 20 09:55:38 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Oct 20 09:59:49 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
