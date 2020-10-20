@@ -278,6 +278,14 @@ ssh-copy-id -p PORT USERNAME@158.144.181.10
 <h2>SSH to github, bitbucket, etc.</h2>
 
 <p>
-Copy the contents of your <code>$HOME/.ssh/id_rsa.pub</code> file into your github or bitbucket account by logging in through your browser. This option should be available somewhere in the settings part of your github/bitbucket account.
+Copy the contents of your <code>$HOME/.ssh/id_rsa.pub</code> file into your github or bitbucket account by logging in through your browser. This option should be available somewhere in the settings part of your github/bitbucket account. Once keys are setup, you can clone and do push/pull without entering your github/bitbucket password everytime. E.g., clone using git
 </p>
-<footer> Last modified: Tue Oct 20 09:59:49 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<pre>
+git clone git@github.com:USERNAME/PROJECT.git
+</pre>
+
+<p>
+Here USERNAME is your github username and PROJECT is the name of the git repository you want to clone.
+</p>
+<footer> Last modified: Tue Oct 20 10:07:53 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
