@@ -202,129 +202,78 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Debian</h1>
+<h1>Tips to use ssh effectively</h1>
 
-<h2>apt commands</h2>
+<h2>Workstations at CAM</h2>
 
 <p>
-Most used commands
+There are two workstations "euler" and "fourier", see <a href="comp/comp.html">this page</a>. To connect to them from inside CAM, do
 </p>
 
 <pre>
-  list - list packages based on package names
-  search - search in package descriptions
-  show - show package details
-  install - install packages
-  reinstall - reinstall packages
-  remove - remove packages
-  autoremove - Remove automatically all unused packages
-  update - update list of available packages
-  upgrade - upgrade the system by installing/upgrading packages
-  full-upgrade - upgrade the system by removing/installing/upgrading packages
-  edit-sources - edit the source information file
+ssh euler
+ssh fourier
 </pre>
 
 <p>
-To search for a package
+To login from outside CAM, please ask me for details. When you connect from outside CAM, display may not work, you have to do all work from the terminal.
 </p>
+
+<p>
+On euler or fourier, check your <code>$HOME/.bashrc</code> file. It runs a script in my directory to set some paths to various softwares. You can examine this file using vi/vim
+<p>
 
 <pre>
-apt-cache search gcc
+vi /home/praveen/.setenv
 </pre>
 
 <p>
-See a description of package
+Everything you need should be installed already. If something is missing, tell me about it.
 </p>
+
+<h2>SSH keys</h2>
+
+<p>
+YOU SHOULD SETUP SSH KEYS so you can login without typing password everytime.
+
+On your laptop/desktop, run the following ONCE
 
 <pre>
-apt-cache show gcc
+ssh-keygen
 </pre>
+</p>
 
 <p>
-Install a package
+Then just enter for all questions. This creates a directory <code>$HOME/.ssh</code> which contains some files. The file <code>$HOME/.ssh/id_rsa.pub</code> is your public key which must be copied to the remote server. You can do this manually by logging into the remote server and copy the contents of <code>$HOME/.ssh/id_rsa.pub</code> from your local computer to <code>$HOME/.ssh/authorized_keys</code> on the remote computer. Alternately, you can use ssh-copy-id command.
 </p>
+
+<h3>You are inside cam</h3>
+
+<p>
+From your local computer, do
 
 <pre>
-sudo apt install gcc
+ssh-copy-id USERNAME@REMOTEHOST
 </pre>
 
-<p>
-Remove a package
+where USERNAME is your username on the REMOTEHOST. Enter password for your REMOTEHOST to copy the ssh id.
 </p>
+
+<h3>You are outside cam</h3>
+
+<p>
+From your local computer, do
 
 <pre>
-sudo apt remove openmpi-bin
+ssh-copy-id -p PORT USERNAME@158.144.181.10
 </pre>
 
-<p>
-To upgrade all packages to latest version
+"PORT" depends on which computer you are connecting to, euler, fourier, etc. USERNAME is your username on the remote computer, euler, fourier, etc.
 </p>
 
-<pre>
-sudo apt update
-sudo apt list --upgradable # check if you really want to upgrade all packages
-sudo apt upgrade
-</pre>
-
-<h2>Setting the locale</h2>
+<h2>SSH to github, bitbucket, etc.</h2>
 
 <p>
-If the locale is not set correctly, you can get weird errors while installing some softwares. Edit the file <code>/etc/locale.gen</code> with this line
+Copy the contents of your <code>$HOME/.ssh/id_rsa.pub</code> file into your github or bitbucket account by logging in through your browser. This option should be available somewhere in the settings part of your github/bitbucket account.
 </p>
-
-<pre>
-en_US.UTF-8 UTF-8
-</pre>
-
-<p>
-and run <code>sudo locale-gen</code> command in the terminal.
-</p>
-
-<h2>Install packages</h2>
-
-<p>
-I use <a href="comp/spack.html">Spack</a> to install scientific packages. Before that, install some needed dependencies
-</p>
-
-<pre>
-sudo apt install gcc g++ gfortran gnuplot make curl wget git vim
-</pre>
-
-<p>
-Essential compilers can also be installed like this
-</p>
-
-<pre>
-sudo apt install build-essential
-</pre>
-
-<p>
-We may also want to install some Python libraries (better to install Python using Anaconda or Spack in order to get latest version)
-</p>
-
-<pre>
-sudo apt install python3-numpy python3-scipy python3-matplotlib python3-sympy
-</pre>
-
-<p>
-Next see the <a href="comp/spack.html">Spack</a> tips for installing other softwares. openmpi will also be installed by Spack, so do not install it from apt.
-</p>
-
-<p>
-Install locate
-</p>
-
-<pre>
-sudo apt install locate
-sudo updatedb
-</pre>
-
-<p>
-To get ifconfig
-</p>
-
-<pre>
-sudo apt install net-tools
-export PATH=$PATH:/sbin
-</pre>
 <footer> Last modified: Tue Oct 20 09:55:38 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
