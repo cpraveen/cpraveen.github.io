@@ -461,5 +461,21 @@ sudo shutdown -r now
 </pre>
 </li>
 
+<li>
+Reset icons in launchpad
+
+<pre>
+defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
+</pre>
+</li>
+
+<li>
+Enable repeat key press, useful for Vim mode in VSCode, overleaf, etc.
+
+<pre>
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+</pre>
+</li>
+
 </ul>
-<footer> Last modified: Tue Oct 20 09:55:38 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Dec 1 09:29:12 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
