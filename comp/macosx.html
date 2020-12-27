@@ -470,6 +470,14 @@ defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
 </li>
 
 <li>
+BigSur messed up the menu bar design in app windows, to get previous type view do this
+<pre>
+defaults write -g NSWindowSupportsAutomaticInlineTitle -bool false
+</pre>
+You have to quit and start the app for this to take effect.
+</li>
+
+<li>
 Enable repeat key press, useful for Vim mode in VSCode, overleaf, etc.
 
 <pre>
@@ -478,4 +486,4 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 </li>
 
 </ul>
-<footer> Last modified: Tue Dec 1 09:29:12 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Dec 27 11:37:53 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
