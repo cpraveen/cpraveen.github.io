@@ -341,7 +341,7 @@ While Safari is not bad, <a href="https://www.opera.com">Opera</a> is also very 
 
 <h2>Miscellaneous stuff</h2>
 
-<ul>
+<ol>
 
 <li>
 If you are behind a proxy server, then to get server settings to be visible under sudo, you need to set some environment variables for http and rsync and do the following
@@ -441,7 +441,7 @@ Then, add symlink to /Applications
 sudo ln -s /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app /Applications/PulseTray.app
 </pre>
 
-and use this to launch PulseSecure in future.
+and use PulseTray to launch PulseSecure in future.
 </li>
 
 <li>
@@ -478,6 +478,14 @@ You have to quit and start the app for this to take effect.
 </li>
 
 <li>
+Reset Finder views/settings
+<pre>
+find . -name ".DS_Store" -delete
+rm ~/Library/Preferences/com.apple.finder.plist
+</pre>
+</li>
+
+<li>
 Enable repeat key press, useful for Vim mode in VSCode, overleaf, etc.
 
 <pre>
@@ -485,5 +493,5 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 </pre>
 </li>
 
-</ul>
-<footer> Last modified: Sun Dec 27 11:37:53 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+</ol>
+<footer> Last modified: Thu Dec 31 20:42:29 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
