@@ -210,10 +210,10 @@ I prefer to install Miniconda and then install whatever packages I need.
 
 <pre>
 conda update conda
-conda install nomkl  # use openblas instead of mkl
 conda update --all
-conda install numpy scipy sympy matplotlib ipython jupyter tensorflow-eigen
+conda install numpy scipy sympy matplotlib ipython jupyter
 conda install pylint autopep8 # vscode wants these
+conda install tensorflow # if you need this
 </pre>
 
 <p>
@@ -233,6 +233,14 @@ conda list
 </pre>
 
 <p>
+Upgrade all packages
+</p>
+
+<pre>
+conda upgrade --all
+</pre>
+
+<p>
 Periodically, delete older versions of packages
 </p>
 
@@ -240,7 +248,24 @@ Periodically, delete older versions of packages
 conda clean --all
 </pre>
 
-<h2>Install Mayavi</h2>
+<h2>Use Eigen with tensorflow</h2>
+
+<p>
+Install Miniconda and then
+</p>
+
+<pre>
+conda update conda
+conda install nomkl  # use openblas instead of mkl
+conda update --all
+conda install tensorflow-eigen
+</pre>
+
+<h2>Install Mayavi: using anaconda</h2>
+
+<p>
+Make sure you are using pip from anaconda
+</p>
 
 <pre>
 conda install mayavi
@@ -254,4 +279,31 @@ To upgrade pip installed packages
 <pre>
 pip install --upgrade PyQt5 PyQt5-sip
 </pre>
-<footer> Last modified: Sat Aug 8 11:13:03 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Install Mayavi: using pip</h2>
+
+<p>
+Anaconda may not have the latest mayavi, then use pip.  Make sure you are using pip from anaconda.
+</p>
+
+<pre>
+pip install mayavi
+pip install PyQt5
+</pre>
+
+<p>
+To upgrade pip installed packages
+</p>
+
+<pre>
+pip install --upgrade mayavi PyQt5
+</pre>
+
+<p>
+To see packages installed with pip
+</p>
+
+<pre>
+conda list | grep pypi
+</pre>
+<footer> Last modified: Mon Jan 4 17:08:56 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
