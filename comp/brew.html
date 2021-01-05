@@ -218,6 +218,14 @@ xcodebuild -license
 </pre>
 
 <p>
+Run doctor to check that your setup is ok before installing any packages
+</p>
+
+<pre>
+brew doctor
+</pre>
+
+<p>
 Here are some useful commands.
 </p>
 
@@ -226,9 +234,12 @@ brew install gcc          -- Install some package, e.g., gcc
 brew uninstall gcc        -- Uninstall a package
 brew info gcc             -- Check package information
 brew list                 -- List all installed packages
+brew list gcc             -- Show files installed by gcc
+brew list --verbose gcc   -- Same as above but more detailed
 brew update               -- Update package list (needs internet connection)
 brew outdated             -- See outdated packages
 brew upgrade              -- Upgrade all outdated packages
+brew upgrade -n           -- Do dry run of upgrade
 brew upgrade gcc          -- Upgrade a specific package
 brew cleanup              -- Remove old versions of packages
 brew deps gcc             -- Check dependencies for gcc
@@ -257,6 +268,22 @@ brew install youtube-dl
 </pre>
 
 <p>
+Install specific version of gcc
+</p>
+
+<pre>
+brew install gcc@9
+</pre>
+
+<p>
+Pin a package to prevent it from being upgraded
+</p>
+
+<pre>
+brew pin gcc@9
+</pre>
+
+<p>
 Symlink djview app into /Applications
 </p>
 
@@ -265,6 +292,6 @@ sudo ln -s /Applications/Djview.app /usr/local/opt/djview4/djview.app
 </pre>
 
 <p>
-Do not install any MPI library since Spack will install it for you.
+Do not install any MPI library since we will install it with Spack.
 </p>
-<footer> Last modified: Tue Oct 20 09:55:38 IST 2020; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Jan 5 19:24:20 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
