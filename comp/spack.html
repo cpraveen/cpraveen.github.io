@@ -257,9 +257,10 @@ Here are some useful Spack commands
 </p>
 
 <pre>
-spack info gcc  -- show information for package gcc
-spack find      -- shows installed packages
-spack compilers -- show available compilers
+spack info gcc            -- show information for package gcc
+spack find                -- shows installed packages
+spack compilers           -- show available compilers
+spack location -i openmpi -- show location of openmpi
 </pre>
 
 <p>Setup compilers by running</p>
@@ -314,7 +315,7 @@ packages:
 </pre>
 
 <p>
-By default, Spack uses openmpi but you can select mpich as above. If you want to use openmpi, then remove the last few lines in packages.yaml file.
+By default, Spack uses openmpi but you can select mpich as above. If you want to use openmpi, then change above line from mpich to openmpi or just dont specify the mpi provider.
 </p>
 
 <h2>Install softwares</h2>
@@ -325,6 +326,7 @@ I install deal.II and its dependencies which provides all the softwares that I n
 
 <pre>
 spack spec dealii
+spack spec -I dealii # -I shows already installed dependents
 </pre>
 
 <p>
@@ -340,6 +342,7 @@ The flag <code>-j4</code> means that four processes will be used while compiling
 </p>
 
 <pre>
+spack spec petsc
 spack install -j4 petsc
 </pre>
 
@@ -430,4 +433,4 @@ Find more about installed petsc
 spack spec /c67eysz
 </pre>
 
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon May 3 13:30:23 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

@@ -219,18 +219,19 @@ Pkg.add("WriteVTK")
 Pkg.add("TickTock")
 Pkg.add("Plots")                    # Base module for plotting
 Pkg.add("GR")                       # Plotting backend
-Pkg.add("MAT")                      # Read mat files
-Pkg.add("ControlSystems")           # Control system
 Pkg.add("DifferentialEquations")    # ODE solvers
 Pkg.add("ApproxFun")                # Function approximation like Chebfun
+Pkg.add("MAT")                      # Read mat files
+Pkg.add("ControlSystems")           # Control system
 </pre>
 
 <p>
-After each add, build the module using
+To update all installed packages
 </p>
 
 <pre>
-Pkg.build("Module")
+using Pkg
+Pkg.update()
 </pre>
 
 <p>
@@ -252,4 +253,4 @@ x = linspace(0,2*pi,100);
 y = sin.(x);
 plot(x,y)
 </pre>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Mon May 3 13:30:23 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
