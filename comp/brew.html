@@ -256,13 +256,16 @@ brew install aspell
 brew install astyle
 brew install chapel
 brew install colordiff
-brew install djview4
+brew install diffr
+brew install djview     (installs into /Applications)
 brew install dos2unix
+brew install enscript
 brew install ffmpeg
 brew install gcc
 brew install gv
 brew install gnuplot
 brew install ispell
+brew install subversion
 brew install wget
 brew install youtube-dl
 </pre>
@@ -280,7 +283,7 @@ Pin a package to prevent it from being upgraded
 </p>
 
 <pre>
-brew pin gcc@9
+brew pin gcc@11
 </pre>
 
 <p>
@@ -292,14 +295,10 @@ brew list --pinned
 </pre>
 
 <p>
-Symlink djview app into /Applications
-</p>
-
-<pre>
-sudo ln -s /Applications/Djview.app /usr/local/opt/djview4/djview.app
-</pre>
-
-<p>
 Do not install any MPI library since we will install it with Spack.
 </p>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+There not many scientific softwares available in brew. Some of the available ones are: eigen, openblas, metis, hdf5, open-mpi, scalapack, suite-sparse, petsc, netcdf, gsl
+</p>
+<footer> Last modified: Sun May 30 10:09:27 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
