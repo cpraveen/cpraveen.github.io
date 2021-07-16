@@ -310,13 +310,19 @@ conda list | grep pypi
 <h2>Install via brew</h2>
 
 <p>
-miniforge is community version of miniconda
+miniforge is a community version of miniconda which can be easily installed using brew.
 </p>
 
 <pre>
 brew install --cask miniforge
-conda init zsh
+conda init zsh  # If you use zsh, this modifies your .zshrc file
 conda activate
-conda install numpy scipy matplotlib sympy
 </pre>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+Now you can install some packages.
+</p>
+
+<pre>
+conda install numpy scipy matplotlib sympy
+</pre><footer> Last modified: Fri Jul 16 10:51:24 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
