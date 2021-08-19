@@ -226,7 +226,16 @@ For C/C++ coding, I prefer XCode which is free and can be installed from Apple a
 </p>
 
 <pre>
-xcode-select --install
+sudo xcode-select --install
+</pre>
+
+<p>
+Sometimes, I find it necessary to delete the existing tools and then install
+</p>
+
+<pre>
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
 </pre>
 
 <p>
@@ -336,7 +345,7 @@ While I have experimented many, <a href="https://lhc70000.github.io/iina/">IINA<
 <h2>Browser</h2>
 
 <p>
-While Safari is not bad, <a href="https://www.opera.com">Opera</a> is also very nice since it has builtin ad blocking, VPN and seems to be very light weight and fast. Currently, my main browser is <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>. (Avoid Chrome like the plague)
+Safari works well; other options are <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> and <a href="https://www.opera.com">Opera</a>.  (Avoid Chrome like the plague)
 </p>
 
 <h2>Miscellaneous stuff</h2>
@@ -506,4 +515,4 @@ defaults write com.apple.Safari DebugDisableTabHoverPreview 1
 </li>
 
 </ol>
-<footer> Last modified: Fri Jul 9 14:42:42 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Thu Aug 19 09:11:06 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
