@@ -209,12 +209,11 @@ a.contact_link:hover {
 </p>
 
 <p>
-You need to install Xcode before installing packages with homebrew. Apple's Command Line Developer Tools can be installed on recent OS versions by running this command in the Terminal
+You need to install Xcode command line tools before installing packages with homebrew. Note that you do not need to install XCode. Apple's Command Line Developer Tools can be installed on recent OS versions by running this command in the Terminal
 </p>
 
 <pre>
 xcode-select --install
-xcodebuild -license
 </pre>
 
 <p>
@@ -224,6 +223,15 @@ Run doctor to check that your setup is ok before installing any packages
 <pre>
 brew doctor
 </pre>
+
+<p>
+Sometimes you may have to delete existing tools and then upgrade
+</p>
+
+<code>
+sudo rm -rf /Library/Developer/CommandLineTools
+xcode-select --install
+</code>
 
 <p>
 Here are some useful commands.
@@ -358,4 +366,4 @@ brew install --cask julia
 brew install --cask macvim
 brew install --cask miniforge     # installs conda python
 </pre>
-<footer> Last modified: Thu Aug 19 09:11:06 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Aug 20 19:21:45 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
