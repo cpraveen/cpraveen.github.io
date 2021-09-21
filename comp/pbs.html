@@ -202,172 +202,41 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Homebrew</h1>
+<h1>PBS</h1>
 
-<p>
-<a href="https://brew.sh">Homebrew</a> is the best package manager for Mac. Before installing brew make sure XCode is installed. Nowadays, I have switched to <a href="comp/spack.html">Spack</a> for installing scientific software since brew does not have all the things that I need. I only install a few packages from brew, see below.
-</p>
+<ul>
 
-<p>
-You need to install command line tools before installing packages with homebrew. Note that you do not need to install XCode. Apple's Command Line Tools can be installed on recent OS versions by running this command in the Terminal
-</p>
+<li>
+See available queues
 
 <pre>
-xcode-select --install
+qstat -Qf
 </pre>
+</li>
 
-<p>
-Run doctor to check that your setup is ok before installing any packages
-</p>
+<li>
+Submit a job
 
 <pre>
-brew doctor
+qsub pbs.sh
 </pre>
+</li>
 
-<p>
-Sometimes you may have to delete existing tools and then upgrade
-</p>
+<li>
+Detailed info for one job
 
 <pre>
-sudo rm -rf /Library/Developer/CommandLineTools
-xcode-select --install
+qstat -f <jobid>
 </pre>
+</li>
 
-<p>
-Here are some useful commands.
-</p>
+<li>
+Detailed info of all running jobs, per line
 
 <pre>
-brew install gcc          -- Install some package, e.g., gcc
-brew uninstall gcc        -- Uninstall a package
-brew info gcc             -- Check package information
-brew list                 -- List all installed packages
-brew list gcc             -- Show files installed by gcc
-brew list --verbose gcc   -- Same as above but more detailed
-brew update               -- Update package list (needs internet connection)
-brew outdated             -- See outdated packages
-brew upgrade              -- Upgrade all outdated packages
-brew upgrade -n           -- Do dry run of upgrade
-brew upgrade gcc          -- Upgrade a specific package
-brew cleanup              -- Remove old versions of packages
-brew deps gcc             -- Check dependencies for gcc
-brew uses --installed gcc -- Check which installed packages depend on gcc
-brew leaves               -- List packages not required by any installed package
+qstat -n -1
 </pre>
+</li>
 
-<p>
-We will only install some basic packages from Homebrew and the rest of the scientific softwares using <a href="comp/spack.html">Spack</a>.
-</p>
-
-<pre>
-brew install aspell
-brew install astyle
-brew install chapel
-brew install colordiff
-brew install diffr
-brew install djview     (installs into /Applications)
-brew install dos2unix
-brew install enscript
-brew install ffmpeg
-brew install gcc
-brew install gv
-brew install gnuplot
-brew install ispell
-brew install subversion
-brew install wget
-brew install youtube-dl
-</pre>
-
-<p>
-Install specific version of gcc
-</p>
-
-<pre>
-brew install gcc@9
-</pre>
-
-<p>
-Pin a package to prevent it from being upgraded
-</p>
-
-<pre>
-brew pin gcc@11
-</pre>
-
-<p>
-You can see pinned packages
-</p>
-
-<pre>
-brew list --pinned
-</pre>
-
-<p>
-Do not install any MPI library since we will install it with Spack.
-</p>
-
-<p>
-There not many scientific softwares available in brew. Some of the available ones are:
-</p>
-
-<pre>
-arpack
-boost
-cmake
-eigen
-gsl
-hdf5
-hdf5-mpi (conflicts with hdf5)
-hypre
-metis
-muparser
-netcdf
-openblas
-opencascade
-open-mpi
-petsc
-scalapack
-suite-sparse (contains umfpack)
-sundials
-tbb
-</pre>
-
-<h2>Binary apps</h2>
-
-<p>
-All of these are installed into the <code>/Applications</code> directory.
-</p>
-
-<pre>
-brew install alfred
-brew install appcleaner
-brew install djview
-brew install iina
-brew install keepassxc
-brew install lastpass
-brew install mactex
-brew install meld
-brew install onyx
-brew install paraview
-brew install sourcetree
-brew install skype
-brew install texmacs
-brew install texstudio
-brew install visit
-brew install visual-studio-code
-brew install xquartz
-brew install yed
-brew install zoom
-brew install zotero
-</pre>
-
-<p>
-Some apps are available as both bottles and casks, and I prefer to install cask versions and they install into <code>/Applications</code> folder.
-</p>
-
-<pre>
-brew install --cask julia
-brew install --cask macvim
-brew install --cask miniforge     # installs conda python
-</pre>
+</ul>
 <footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

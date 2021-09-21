@@ -335,7 +335,7 @@ If this is ok, then we install
 </p>
 
 <pre>
-spack install -j4 --only dependencies dealii
+spack install -j4 --fail-fast --only dependencies dealii
 </pre>
 
 <p>
@@ -344,7 +344,7 @@ The flag <code>-j4</code> means that four processes will be used while compiling
 
 <pre>
 spack spec petsc
-spack install -j4 petsc
+spack install -j4 --fail-fast petsc
 </pre>
 
 <p>
@@ -434,4 +434,4 @@ Find more about installed petsc
 spack spec /c67eysz
 </pre>
 
-<footer> Last modified: Mon Aug 23 18:57:21 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

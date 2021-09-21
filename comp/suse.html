@@ -307,4 +307,20 @@ Check available versions; this will show list if there is more than one version 
 <pre>
 update-alternatives --config gcc
 </pre>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Setting locale</h2>
+
+<p>
+If you get this error upon login
+
+<pre>
+/usr/bin/manpath: can't set the locale; make sure $LC_* and $LANG are correct
+</pre>
+
+then add following to <code>/etc/environment</code>
+
+<pre>
+LC_ALL=en_US.UTF-8
+</pre>
+</p>
+<footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

@@ -288,4 +288,31 @@ git clone git@github.com:USERNAME/PROJECT.git
 <p>
 Here USERNAME is your github username and PROJECT is the name of the git repository you want to clone.
 </p>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Disable password based login</h2>
+
+<p>
+Edit the file
+
+<pre>
+sudo vi /etc/ssh/sshd_config
+</pre>
+
+and add these lines
+
+<pre>
+ChallengeResponseAuthentication no
+PasswordAuthentication no
+UsePAM no
+PermitRootLogin no
+PermitRootLogin prohibit-password
+</pre>
+
+Restart sshd
+
+<pre>
+sudo systemctl reload sshd
+</pre>
+
+</p>
+<footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
