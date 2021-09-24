@@ -302,10 +302,10 @@ and add these lines
 
 <pre>
 ChallengeResponseAuthentication no
-PasswordAuthentication no
-UsePAM no
-PermitRootLogin no
-PermitRootLogin prohibit-password
+PasswordAuthentication          no
+UsePAM                          no
+PermitRootLogin                 no
+PermitEmptyPasswords            no
 </pre>
 
 Restart sshd
@@ -314,5 +314,12 @@ Restart sshd
 sudo systemctl reload sshd
 </pre>
 
+Check that password based login is not allowed
+
+<pre>
+ssh HOSTNAME -o PubkeyAuthentication=no
+</pre>
+
+which should say permission denied.
 </p>
-<footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Sep 24 10:42:45 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>

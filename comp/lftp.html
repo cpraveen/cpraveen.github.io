@@ -202,123 +202,36 @@ a.contact_link:hover {
 
 
 <section>
-<h1>Computers at TIFR-CAM</h1>
+<h1>LFTP</h1>
 
 <p>
-We have two good workstations running Linux in our Centre which are listed below. They are located inside the server room and access is by ssh. Most of the software are already installed, you can set the path by adding following line to your <code>$HOME/.bash_profile</code> file
+LFTP is a file transfer program that can use ftp, sftp, etc.
+</p>
+
+<p>
+To set your lftp prompt, see my <a href="https://github.com/cpraveen/cfdlab/blob/master/configs/lftprc.txt">lftp settings file</a>, which you should copy as <code>$HOME/.lftprc</code> file.
 </p>
 
 <pre>
-. /home/praveen/.setenv
-</pre>
+ls                   | List remote dir (this is cached)
+rels                 | List remote dir (not cached)
+pwd                  | show remote dir
+cd DIR               | change remote dir to DIR
 
-<p>
-Logout and login for the settings to work.
-</p>
+!ls                  | List contents of local dir
+lpwd, !pwd           | show local dir
+lcd DIR              | change local dir to DIR
 
-<p>
-You can ssh into these machines using their hostname or IP number, see below
-</p>
+get foo.txt          | get foo.txt
+pget -n 2 foo.txt    | get foo.txt with 2 parallel connections
 
-<pre>
-ssh -Y euler
-</pre>
+mget *.txt           | get all .txt files
+mget -c *.txt        | get all .txt files that do not exist locally
+mget -d DIR/*.txt    | get all .txt files and make DIR locally
 
-<p>
-The extra option enables you get display of some X programs. For example, the document viewer is evince
-</p>
-
-<pre>
-evince foo.pdf
-</pre>
-
-<h2>Euler (192.168.1.67)</h2>
-
-<ul>
-
-<li>
-Dual Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz (2 x 22 cores)
-</li>
-
-<li>
-128 GB RAM
-</li>
-
-<li>
-<a href="https://videocardz.net/nvidia-quadro-m5000/">NVIDIA Quadro M5000 (GM204GL)</a>
-</li>
-
-<li>
-Storage: 2 TB + 2 TB
-</li>
-
-<li>
-OS: OpenSuse Leap 15.2
-</li>
-
-</ul>
-
-<h2>Fourier (192.168.1.65)</h2>
-
-<ul>
-
-<li>
-Dual Intel(R) Xeon(R) Gold 6148 CPU @ 2.40GHz (2 x 20 cores)
-</li>
-
-<li>
-64 GB RAM
-</li>
-
-<li>
-<a href="https://videocardz.net/nvidia-quadro-p4000/">NVIDIA Quadro P4000</a>
-</li>
-
-<li>
-Storage: 2 TB + 2 TB
-</li>
-
-<li>
-OS: Debian 10 (Buster)
-</li>
-
-</ul>
-
-<h2>Commands to get some info</h2>
-
-<p>
-See cpu info
-</p>
-
-<pre>
-cat /proc/cpuinfo
-sudo dmidecode --type processor
-sudo lshw -C cpu
-</pre>
-
-<p>
-See RAM info
-</p>
-
-<pre>
-cat /proc/meminfo
-sudo dmidecode --type memory
-sudo lshw -C memory
-</pre>
-
-<p>
-See disk info
-</p>
-
-<pre>
-sudo lshw -C disk
-</pre>
-
-<p>
-See OS info
-</p>
-
-<pre>
-lsb_release -a
+mirror               | sync remote dir to local dir
+mirror -c            | incrementally sync remote dir to local dir
+mirror DIR           | sync remore DIR to local
+mirror -c DIR        | sync remote DIR to local incrementally
 </pre>
 <footer> Last modified: Fri Sep 24 10:42:45 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
