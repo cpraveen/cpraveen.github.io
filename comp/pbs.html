@@ -207,6 +207,14 @@ a.contact_link:hover {
 <ul>
 
 <li>
+See available compute nodes
+
+<pre>
+pbsnodes -a
+</pre>
+</li>
+
+<li>
 See available queues
 
 <pre>
@@ -223,10 +231,10 @@ qsub pbs.sh
 </li>
 
 <li>
-Detailed info for one job
+See list of jobs in queue
 
 <pre>
-qstat -f <jobid>
+qstat
 </pre>
 </li>
 
@@ -238,5 +246,29 @@ qstat -n -1
 </pre>
 </li>
 
+<li>
+List of jobs for USER
+
+<pre>
+qstat -u USER
+</pre>
+</li>
+
+<li>
+Detailed info for all jobs
+
+<pre>
+qstat -f
+</pre>
+</li>
+
+<li>
+Detailed info for one job
+
+<pre>
+qstat -f JOBID
+</pre>
+</li>
+
 </ul>
-<footer> Last modified: Tue Sep 21 12:16:13 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Oct 9 14:56:08 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
