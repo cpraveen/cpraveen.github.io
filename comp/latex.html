@@ -205,10 +205,17 @@ a.contact_link:hover {
 <h1>Latex style guide</h1>
 
 <p>
-An excellent editor for Latex is <a href="https://texstudio.org">texstudio</a>.
+An excellent editor for Latex is <a href="https://texstudio.org">texstudio</a>. VSCode with LaTeX Workshop plugin is also good.
 </p>
 
 <ol>
+
+<li>
+Put some comment lines between sections, etc., for easier reading and navigation, e.g.,
+<pre>
+%------------------------------------------------------------------------------
+</pre>
+</li>
 
 <li>
 Do not use any indenting or tab in the tex files.
@@ -320,6 +327,17 @@ Do not put comma/dot/period/full stop at end of equations.
 </li>
 
 <li>
+Do not put comma/period inside inlined equations. This is not correct
+<pre>
+... we define <span style="color:red;">$a=(1,1).$</span> Then we can see that ...
+</pre>
+Put it like this
+<pre>
+... we define <span style="color:red;">$a=(1,1)$.</span> Then we can see that ...
+</pre>
+</li>
+
+<li>
 A un-numbered equation can be put as
 <pre>
 \[
@@ -390,4 +408,4 @@ u(x) = \begin{cases}
 </pre>
 
 </ol>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sat Dec 11 11:59:08 IST 2021; &copy; 2015-2021 Praveen Chandrashekar </footer> </section> </body> </html>

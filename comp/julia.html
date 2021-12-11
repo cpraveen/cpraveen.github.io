@@ -243,14 +243,22 @@ sudo apt install hdf5-tools
 </pre>
 
 <p>
-To test the plotting, do the following (you must have installed Plots and GR modules using Pkg.add)
+To test the plotting, do the following (you must have installed Plots modules using Pkg.add)
 </p>
 
 <pre>
 using Plots
-gr()
 x = linspace(0,2*pi,100);
 y = sin.(x);
 plot(x,y)
 </pre>
-<footer> Last modified: Mon May 3 13:30:23 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<p>
+To enable automatic recompilation in the REPL, install the Revise package and enable it in startup file: <code>$HOME/.julia/config/startup.jl</code>
+</p>
+
+<pre>
+using Revise
+</pre>
+
+<footer> Last modified: Sat Dec 11 11:59:08 IST 2021; &copy; 2015-2021 Praveen Chandrashekar </footer> </section> </body> </html>
