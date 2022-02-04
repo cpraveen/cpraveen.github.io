@@ -261,4 +261,22 @@ To enable automatic recompilation in the REPL, install the Revise package and en
 using Revise
 </pre>
 
-<footer> Last modified: Sat Dec 11 11:59:08 IST 2021; &copy; 2015-2021 Praveen Chandrashekar </footer> </section> </body> </html>
+<h2>Plotting gui backend</h2>
+
+<p>
+To use TkAgg, do
+</p>
+
+<pre>
+julia> ENV["MPLBACKEND"]="tkagg"
+julia> using PyPlot
+</pre>
+
+<p>
+or set this as default in <code>$HOME/.matplotlib/matplotlibrc</code> file
+</p>
+
+<pre>
+backend : TkAgg
+</pre>
+<footer> Last modified: Fri Feb 4 13:28:49 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
