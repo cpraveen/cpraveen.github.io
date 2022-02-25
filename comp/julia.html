@@ -205,24 +205,12 @@ a.contact_link:hover {
 <h1>Julia</h1>
 
 <p>
-Install some commonly needed modules and build them once.
+Install some commonly needed modules 
 </p>
 
 <pre>
-Pkg.add("PyPlot")
-Pkg.add("StaticArrays")
-Pkg.add("OffsetArrays")
-Pkg.add("LinearAlgebra")
-Pkg.add("FastGaussQuadrature")
-Pkg.add("BenchmarkTools")
-Pkg.add("WriteVTK")
-Pkg.add("TickTock")
-Pkg.add("Plots")                    # Base module for plotting
-Pkg.add("GR")                       # Plotting backend
-Pkg.add("DifferentialEquations")    # ODE solvers
-Pkg.add("ApproxFun")                # Function approximation like Chebfun
-Pkg.add("MAT")                      # Read mat files
-Pkg.add("ControlSystems")           # Control system
+wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/julia.jl
+julia julia.jl
 </pre>
 
 <p>
@@ -258,6 +246,7 @@ To enable automatic recompilation in the REPL, install the Revise package and en
 </p>
 
 <pre>
+ENV["MPLBACKEND"]="tkagg" # to use Agg backend with PyPlot
 using Revise
 </pre>
 
@@ -279,4 +268,4 @@ or set this as default in <code>$HOME/.matplotlib/matplotlibrc</code> file
 <pre>
 backend : TkAgg
 </pre>
-<footer> Last modified: Fri Feb 4 13:28:49 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Fri Feb 25 14:52:14 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
