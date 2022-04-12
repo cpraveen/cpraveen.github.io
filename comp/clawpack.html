@@ -204,6 +204,8 @@ a.contact_link:hover {
 <section>
 <h1>Installing Clawpack</h1>
 
+<h2>Installing using Conda</h2>
+
 <p>
 I have installed Clawpack using Conda. It is better to create a separate environment for this purpose
 </p>
@@ -225,7 +227,7 @@ To activate the environment
 </p>
 
 <pre>
-source activate claw
+conda activate claw
 </pre>
 
 <p>
@@ -237,7 +239,7 @@ Now you can run Clawpack programs. Once you are done, you can deactivate the env
 </p>
 
 <pre>
-source deactivate
+conda deactivate
 </pre>
 
 <p>
@@ -255,6 +257,15 @@ conda remove -n claw —-all
 See here for installation steps</a>
 </p>
 
+<pre>
+git clone git@github.com:clawpack/clawpack.git
+cd clawpack
+git checkout v5.8.2     # or an older version; `git tag -l` to list options
+git submodule init      # for repositories pyclaw, clawutil, visclaw, etc.
+git submodule update    # clones all the submodule repositories
+export CLAW=/full/path/to/clawpack    # in bash
+</pre>
+
 <p>
 <a href="http://www.clawpack.org/first_run_fortran.html#first-run-fortran">
 Test a fortran example</a>
@@ -268,6 +279,30 @@ make .plots
 </p>
 
 <p>
-Open _plots/PlotIndex.html file to see the results.
+Open _plots/_PlotIndex.html file to see the results.
 </p>
-<footer> Last modified: Mon Apr 4 09:09:04 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
+
+<h2>Install clawpack using conda</h2>
+
+<p>
+This does not seem to give the classic fortran version.
+</p>
+
+<pre>
+conda create -n claw
+conda activate claw
+conda install clawpack
+conda install nose ipython
+</pre>
+
+<p>
+Test pyclaw: start ipython and
+</p>
+
+<pre>
+from clawpack.pyclaw import examples
+claw = examples.shock_bubble_interaction.setup()
+claw.run()
+claw.plot()
+</pre>
+<footer> Last modified: Tue Apr 12 10:30:30 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
