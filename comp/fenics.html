@@ -258,37 +258,22 @@ conda update -n fenics -c conda-forge --all
 NOTE: Fenics installed via Anaconda does not provide full functionality of Fenics, and Docker images are the best option for this.
 </p>
 
-<h2>Installing using Docker</h2>
+<h2>Installing fenics using Docker</h2>
 
 <p>
 First install Docker; this is easy on a Mac and needs some configuration on Linux, see <a href="comp/docker.html">here</a>. After this, start Docker and install the fenics script
 </p>
 
 <pre>
-curl -s https://get.fenicsproject.org | bash
+docker pull quay.io/fenicsproject/stable:latest
 </pre>
 
 <p>
-Then install a Fenics image
+This installs the last version of fenics which is 2019.1.0.
 </p>
 
-<pre>
-fenicsproject pull
-</pre>
 
-<p>
-Note that this will install the latest image of Fenics. You are now ready to work with Fenics. Go into some directory where you want to do your work and do
-</p>
-
-<pre>
-fenicsproject run
-</pre>
-
-<p>
-To update the Fenics version at any time, just do <code>fenicsproject pull</code>. Many things like plot windows will not work in Docker, so you may want to use the Conda option to install Fenics.
-</p>
-
-<h2>Installing an older version using Docker</h2>
+<h2>Installing an older version of fenics using Docker</h2>
 
 <p>
 To install an older version using Docker
@@ -330,7 +315,7 @@ Install latest version
 </p>
 
 <pre>
-docker pull dolfinx/real
+docker pull dolfinx/dolfinx:stable
 </pre>
 
 <p>
@@ -339,6 +324,6 @@ Run in docker
 
 <pre>
 docker run -ti -p 127.0.0.1:8000:8000 -v $(pwd):/home/fenics/shared \
-       -w /home/fenics/shared dolfinx/real
+       -w /home/fenics/shared dolfinx/dolfinx:stable
 </pre>
-<footer> Last modified: Wed Mar 31 14:27:30 IST 2021; &copy; 2015-2020 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Wed Oct 19 10:26:04 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
