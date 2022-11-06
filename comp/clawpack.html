@@ -260,7 +260,7 @@ See here for installation steps</a>
 <pre>
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
-git checkout v5.8.2     # or an older version; `git tag -l` to list options
+git checkout v5.9.0     # or an older version; `git tag -l` to list options
 git submodule init      # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update    # clones all the submodule repositories
 export CLAW=/full/path/to/clawpack    # in bash
@@ -289,6 +289,7 @@ This does not seem to give the classic fortran version.
 </p>
 
 <pre>
+unset CLAW PYTHONPATH   # These might interfere is set to something already.
 conda create -n claw
 conda activate claw
 conda install clawpack
@@ -318,10 +319,11 @@ Some of these have been converted to run with newer version of clawpack, see <a 
 
 <pre>
 cd $CLAW  # or where ever you want apps to be
+git checkout master
 git clone --recursive https://github.com/clawpack/apps
 </pre>
 
 <p>
 The book examples are in the directory apps/fvmbook.
 </p>
-<footer> Last modified: Mon Jun 27 09:21:58 CEST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Nov 6 10:38:17 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>

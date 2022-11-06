@@ -213,6 +213,7 @@ conda update conda
 conda update --all
 conda install numpy scipy sympy matplotlib ipython jupyter
 conda install prettytable
+conda install pandas
 conda install pylint autopep8 # vscode wants these
 conda install clingo          # needed by spack
 conda install meshio          # to read gmsh grids
@@ -220,7 +221,11 @@ conda install nose            # needed to use pyclaw
 conda install fortls          # needed to use vscode fortran
 conda install imageio         # to read images from url
 conda install tensorflow      # if you need this
+conda install tensorflow-probability
+conda install scikit-learn
+conda install deepxde
 conda install lfortran        # jupyter fortran kernel
+conda install clawpack
 </pre>
 
 <p>
@@ -230,14 +235,18 @@ or together
 <pre>
 conda install numpy scipy sympy matplotlib ipython jupyter \
               prettytable \
+              pandas \
               pylint autopep8 \
               clingo \
               meshio \
               nose \
               fortls \
               imageio \
-              tensorflow \
-              lfortran
+              tensorflow tensorflow-probability \
+              scikit-learn \
+              deepxde \
+              lfortran \
+              clawpack
 </pre>
 
 <p>
@@ -381,4 +390,4 @@ Install this to get ToC and other features.
 <pre>
 conda install  jupyter_contrib_nbextensions
 </pre>
-<footer> Last modified: Tue Nov 1 18:41:57 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
+<footer> Last modified: Sun Nov 6 10:38:17 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>
