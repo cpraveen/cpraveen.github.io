@@ -49,6 +49,7 @@ My primary research interest is CFD and its applications. I am also interested i
 
 A list of research topics, some of which are completed, some semi-completed and others still ongoing.
 
+<ol>
 
 <li><a href="http://math.tifrbng.res.in/airbus-chair/dgeuler">Discontinuous Galerkin scheme for Euler and MHD equations on adaptive meshes</a></li>
 
