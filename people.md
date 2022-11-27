@@ -2,28 +2,19 @@
 
 ## PhD students
 
-* <a href="http://roysouvik2.github.io/index.html">Souvik Roy</a>, jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
-
-* <a href="http://deepray.github.io/index.html" target="_blank">Deep Ray</a>,jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
-
+* [Souvik Roy](http://roysouvik2.github.io/index.html), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
+* [Deep Ray](http://deepray.github.io/index.html),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
 * Arpit Babbar (2020--present)
 
 ## Post-docs
 
 * Tanmay Sarkar (March 2015 - April 2017); subsequent position: Asst. Prof., IIT Jammu.
-
 * Pritam Giri (April 2016 - April 2017)
-
 * Rakesh Kumar (August 2016 - March 2020, TIFR-CAM and NPDF); subsequent position: postdoc at IISER, Trivandrum.
-
 * Ruchi Sandilya (August 2017 - December 2018); subsequent position: postdoc at WIAS, Germany.
-
 * Arijit Hazra (January 2018 - January 2020); subsequent position: postdoc at BCAM, Spain.
-
 * Asha Meena (March 2018 - January 2020); subsequent position: Asst. Prof.,  University of Rajasthan.
-
 * Saurav Samantaray (Jan 2022 -- present)
-
 
 ## Masters thesis
 
@@ -48,22 +39,20 @@
 
 ## Student Interns
 
-<ol>
-<li>Ankit Pat, IIT Kharagpur, 1 June - 15 July, 2009</li>
-<li>Ravish Karve, Embry Riddle Aeronautical Univ., 10 June - 10 July, 2009</li>
-<li>Amitabh Vajpayee, Bits Pilani, May-July 2010</li>
-<li>Sanchit Singh, IIT Guwahati, May-July 2010</li>
-<li>Mayank Takker, IIT Guwahati, May-July 2010 (through IAS)</li>
-<li>Ankush Agrawal, IIT Kharagpur, May-July 2010</li>
-<li>Nisha Chandramoorthy, IIT Roorkee, May-July 2012 (through IAS)</li>
-<li>Pratik Nayak, RV College, Bangalore, May-July, 2015</li>
-<li>Pulkit Kumar Dubey, BITS Pilani, 11 Feb-10 June, 2016</li>
-<li>Anirudh C, IIIT Bangalore, May-July, 2018</li>
-<li>Aman Saxena, IIT Guwahati, Aug 2018; joined for Masters in TU Munich</li>
-<li>Shashwat Tiwari, IIT Guwahati, Jan 2020; joined for Masters in TU, Munich</li>
-<li>Shreenidhi S, Dept. of Math., IISER Trivandrum</li>
-<li>Vaishnavi Sharma, Dept. of Mech. Engg., NIT Hamirpur</li>
-</ol>
+* Ankit Pat, IIT Kharagpur, 1 June - 15 July, 2009
+* Ravish Karve, Embry Riddle Aeronautical Univ., 10 June - 10 July, 2009
+* Amitabh Vajpayee, Bits Pilani, May-July 2010
+* Sanchit Singh, IIT Guwahati, May-July 2010
+* Mayank Takker, IIT Guwahati, May-July 2010 (through IAS)
+* Ankush Agrawal, IIT Kharagpur, May-July 2010
+* Nisha Chandramoorthy, IIT Roorkee, May-July 2012 (through IAS)
+* Pratik Nayak, RV College, Bangalore, May-July, 2015
+* Pulkit Kumar Dubey, BITS Pilani, 11 Feb-10 June, 2016
+* Anirudh C, IIIT Bangalore, May-July, 2018
+* Aman Saxena, IIT Guwahati, Aug 2018; joined for Masters in TU Munich
+* Shashwat Tiwari, IIT Guwahati, Jan 2020; joined for Masters in TU, Munich
+* Shreenidhi S, Dept. of Math., IISER Trivandrum
+* Vaishnavi Sharma, Dept. of Mech. Engg., NIT Hamirpur
 
 ## Visiting professors/scientists/postdocs
 
