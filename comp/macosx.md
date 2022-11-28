@@ -131,7 +131,7 @@ To see some info on your wireless connection, click Option + wifi icon in menuba
 </li>
 
 <li>
-On new versions like Catalina, the battery discharges overnight even if the laptop is in sleep because it is waking up for network. In System Preferences -- Energy Saver -- Battery, disable "Enable Power Nap while on battery power". To disable network while sleeping on battery
+On new versions like Catalina, the battery discharges overnight even if the laptop is in sleep because it is waking up for network. In System Preferences --> Energy Saver --> Battery, disable "Enable Power Nap while on battery power". To disable network while sleeping on battery
 
 <pre>
 sudo pmset -b tcpkeepalive  0    # Redo if you did SMC/NVRAM reset or os update
@@ -199,10 +199,11 @@ PulseSecure starts automatically on login. Disable it like this
 sudo rm /Library/LaunchAgents/net.pulsesecure.pulsetray.plist
 </pre>
 
-Then, add symlink to /Applications
+Then, add symlink to `/Applications`
 
 <pre>
-sudo ln -s /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app /Applications/PulseTray.app
+sudo ln -s /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app \
+           /Applications/PulseTray.app
 </pre>
 
 and use PulseTray to launch PulseSecure in future.
@@ -265,7 +266,7 @@ defaults write com.apple.Safari DebugDisableTabHoverPreview 1
 </li>
 
 <li>
-Disable spelling correction, etc.: System Preferences -- Keyboard -- Text
+Disable spelling correction, etc.: System Preferences --> Keyboard --> Text
 </li>
 
 </ol>
