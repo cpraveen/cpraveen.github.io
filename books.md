@@ -1,214 +1,12 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-<meta name="keywords" content="CFD, FEM, PDE, TIFR, TIFRCAM">
-<meta name="description" content="Homepage of Praveen Chandrashekar">
-<meta name="author" content="Praveen Chandrashekar">
-<title>Homepage of Praveen Chandrashekar</title>
-<base href="http://cpraveen.github.io">
-<meta name="google-site-verification" content="vQAVognXBtgyMZ4p32RBsnPK7MpBeyGXWOnK7ywnCX4" />
-<style>
-html,body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-body {
-   font-family:Verdana,sans-serif;
-   font-size:100%;
-}
-header {
-    width:20%;
-    height:100%;
-    float:left;
-}
-nav {
-    line-height:25px;
-    background-color:#beeeee;
-    width:20%;
-    height:100%;
-    padding:25px;	      
-    position:fixed;
-}
-section {
-    width:70%;
-    float:right;
-    padding:25px;	 	 
-}
-footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:5px;	 	 
-    font-size: 0.5em;
-}
-h1,h2,h3 {
-   font-family: Georgia,serif;
-}
-h1 {
-    font-size: 1.6em;
-    text-align: center;
-}
+# Books and other learning material
 
-h2 {
-    font-size: 1.4em;
-}
-
-h3 {
-    font-size: 1.2em;
-}
-
-p,li {
-    font-size: 0.875em;
-    line-height: 150%;
-}
-code {
-    font-size: 1.2em;
-    color: blue;
-}
-pre {
-    font-size: 1.2em;
-    color: blue;
-}
-a:link    {color:green; background-color:transparent; text-decoration:none}
-a:visited {color:green; background-color:transparent; text-decoration:none}
-a:hover   {color:red; background-color:transparent; text-decoration:underline}
-a:active  {color:yellow; background-color:transparent; text-decoration:underline}
-
-a.contact_link { 
-   font-size: 0.75em;
-}
-a.contact_link:hover { 
-   color:red; 
-   background-color:transparent; 
-   text-decoration:none;
-}
-
-</style>
-<link rel="stylesheet" href="https://cpraveen.github.io/css/academicons.css"/>
-<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
-<script src="https://use.fontawesome.com/916e4344cd.js"></script>
-</head>
-
-<body>
-
-<nav>
-   <h1>Praveen Chandrashekar</h1>
-
-   <p>
-   <a href="index.html">Home</a><br>
-   <a href="people.html">People</a><br>
-   <a href="codes.html">Codes</a><br>
-   <a href="talks.html">Talks</a><br>
-   <a href="teaching/index.html">Teaching</a><br>
-   <a href="pub.html">Publications</a><br>
-   <a href="forstudents.html">For students</a><br>
-   <a href="localinfo.html">Around CAM</a><br>
-   <a href="cal.html">Calendar</a><br>
-   <a href="contact.html">Contact</a>
-   </p>
-
-<p style="text-align:center">
-
-<a class="contact_link" href="https://twitter.com/cfdlab">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-twitter fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://github.com/cpraveen">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-github fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://gitlab.com/cpraveen">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-gitlab fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://bitbucket.org/cpraveen">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-bitbucket fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://www.youtube.com/channel/UC0kuy9roaaK5z5II9_6QNcg">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-youtube fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="http://arxiv.org/a/chandrashekar_p_1">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="ai ai-arxiv fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://www.researchgate.net/profile/Praveen_Chandrashekar">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="ai ai-researchgate fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://scholar.google.co.in/citations?user=9Mb6H7EAAAAJ">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="ai ai-google-scholar fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://orcid.org/0000-0003-1903-4107">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="ai ai-orcid fa-stack-1x"></i>
-</span>
-</a>
-
-<a class="contact_link" href="https://in.linkedin.com/pub/praveen-c/a/8b4/a2b">
-<span class="fa-stack fa-lg">
-  <i class="fa fa-square-o fa-stack-2x"></i>
-  <i class="fa fa-linkedin fa-stack-1x"></i>
-</span>
-</a>
-
-</p>
-
-<script>
-  (function() {
-    var cx = '016958002023897541386:evkdaywutnc';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-
-</nav>
-
-
-<section>
-<h1>Books and other learning material</h1>
-
-<p>
 In this page, you will find a list of essential reading material that is relevant to the kind of work I do. In each section, the books are roughly arranged in the order of increasing complexity.
-</p>
 
-<h2>Fluid Dynamics</h2>
+## Fluid Dynamics
 
 <ol>
 
@@ -238,7 +36,7 @@ Stephan B. Pope, Turbulent Flows
 
 </ol>
 
-<h2>Partial Differential Equations</h2>
+## Partial Differential Equations
 
 <ol>
 
@@ -260,7 +58,7 @@ L. C. Evans, Partial Differential Equations
 
 </ol>
 
-<h2>Numerical methods for PDE</h2>
+## Numerical methods for PDE
 
 <ol>
 
@@ -282,7 +80,7 @@ Bertil Gustafsson, Heinz-Otto Kreiss, Joseph Oliger, Time dependent problems and
 
 </ol>
 
-<h2>Numerical methods for conservation laws</h2>
+## Numerical methods for conservation laws
 
 <ol>
 
@@ -308,7 +106,7 @@ E. Godlewski and P. Raviart, Numerical Approximation of Hyperbolic Systems of Co
 
 </ol>
 
-<h2>Computational Fluid Dynamics</h2>
+## Computational Fluid Dynamics
 
 <ol>
 
@@ -331,7 +129,7 @@ The Fundamentals of Computational Fluid Dynamics, 2007
 
 </ol>
 
-<h2>Finite Element Methods</h2>
+## Finite Element Methods
 
 <ol>
 
@@ -353,9 +151,13 @@ Philippe Ciarlet, The Finite Element Method for Elliptic Problems
 
 </ol>
 
-<h2>Numerical Linear Algebra</h2>
+## Numerical Linear Algebra
 
 <ol>
+
+<li>
+L. N. Trefethen and David Bau, Numerical Linear Algebra, SIAM
+</li>
 
 <li>
 James W. Demmel, Applied Numerical Linear Algebra
@@ -372,7 +174,7 @@ Yousef Saad, Iterative Methods for Sparse Linear Systems
 
 </ol>
 
-<h2>Programming, MPI, HPC</h2>
+## Programming, MPI, HPC
 
 <ol>
 
@@ -410,7 +212,7 @@ Georg Hager and Gerhard Wellein, Introduction to High Performance Computing for 
 
 </ol>
 
-<h2>Data science, machine learning</h2>
+## Data science, machine learning
 
 <ol>
 
@@ -428,7 +230,7 @@ Steven Brunton and Nathan Kutz, Data-driven science and engineering (<a href="ht
 
 </ol>
 
-<h2>Video lectures</h2>
+## Video lectures
 
 <ol>
 
@@ -475,4 +277,3 @@ Steven Brunton and Nathan Kutz, Data-driven science and engineering (<a href="ht
 </li>
 
 </ol>
-<footer> Last modified: Tue May 17 13:17:26 IST 2022; &copy; 2015-2022 Praveen Chandrashekar </footer> </section> </body> </html>

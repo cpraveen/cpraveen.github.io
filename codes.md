@@ -25,7 +25,7 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
-<a href="teaching/chebpy.html">Spectral methods in python</a>: Based on the book of Trefethen, rewritten in Matlab
+<a href="teaching/chebpy.html">chebpy</a>: Based on Trefethen: Spectral Methods in Matlab, rewritten in python
 </li>
 
 <li>
