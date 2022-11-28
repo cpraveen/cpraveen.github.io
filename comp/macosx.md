@@ -105,11 +105,11 @@ softwareupdate -l
 <ol>
 
 <li>
-If you are behind a proxy server, then to get server settings to be visible under sudo, you need to set some environment variables for http and rsync and do the following<br/>
+If you are behind a proxy server, then to get server settings to be visible under sudo, you need to set some environment variables for http and rsync and do the following
 
-```shell
-sudo visudo
-```
+    ```shell
+    sudo visudo
+    ```
 
 Enter your password and add the following additional lines and save the file. You need to know how to use vi/vim for this.
 
