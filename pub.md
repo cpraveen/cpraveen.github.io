@@ -546,51 +546,19 @@ Deep Ray, Praveen Chandrashekar, Ulrik S. Fjordholm and Siddhartha Mishra,&nbsp;
 
 ## Workshops
 
-<ol>
-
-<li>
-R. Duvigneau and Praveen. C, "Inverse Problem for Multiple Ellipse Configuration using Global Meta-model based Optimization", Database Workshop for multiphysics optimization software validation, Agora, Jyvaskyla, Finland, December 3-4, 2009. [<a href="http://math.tifrbng.res.in/~praveen/slides/ta2.pdf">Slides</a>]
-
-<li>
-Praveen. C and R. Duvigneau, "TA5 test case using FAMOSA", Database Workshop for multiphysics optimization software validation, Agora, Jyvaskyla, Finland, December 3-4, 2009. [<a href="http://math.tifrbng.res.in/~praveen/slides/ta5.pdf">Slides</a>]
-</li>
-
-<li>
-Praveen C, "Well-balanced discontinuous Galerkin method for the Euler equations with gravity", <a href="http://www.birs.ca/events/2015/5-day-workshops/15w5134">Workshop on Higher Order Numerical Methods for Evolutionary PDEs: Applied Mathematics Meets Astrophysical Applications (15w5134), BIRS, Banff, Canada, 10-15 May 2015</a>. [<a href="http://math.tifrbng.res.in/~praveen/slides/banff2015.pdf">Slides</a>], [<a href="http://www.birs.ca/events/2015/5-day-workshops/15w5134/videos/watch/201505111546-Chandrashekarappa.html">Video</a>]
-</li>
-
-<li>
-Praveen C, "Numerical implementation of feedback stabilization for Boussinesq model", Workshop on Fluid-Structure Interaction Problems, 29 June - 1 July, 2015, TIFR CAM, Bangalore. [<a href="http://math.tifrbng.res.in/~praveen/slides/praveen-ifcam2015.pdf">Slides</a>]
-</li>
-
-<li>
-Praveen C, "Stable central schemes for compressible flows", Theme of the Year Workshop, NCAR, Boulder, 2017. [<a href="http://math.tifrbng.res.in/~praveen/slides/toy_ncar_2017.pdf">Slides</a>]
-</li>
-
-</ol>
+1. R. Duvigneau and Praveen. C, "Inverse Problem for Multiple Ellipse Configuration using Global Meta-model based Optimization", Database Workshop for multiphysics optimization software validation, Agora, Jyvaskyla, Finland, December 3-4, 2009. [<a href="http://math.tifrbng.res.in/~praveen/slides/ta2.pdf">Slides</a>]
+1. Praveen. C and R. Duvigneau, "TA5 test case using FAMOSA", Database Workshop for multiphysics optimization software validation, Agora, Jyvaskyla, Finland, December 3-4, 2009. [<a href="http://math.tifrbng.res.in/~praveen/slides/ta5.pdf">Slides</a>]
+1. Praveen C, "Well-balanced discontinuous Galerkin method for the Euler equations with gravity", <a href="http://www.birs.ca/events/2015/5-day-workshops/15w5134">Workshop on Higher Order Numerical Methods for Evolutionary PDEs: Applied Mathematics Meets Astrophysical Applications (15w5134), BIRS, Banff, Canada, 10-15 May 2015</a>. [<a href="http://math.tifrbng.res.in/~praveen/slides/banff2015.pdf">Slides</a>], [<a href="http://www.birs.ca/events/2015/5-day-workshops/15w5134/videos/watch/201505111546-Chandrashekarappa.html">Video</a>]
+1. Praveen C, "Numerical implementation of feedback stabilization for Boussinesq model", Workshop on Fluid-Structure Interaction Problems, 29 June - 1 July, 2015, TIFR CAM, Bangalore. [<a href="http://math.tifrbng.res.in/~praveen/slides/praveen-ifcam2015.pdf">Slides</a>]
+1. Praveen C, "Stable central schemes for compressible flows", Theme of the Year Workshop, NCAR, Boulder, 2017. [<a href="http://math.tifrbng.res.in/~praveen/slides/toy_ncar_2017.pdf">Slides</a>]
 
 ## Theses
 
-<ol>
-
-<li>
-"A new upwind least squares finite difference scheme for compressible flows", Master of Engineering thesis, Dept. of Aerospace Engg., IISc, Bangalore, 2000. [<a href="http://math.tifrbng.res.in/~praveen/doc/methesis.pdf">PDF</a>]
-</li>
-
-<li>
-"Development and application of kinetic meshless methods for Euler equations", PhD thesis, Dept. of Aerospace Engg., IISc, Bangalore, 2004. [<a     href="http://math.tifrbng.res.in/~praveen/doc/praveen-thesis.pdf">PDF</a>]
-</li>
-
-</ol>
+1. "A new upwind least squares finite difference scheme for compressible flows", Master of Engineering thesis, Dept. of Aerospace Engg., IISc, Bangalore, 2000. [<a href="http://math.tifrbng.res.in/~praveen/doc/methesis.pdf">PDF</a>]
+1. "Development and application of kinetic meshless methods for Euler equations", PhD thesis, Dept. of Aerospace Engg., IISc, Bangalore, 2004. [<a     href="http://math.tifrbng.res.in/~praveen/doc/praveen-thesis.pdf">PDF</a>]
 
 ## Patents
 
-<ol>
-
-<li>
-<a href="http://patentscope.wipo.int/search/en/WO2011021206">WING AND PROPELLER SYSTEM, METHOD OF OPTIMIZING WING AND PROPELLER/ROTOR SYSTEM AND METHOD OF REDUCING INDUCED DRAG</a><br>
+1. <a href="http://patentscope.wipo.int/search/en/WO2011021206">WING AND PROPELLER SYSTEM, METHOD OF OPTIMIZING WING AND PROPELLER/ROTOR SYSTEM AND METHOD OF REDUCING INDUCED DRAG</a><br>
 <a href="http://goo.gl/lk5hYW">US Patent No. 8,915,467, December 23, 2014</a><br>
 <a href="http://www.thehindu.com/todays-paper/tp-national/tp-karnataka/bangalore-scientists-working-on-novel-design/article4039975.ece">An article in The Hindu about this work.</a>
-</li>
-
-</ol>
