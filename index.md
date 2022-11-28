@@ -87,16 +87,35 @@ Discontinuous Galerkin method for shallow water model on the sphere
 
 ## Organizational activities
 
-<ol><li><a href="http://math.tifrbng.res.in/~fem2012/Home.html" target="_blank">Instructional workshop on FEM, 2-13 July 2012</a></li>
-<li><a href="https://events.tifrbng.res.in/indico/conferenceDisplay.py?confId=1" target="_blank">International conference on conservation laws and applications, 1-3 July 2013</a></li>
+<ol>
 
 <li>
-<a href="http://www.math.iisc.ernet.in/~ifcam/school.html"target="_blank">IFCAM Summer school on numerics and control of PDEs, 22 July - 2 August,  2013</a>
+<a href="http://math.tifrbng.res.in/~fem2012/Home.html" target="_blank">Instructional workshop on FEM, 2-13 July 2012</a>
 </li>
-<li><a href="http://math.tifrbng.res.in/eads-chair/Optpde13" target="_blank">Workshop on optimization with PDE constraints, Nov 25 - Dec 6, 2013</a></li>
-<li><a href="http://cpde.tifrbng.res.in/femeet2014" target="_blank">Finite element meet, 18-20 Dec, 2014</a></li>
-<li><a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015-school" target="_blank">Advanced Summer School on Control and Numerics for Fluid-Structure Interaction Problems, 22-26 June, 2015</a></li>
-<li><a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015" target="_blank">Workshop on Control and Numerics for Fluid-Structure Interaction Problems, 29 June - 1 July, 2015</a></li>
+
+<li>
+<a href="https://events.tifrbng.res.in/indico/conferenceDisplay.py?confId=1" target="_blank">International conference on conservation laws and applications, 1-3 July 2013</a>
+</li>
+
+<li>
+<a href="http://www.math.iisc.ernet.in/~ifcam/school.html" target="_blank">IFCAM Summer school on numerics and control of PDEs, 22 July - 2 August,  2013</a>
+</li>
+
+<li>
+<a href="http://math.tifrbng.res.in/eads-chair/Optpde13" target="_blank">Workshop on optimization with PDE constraints, Nov 25 - Dec 6, 2013</a>
+</li>
+
+<li>
+<a href="http://cpde.tifrbng.res.in/femeet2014" target="_blank">Finite element meet, 18-20 Dec, 2014</a>
+</li>
+
+<li>
+<a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015-school" target="_blank">Advanced Summer School on Control and Numerics for Fluid-Structure Interaction Problems, 22-26 June, 2015</a>
+</li>
+
+<li>
+<a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015" target="_blank">Workshop on Control and Numerics for Fluid-Structure Interaction Problems, 29 June - 1 July, 2015</a>
+</li>
 
 <li>
 <a href="http://cpde.tifrbng.res.in/2015" target="_blank">Conference on Computational PDE, 21-23 Dec, 2015</a>
