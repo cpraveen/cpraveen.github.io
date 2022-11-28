@@ -6,9 +6,46 @@ layout: default
 
 This is a list of my codes most of which are freely available. A more complete list can be found on my <a href="http://github.com/cpraveen" target="_blank">github</a>, <a href="http://www.bitbucket.org/cpraveen" target="_blank">bitbucket</a> and <a href="http://gitlab.com/cpraveen" target="_blank">gitlab</a> pages.
 
+## Codes for teaching
+
+The following repos contain codes I have developed for teaching purpose.
+
 <ul>
 
-<li><a href="teaching/chebpy.html">Spectral methods in python</a></li>
+<li>
+<a href="https://github.com/cpraveen/na" target="_blank">na</a>: Codes for a numerical analysis course
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/nla" target="_blank">nla</a>: Codes for a numerical linear algebra course
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/numpde" target="_blank">numpde</a>: Codes for computational pde course: finite difference, finite volume
+</li>
+
+<li>
+<a href="teaching/chebpy.html">Spectral methods in python</a>: Based on the book of Trefethen, rewritten in Matlab
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/fem" target="_blank">fem</a>: Codes for a finite element course
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/fem50" target="_blank">fem50</a>: A simple FEM code for 2-d poisson equation written in matlab
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/juliafem" target="_blank">juliafem</a>: A simple FEM code for 2-d poisson equation written in Julia
+</li>
+
+</ul>
+
+## Codes
+
+<ul>
+
 
 <li><a href="http://bitbucket.org/cpraveen/deal_ii" target="_blank">deal.II</a>: My finite element codes written using deal.II library</li>
 
@@ -46,10 +83,6 @@ This is a list of my codes most of which are freely available. A more complete l
 
 <li><a href="http://bitbucket.org/cpraveen/optool" target="_blank" title="External link to http://optool.origo.ethz.ch">optool</a>: Parallel Optimization tool based on PSO and surrogate models (closed source)</li>
       
-<li>
-<a href="https://github.com/cpraveen/fem50" target="_blank">fem50</a>: A simple FEM code for 2-d poisson equation written in matlab
-</li>
-
 <li>
 <a href="https://github.com/cpraveen/juliafem" target="_blank">juliafem</a>: A simple FEM code for 2-d poisson equation written in Julia
 </li>
