@@ -102,7 +102,7 @@ Discontinuous Galerkin method for shallow water model on the sphere
 </li>
 
 <li>
-<a href="http://math.tifrbng.res.in/eads-chair/Optpde13" target="_blank">Workshop on optimization with PDE constraints, Nov 25 - Dec 6, 2013</a>
+<a href="http://math.tifrbng.res.in/airbus-chair/Optpde13" target="_blank">Workshop on optimization with PDE constraints, Nov 25 - Dec 6, 2013</a>
 </li>
 
 <li>
@@ -110,11 +110,11 @@ Discontinuous Galerkin method for shallow water model on the sphere
 </li>
 
 <li>
-<a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015-school" target="_blank">Advanced Summer School on Control and Numerics for Fluid-Structure Interaction Problems, 22-26 June, 2015</a>
+<a href="http://math.tifrbng.res.in/airbus-chair/Programs/fsi2015-school" target="_blank">Advanced Summer School on Control and Numerics for Fluid-Structure Interaction Problems, 22-26 June, 2015</a>
 </li>
 
 <li>
-<a href="http://math.tifrbng.res.in/eads-chair/Programs/fsi2015" target="_blank">Workshop on Control and Numerics for Fluid-Structure Interaction Problems, 29 June - 1 July, 2015</a>
+<a href="http://math.tifrbng.res.in/airbus-chair/Programs/fsi2015" target="_blank">Workshop on Control and Numerics for Fluid-Structure Interaction Problems, 29 June - 1 July, 2015</a>
 </li>
 
 <li>
