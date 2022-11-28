@@ -133,61 +133,61 @@ To see some info on your wireless connection, click Option + wifi icon in menuba
 <li>
 On new versions like Catalina, the battery discharges overnight even if the laptop is in sleep because it is waking up for network. In System Preferences -- Energy Saver -- Battery, disable "Enable Power Nap while on battery power". To disable network while sleeping on battery
 
-```shell
+<pre>
 sudo pmset -b tcpkeepalive  0    # Redo if you did SMC/NVRAM reset or os update
 sudo pmset -a hibernatemode 25
 sudo pmset -a standby       1
-```
+</pre>
 
 You can check the settings by (do this check while using battery)
 
-```shell
+<pre>
 pmset -g
-```
+</pre>
 
 Use only integrated GPU when on battery
 
-```shell
+<pre>
 sudo pmset -b gpuswitch 0
-```
+</pre>
 
 Here are the various power states
 
-```text
+<pre>
 -a - global (same behavior for charging and battery states)
 -c - charging
 -b - battery
-```
+</pre>
 
 Here are the possible options for gpuswitch
 
-```text
+<pre>
 0 - integrated GPU only
 1 - discrete GPU only
 2 - autoswitch GPU
-```
+</pre>
 </li>
 
 <li>
 To disable laptop auto booting on lid opening
 
-```shell
+<pre>
 sudo nvram AutoBoot=%00 # Redo if NVRAM is reset
-```
+</pre>
 
 To reenable auto boot
 
-```shell
+<pre>
 sudo nvram AutoBoot=%03
-```
+</pre>
 </li>
 
 <li>
 Sometimes Activity Monitor does not display any columns. Then delete the preferences file
 
-```shell
+<pre>
 rm ~/Library/Preferences/com.apple.ActivityMonitor.plist
-```
+</pre>
 
 and reopen it.
 </li>
@@ -195,15 +195,15 @@ and reopen it.
 <li>
 PulseSecure starts automatically on login. Disable it like this
 
-```shell
+<pre>
 sudo rm /Library/LaunchAgents/net.pulsesecure.pulsetray.plist
-```
+</pre>
 
 Then, add symlink to /Applications
 
-```shell
+<pre>
 sudo ln -s /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app /Applications/PulseTray.app
-```
+</pre>
 
 and use PulseTray to launch PulseSecure in future.
 </li>
@@ -211,26 +211,26 @@ and use PulseTray to launch PulseSecure in future.
 <li>
 Reset NVRAM from terminal
 
-```shell
+<pre>
 sudo nvram -c
 sudo shutdown -r now
-```
+</pre>
 </li>
 
 <li>
 Reset icons in launchpad
 
-```shell
+<pre>
 defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
-```
+</pre>
 </li>
 
 <li>
 BigSur messed up the menu bar design in app windows, to get previous type view do this
 
-```shell
+<pre>
 defaults write -g NSWindowSupportsAutomaticInlineTitle -bool false
-```
+</pre>
 
 You have to quit and start the app for this to take effect. (Does not seem to work in Monterey)
 </li>
@@ -238,18 +238,18 @@ You have to quit and start the app for this to take effect. (Does not seem to wo
 <li>
 Reset Finder views/settings
 
-```shell
+<pre>
 find . -name ".DS_Store" -delete
 rm ~/Library/Preferences/com.apple.finder.plist
-```
+</pre>
 </li>
 
 <li>
 Enable repeat key press, useful for Vim mode in VSCode, overleaf, etc.
 
-```shell
+<pre>
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
-```
+</pre>
 </li>
 
 <li>
@@ -259,9 +259,9 @@ Get expanded desktop view in mission control using <a href="https://github.com/b
 <li>
 Disable Safari tab preview
 
-```shell
+<pre>
 defaults write com.apple.Safari DebugDisableTabHoverPreview 1
-```
+</pre>
 </li>
 
 <li>
