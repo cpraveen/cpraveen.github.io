@@ -30,7 +30,7 @@ sudo zypper install mlocate && sudo updatedb
 
 After this, see the [Spack](comp/spack.html) page on how to install scientific softwares. openmpi will be installed by Spack, so do not install it with zypper.
 
-To get common python modules (better to install Python using Anaconda or Spack in order to get latest version)
+To get common python modules (better to install Python using Conda or Spack in order to get latest version)
 
 ```shell
 sudo zypper install python3-numpy python3-sympy python3-scipy python3-matplotlib
