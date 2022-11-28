@@ -8,7 +8,15 @@ LFTP is a file transfer program that can use ftp, sftp, etc.
 
 To set your lftp prompt, see my [lftp settings file](https://github.com/cpraveen/cfdlab/blob/master/configs/lftprc.txt), which you should copy as `$HOME/.lftprc` file.
 
+To connect to a server using sftp
+
+```shell
+lftp sftp://USERNAME@SERVER
 ```
+
+Some basic commands are listed below.
+
+```text
 ls                   | List remote dir (this is cached)
 rels                 | List remote dir (not cached)
 pwd                  | show remote dir

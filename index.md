@@ -196,31 +196,7 @@ GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 Decem
 </li>
 
 <li>
-Installation guides: <a href="http://pc.freeshell.org/comp/ibook" rel="nofollow" title="comp:ibook"> Gentoo on iBook</a>, <a href="http://pc.freeshell.org/tp" rel="nofollow" title="tp"> Gentoo on Thinkpad R40e</a>
-</li>
-
-<li>
-Tips and tricks: <a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/fortran" rel="nofollow" title="comp:fortran"> Fortran</a>, <a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/scilab" rel="nofollow" title="comp:scilab"> Scilab</a>, <a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/latex" rel="nofollow" title="comp:latex">Latex</a>
-</li>
-
-<li>
-<a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/svn" rel="nofollow" title="comp:svn">Subversion</a>: Ruby script to manage commits
-</li>
-
-<li>
-<a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/precision" rel="nofollow" title="comp:precision">Machine precision</a>
-</li>
-
-<li>
-<a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/macbook">Computing on Mac (DEPRECATED)</a>
-</li>
-
-<li>
 <a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/tifrcluster">TIFR cluster (DEPRECATED)</a>
-</li>
-
-<li>
-<a href="http://pc.freeshell.org/comp/misc" rel="nofollow" title="comp:misc">Things which don't fit elsewhere</a>
 </li>
 
 </ul>
