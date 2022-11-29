@@ -18,7 +18,7 @@ You can ssh into these machines using their hostname or IP number, see below
 ssh -Y euler
 ```
 
-The extra option enables you get display of some X programs. For example, the document viewer is evince
+The extra option `-Y` enables you to get display of some X programs. For example, the document viewer is `evince`
 
 ```shell
 evince foo.pdf
@@ -30,7 +30,7 @@ evince foo.pdf
 * 128 GB RAM
 * [NVIDIA Quadro M5000    (GM204GL)](https://videocardz.net/nvidia-quadro-m5000)
 * Storage: 2 TB + 2 TB
-* OS: OpenSuse Leap 15.2
+* OS: OpenSuse Leap 15.3
 
 ## Fourier (192.168.1.65)
 
