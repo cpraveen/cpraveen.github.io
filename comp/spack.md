@@ -6,11 +6,11 @@ layout: default
 
 [Spack](https://spack.readthedocs.io) is a package manager which is very useful to install scientific software.
 
-# Preparing a Linux system
+## Preparing a Linux system
 
 We will install the gcc and gfortran compilers from the system package manager.  Dont install anything else since they will be installed using Spack. There are some instructions for [OpenSUSE](comp/suse.html) and [Debian](comp/debian.html). Since Spack installs its own MPI library, it is best to uninstall any MPI you may have installed from your system package manager, since having multiple MPI around can cause problems.
 
-# Preparing a Mac system
+## Preparing a Mac system
 
 * Make sure you have latest command line tools (XCode is not required).
 * Install gcc from Homebrew which also provides the gfortran compiler. See [here](comp/brew.html),
@@ -52,7 +52,7 @@ Setup compilers by running
 spack compiler find
 ```
 
-which creates the file compilers.yaml inside `$HOME/.spack/darwin` directory. Edit it if needed.
+which creates the file `compilers.yaml` inside `$HOME/.spack/darwin` directory on MacOS and inside `$HOME/.spack/linux` on a Linux machine. Edit it if needed.
 
 On Mac, use clang from Apple command line tools and gfortran from Homebrew. My file `$HOME/.spack/darwin/compilers.yaml` looks like this
 
