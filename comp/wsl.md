@@ -4,13 +4,9 @@ layout: default
 
 # WSL
 
-These tips are based on using the Ubuntu version of [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) which is currently at version 18.04 LTS. Before installing Ubuntu from the Microsoft Store, open Powershell as administrator and run this command
+These tips are based on using the Ubuntu version of [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-```shell
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
-
-Windows drives (usually called C and D) are available in `/mnt` and you can work in these drives from the Linux command line. An important point to remember: **never edit a file under Linux using a Windows program**. The best approach is to save all your work files in C or D drive and never under Linux. For example, you can create directories in D drive and make symlinks from your home directory under Linux
+Windows drives (usually called C and D) are available in `/mnt` and you can work in these drives from the Linux command line, but the performance may be bit slow. For example, you can create directories in D drive and make symlinks from your home directory under Linux
 
 ```shell
 cd $HOME
@@ -38,13 +34,15 @@ sudo apt install python3-numpy
 sudo apt install python3-scipy
 sudo apt install python3-sympy
 sudo apt install python3-matplotlib
-sudo apt install jupyter
+sudo apt install jupyterlab
 sudo apt install gnuplot               (install xming)
 sudo apt install gv
 sudo apt install xpdf
 ```
 
 and the rest we install using [Spack](comp/spack.html). Other applications can be installed on Windows side, e.g., FileZilla, FireFox, gVim, VisIt, VLC, gmsh, SourceTree, MikTex and VS Code. We can run these Windows programs from the Linux command line by defining some aliases, see sample bashrc file [here](https://github.com/cpraveen/cfdlab/blob/master/bin/bashrc_wsl.txt) which you can add at the end of your `$HOME/.bashrc` file.
+
+For instructios on setting up a WSL development environment, see [this page](https://learn.microsoft.com/en-us/windows/wsl/setup/environment), and for using VSCode with WSL, see [this page](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode).
 
 ## Miscellaneous
 
