@@ -4,7 +4,7 @@ layout: default
 
 # Python using Conda
 
-I prefer to install miniforge or Miniconda and then install whatever packages I need. Miniforge can be installed from brew, see below.
+I prefer to install [Miniforge](https://github.com/conda-forge/miniforge) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install whatever packages I need. Miniforge can be installed from brew, see below.
 
 ```shell
 conda update conda
@@ -47,10 +47,10 @@ conda install numpy scipy sympy matplotlib ipython jupyterlab \
               clawpack
 ```
 
-I set PATH to point to anaconda directory
+I set `PATH` to point to conda directory
 
 ```bash
-export PATH=/path/to/anaconda/bin:$PATH
+export PATH=/path/to/conda/bin:$PATH
 ```
 
 See installed packages
@@ -82,9 +82,9 @@ conda update --all
 conda install tensorflow-eigen
 ```
 
-## Install Mayavi: using anaconda
+## Install Mayavi: using conda
 
-Make sure you are using pip from anaconda
+Make sure you are using pip from conda
 
 ```shell
 conda install mayavi
@@ -99,7 +99,7 @@ pip install --upgrade PyQt5 PyQt5-sip
 
 ## Install Mayavi: using pip
 
-Anaconda may not have the latest mayavi, then use pip.  Make sure you are using pip from anaconda.
+Conda may not have the latest mayavi, then use pip.  Make sure you are using pip from Conda.
 
 ```shell
 pip install mayavi

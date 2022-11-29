@@ -6,7 +6,7 @@ layout: default
 
 These tips are based on using the Ubuntu version of [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
 
-Windows drives (usually called C and D) are available in `/mnt` and you can work in these drives from the Linux command line, but the performance may be bit slow. For example, you can create directories in D drive and make symlinks from your home directory under Linux
+Windows drives (usually called C and D) are available in `/mnt` and you can work in these drives from the Linux command line, but the performance may be bit slow. For example, you can create directories in `D` drive and make symlinks from your home directory under Linux
 
 ```shell
 cd $HOME
@@ -16,7 +16,7 @@ mkdir /mnt/d/Tex
 ln -s /mnt/d/Tex Tex
 ```
 
-In addition, you can create symlinks to some useful Windows folders (replace USERNAME with your Windows user name)
+In addition, you can create symlinks to some useful Windows folders (replace `USERNAME` with your Windows user name)
 
 ```shell
 cd $HOME
@@ -25,7 +25,7 @@ ln -s /mnt/c/Users/USERNAME/Documents Documents
 ln -s /mnt/c/Users/USERNAME/Downloads Downloads
 ```
 
-In Ubuntu, we install some important programs using apt
+In Ubuntu, we install some important programs using `apt`
 
 ```shell
 sudo apt install gcc gfortran
