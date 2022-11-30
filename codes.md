@@ -13,6 +13,10 @@ The following repos contain codes I have developed for teaching purpose.
 <ul>
 
 <li>
+<a href="https://github.com/cpraveen/python" target="_blank">Python</a>: A short introduction to Python relevant for numerical analysis courses that I teach. 
+</li>
+
+<li>
 <a href="https://github.com/cpraveen/na" target="_blank">na</a>: Codes for a numerical analysis course
 </li>
 

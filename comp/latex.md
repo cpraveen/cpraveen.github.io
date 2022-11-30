@@ -115,8 +115,8 @@ Equation, figure and table labels must be of the form <code>\label{eq:foo}</code
 <li>
 While quoting figure, table, etc., add a tilde to make the number appear on same line.
 <pre>
-as shown in figure~(\ref{fig:foo}), the solution ...
-as shown in table~(\ref{tab:foo}), the solution ...
+as shown in figure~\ref{fig:foo}, the solution ...
+as shown in table~\ref{tab:foo}, the solution ...
 </pre>
 </li>
 
@@ -152,6 +152,10 @@ a = b + c
 
 <li>
 An equation must be numbered ONLY if you refer to the equation number within the text.
+</li>
+
+<li>
+Equations must be refered as <code>\eqref{eq:foo}</code> or <code>(\ref{eq:foo})</code>. 
 </li>
 
 <li>Inline math must be completely enclosed in dollars
@@ -257,6 +261,14 @@ a = b + c + e \\
     + f + g + h
 \end{multline}
 </pre>
+</li>
+
+<li>
+Cite references like this
+<pre>
+... has been developed in~\cite{ref1,ref2}, and further extended to ...
+</pre>
+Do put brackets () around them cite, do not use "see \cite{ref1,ref2} ...".
 </li>
 
 </ol>
