@@ -4,7 +4,7 @@ layout: default
 
 # Spectral methods in python
 
-I have re-written the codes given in Trefethen's Spectral Methods in Matlab using python. You can find them in the following links as ipython notebooks.
+I have re-written the codes given in Trefethen's Spectral Methods in Matlab using python. You can find them in the following links as jupyter notebooks.
 
 If you have any suggestions to improve them or find a mistake, then I would like to hear.
 
