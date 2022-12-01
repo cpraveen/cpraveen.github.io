@@ -82,4 +82,6 @@ You can also read the code on [github](https://github.com/cpraveen/chebpy).
 
 <li><a href="http://nbviewer.ipython.org/github/cpraveen/chebpy/blob/master/p32.ipynb" rel="nofollow" target="_blank">Linear BVP with non-homogeneous bc</a></li>
 
+<li><a href="http://nbviewer.ipython.org/github/cpraveen/chebpy/blob/master/p33.ipynb" rel="nofollow" target="_blank">Linear BVP with Neumann bc</a></li>
+
 </ol>
