@@ -72,4 +72,14 @@ You can also read the code on [github](https://github.com/cpraveen/chebpy).
 
 <li><a href="http://nbviewer.ipython.org/github/cpraveen/chebpy/blob/master/p27.ipynb" rel="nofollow" target="_blank">Solve KdV equation</a>, <a href="http://nbviewer.ipython.org/github/cpraveen/chebpy/blob/master/p27b.ipynb" rel="nofollow" target="_blank">with animation</a></li>
 
+<li></li>
+
+<li></li>
+
+<li></li>
+
+<li></li>
+
+<li><a href="http://nbviewer.ipython.org/github/cpraveen/chebpy/blob/master/p32.ipynb" rel="nofollow" target="_blank">Linear BVP with non-homogeneous bc</a></li>
+
 </ol>
