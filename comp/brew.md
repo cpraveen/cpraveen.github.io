@@ -4,7 +4,7 @@ layout: default
 
 # Homebrew
 
-[Homebrew](https://brew.sh) is the best package manager for Mac. Before installing brew make sure XCode is installed. Nowadays, I have switched to [Spack](comp/spack.html) for installing scientific software since brew does not have all the things that I need. I only install a few packages from brew, see below.
+[Homebrew](https://brew.sh) is the best package manager for Mac. Nowadays, I have switched to [Spack](comp/spack.html) for installing scientific software since brew does not have all the things that I need. I only install a few packages from brew, see below.
 
 You need to install command line tools before installing packages with homebrew. Note that you do not need to install XCode. Apple's Command Line Tools can be installed on recent OS versions by running this command in the Terminal
 
@@ -19,7 +19,7 @@ brew doctor
 brew config
 ```
 
-Sometimes you may have to delete existing tools and then upgrade
+Sometimes I have found it necessary to delete existing tools and then install to get the latest version
 
 ```shell
 sudo rm -rf /Library/Developer/CommandLineTools
@@ -66,7 +66,7 @@ brew install wget
 brew install youtube-dl
 ```
 
-Install specific version of gcc
+Install specific version of gcc that you need
 
 ```shell
 brew install gcc@9
@@ -85,30 +85,6 @@ brew list --pinned
 ```
 
 Do not install any MPI library since we will install it with Spack.
-
-There not many scientific softwares available in brew. Some of the available ones are:
-
-```text
-arpack
-boost
-cmake
-eigen
-gsl
-hdf5
-hdf5-mpi (conflicts with hdf5)
-hypre
-metis
-muparser
-netcdf
-openblas
-opencascade
-open-mpi
-petsc
-scalapack
-suite-sparse (contains umfpack)
-sundials
-tbb
-```
 
 ## Binary apps
 

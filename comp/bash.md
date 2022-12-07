@@ -29,7 +29,7 @@ If there is some error message, then you can capture them in the same file like 
 ./a.out > log.txt 2>&1 &
 ```
 
-To ensure that the program does not get killed when you close your terminal or when you are running on a remote computer via ssh, use nohup like this
+To ensure that the program does not get killed when you close your terminal or when you are running on a remote computer via ssh, use `nohup` like this
 
 ```shell
 nohup ./a.out > log.txt 2>&1 &
