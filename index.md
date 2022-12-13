@@ -184,6 +184,7 @@ GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 Decem
 <a href="comp/suse.html">OpenSuse</a> |
 <a href="comp/pbs.html">PBS</a> |
 <a href="comp/conda.html">Python</a> |
+<a href="comp/screen.html">Screen</a> |
 <a href="comp/spack.html">Spack</a> |
 <a href="comp/ssh.html">SSH</a> |
 <a href="comp/texmacs.html">TeXMacs</a> |
