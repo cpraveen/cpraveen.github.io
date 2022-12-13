@@ -138,6 +138,26 @@ Dinshaw Balsara, Univ. of Notre Dame, 24-28 Dec 2019
 Phani Motamarri, CDS, IISc, 28 January 2020
 </li>
 
+<li>
+Ashish Bhole, Postdoc, INRIA/CNRS, 6--29 November, 2022
+</li>
+
+<li>
+Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 10 Nov -- 10 Dec, 2022
+</li>
+
+<li>
+Dinshaw Balsara, Univ. Notre Dame, 30 Nov -- 8 Dec, 2022
+</li>
+
+<li>
+Deepak Bhoriya, Postdoc, Univ. Notre Dame, 2--8 Dec, 2022
+</li>
+
+<li>
+Harish Kumar, Dept. of Mathematics, IIT Delhi, 3--7 December 2022
+</li>
+
 </ol>
 
 ## Visiting students
