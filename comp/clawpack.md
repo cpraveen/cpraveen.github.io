@@ -24,7 +24,7 @@ To activate the environment
 conda activate claw
 ```
 
-Once you are inside this environment, install clawpack using pip, see [here](http://www.clawpack.org/installing_pip.html#installing-pip) for more details.
+Once you are inside this environment, install clawpack using `pip`, see [here](http://www.clawpack.org/installing_pip.html#installing-pip) for more details.
 
 Now you can run Clawpack programs. Once you are done, you can deactivate the environment
 
@@ -59,14 +59,14 @@ The following command does all the steps: compile, run and make plots
 make .plots
 ```
 
-Open _plots/_PlotIndex.html file to see the results.
+Open `_plots/_PlotIndex.html` file to see the results.
 
 ## Install clawpack using conda
 
 This does not seem to give the classic fortran version.
 
 ```shell
-unset CLAW PYTHONPATH   # These might interfere is set to something already.
+unset CLAW PYTHONPATH   # These might interfere if set to something already.
 conda create -n claw
 conda activate claw
 conda install clawpack
@@ -84,7 +84,7 @@ claw.plot()
 
 ## Examples from the book
 
-The original set of examples designed to run with clawpack-4.3 are [here](https://depts.washington.edu/clawpack/clawpack-4.3/book.html). To run these, download Clawpack-4.3 and set CLAW to the path where it is located. Visualizing the results requires matlab.
+The original set of examples designed to run with clawpack-4.3 are [here](https://depts.washington.edu/clawpack/clawpack-4.3/book.html). To run these, download Clawpack-4.3 and set `CLAW` to the path where it is located. Visualizing the results requires matlab.
 
 Some of these have been converted to run with newer version of clawpack, see [here](http://depts.washington.edu/clawpack/users/book.html#book) and [here](http://depts.washington.edu/clawpack/users/claw/doc/gallery/gallery_book.html). You can get the code like this
 
