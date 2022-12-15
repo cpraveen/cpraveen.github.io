@@ -2,16 +2,14 @@
 layout: default
 ---
 
-<p style="text-align:center;">
-<ul>
-<li>
-If you have good computational skills and looking for a postdoc position, then write to me.
-</li>
-<li>
+> If you have good computational skills and looking for a postdoc position, then write to me.
+>
+> I will be teaching <a href="http://cpraveen.github.io/teaching/na2023.html">Numerical Analysis</a> from January 2023.
+
+<div align="center">
+If you have good computational skills and looking for a postdoc position, then write to me.<br/>
 I will be teaching <a href="http://cpraveen.github.io/teaching/na2023.html">Numerical Analysis</a> from January 2023.
-</li>
-</ul>
-</p>
+</div>
 
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
