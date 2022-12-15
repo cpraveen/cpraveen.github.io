@@ -2,10 +2,6 @@
 layout: default
 ---
 
-> If you have good computational skills and looking for a postdoc position, then write to me.
->
-> I will be teaching <a href="http://cpraveen.github.io/teaching/na2023.html">Numerical Analysis</a> from January 2023.
-
 <div align="center">
 If you have good computational skills and looking for a postdoc position, then write to me.<br/>
 I will be teaching <a href="http://cpraveen.github.io/teaching/na2023.html">Numerical Analysis</a> from January 2023.
