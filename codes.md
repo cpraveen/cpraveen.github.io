@@ -13,7 +13,7 @@ The following repos contain codes I have developed for teaching purpose.
 <ul>
 
 <li>
-<a href="https://github.com/cpraveen/python" target="_blank">Python</a>: A short introduction to Python relevant for numerical analysis courses that I teach. 
+<a href="https://github.com/cpraveen/python" target="_blank">python</a>: A short introduction to Python relevant for numerical analysis courses that I teach. 
 </li>
 
 <li>
@@ -45,7 +45,7 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
-<a href="https://github.com/cpraveen/parallel" target="_blank">parallel</a>: Some examples of parallel computing 
+<a href="https://github.com/cpraveen/parallel" target="_blank">parallel</a>: Some examples of parallel computing : MPI, openmp, petsc
 </li>
 
 </ul>
@@ -101,10 +101,6 @@ The following repos contain codes I have developed for teaching purpose.
 
 <li><a href="http://bitbucket.org/cpraveen/optool" target="_blank" title="External link to http://optool.origo.ethz.ch">optool</a>: Parallel Optimization tool based on PSO and surrogate models (closed source)</li>
       
-<li>
-<a href="https://github.com/cpraveen/juliafem" target="_blank">juliafem</a>: A simple FEM code for 2-d poisson equation written in Julia
-</li>
-
 <li>
 dgswm: Discontinuous Galerkin code for rotating shallow water equations on the sphere, written in deal.II
 </li>

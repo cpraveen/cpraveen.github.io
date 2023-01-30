@@ -36,6 +36,10 @@ Stephan B. Pope, Turbulent Flows
 
 </ol>
 
+## Ordinary Differential Equations
+
+1. L. N. Trefethen, A Birkisson, T. A. Driscoll, Exploring ODEs, [Book website](https://people.maths.ox.ac.uk/trefethen/ExplODE)
+
 ## Partial Differential Equations
 
 <ol>
@@ -57,6 +61,10 @@ L. C. Evans, Partial Differential Equations
 </li>
 
 </ol>
+
+## Numerical analysis
+
+1. L. N. Trefethen, Approximation Theory and Approximation Practice, [Book website](https://people.maths.ox.ac.uk/trefethen/ATAP/), [Codes](http://www.chebfun.org/ATAP)
 
 ## Numerical methods for PDE
 
