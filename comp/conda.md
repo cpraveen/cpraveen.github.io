@@ -53,6 +53,12 @@ I set `PATH` to point to conda directory
 export PATH=/path/to/conda/bin:$PATH
 ```
 
+Install matlab jupyter integration if needed
+
+```shell
+pip install jupyter-matlab-proxy
+```
+
 See installed packages
 
 ```shell
