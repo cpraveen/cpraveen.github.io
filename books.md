@@ -6,6 +6,12 @@ layout: default
 
 In this page, you will find a list of essential reading material that is relevant to the kind of work I do. In each section, the books are roughly arranged in the order of increasing complexity.
 
+## Physics
+
+Every student of science and mathematics must read this
+
+* Richard P. Feynman, Lectures on Physics, Vol. 1,2,3 [Read online](https://www.feynmanlectures.caltech.edu)
+
 ## Fluid Dynamics
 
 <ol>
