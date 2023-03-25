@@ -14,7 +14,7 @@
 * Ruchi Sandilya (August 2017 - December 2018); subsequent position: postdoc at WIAS, Germany.
 * Arijit Hazra (January 2018 - January 2020); subsequent position: postdoc at BCAM, Spain.
 * Asha Meena (March 2018 - January 2020); subsequent position: Asst. Prof.,  University of Rajasthan.
-* Saurav Samantaray (Jan 2022 -- present)
+* Saurav Samantaray (Jan 2022 -- Dec 2022); subsequent position: visiting fellow in IIT Madras.
 
 ## Masters thesis
 

@@ -9,8 +9,11 @@ I prefer to install [Miniforge](https://github.com/conda-forge/miniforge) or [Mi
 ```shell
 conda update conda
 conda update --all
-conda install numpy scipy sympy matplotlib ipython jupyterlab
+conda install numpy scipy sympy matplotlib ipython 
+conda install jupyterlab
+conda install jupyter_contrib_nbextensions
 conda install ipympl          # matplotlib widget for jupyter
+conda install ipywidgets
 conda install prettytable
 conda install pandas
 conda install pylint autopep8 # vscode wants these
@@ -30,8 +33,9 @@ conda install clawpack
 or together
 
 ```shell
-conda install numpy scipy sympy matplotlib ipython jupyterlab \
-              ipympl \
+conda install numpy scipy sympy matplotlib ipython \
+              jupyterlab jupyter_contrib_nbextensions \
+              ipympl ipywidgets \
               prettytable \
               pandas \
               pylint autopep8 \
@@ -44,7 +48,7 @@ conda install numpy scipy sympy matplotlib ipython jupyterlab \
               scikit-learn \
               deepxde \
               lfortran \
-              clawpack
+              clawpack six seaborn
 ```
 
 I set `PATH` to point to conda directory
