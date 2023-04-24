@@ -221,8 +221,7 @@ Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split for
 </li>
 
 <li>
-Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid".
-relativistic plasma flow equations
+Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations"
 </li>
 
 <li>

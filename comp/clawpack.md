@@ -35,7 +35,7 @@ conda deactivate
 If you want to delete an environment
 
 ```shell
-conda remove -n claw —-all
+conda remove -n claw --all
 ```
 
 ## Installing Clawpack fortran
@@ -49,6 +49,13 @@ git checkout v5.9.0     # or an older version; `git tag -l` to list options
 git submodule init      # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update    # clones all the submodule repositories
 export CLAW=/full/path/to/clawpack    # in bash
+```
+
+If you want to compile python support do this
+
+```shell
+cd $CLAW
+pip install --user -e .   # note trailing dot indicating "this directory"
 ```
 
 [Test a fortran example](http://www.clawpack.org/first_run_fortran.html#first-run-fortran)
