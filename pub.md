@@ -206,15 +206,15 @@ Boniface Nkonga and Praveen Chandrashekar, "Exact solution for Riemann problems 
 Arpit Babbar, Sudarshan Kumar Kenettinkara and Praveen Chandrashekar, Lax-Wendroff flux reconstruction method for hyperbolic conservation laws, accepted in Journal of Computational Physics, Vol. 467, October 2022. [<a href="https://arxiv.org/abs/2207.02954">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2022.111423">Journal</a>]
 </li>
 
+<li>
+Dinshaw S. Balsara, Arijit Hazra, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations", accepted in Journal of Scientific Computing.
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Dinshaw S. Balsara, Arijit Hazra, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations".
-</li>
 
 <li>
 Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]

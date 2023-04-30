@@ -19,7 +19,6 @@ conda install pandas
 conda install pylint autopep8 # vscode wants these
 conda install clingo          # needed by spack
 conda install meshio          # to read gmsh grids
-conda install nose            # needed to use pyclaw
 conda install fortls          # needed to use vscode fortran
 conda install imageio         # to read images from url
 conda install tensorflow      # if you need this
@@ -27,6 +26,8 @@ conda install tensorflow-probability
 conda install scikit-learn
 conda install deepxde
 conda install lfortran        # jupyter fortran kernel
+conda install nose            # needed to use pyclaw
+conda install six seaborn     # for riemann book/clawpack
 conda install clawpack
 ```
 
@@ -41,14 +42,13 @@ conda install numpy scipy sympy matplotlib ipython \
               pylint autopep8 \
               clingo \
               meshio \
-              nose \
               fortls \
               imageio \
               tensorflow tensorflow-probability \
               scikit-learn \
               deepxde \
               lfortran \
-              clawpack six seaborn
+              clawpack nose six seaborn
 ```
 
 I set `PATH` to point to conda directory
