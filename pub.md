@@ -207,7 +207,11 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara and Praveen Chandrashekar, Lax-Wendro
 </li>
 
 <li>
-Dinshaw S. Balsara, Arijit Hazra, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations", accepted in Journal of Scientific Computing.
+Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2211.09016">Arxiv</a>]
+</li>
+
+<li>
+Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Computational Physics.
 </li>
 
 </ol>
@@ -218,10 +222,6 @@ Dinshaw S. Balsara, Arijit Hazra, Praveen Chandrashekar, Sudip Garain, "Multidim
 
 <li>
 Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
-</li>
-
-<li>
-Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations"
 </li>
 
 <li>
