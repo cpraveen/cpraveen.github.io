@@ -211,7 +211,7 @@ Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidim
 </li>
 
 <li>
-Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Computational Physics.
+Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2210.08568">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2023.112207">Journal</a>]
 </li>
 
 </ol>
@@ -452,6 +452,10 @@ Praveen Chandrashekar, "Discontinuous Galerkin and spectral element method for r
 
 <li>
 Praveen Chandrashekar, "A globally divergence-free discontinuous galerkin method for induction and related equations", invited talk in Int. Conf. on Current Trends in Theoretical and Computational Differential Equations with Applications, South Asian University, 1-5 December, 2017. [<a href="http://math.tifrbng.res.in/~praveen/slides/sau_dec2017.pdf">Slides</a>]
+</li>
+
+<li>
+Arpit Babbar, Praveen Chandrashekar, Sudarshan Kumar Kenettinkara, "Domain-invariant subcell-based blending limiter for Lax-Wendroff Flux Reconstruction", ICIAM August 20-25, 2023, Waseda Univ., Tokyo, Japan.
 </li>
 
 </ol>
