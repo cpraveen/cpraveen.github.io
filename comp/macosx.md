@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Mac OSX
+# Computing on Mac OSX
 
 Mac OSX comes with a huge collection of free tools pre-installed and has almost everything that a developer needs for C/C++ coding. Other things need to be installed. I mainly used two package managers for this.
 
