@@ -32,7 +32,13 @@ sudo xcode-select --install
 
 ## Diff tool
 
-OSX comes with a nice diff tool called opendiff which can be invoked from the command line to compare two files side by side.
+OSX comes with a nice diff tool called opendiff which can be invoked from the command line to compare two files side by side, but this needs XCode. Other options are VSCode,
+
+```shell
+code -n -d file1 file2
+```
+
+or, meld and tkdiff (install via homebrew).
 
 ## Version control
 
@@ -40,7 +46,12 @@ git is already available and I use <a href="https://www.sourcetreeapp.com">Sourc
 
 ## Python
 
-OSX comes with Python2 but may not have all the packages you need. You can install Python using brew but I use <a href="https://www.anaconda.com/download/#macos">Anaconda</a> (in particular MiniConda) to get a Python installation.
+You can install Python using brew but I use <a href="https://github.com/conda-forge/miniforge">miniforge</a> to get a Python installation.
+
+```shell
+brew install miniforge
+conda install ...
+```
 
 ## Plotting/visualization tools
 
