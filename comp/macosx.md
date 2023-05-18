@@ -28,7 +28,7 @@ sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
 
-<a href="https://code.visualstudio.com">VS Code</a> is also an excellent code editor and I use this for Fortran and Python. For Python and Fortran coding, another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with NerdTree for file browsing.
+<a href="https://code.visualstudio.com">VS Code</a> is also an excellent code editor and I use this for Fortran and Python. For Python and Fortran coding, another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with [NerdTree](https://github.com/preservim/nerdtree) for file browsing.
 
 ## Diff tool
 
