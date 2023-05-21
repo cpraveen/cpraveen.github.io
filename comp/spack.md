@@ -81,13 +81,13 @@ Set some package variants in `$HOME/.spack/darwin/packages.yaml` file like this
 ```text
 packages:
    hdf5:
-      variants: +fortran +cxx +hl
+      require: +fortran +cxx +hl
    petsc:
-      variants: +mumps +suite-sparse
+      require: +mumps +suite-sparse
    cgns:
-      variants: +fortran
+      require: +fortran
    trilinos:
-      variants: +rol
+      require: +rol
    all:
       providers:
          mpi: [mpich]

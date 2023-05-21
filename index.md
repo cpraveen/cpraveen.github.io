@@ -3,8 +3,7 @@ layout: default
 ---
 
 <div align="center">
-If you have good computational skills and looking for a postdoc position, then write to me.<br/>
-I will be teaching <a href="http://cpraveen.github.io/teaching/na2023.html">Numerical Analysis</a> from January 2023.
+If you have good computational skills and looking for a postdoc position, then write to me.
 </div>
 
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
@@ -12,7 +11,7 @@ I am an associate professor in the [Center for Applicable Mathematics](http://ww
 If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html).
 
 <p style="text-align:center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br/>
 For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.06140">here</a>.
 </p>
 
