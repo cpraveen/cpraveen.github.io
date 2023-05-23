@@ -95,6 +95,8 @@ packages:
 
 By default, Spack uses openmpi but you can select mpich as above. If you want to use openmpi, then change above line from mpich to openmpi or just dont specify the mpi provider.
 
+My packages.yaml file for MacOS is available [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml).
+
 ## Install softwares
 
 I install deal.II and its dependencies which provides all the softwares that I need for my work. Since I like to compile deal.II myself, I will install only dependencies. But first check that all variants you need are correct by running
@@ -133,7 +135,7 @@ sudo chown praveen:users $SPACK_VIEW
 
 and then run the `spack_view.sh` script. This is useful on a Linux computer where I want to install the software for all users.
 
-Here is a sample [spack_view.sh](https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/spack_view.sh) script which you can edit for your needs. If you use mpich, then change openmpi to mpich in the script file.
+Here is a sample [spack_view.sh](https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/spack_view.sh) script which you can edit for your needs.
 
 You can set some variables in your `.bashrc` or `.profile` file
 
@@ -183,4 +185,6 @@ Find more about installed petsc
 ```shell
 spack spec /c67eysz
 ```
+## Compiling deal.II using spack packages
 
+If you want to compile deal.II on your own, then I have a cmake configure script [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/dealii_spack.sh).
