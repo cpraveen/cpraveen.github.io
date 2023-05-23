@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div align="center">
-If you have good computational skills and looking for a postdoc position, then write to me.
+If you have good computational skills and looking for a postdoc position, then [write](contact.html) to me.
 </div>
 
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).

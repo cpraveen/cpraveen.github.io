@@ -54,17 +54,33 @@ The following repos contain codes I have developed for teaching purpose.
 
 <ul>
 
-<li><a href="http://github.com/cpraveen/fvm2d">fvm2d</a>: 2-D vertex-based finite volume code on triangular grids with&nbsp;Spalart-Allmaras&nbsp;turbulence model.</li>
+<li>
+<a href="http://github.com/cpraveen/fvm2d">fvm2d</a>: 2-D vertex-based finite volume code on triangular grids with&nbsp;Spalart-Allmaras&nbsp;turbulence model.
+</li>
 
-<li><a href="https://github.com/cpraveen/euler2d" target="_blank" title="External link to http://euler2d.sourceforge.net">euler2d</a>: A 2-D inviscid, compressible, finite volume code together with an adjoint solver. It uses triangular grids and automatic differentiation (Tapenade).</li>
+<li>
+<a href="https://github.com/cpraveen/euler2d" target="_blank" title="External link to http://euler2d.sourceforge.net">euler2d</a>: A 2-D inviscid, compressible, finite volume code together with an adjoint solver. It uses triangular grids and automatic differentiation (Tapenade).
+</li>
 
-<li><a href="http://github.com/cpraveen/flo2d" target="_blank" title="External link to http://flo2d.googlecode.com">flo2d</a>: Vertex-centroid finite volume scheme on triangular grids for inviscid and viscous flows</li>
+<li>
+<a href="http://github.com/cpraveen/flo2d" target="_blank" title="External link to http://flo2d.googlecode.com">flo2d</a>: Vertex-centroid finite volume scheme on triangular grids for inviscid and viscous flows
+</li>
 
-<li><a href="http://github.com/cpraveen/flo3d" target="_blank" title="External link to http://flo3d.googlecode.com">flo3d</a>: Vertex-centroid finite volume scheme on tetrahedral grid for inviscid and viscous flows</li>
+<li>
+<a href="http://github.com/cpraveen/flo3d" target="_blank" title="External link to http://flo3d.googlecode.com">flo3d</a>: Vertex-centroid finite volume scheme on tetrahedral grid for inviscid and viscous flows
+</li>
 
-<li><a href="http://bitbucket.org/cpraveen/nuwtun" target="_blank" title="External link to http://nuwtun.berlios.de">nuwtun</a>: 2/3-D structured grid, cell-centered, finite volume code for Euler/NS equations. Also has adjoint in 2-D.</li>
+<li>
+<a href="http://bitbucket.org/cpraveen/nuwtun" target="_blank" title="External link to http://nuwtun.berlios.de">nuwtun</a>: 2/3-D structured grid, cell-centered, finite volume code for Euler/NS equations. Also has adjoint in 2-D.
+</li>
 
-<li><a href="http://sourceforge.net/projects/gfoam/" target="_blank" title="External link to http://sourceforge.net/projects/gfoam/">gFoam</a>: Godunov FV code based on&nbsp;OpenFoam</li>
+<li>
+<a href="http://sourceforge.net/projects/gfoam/" target="_blank" title="External link to http://sourceforge.net/projects/gfoam/">gFoam</a>: Godunov FV code based on OpenFoam
+</li>
+
+<li>
+<a href="https://github.com/cpraveen/ug2lib" target="_blank">ug2lib</a>: Library to manage 2d unstructured grids
+</li>
 
 <li>
 <a href="https://bitbucket.org/cpraveen/ug3/wiki/Home">UG3</a>: 3-D unstructured grid finite volume code for compressible flows
