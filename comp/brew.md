@@ -58,7 +58,6 @@ brew install dos2unix
 brew install enscript
 brew install ffmpeg
 brew install gcc
-brew install gv
 brew install gnuplot
 brew install ispell
 brew install subversion

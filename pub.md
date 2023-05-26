@@ -211,7 +211,7 @@ Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidim
 </li>
 
 <li>
-Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2210.08568">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2023.112207">Journal</a>]
+Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", Journal of Computational Physics, Vol. 488, September 2023. [<a href="https://arxiv.org/abs/2210.08568">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2023.112207">Journal</a>]
 </li>
 
 </ol>

@@ -9,26 +9,28 @@ Mac OSX comes with a huge collection of free tools pre-installed and has almost 
 1. [Homebrew](comp/brew.html)
 1. [Spack](comp/spack.html)
 
-## Searching your desktop
+## Command line tools
 
-<a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled.
-
-## Text editors
-
-For C/C++ coding, I prefer VSCode which is free and can be installed from Homebrew. Also make sure command line tools are installed, you can install it by
+This gives you compilers, git, etc.; you can install it by
 
 ```shell
 sudo xcode-select --install
 ```
 
-Sometimes, I find it necessary to delete the existing command line tools and then install the latest version
+Sometimes, I find it necessary to delete the existing command line tools and then install to get the latest version
 
 ```shell
 sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
 
-<a href="https://code.visualstudio.com">VS Code</a> is also an excellent code editor and I use this for Fortran and Python. For Python and Fortran coding, another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with [NerdTree](https://github.com/preservim/nerdtree) for file browsing.
+## Searching your desktop
+
+<a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled.
+
+## Text editors
+
+For coding, you can use the editor in XCode but XCode is a big package and I prefer not to install it. Instead I use [VSCode](https://code.visualstudio.com)  which is free and can be installed from Homebrew. You can use the Vim plugin in VSCode if you are a Vim user.  Another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with [NerdTree](https://github.com/preservim/nerdtree) for file browsing.
 
 ## Diff tool
 

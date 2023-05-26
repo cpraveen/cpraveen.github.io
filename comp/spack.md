@@ -13,7 +13,7 @@ We will install the gcc and gfortran compilers from the system package manager. 
 ## Preparing a Mac system
 
 * Make sure you have latest command line tools (XCode is not required).
-* Install gcc from Homebrew which also provides the gfortran compiler. See [here](comp/brew.html),
+* Install gcc from Homebrew which also provides the gfortran compiler. See [here](comp/brew.html).
 
 ## Install Spack
 
@@ -165,10 +165,10 @@ spack uninstall --all
 spack install -j4 --fail-fast --only dependencies dealii
 ```
 
-Now we create a new spack view
+Now we create a new spack view,
 
 ```shell
-sh /path/to/spack_view.sh
+sh /path/to/spack_view.sh /path/to/install/spack/view
 ```
 
 ## Finding info on an installed package

@@ -5,6 +5,7 @@
 * [Souvik Roy](http://roysouvik2.github.io/index.html), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
 * [Deep Ray](http://deepray.github.io/index.html),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
 * Arpit Babbar (2020--present)
+* Aadi Bhure (2023--present)
 
 ## Post-docs
 
