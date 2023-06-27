@@ -203,7 +203,7 @@ Boniface Nkonga and Praveen Chandrashekar, "Exact solution for Riemann problems 
 </li>
 
 <li>
-Arpit Babbar, Sudarshan Kumar Kenettinkara and Praveen Chandrashekar, Lax-Wendroff flux reconstruction method for hyperbolic conservation laws, accepted in Journal of Computational Physics, Vol. 467, October 2022. [<a href="https://arxiv.org/abs/2207.02954">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2022.111423">Journal</a>]
+Arpit Babbar, Sudarshan Kumar Kenettinkara and Praveen Chandrashekar, Lax-Wendroff flux reconstruction method for hyperbolic conservation laws, Journal of Computational Physics, Vol. 467, October 2022. [<a href="https://arxiv.org/abs/2207.02954">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2022.111423">Journal</a>]
 </li>
 
 <li>
@@ -226,6 +226,10 @@ Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split for
 
 <li>
 Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for shear shallow water model".
+</li>
+
+<li>
+Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
 </li>
 
 </ol>
