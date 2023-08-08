@@ -459,8 +459,17 @@ Praveen Chandrashekar, "A globally divergence-free discontinuous galerkin method
 </li>
 
 <li>
+Arpit Babbar, Praveen Chandrashekar, "Embedded error-based time stepping for Lax-Wendroff Flux Reconstruction for compressible flows", ICOSAHOM, 14-18 August, 2023, Seoul, Korea.
+</li>
+
+<li>
+Arpit Babbar, Praveen Chandrashekar, Sudarshan Kumar Kenettinkara, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", ICOSAHOM, 14-18 August, 2023, Seoul, Korea.  
+</li>
+
+<li>
 Arpit Babbar, Praveen Chandrashekar, Sudarshan Kumar Kenettinkara, "Domain-invariant subcell-based blending limiter for Lax-Wendroff Flux Reconstruction", ICIAM August 20-25, 2023, Waseda Univ., Tokyo, Japan.
 </li>
+
 
 </ol>
 
