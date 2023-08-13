@@ -4,7 +4,7 @@ layout: default
 
 # Computers at TIFR-CAM
 
-We have two good workstations running Linux in our Centre which are listed below. They are located inside the server room and access is by ssh. Most of the software are already installed, you can set the path by adding following line to your `$HOME/.bash_profile` file
+We have two good workstations running Linux in our Centre which are listed below. They are located inside the server room and access is by ssh without password, i.e., you need to copy your ssh public keys to these computers. Most of the software are already installed, you can set the path by adding following line to your `$HOME/.bash_profile` file
 
 ```bash
 . /home/praveen/.setenv

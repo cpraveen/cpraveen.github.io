@@ -282,4 +282,23 @@ defaults write com.apple.Safari DebugDisableTabHoverPreview 1
 Disable spelling correction, etc.: System Preferences --> Keyboard --> Text
 </li>
 
+<li>
+Getting display of X11 programs running on remote Mac: On your remote Mac, add following to <code>/etc/ssh/sshd_config</code>
+
+<pre>
+X11Forwarding yes
+X11DisplayOffset 10
+X11UseLocalhost yes
+XauthLocation /opt/X11/bin/xauth
+</pre>
+
+and restart ssh service
+
+<pre>
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
+</pre>
+
+</li>
+
 </ol>
