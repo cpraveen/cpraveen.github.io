@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div style="background-color:grey; text-align:center">
-If you have good computational skills and looking for a postdoc position, then <a href="contact.html">write</a> to me.</br>
+If you have good computational skills and looking for a postdoc position, then <a href="contact.html">write</a> to me.
+
 There is a postdoc call open at present, see <a href="https://www.cfd-online.com/Jobs/showjob.php?record_id=18661">here</a>.
 </div>
 
