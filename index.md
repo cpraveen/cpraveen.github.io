@@ -2,15 +2,13 @@
 layout: default
 ---
 
-<div style="background-color:grey; text-align:center">
-If you have good computational skills and looking for a postdoc position, then <a href="contact.html">write</a> to me.
+> If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me.
+> There is a postdoc call open at present, see [here](https://www.cfd-online.com/Jobs/showjob.php?record_id=18661).
 
-There is a postdoc call open at present, see <a href="https://www.cfd-online.com/Jobs/showjob.php?record_id=18661">here</a>.
-</div>
+> If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html) and write to me if you are interested in doing some project.
 
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
-If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html).
 
 <p style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br/>
