@@ -200,8 +200,4 @@ GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 Decem
 <a href="comp/comp.html">Computers at TIFR-CAM</a>
 </li>
 
-<li>
-<a href="https://sites.google.com/a/tifrbng.res.in/praveen/computing/tifrcluster">TIFR cluster (DEPRECATED)</a>
-</li>
-
 </ul>
