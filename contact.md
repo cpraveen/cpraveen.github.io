@@ -9,7 +9,7 @@ layout: default
 Praveen. C  
 TIFR-CAM  
 P. B. No. 6503, GKVK PO  
-Bangalore 560065  
+Bangalore -- 560065  
 India
 
 ## Geographical address
@@ -19,9 +19,8 @@ India
 Tata Institute of Fundamental Research  
 Center for Applicable Mathematics  
 Behind Yelahanka New Town Bus Stand  
-Sharada Nagar  
-Chikkabommasandra  
-Bangalore 560065  
+SharadaNagar, Chikkabommasandra  
+Bangalore -- 560065  
 Karnataka, India
 
 ## Office
@@ -44,8 +43,7 @@ cpraveen @ gmail.com
 
 * Email is the preferred way of contacting me.
 * If you are sending a mass email (ie. to multiple recipients) please put the email addresses in the BCC field.
-* Please do not send me any email invitations to join some website.
-* Please do not send me any Microsoft Word or Powerpoint attachments.
+* Please do not send me any email invitations to join some website/group, etc.
 
 <p style="text-align:center;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.343870278963!2d77.576731!3d13.093738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24b3b29221f7ee50!2sTIFR+Centre+for+Applicable+Mathematics!5e0!3m2!1sen!2sus!4v1445236857442" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
