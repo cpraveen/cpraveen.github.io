@@ -7,6 +7,8 @@ layout: default
 
 > If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html) and write to me if you are interested in doing some project.
 
+> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems](2023/08/23/ncmw.html)
+
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
 
