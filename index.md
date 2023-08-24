@@ -9,8 +9,7 @@ layout: default
 
 > [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](2023/08/22/ncmw.html)
 
-I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), [Tata Institute of Fundamental Research](http://www.tifr.res.in), Bangalore. My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
-
+I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
 <p style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br/>
@@ -132,6 +131,14 @@ Discontinuous Galerkin method for shallow water model on the sphere
 
 <li>
 GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 December, 2017.
+</li>
+
+<li>
+Conference on PDE and Numerical Analysis, 28-30 April 2022, online conference organized in memory of Prof. A. S. Vasudeva Murthy.
+</li>
+
+<li>
+NCM Workshop on on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.
 </li>
 
 </ol>
