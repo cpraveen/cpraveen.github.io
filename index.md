@@ -138,7 +138,7 @@ Conference on PDE and Numerical Analysis, 28-30 April 2022, online conference or
 </li>
 
 <li>
-NCM Workshop on on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.
+NCM Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.
 </li>
 
 </ol>
