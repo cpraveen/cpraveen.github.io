@@ -45,6 +45,7 @@ conda remove -n claw --all
 ```shell
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
+git tag                 # see available versions
 git checkout v5.9.0     # or an older version; `git tag -l` to list options
 git submodule init      # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update    # clones all the submodule repositories
@@ -63,14 +64,23 @@ pip install --user -e .   # note trailing dot indicating "this directory"
 The following command does all the steps: compile, run and make plots
 
 ```shell
+cd $CLAW/classic/examples/acoustics_1d_example1
 make .plots
 ```
 
 Open `_plots/_PlotIndex.html` file to see the results.
 
+Make options:
+
+```
+make .exe      # compile
+make .output   # compile and run
+make .plots    # compile, run and make plots
+```
+
 ## Install clawpack using conda
 
-This does not seem to give the classic fortran version.
+This does not seem to give the classic fortran version. But it will also install parallel version which needs PETSc.
 
 ```shell
 unset CLAW PYTHONPATH   # These might interfere if set to something already.
