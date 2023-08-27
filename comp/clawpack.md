@@ -4,40 +4,6 @@ layout: default
 
 # Clawpack
 
-## Installing using Conda
-
-I have installed Clawpack using Conda. It is better to create a separate environment for this purpose
-
-```shell
-conda create -n claw
-```
-
-You can see a list of environments using
-
-```shell
-conda env list
-```
-
-To activate the environment
-
-```shell
-conda activate claw
-```
-
-Once you are inside this environment, install clawpack using `pip`, see [here](http://www.clawpack.org/installing_pip.html#installing-pip) for more details.
-
-Now you can run Clawpack programs. Once you are done, you can deactivate the environment
-
-```shell
-conda deactivate
-```
-
-If you want to delete an environment
-
-```shell
-conda remove -n claw --all
-```
-
 ## Installing Clawpack from source
 
 [See here for installation steps](http://www.clawpack.org/installing_fortcodes.html)
@@ -45,11 +11,11 @@ conda remove -n claw --all
 ```shell
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
-git tag                 # see available versions
-git checkout v5.9.0     # or an older version; `git tag -l` to list options
-git submodule init      # for repositories pyclaw, clawutil, visclaw, etc.
-git submodule update    # clones all the submodule repositories
-export CLAW=/full/path/to/clawpack    # in bash
+git tag -l                    # see available versions
+git checkout v5.9.0           # or an older version
+git submodule init            # for repositories pyclaw, clawutil, visclaw, etc.
+git submodule update          # clones all the submodule repositories
+export CLAW=/path/to/clawpack # in your shell config
 ```
 
 If you want to compile python/pyclaw support do this
@@ -82,7 +48,7 @@ make .plots    # compile, run and make plots
 
 ## Install clawpack using conda
 
-This does not seem to give the classic fortran version. But it will also install parallel version which needs PETSc.
+This does not seem to give the classic fortran version. But it will install pyclaw including parallel version which needs PETSc.
 
 ```shell
 unset CLAW PYTHONPATH   # These might interfere if set to something already.
@@ -101,6 +67,24 @@ claw.run()
 claw.plot()
 ```
 
+To go out of this environment
+
+```shell
+conda deactivate
+```
+
+To delete this environment
+
+```shell
+conda remove -n claw --all
+```
+
+You can see a list of environments using
+
+```shell
+conda env list
+```
+
 ## Examples from the book
 
 The original set of examples designed to run with clawpack-4.3 are [here](https://depts.washington.edu/clawpack/clawpack-4.3/book.html). To run these, download Clawpack-4.3 and set `CLAW` to the path where it is located. Visualizing the results requires matlab.
@@ -113,4 +97,4 @@ git checkout master
 git clone --recursive https://github.com/clawpack/apps
 ```
 
-The book examples are in the directory apps/fvmbook.
+The book examples are in the directory `apps/fvmbook`.
