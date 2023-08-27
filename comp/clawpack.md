@@ -4,7 +4,7 @@ layout: default
 
 # Clawpack
 
-## Installing Clawpack from source
+## Install from source
 
 [See here for installation steps](http://www.clawpack.org/installing_fortcodes.html)
 
@@ -46,7 +46,7 @@ make .output   # compile and run
 make .plots    # compile, run and make plots
 ```
 
-## Install clawpack using conda
+## Install using conda
 
 This does not seem to give the classic fortran version. But it will install pyclaw including parallel version which needs PETSc.
 
