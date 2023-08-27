@@ -38,7 +38,7 @@ If you want to delete an environment
 conda remove -n claw --all
 ```
 
-## Installing Clawpack fortran
+## Installing Clawpack from source
 
 [See here for installation steps](http://www.clawpack.org/installing_fortcodes.html)
 
@@ -52,12 +52,14 @@ git submodule update    # clones all the submodule repositories
 export CLAW=/full/path/to/clawpack    # in bash
 ```
 
-If you want to compile python support do this
+If you want to compile python/pyclaw support do this
 
 ```shell
 cd $CLAW
 pip install --user -e .   # note trailing dot indicating "this directory"
 ```
+
+This should install an egg in your `$HOME/.local/lib` directory.
 
 [Test a fortran example](http://www.clawpack.org/first_run_fortran.html#first-run-fortran)
 
