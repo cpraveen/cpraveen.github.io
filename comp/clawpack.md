@@ -54,8 +54,12 @@ This does not seem to give the classic fortran version. But it will install pycl
 unset CLAW PYTHONPATH   # These might interfere if set to something already.
 conda create -n claw
 conda activate claw
+conda config --add channels conda-forge
+conda config --set channel_priority strict
 conda install clawpack
-conda install nose ipython
+conda install ipython
+conda install nose
+conda install notebook
 ```
 
 Test pyclaw: start ipython and
