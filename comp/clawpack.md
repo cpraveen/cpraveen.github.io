@@ -22,10 +22,14 @@ If you want to compile python/pyclaw support do this
 
 ```shell
 cd $CLAW
+conda install numpy
+conda install matplotlib
+conda install scipy
+conda install petsc4py    # if you want parallel support
 pip install --user -e .   # note trailing dot indicating "this directory"
 ```
 
-This should install an egg in your `$HOME/.local/lib` directory.
+This should install a link in your `$HOME/.local/lib/python#.#/site-packages` directory.
 
 [Test a fortran example](http://www.clawpack.org/first_run_fortran.html#first-run-fortran)
 
@@ -40,7 +44,7 @@ Open `_plots/_PlotIndex.html` file to see the results.
 
 Make options:
 
-```
+```shell
 make .exe      # compile
 make .output   # compile and run
 make .plots    # compile, run and make plots
@@ -102,3 +106,8 @@ git clone --recursive https://github.com/clawpack/apps
 ```
 
 The book examples are in the directory `apps/fvmbook`.
+
+## Documentation
+
+* [Table of contents](https://www.clawpack.org/contents.html)
+* [PyClaw solvers](https://www.clawpack.org/pyclaw/solvers.html)
