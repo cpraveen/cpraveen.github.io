@@ -110,4 +110,5 @@ The book examples are in the directory `apps/fvmbook`.
 ## Documentation
 
 * [Table of contents](https://www.clawpack.org/contents.html)
-* [PyClaw solvers](https://www.clawpack.org/pyclaw/solvers.html)
+* [PyClaw modules](https://www.clawpack.org/pyclaw/index.html#pyclaw-modules-reference-documentation)
+  * [PyClaw solvers](https://www.clawpack.org/pyclaw/solvers.html)
