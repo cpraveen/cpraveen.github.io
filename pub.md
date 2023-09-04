@@ -459,6 +459,10 @@ Praveen Chandrashekar, "A globally divergence-free discontinuous galerkin method
 </li>
 
 <li>
+Arpit Babbar, Praveen Chandrashekar, "Error-based time stepping schemes for Lax-Wendroff Flux Reconstruction", Indo-German Conference on Computational Mathematics, February 2023, IISc, Bangalore.
+</li>
+
+<li>
 Arpit Babbar, Praveen Chandrashekar, "Embedded error-based time stepping for Lax-Wendroff Flux Reconstruction for compressible flows", ICOSAHOM, 14-18 August, 2023, Seoul, Korea.
 </li>
 

@@ -34,6 +34,7 @@ conda install clawpack
 or together
 
 ```shell
+conda update conda && conda update --all && \
 conda install numpy scipy sympy matplotlib ipython \
               jupyterlab jupyter_contrib_nbextensions \
               ipympl ipywidgets \
