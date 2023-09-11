@@ -19,7 +19,7 @@
 
 ## Masters thesis
 
-* Shubham Pandey, IISER Pune, 2014</li>
+* Shubham Pandey, IISER Pune, 2014
 
 ## Bachelor thesis
 
@@ -57,134 +57,47 @@
 
 ## Visiting professors/scientists/postdocs
 
-<ol>
+1. Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 8-16 April, 2017
+1. Shivasubramanian Gopalakrishnan, Dept. of Mech. Engg., IIT Bombay, 19 September, 2017
+1. Christian Klingenberg, Univ. of Wuerzburg, 21-29 September, 2017
+1. Deep Ray, EPFL Lausanne, 2-5 January, 2018
+1. Ganesh Natarajan, Dept. of Mech. Engg., IIT Guwahati, 25-28 Feb 2018
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 22-25 February, 2018
+1. Dinshaw S. Balsara, Dept. of Physics, Univ. of Notre-Dame, 1-8 July 2018
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 1-8 July 2018
+1. Christian Klingenberg, Univ. of Wuerzburg, 7-14 September, 2018
+1. Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 11 Oct to 9 Nov 2018
+1. Dinshaw Balsara, Univ. of Notre Dame, 16-22 Dec 2018
+1. Deep Ray, EPFL Lausanne, 7-9 January, 2019
+1. Boniface Nkonga, Univ. of Cote D'Azur and Inria Sophia-Antipolis, 17 Aug to 17 Sep 2019
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 20--24 August 2019
+1. Konduri Aditya, Dept. of Computational and Data Science, IISc, Bangalore, 20 August 2019.
+1. Christian Klingenberg, Dept. of Mathematics, Univ. of Wuerzburg, 14--24 Sep 2019
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 24--28 December 2019
+1. Biswarup Biswas, Postdoc, Dept. of Mathematics, IIT Delhi, 23--28 December 2019
+1. Dinshaw Balsara, Univ. of Notre Dame, 24-28 Dec 2019
+1. Phani Motamarri, CDS, IISc, 28 January 2020
+1. Ashish Bhole, Postdoc, INRIA/CNRS, 6--29 November, 2022
+1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 10 Nov -- 10 Dec, 2022
+1. Dinshaw Balsara, Univ. Notre Dame, 30 Nov -- 8 Dec, 2022
+1. Deepak Bhoriya, Postdoc, Univ. Notre Dame, 2--8 Dec, 2022
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 3--7 December 2022
+1. Sethupathy Subramanian, Dept. of Physics, Univ. Notre Dame, USA, 1 Sep 2023
+1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 17 Sep -- 14 Oct, 2023
+1. Herve Guillard, Univ. Cote d'Azur and INRIA Sophia Antipolis, 18 Sep -- 15 Oct, 2023
+1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 18--22 September 2023
 
-<li>
-Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 8-16 April, 2017
-</li>
-
-<li>
-Shivasubramanian Gopalakrishnan, Dept. of Mech. Engg., IIT Bombay, 19 September, 2017
-</li>
-
-<li>
-Christian Klingenberg, Univ. of Wuerzburg, 21-29 September, 2017
-</li>
-
-<li>
-Deep Ray, EPFL Lausanne, 2-5 January, 2018
-</li>
-
-<li>
-Ganesh Natarajan, Dept. of Mech. Engg., IIT Guwahati, 25-28 Feb 2018
-</li>
-
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 22-25 February, 2018
-</li>
-
-<li>
-Dinshaw S. Balsara, Dept. of Physics, Univ. of Notre-Dame, 1-8 July 2018
-</li>
-
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 1-8 July 2018
-</li>
-
-<li>
-Christian Klingenberg, Univ. of Wuerzburg, 7-14 September, 2018
-</li>
-
-<li>
-Boniface Nkonga, Univ. of Nice and Inria Sophia-Antipolis, 11 Oct to 9 Nov 2018
-</li>
-
-<li>
-Dinshaw Balsara, Univ. of Notre Dame, 16-22 Dec 2018
-</li>
-
-<li>
-Deep Ray, EPFL Lausanne, 7-9 January, 2019
-</li>
-
-<li>
-Boniface Nkonga, Univ. of Cote D'Azur and Inria Sophia-Antipolis, 17 Aug to 17 Sep 2019
-</li>
-
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 20--24 August 2019
-</li>
-
-<li>
-Konduri Aditya, Dept. of Computational and Data Science, IISc, Bangalore, 20 August 2019.
-</li>
-
-<li>
-Christian Klingenberg, Dept. of Mathematics, Univ. of Wuerzburg, 14--24 Sep 2019
-</li>
-
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 24--28 December 2019
-</li>
-
-<li>
-Biswarup Biswas, Postdoc, Dept. of Mathematics, IIT Delhi, 23--28 December 2019
-</li>
-
-<li>
-Dinshaw Balsara, Univ. of Notre Dame, 24-28 Dec 2019
-</li>
-
-<li>
-Phani Motamarri, CDS, IISc, 28 January 2020
-</li>
-
-<li>
-Ashish Bhole, Postdoc, INRIA/CNRS, 6--29 November, 2022
-</li>
-
-<li>
-Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 10 Nov -- 10 Dec, 2022
-</li>
-
-<li>
-Dinshaw Balsara, Univ. Notre Dame, 30 Nov -- 8 Dec, 2022
-</li>
-
-<li>
-Deepak Bhoriya, Postdoc, Univ. Notre Dame, 2--8 Dec, 2022
-</li>
-
-<li>
-Harish Kumar, Dept. of Mathematics, IIT Delhi, 3--7 December 2022
-</li>
-
-</ol>
 
 ## Visiting students
 
-<ol>
-
-<li>Markus Zenk, PhD student, Univ. of Wuerzburg, 11 Sep, 2014 (DAAD Passage to India)</li>
-
-<li>Juan Pablo Gallego, PhD student, Univ. of Wuerzburg, 11 Sep, 2014</li>
-
-<li>Daniel P. Howard, Master student, Univ. of Wisconsin-Madison, June-August, 2015 (through IUSSTF)</li>
-
-<li>Dominik Zoar, Master Student, Univ. of Wuerzburg, Sep-Oct 2015 (DAAD Passage to India)</li>
-
-<li>Asha Meena, PhD student, Dept. of Math., IIT Delhi, 11-24 Oct., 2015</li>
-
-<li>Jonas Berberich, Master student, Univ. of Wuerzburg, 2-31 May 2016</li>
-
-<li>Asha Meena, PhD student, Dept. of Math., IIT Delhi, 2 May - 5 June, 2016</li>
-
-<li>Ashish Bhole, PhD student, Univ. of Nice, 11 Oct to 18 Nov 2018</li>
-
-<li>Deepak Varma, pre-PhD student, 25 Nov to 14 Dec, 2018.</li>
-
-<li>Ashish Bhole, PhD student, Univ. of Cote D'Azur, 17 Aug to 17 Sep 2019</li>
-
-<li>Anshu Yadav, Dept. of Mathematics, IIT Delhi, 23-28 Dec 2019</li>
-
-</ol>
+1. Markus Zenk, PhD student, Univ. of Wuerzburg, 11 Sep, 2014 (DAAD Passage to India)
+1. Juan Pablo Gallego, PhD student, Univ. of Wuerzburg, 11 Sep, 2014
+1. Daniel P. Howard, Master student, Univ. of Wisconsin-Madison, June-August, 2015 (through IUSSTF)
+1. Dominik Zoar, Master Student, Univ. of Wuerzburg, Sep-Oct 2015 (DAAD Passage to India)
+1. Asha Meena, PhD student, Dept. of Math., IIT Delhi, 11-24 Oct., 2015
+1. Jonas Berberich, Master student, Univ. of Wuerzburg, 2-31 May 2016
+1. Asha Meena, PhD student, Dept. of Math., IIT Delhi, 2 May - 5 June, 2016
+1. Ashish Bhole, PhD student, Univ. of Nice, 11 Oct to 18 Nov 2018
+1. Deepak Varma, pre-PhD student, 25 Nov to 14 Dec, 2018.
+1. Ashish Bhole, PhD student, Univ. of Cote D'Azur, 17 Aug to 17 Sep 2019
+1. Anshu Yadav, Dept. of Mathematics, IIT Delhi, 23-28 Dec 2019
