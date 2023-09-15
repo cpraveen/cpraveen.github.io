@@ -18,18 +18,25 @@ git submodule update          # clones all the submodule repositories
 export CLAW=/path/to/clawpack # in your shell config
 ```
 
+With v5.9.0 there is some bug in the output files which makes visclaw to fail. A fix is available and you must chekout a newer version of pyclaw.
+
+```shell
+cd pyclaw
+git checkout f29ecd4ca39fb11
+```
+
 If you want to compile python/pyclaw support do this
 
 ```shell
-cd $CLAW
-conda install numpy
-conda install matplotlib
-conda install scipy
+conda install numpy matplotlib scipy ipython notebook nose six seaborn
 conda install petsc4py    # if you want parallel support
+cd $CLAW
 pip install --user -e .   # note trailing dot indicating "this directory"
 ```
 
 This should install a link in your `$HOME/.local/lib/python#.#/site-packages` directory.
+
+You can also do this inside a conda environment in order to not mess with your base environment, see below for how to do this.
 
 [Test a fortran example](http://www.clawpack.org/first_run_fortran.html#first-run-fortran)
 
@@ -60,10 +67,7 @@ conda create -n claw
 conda activate claw
 conda config --add channels conda-forge
 conda config --set channel_priority strict
-conda install clawpack
-conda install ipython
-conda install nose
-conda install notebook
+conda install clawpack ipython notebook nose six seaborn
 ```
 
 Test pyclaw: start ipython and
