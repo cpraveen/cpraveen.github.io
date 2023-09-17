@@ -21,7 +21,7 @@ export CLAW=/path/to/clawpack # in your shell config
 With v5.9.0 there is some bug in the output files which makes visclaw to fail. A fix is available and you must chekout a newer version of pyclaw.
 
 ```shell
-cd pyclaw
+cd $CLAW/pyclaw
 git checkout f29ecd4ca39fb11
 ```
 
@@ -29,7 +29,8 @@ If you want to compile python/pyclaw support do this
 
 ```shell
 conda install numpy matplotlib scipy ipython notebook nose six seaborn
-conda install petsc4py    # if you want parallel support
+conda install petsc4py    # if you want parallel support. Add flag
+                          # "-c conda-forge" if not using miniforge.
 cd $CLAW
 pip install --user -e .   # note trailing dot indicating "this directory"
 ```
