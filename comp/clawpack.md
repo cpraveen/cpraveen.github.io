@@ -22,7 +22,7 @@ With v5.9.0 there is some bug in the output files which makes visclaw to fail. A
 
 ```shell
 cd $CLAW/pyclaw
-git checkout f29ecd4ca39fb11
+git checkout 9491eb70
 ```
 
 If you want to compile python/pyclaw support do this
