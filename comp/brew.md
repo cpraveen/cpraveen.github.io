@@ -41,6 +41,7 @@ brew upgrade              -- Upgrade all outdated packages
 brew upgrade -n           -- Do dry run of upgrade
 brew upgrade gcc          -- Upgrade a specific package
 brew cleanup              -- Remove old versions of packages
+brew cleanup --prune=all  -- Remove all downloads
 brew deps gcc             -- Check dependencies for gcc
 brew uses --installed gcc -- Check which installed packages depend on gcc
 brew leaves               -- List packages not required by any installed package
@@ -84,7 +85,18 @@ You can see pinned packages
 brew list --pinned
 ```
 
-Do not install any MPI library since we will install it with Spack.
+Uninstall formulae that were only installed as a dependency of another formula
+and are now no longer needed
+
+```shell
+brew autoremove
+```
+
+To reinstall all installed formulae, e.g., after a major OS upgrade
+
+```shell
+brew list --formula | xargs brew reinstall
+```
 
 ## Binary apps
 

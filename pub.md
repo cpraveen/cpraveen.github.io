@@ -214,6 +214,10 @@ Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidim
 Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-difference entropy stable schemes for two-fluid relativistic plasma flow equations", Journal of Computational Physics, Vol. 488, September 2023. [<a href="https://arxiv.org/abs/2210.08568">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2023.112207">Journal</a>]
 </li>
 
+<li>
+Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", accepted in Journal of Scientific Computing
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -222,10 +226,6 @@ Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-differen
 
 <li>
 Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
-</li>
-
-<li>
-Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for shear shallow water model".
 </li>
 
 <li>
