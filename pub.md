@@ -225,11 +225,15 @@ Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stabl
 <ol>
 
 <li>
-Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
+Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations".
 </li>
 
 <li>
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
+</li>
+
+<li>
+Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
 </li>
 
 </ol>
