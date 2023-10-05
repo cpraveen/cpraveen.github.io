@@ -215,7 +215,7 @@ Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-differen
 </li>
 
 <li>
-Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", accepted in Journal of Scientific Computing
+Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.00353">Arxiv</a>]
 </li>
 
 </ol>
