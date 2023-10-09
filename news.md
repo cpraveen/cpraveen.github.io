@@ -1,8 +1,8 @@
 ---
 layout: default
-title: News
 ---
-<h1>Latest News</h1>
+
+# News
 
 <ul>
   {% for post in site.posts %}

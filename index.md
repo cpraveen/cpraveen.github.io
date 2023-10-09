@@ -49,46 +49,6 @@ My primary research interest is CFD and its applications. I am also interested i
 * Metamodelling, surrogate models
 * Parallel computing
 
-## Research Projects
-
-A list of research topics, some of which are completed, some semi-completed and others still ongoing.
-
-<ol>
-
-<li><a href="http://math.tifrbng.res.in/airbus-chair/dgeuler">Discontinuous Galerkin scheme for Euler and MHD equations on adaptive meshes</a></li>
-
-<li><a href="http://math.tifrbng.res.in/airbus-chair/dgmhdpos">Positivity preserving Discontinuous Galerkin scheme for ideal MHD</a></li>
-
-<li>
-<a href="http://math.tifrbng.res.in/airbus-chair/dgale">An arbitrary Lagrangian-Eulerian discontinuous Galerkin method for compressible flows</a>
-</li>
-
-<li>
-<a href="hyflo.html">Hybridizable discontinuous Galerkin method for compressible Navier-Stokes</a>
-</li>
-
-<li>
-<a href="bvte.html">Discontinuous Galerkin method for barotropic vorticity transport equation on the sphere</a>
-</li>
-
-<li>
-Discontinuous Galerkin methods for anisotropic diffusion
-</li>
-
-<li>
-Finite volume and residual distribution methods for anisotropic diffusion
-</li>
-
-<li>
-Discontinuous Galerkin method for shallow water model on the sphere
-</li>
-
-<li>
-<a href="https://bitbucket.org/cpraveen/ug3/wiki/Home">Finite volume method for compressible RANS on hybrid, unstructured grids</a>
-</li>
-
-</ol>
-
 ## Organizational activities
 
 <ol>
