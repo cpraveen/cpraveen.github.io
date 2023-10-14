@@ -218,15 +218,15 @@ Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-differen
 Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.00353">Arxiv</a>]
 </li>
 
+<li>
+Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing.
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations".
-</li>
 
 <li>
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]

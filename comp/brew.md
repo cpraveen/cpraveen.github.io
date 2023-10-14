@@ -29,22 +29,23 @@ xcode-select --install
 Here are some useful commands.
 
 ```text
-brew install gcc          -- Install some package, e.g., gcc
-brew uninstall gcc        -- Uninstall a package
-brew info gcc             -- Check package information
-brew list                 -- List all installed packages
-brew list gcc             -- Show files installed by gcc
-brew list --verbose gcc   -- Same as above but more detailed
-brew update               -- Update package list (needs internet connection)
-brew outdated             -- See outdated packages
-brew upgrade              -- Upgrade all outdated packages
-brew upgrade -n           -- Do dry run of upgrade
-brew upgrade gcc          -- Upgrade a specific package
-brew cleanup              -- Remove old versions of packages
-brew cleanup --prune=all  -- Remove all downloads
-brew deps gcc             -- Check dependencies for gcc
-brew uses --installed gcc -- Check which installed packages depend on gcc
-brew leaves               -- List packages not required by any installed package
+brew install gcc           -- Install some package, e.g., gcc
+brew uninstall gcc         -- Uninstall a package
+brew uninstall --zap spark -- Uninstall and remove associated files
+brew info gcc              -- Check package information
+brew list                  -- List all installed packages
+brew list gcc              -- Show files installed by gcc
+brew list --verbose gcc    -- Same as above but more detailed
+brew update                -- Update package list (needs internet connection)
+brew outdated              -- See outdated packages
+brew upgrade               -- Upgrade all outdated packages
+brew upgrade -n            -- Do dry run of upgrade
+brew upgrade gcc           -- Upgrade a specific package
+brew cleanup               -- Remove old versions of packages
+brew cleanup --prune=all   -- Remove all downloads
+brew deps gcc              -- Check dependencies for gcc
+brew uses --installed gcc  -- Check which installed packages depend on gcc
+brew leaves                -- List packages not required by any installed package
 ```
 
 We will only install some basic packages from Homebrew and the rest of the scientific softwares using [Spack](comp/spack.html).
