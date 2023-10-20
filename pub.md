@@ -123,7 +123,7 @@ Rakesh Kumar and Praveen Chandrashekar, "Simple smoothness indicator and multi-l
 </li>
 
 <li>
-Tanmay Sarkar and Praveen Chandrashekar, "Stabilized discontinuous Galerkin scheme for the magnetic induction equation", Applied Numerical Mathematics, Vol. 137, pp. 116-135, March 2019. [<a href="https://www.sciencedirect.com/science/article/pii/S0168927418302599">Journal</a>]
+Tanmay Sarkar and Praveen Chandrashekar, "Stabilized discontinuous Galerkin scheme for the magnetic induction equation", Applied Numerical Mathematics, Vol. 137, pp. 116-135, March 2019. [<a href="https://doi.org/10.1016/j.apnum.2018.11.010">Journal</a>]
 </li>
 
 <li>
@@ -143,7 +143,7 @@ Rakesh Kumar and Praveen Chandrashekar, "Efficient Seventh Order WENO    Schemes
 </li>
 
 <li>
-Jonas Berberich, Praveen Chandrashekar, Christian Klingenberg, Fritz      Roepke, "Second order finite volume scheme for Euler equations with gravity    which is well-balanced for general equations of state and grid systems",        Commun. Comput. Phys., vol. 26, issue 2, pp. 599-630, August 2019. [<a href="https://doi.org/10.4208/cicp.OA-2018-0152">Journal</a>]
+Jonas Berberich, Praveen Chandrashekar, Christian Klingenberg, Fritz      Roepke, "Second order finite volume scheme for Euler equations with gravity    which is well-balanced for general equations of state and grid systems",        Commun. Comput. Phys., vol. 26, issue 2, pp. 599-630, August 2019. [<a href="https://arxiv.org/abs/1807.11825">Arxiv</a>], [<a href="https://doi.org/10.4208/cicp.OA-2018-0152">Journal</a>]
 </li>
 
 <li>
@@ -219,7 +219,7 @@ Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stabl
 </li>
 
 <li>
-Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing.
+Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>]
 </li>
 
 </ol>
