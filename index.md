@@ -92,15 +92,15 @@ My primary research interest is CFD and its applications. I am also interested i
 </li>
 
 <li>
-GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 December, 2017.
+<a href="https://maths.iitd.ac.in/drupal/node/159">GIAN course on Computational Solution of Hyperbolic PDE at IIT Delhi, 4-15 December, 2017.</a>
 </li>
 
 <li>
-Conference on PDE and Numerical Analysis, 28-30 April 2022, online conference organized in memory of Prof. A. S. Vasudeva Murthy.
+<a href="https://www.math.tifrbng.res.in/conference-in-honour-of-prof-a-s-vasudeva-murthy">Conference on PDE and Numerical Analysis, 28-30 April 2022, online conference organized in memory of Prof. A. S. Vasudeva Murthy.</a>
 </li>
 
 <li>
-NCM Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.
+<a href="https://www.atmschools.org/school/2023/NCMW/fvsmhp">NCM Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.</a>
 </li>
 
 </ol>
