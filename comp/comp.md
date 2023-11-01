@@ -45,6 +45,7 @@ evince foo.pdf
 See cpu info
 
 ```shell
+lscpu
 cat /proc/cpuinfo
 sudo dmidecode --type processor
 sudo lshw -C cpu

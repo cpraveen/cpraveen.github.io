@@ -2,12 +2,14 @@
 layout: default
 ---
 
+> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](2023/08/22/ncmw.html)
+
+> [PhD in applied and computational mathematics](2023/11/01/phd.html)
+
 > If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me.
-> There is a postdoc call open at present, see [here](https://www.cfd-online.com/Jobs/showjob.php?record_id=18661).
 
 > If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html) and write to me if you are interested in doing some project.
 
-> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](2023/08/22/ncmw.html)
 
 I am an associate professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
