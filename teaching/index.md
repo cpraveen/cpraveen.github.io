@@ -67,7 +67,7 @@ NCM Workshop on Numerical Methods for Partial Differential Equations, IISER Triv
 
 <li><a href="teaching/cm2013.html">Computational Methods, TIFR-CAM, January-April 2013</a></li>
 
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/acfd2013">Advanced CFD, IITGn, March-April, 2013</a></li>
+<li><a href="teaching/acfd2013.html">Advanced CFD, IITGn, March-April, 2013</a></li>
 
 <li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/na2013">Numerical Analysis, TIFR-CAM, August-December 2013</a></li>
 
