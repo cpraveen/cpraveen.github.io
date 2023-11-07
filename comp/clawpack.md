@@ -12,17 +12,10 @@ layout: default
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
 git tag -l                    # see available versions
-git checkout v5.9.0           # or an older version
+git checkout v5.9.1           # or an older version
 git submodule init            # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update          # clones all the submodule repositories
 export CLAW=/path/to/clawpack # in your shell config
-```
-
-With v5.9.0 there is some bug in the output files which makes visclaw to fail. A fix is available and you must chekout a newer version of pyclaw.
-
-```shell
-cd $CLAW/pyclaw
-git checkout 9491eb70
 ```
 
 If you want to compile python/pyclaw support do this
@@ -37,7 +30,7 @@ pip install --user -e .   # note trailing dot indicating "this directory"
 
 This should install a link in your `$HOME/.local/lib/python#.#/site-packages` directory.
 
-You can also do this inside a conda environment in order to not mess with your base environment, see below for how to do this.
+**Recommended**: You can also do this inside a conda environment in order to not mess with your base environment, see below for how to do this.
 
 [Test a fortran example](http://www.clawpack.org/first_run_fortran.html#first-run-fortran)
 
