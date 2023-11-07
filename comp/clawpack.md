@@ -12,7 +12,7 @@ layout: default
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
 git tag -l                    # see available versions
-git checkout v5.9.1           # or an older version
+git checkout v5.9.2           # Checkout version you want
 git submodule init            # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update          # clones all the submodule repositories
 export CLAW=/path/to/clawpack # in your shell config
@@ -21,14 +21,14 @@ export CLAW=/path/to/clawpack # in your shell config
 If you want to compile python/pyclaw support do this
 
 ```shell
-conda install numpy matplotlib scipy ipython notebook nose six seaborn
-conda install petsc4py    # if you want parallel support. Add flag
-                          # "-c conda-forge" if not using miniforge.
+conda install ipython matplotlib meson-python ninja nose notebook numpy scipy seaborn six
+conda install petsc4py    # if you want parallel support.
+                          # Add flah "-c conda-forge" if not using miniforge.
 cd $CLAW
-pip install --user -e .   # note trailing dot indicating "this directory"
+pip install --user --no-build-isolation -e .   # note trailing dot indicating "this directory"
 ```
 
-This should install a link in your `$HOME/.local/lib/python#.#/site-packages` directory.
+This should install some files in your `$HOME/.local/lib/python#.#/site-packages` directory.
 
 **Recommended**: You can also do this inside a conda environment in order to not mess with your base environment, see below for how to do this.
 
