@@ -51,6 +51,16 @@ make .output   # compile and run
 make .plots    # compile, run and make plots
 ```
 
+## Install using script
+
+I have made a shell script which installs clawpack from source and uses conda to get python packages. 
+
+```shell
+wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
+export CLAW=/path/to/clawpack   # where you want to install clawpack sources
+sh ./clawpack.sh v5.9.2
+```
+
 ## Install using conda
 
 This does not seem to give the classic fortran version. But it will install pyclaw including parallel version which needs PETSc.
@@ -59,9 +69,7 @@ This does not seem to give the classic fortran version. But it will install pycl
 unset CLAW PYTHONPATH   # These might interfere if set to something already.
 conda create -n claw
 conda activate claw
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-conda install clawpack ipython notebook nose six seaborn
+conda install -c conda-forge clawpack ipython notebook nose six seaborn
 ```
 
 Test pyclaw: start ipython and
