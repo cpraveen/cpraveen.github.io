@@ -82,6 +82,12 @@ Periodically, delete older versions of packages
 conda clean --all
 ```
 
+Do not add env to prompt, we show it in window bar
+
+```shell
+conda config --set changeps1 False
+```
+
 ## Use Eigen with tensorflow
 
 Install Miniconda and then
