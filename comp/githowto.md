@@ -168,36 +168,15 @@ The last step might indicate some conflicts which have to be resolved.
 
 If your master has changed, you can update your branch. You may also want to squash several commits into one before creating a pull request.
 
-<ol>
-
-<li>
-<code>
-git checkout yourbranchname
-</code>
-</li>
-
-<li>
-<code>
-git rebase -i master
-</code>
-</li>
-
-<li>
-A file in an editor program will be automatically open.
-</li>
-
-<li>
-Change all commits from "pick" to "fixup" but one commit must have "pick"!
-</li>
-
-<li>
-Save the file and close the editor.
-</li>
-
-<li>
-<code>git push -f origin yourbranchname</code>
-</li>
-</ol>
+1. `git checkout master`
+1. `git pull origin master`
+1. `git pull upstream master`
+1. `git checkout yourbranchname`
+1. `git rebase -i master`
+1. A file in an editor program will be automatically open.
+1. Change all commits from "pick" to "fixup" but one commit must have "pick"!
+1. Save the file and close the editor.
+1. `git push -f origin yourbranchname`
 
 ## Delete branch which is not merged
 
