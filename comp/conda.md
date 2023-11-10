@@ -11,7 +11,6 @@ conda update conda
 conda update --all
 conda install numpy scipy sympy matplotlib ipython 
 conda install jupyterlab
-conda install jupyter_contrib_nbextensions
 conda install ipympl          # matplotlib widget for jupyter
 conda install ipywidgets
 conda install prettytable
@@ -20,15 +19,12 @@ conda install pylint autopep8 # vscode wants these
 conda install clingo          # needed by spack
 conda install meshio          # to read gmsh grids
 conda install fortls          # needed to use vscode fortran
+conda install lfortran        # jupyter fortran kernel
 conda install imageio         # to read images from url
 conda install tensorflow      # if you need this
 conda install tensorflow-probability
 conda install scikit-learn
 conda install deepxde
-conda install lfortran        # jupyter fortran kernel
-conda install nose            # needed to use pyclaw
-conda install six seaborn     # for riemann book/clawpack
-conda install clawpack
 ```
 
 or together
@@ -36,7 +32,7 @@ or together
 ```shell
 conda update conda && conda update --all && \
 conda install numpy scipy sympy matplotlib ipython \
-              jupyterlab jupyter_contrib_nbextensions \
+              jupyterlab \
               ipympl ipywidgets \
               prettytable \
               pandas \
@@ -48,8 +44,7 @@ conda install numpy scipy sympy matplotlib ipython \
               tensorflow tensorflow-probability \
               scikit-learn \
               deepxde \
-              lfortran \
-              clawpack nose six seaborn
+              lfortran
 ```
 
 I set `PATH` to point to conda directory

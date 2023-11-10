@@ -6,15 +6,15 @@ Audience: Students in 4'th semester of Int-PhD,  3'rd year of Int-PhD and PhD
 
 ## Syllabus
 
-Linear equations
+Linear equations: 
 Conservation laws and differential equations, characteristics and Riemann problem for hyperbolic systems, finite volume methods, high resolution methods, boundary conditions, convergence, accuracy and stability, variable coefficient linear equations
 
 MUSCL-Hancock, ENO-WENO schemes, time stepping, Central schemes
 
-Nonlinear equations
+Nonlinear equations:
 Scalar problems and finite volume method, nonlinear systems, gas dynamics and Euler equations, FVM for nonlinear systems, approximate Riemann solvers, nonclassical hyperbolic problems, source terms
 
-Multidimensional problems
+Multidimensional problems:
 Some PDE models, fully discrete and semi-discrete methods, methods for scalar and systems of pde
 
 Finite volume on unstructured grids
