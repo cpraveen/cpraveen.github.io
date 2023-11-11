@@ -4,7 +4,29 @@ layout: default
 
 # Python using Conda
 
-I prefer to install [Miniforge](https://github.com/conda-forge/miniforge) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install whatever packages I need. Miniforge can be installed from brew, see below.
+I prefer to install [Miniforge](https://github.com/conda-forge/miniforge) which is a community version of conda and uses conda-forge channel. It installs a minimal set of packages and then you can install whatever additional packages you need. 
+
+## Install miniforge from github
+
+Download the latest miniforge from [here](https://github.com/conda-forge/miniforge/releases) and the install from terminal
+
+```
+sh FILENAME.sh
+```
+
+Follow the instructions.
+
+## Install miniforge via brew
+
+On mac, install using [homebrew](https://brew.sh)
+
+```shell
+brew install --cask miniforge
+conda init zsh  # If you use zsh, this modifies your .zshrc file
+conda activate
+```
+
+Now you can install the packages you need.
 
 ## Install packages
 
@@ -131,18 +153,6 @@ To see packages installed with pip
 ```shell
 conda list | grep pypi
 ```
-
-## Install via brew
-
-miniforge is a community version of miniconda which can be easily installed using brew.
-
-```shell
-brew install --cask miniforge
-conda init zsh  # If you use zsh, this modifies your .zshrc file
-conda activate
-```
-
-Now you can install the packages you need.
 
 ## pylab
 
