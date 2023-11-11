@@ -6,6 +6,8 @@ layout: default
 
 I prefer to install [Miniforge](https://github.com/conda-forge/miniforge) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install whatever packages I need. Miniforge can be installed from brew, see below.
 
+## Install packages
+
 ```shell
 conda update conda
 conda update --all
@@ -40,11 +42,11 @@ conda install numpy scipy sympy matplotlib ipython \
               clingo \
               meshio \
               fortls \
+              lfortran \
               imageio \
               tensorflow tensorflow-probability \
               scikit-learn \
-              deepxde \
-              lfortran
+              deepxde
 ```
 
 I set `PATH` to point to conda directory
@@ -165,7 +167,7 @@ In [3]: plot(x, y)
 
 ## Nbextensions
 
-Install this to get ToC and other features.
+Install this to get ToC and other features in jupyter notebooks.
 
 ```shell
 conda install  jupyter_contrib_nbextensions
