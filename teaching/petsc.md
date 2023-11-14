@@ -40,5 +40,6 @@ For a quick introduction to some of the methods, see the [Hands on Exercises](ht
 
 ## Other resources
 
+1. [Parallel clusters and getting good performance](https://petsc.org/release/faq/#what-kind-of-parallel-computers-or-clusters-are-needed-to-use-petsc-or-why-do-i-get-little-speedup)
 1. [Book on PETSc for PDEs](https://my.siam.org/Store/Product/viewproduct/?ProductId=32850137), [codes used in the book](https://github.com/bueler/p4pdes)
 1. [Lid-driven cavity](https://github.com/xsdk-project/xsdk-examples/tree/master/petsc)

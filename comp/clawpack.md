@@ -119,7 +119,10 @@ The book examples are in the directory `apps/fvmbook`.
 * [Riemann solvers](https://www.clawpack.org/riemann.html)
 * [Shallow water Riemann solvers](https://www.clawpack.org/riemann/Shallow_water_Riemann_solvers.html)
 * [PyClaw modules](https://www.clawpack.org/pyclaw/index.html#pyclaw-modules-reference-documentation)
+  * [Understanding Pyclaw Classes](http://www.clawpack.org/pyclaw/classes.html)
   * [Python Riemann solver package](https://www.clawpack.org/pyclaw/rp.html)
   * [PyClaw solvers](https://www.clawpack.org/pyclaw/solvers.html)
   * [Setup your own problem](https://www.clawpack.org/pyclaw/problem.html)
+* Visclaw
+  * [setplot](http://www.clawpack.org/setplot.html)
 * [Developer's Guide](https://www.clawpack.org/developers.html)

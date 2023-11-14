@@ -42,6 +42,7 @@ conda install pandas
 conda install pylint autopep8 # vscode wants these
 conda install clingo          # needed by spack
 conda install meshio          # to read gmsh grids
+conda install fprettify       # tidy f90 code
 conda install fortls          # needed to use vscode fortran
 conda install lfortran        # jupyter fortran kernel
 conda install imageio         # to read images from url
@@ -63,8 +64,7 @@ conda install numpy scipy sympy matplotlib ipython \
               pylint autopep8 \
               clingo \
               meshio \
-              fortls \
-              lfortran \
+              fprettify fortls lfortran \
               imageio \
               tensorflow tensorflow-probability \
               scikit-learn \

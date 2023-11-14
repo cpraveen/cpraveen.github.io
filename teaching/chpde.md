@@ -17,8 +17,6 @@ Scalar problems and finite volume method, nonlinear systems, gas dynamics and Eu
 Multidimensional problems:
 Some PDE models, fully discrete and semi-discrete methods, methods for scalar and systems of pde
 
-Finite volume on unstructured grids
-Discontinuous Galerkin method, programming in C++/deal.II
 Parallel programming using MPI and PETSc (Fortran/C/C++)
 
 ## References
