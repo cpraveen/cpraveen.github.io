@@ -27,11 +27,11 @@ Finite difference/volume methods for wave problems, NPDE PG level Workshop, IIT 
 </li>
 
 <li>
-<a href="http://conlaw.tifrbng.res.in/">Advanced Summer School on Hyperbolic Conservation Laws, 16 May -- 4 June, 2016, TIFR-CAM</a>
+<a href="http://conlaw.tifrbng.res.in/">Advanced Summer School on Hyperbolic Conservation Laws, 16 May - 4 June, 2016, TIFR-CAM</a>
 </li>
 
 <li>
-<a href="http://www.npde-tca.math.iitb.ac.in/html/advanced.html">NPDE Advanced Level Training Programme, BITS Hyderabad, 25 May--14 June, 2016</a><br>
+<a href="http://www.npde-tca.math.iitb.ac.in/html/advanced.html">NPDE Advanced Level Training Programme, BITS Hyderabad, 25 May-14 June, 2016</a><br>
 </li>
 
 <li>
@@ -39,21 +39,21 @@ GIAN course on Computational solution of hyperbolic PDES, Dept. of Mathematics, 
 </li>
 
 <li>
-<a href="https://www.atmschools.org/school/2019/NCMW/scltn">NCM workshop on System of conservation laws: Theory and numerics, 5--17 August 2019</a> [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.pdf">Notes</a>], [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.tgz">Codes</a>]
+<a href="https://www.atmschools.org/school/2019/NCMW/scltn">NCM workshop on System of conservation laws: Theory and numerics, 5-17 August 2019</a> [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.pdf">Notes</a>], [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.tgz">Codes</a>]
 </li>
 
 <li>
-Lectures on Finite Volume Method, Advanced Training School on Numerical PDE and Inverse Problems (ATSNPDEIP-19), Dept. of Mathematics and Statistics, IIT Tirupati, 9--20 December, 2019
+Lectures on Finite Volume Method, Advanced Training School on Numerical PDE and Inverse Problems (ATSNPDEIP-19), Dept. of Mathematics and Statistics, IIT Tirupati, 9-20 December, 2019
 </li>
 
 <li>
 <a href="teaching/ncm2022.html">
-NCM Workshop on Numerical Methods for Partial Differential Equations, IISER Trivandrum, 19 -- 24 September, 2022.</a>
+NCM Workshop on Numerical Methods for Partial Differential Equations, IISER Trivandrum, 19-24 September, 2022.</a>
 </li>
 
 <li>
 <a href="teaching/ncm2023.html">
-NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR-CAM, 4--15 December 2023, Bangalore.</a>
+NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR-CAM, 4-15 December 2023, Bangalore.</a>
 </li>
 
 </ol>
@@ -93,6 +93,8 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 <li><a href="teaching/cm2022.html">Computational PDE, TIFR-CAM, January-May 2022</a></li>
 
 <li><a href="teaching/na2023.html">Numerical Analysis, TIFR-CAM, January-May 2023</a></li>
+
+<li><a href="teaching/chpde.html">Computational Hyperbolic PDE, TIFR-CAM, January-May 2024</a></li>
 
 </ol>
 

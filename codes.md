@@ -29,6 +29,10 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
+<a href="https://github.com/cpraveen/chpde" target="_blank">chpde</a>: Codes for computational hyperbolic pde course: finite volume
+</li>
+
+<li>
 <a href="teaching/chebpy.html">chebpy</a>: Based on Trefethen: Spectral Methods in Matlab, rewritten in python
 </li>
 
