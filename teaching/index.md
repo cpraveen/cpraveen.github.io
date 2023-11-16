@@ -51,6 +51,11 @@ Lectures on Finite Volume Method, Advanced Training School on Numerical PDE and 
 NCM Workshop on Numerical Methods for Partial Differential Equations, IISER Trivandrum, 19 -- 24 September, 2022.</a>
 </li>
 
+<li>
+<a href="teaching/ncm2023.html">
+NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR-CAM, 4--15 December 2023, Bangalore.</a>
+</li>
+
 </ol>
 
 ## Courses
