@@ -2,7 +2,7 @@
 layout: default
 ---
 
-> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](2023/08/22/ncmw.html)
+> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](teaching/ncm2023.html)
 
 > [PhD in applied and computational mathematics](2023/11/01/phd.html)
 
