@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+# NCM Workshop on finite volume and spectral methods for hyperbolic problems
+
+Numerical examples will require some softwares, and below is a small list.
+
+## Python
+
+To get python and related packages, you should install some distribution of conda. I recommend miniforge but another alternative is Anaconda.
+
+```shell
+conda install numpy scipy sympy matplotlib sympy prettytable jupyterlab
+```
+
+## Fortran/C/C++
+
+Install gcc compiler using your package manager. For example, using apt on Debian
+
+```
+sudo apt install build-essential
+```
+
+## Clawpack
+
+See [here](comp/clawpack.html) for detailed instructions. You can just run a shell script to do the installation which requires conda to be already installed.
+
+```shell
+wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
+export CLAW=/path/to/clawpack   # where you want to install clawpack sources
+sh ./clawpack.sh v5.9.2
+```
