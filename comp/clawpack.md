@@ -21,7 +21,7 @@ export CLAW=/path/to/clawpack # in your shell config
 If you want to compile python/pyclaw support do this
 
 ```shell
-conda install ipython matplotlib meson-python ninja nose notebook numpy scipy seaborn six
+conda install ipython jupyterlab matplotlib meson-python ninja nose numpy scipy seaborn six
 conda install petsc4py    # if you want parallel support.
                           # Add flah "-c conda-forge" if not using miniforge.
 cd $CLAW
@@ -69,7 +69,7 @@ This does not seem to give the classic fortran version. But it will install pycl
 unset CLAW PYTHONPATH   # These might interfere if set to something already.
 conda create -n claw
 conda activate claw
-conda install -c conda-forge clawpack ipython notebook nose six seaborn
+conda install -c conda-forge clawpack ipython jupyterlab nose six seaborn
 ```
 
 Test pyclaw: start ipython and
