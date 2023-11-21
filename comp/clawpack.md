@@ -53,12 +53,12 @@ make .plots    # compile, run and make plots
 
 ## Install using script
 
-I have made a shell script which installs clawpack from source and uses conda to get python packages. 
+I have made a [shell script](https://github.com/cpraveen/cfdlab/blob/master/bin/clawpack.sh) which installs clawpack from source and uses conda to get python packages. 
 
 ```shell
 wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
 export CLAW=/path/to/clawpack   # where you want to install clawpack sources
-sh ./clawpack.sh v5.9.2
+bash ./clawpack.sh v5.9.2
 ```
 
 ## Install using conda
