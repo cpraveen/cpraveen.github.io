@@ -19,6 +19,11 @@ Some PDE models, fully discrete and semi-discrete methods, methods for scalar an
 
 Parallel programming using MPI and PETSc (Fortran/C/C++)
 
+## Codes
+
+* [https://github.com/cpraveen/numpde](https://github.com/cpraveen/numpde)
+* [https://github.com/cpraveen/chpde](https://github.com/cpraveen/chpde)
+
 ## References
 
 * Randall J. LeVeque: Finite volume methods for hyperbolic problems, Cambridge Univ. Press.
