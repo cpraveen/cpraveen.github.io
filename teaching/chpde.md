@@ -21,13 +21,13 @@ Parallel programming using MPI and PETSc (Fortran/C/C++)
 
 ## Codes
 
-* [https://github.com/cpraveen/numpde](https://github.com/cpraveen/numpde)
-* [https://github.com/cpraveen/chpde](https://github.com/cpraveen/chpde)
+* [github.com/cpraveen/numpde](https://github.com/cpraveen/numpde)
+* [github.com/cpraveen/chpde](https://github.com/cpraveen/chpde)
 
 ## References
 
 * Randall J. LeVeque: Finite volume methods for hyperbolic problems, Cambridge Univ. Press.
-* D. I. Ketcheson, R. J. LeVeque and Mauricio J. del Razo, Riemann problems and Jupyter solutions, SIAM.
+* D. I. Ketcheson, R. J. LeVeque and Mauricio J. del Razo, Riemann problems and Jupyter solutions, SIAM. [html](https://www.clawpack.org/riemann_book/html/Index.html), [code](https://github.com/clawpack/riemann_book)
 * E. F. Toro, Riemann solvers and numerical methods for fluid dynamics, Springer.
 * E. Godlewski and P-A. Raviart, Numerical approximation of hyperbolic systems of conservation laws, Springer.
 
