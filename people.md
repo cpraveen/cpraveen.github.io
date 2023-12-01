@@ -16,6 +16,7 @@
 * Arijit Hazra (January 2018 - January 2020); subsequent position: postdoc at BCAM, Spain.
 * Asha Meena (March 2018 - January 2020); subsequent position: Asst. Prof.,  University of Rajasthan.
 * Saurav Samantaray (Jan 2022 -- Dec 2022); subsequent position: visiting fellow in IIT Madras.
+* Sandeep Kumar (Dec 2023 -- present)
 
 ## Masters thesis
 
