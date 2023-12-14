@@ -268,7 +268,7 @@ Cite references like this
 <pre>
 ... has been developed in~\cite{ref1,ref2}, and further extended to ...
 </pre>
-Do put brackets () around them cite, do not use "see \cite{ref1,ref2} ...".
+Do not put brackets () around cite, do not use "see" in "see \cite{ref1,ref2} ...".
 </li>
 
 </ol>
