@@ -99,6 +99,20 @@ You can see a list of environments using
 conda env list
 ```
 
+## Riemann solver book
+
+See here [github.com/clawpack/riemann_book](https://github.com/clawpack/riemann_book) and install like this (do this inside your claw conda environment)
+
+```shell
+git clone https://github.com/clawpack/riemann_book
+cd riemann_book
+pip install -r requirements.txt
+jupyter nbextension enable --py widgetsnbextension
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+jupyter nbextension enable equation-numbering/main
+```
+
 ## Examples from the book
 
 The original set of examples designed to run with clawpack-4.3 are [here](https://depts.washington.edu/clawpack/clawpack-4.3/book.html). To run these, download Clawpack-4.3 and set `CLAW` to the path where it is located. Visualizing the results requires matlab.

@@ -2,8 +2,6 @@
 layout: default
 ---
 
-> [Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023](teaching/ncm2023.html)
-
 > [PhD in applied and computational mathematics, 2024](2023/11/01/phd.html)
 
 > [Elective course on Computational Hyperbolic PDE, Jan-May 2024](teaching/chpde.html)
