@@ -17,6 +17,7 @@
 * Asha Meena (March 2018 - January 2020); subsequent position: Asst. Prof.,  University of Rajasthan.
 * Saurav Samantaray (Jan 2022 -- Dec 2022); subsequent position: visiting fellow in IIT Madras.
 * Sandeep Kumar (Dec 2023 -- present)
+* Jalil Khan (Dec 2023 -- present)
 
 ## Masters thesis
 
@@ -87,6 +88,7 @@
 1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 17 Sep -- 14 Oct, 2023
 1. Herve Guillard, Univ. Cote d'Azur and INRIA Sophia Antipolis, 18 Sep -- 15 Oct, 2023
 1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 18--22 September 2023
+1. Dinshaw Balsara, Univ. Notre Dame, 8--10 Jan, 2024
 
 
 ## Visiting students
