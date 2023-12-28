@@ -232,26 +232,23 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy s
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
 </li>
 
+
+<li>
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Finite volume approximations of shear shallow water model on unstructured grids.
+</li>
+
+</ol>
+
+
+## Unpublished
+
+<ol>
+
 <li>
 Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
 </li>
 
 </ol>
-
-## Papers under preparation
-
-<ol>
-
-<li>
-Shashwat Tiwari, Praveen Chandrashekar and Boniface Nkonga, Shear shallow water flows using unstructured grids.
-</li>
-
-<li>
-Rakesh Kumar and Praveen Chandrashekar, WENO limiter for divergence-free MHD
-</li>
-
-</ol>
-
 
 ## Book chapters
 
