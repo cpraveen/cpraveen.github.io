@@ -168,4 +168,20 @@ Two lectures given to bachelors students at St. Joseph College on ``Numerical me
 "Lax-Wendroff flux reconstruction method for convection-dominated problems", Seminar, Dept. of Mathematics, IIT Delhi, 10 November 2021. [<a href="http://math.tifrbng.res.in/~praveen/slides/iitd_10Nov2021.pdf">Slides</a>]
 </li>
 
+<li>
+"Shear shallow water model and its numerical approximation", National Symposium on Mathematics and Applications, Dept. of Mathematics, IIT Madras, 22 December 2023.
+</li>
+
+<li>
+"Shear shallow water model and its numerical approximation", Dept. of Mathematics, IIT Palakkad, 19 January 2024.
+</li>
+
+<li>
+Dept. of Mechanical Engg., IIT Pakakkad, 22 January 2024.
+</li>
+
+<li>
+IISER Trivandrum, February 2024.
+</li>
+
 </ol>
