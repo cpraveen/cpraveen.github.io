@@ -29,8 +29,8 @@ For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.
 ## Education
 
 * BE, Mechanical Engineering, KREC, Surathkal, 1994-1998
-* ME, Aerospace Engineering, IISc, Bangalore, 1998-2000 (SR No. 605198127)
-* PhD, Aerospace Engineering, IISc, Bangalore, 2000-2004 (SR No. 115199529)
+* ME, Aerospace Engineering, IISc, Bangalore, 1998-2000
+* PhD, Aerospace Engineering, IISc, Bangalore, 2000-2004
 
 ## Research
 
