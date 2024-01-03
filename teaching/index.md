@@ -94,7 +94,7 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 
 <li><a href="teaching/na2023.html">Numerical Analysis, TIFR-CAM, January-May 2023</a></li>
 
-<li><a href="teaching/chpde.html">Computational Hyperbolic PDE, TIFR-CAM, January-May 2024</a></li>
+<li><a href="teaching/chpde2024.html">Computational Hyperbolic PDE, TIFR-CAM, January-May 2024</a></li>
 
 </ol>
 
