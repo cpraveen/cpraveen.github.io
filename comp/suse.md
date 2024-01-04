@@ -36,6 +36,18 @@ To get common python modules (better to install Python using Conda or Spack in o
 sudo zypper install python3-numpy python3-sympy python3-scipy python3-matplotlib
 ```
 
+To install intel compilers, see [here](https://en.opensuse.org/SDB:Install_oneAPI) and do
+
+```shell
+sudo zypper install intel-basekit intel-hpckit
+```
+
+To delete all of texlive
+
+```shell
+sudo -E zypper rm texlive-*
+```
+
 List files installed by a package
 
 ```shell
@@ -69,17 +81,18 @@ You may also have to enable ssh connections by going into Yast - Firewall - publ
 Opensuse Leap 15.2 has gcc7 as default. We can install newer gcc versions
 
 ```shell
-sudo zypper install gcc9
-sudo zypper install gcc9-c++
-sudo zypper install gcc9-fortran
+export VER=13
+sudo zypper install gcc$VER
+sudo zypper install gcc$VER-c++
+sudo zypper install gcc$VER-fortran
 ```
 
 Now create links to this version
 
 ```shell
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
-sudo update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-9 9
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-$VER $VER
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-$VER $VER
+sudo update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-$VER $VER
 ```
 
 Check available versions; this will show list if there is more than one version available.
