@@ -82,9 +82,7 @@ Opensuse Leap 15.2 has gcc7 as default. We can install newer gcc versions
 
 ```shell
 export VER=13
-sudo zypper install gcc$VER
-sudo zypper install gcc$VER-c++
-sudo zypper install gcc$VER-fortran
+sudo zypper install gcc$VER gcc$VER-c++ gcc$VER-fortran
 ```
 
 Now create links to this version
