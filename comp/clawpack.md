@@ -47,6 +47,7 @@ Make options:
 
 ```shell
 make .exe      # compile
+make .data     # generate claw.data file
 make .output   # compile and run
 make .plots    # compile, run and make plots
 ```

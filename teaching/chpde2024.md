@@ -6,7 +6,7 @@ Place: Auditorium
 ## Students
 
 1. Aadi Bhure
-1. Koushik Samanta
+1. Kousik Samanta
 1. Aniket Pal
 1. Keshav Sharma
 1. Nanda Raghunathan

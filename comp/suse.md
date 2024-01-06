@@ -96,7 +96,9 @@ sudo update-alternatives --install /usr/bin/gfortran gfortran /usr/bin/gfortran-
 Check available versions; this will show list if there is more than one version available.
 
 ```shell
-update-alternatives --config gcc
+sudo update-alternatives --config gcc
+sudo update-alternatives --config g++
+sudo update-alternatives --config gfortran
 ```
 
 ## Setting locale
