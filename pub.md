@@ -475,6 +475,9 @@ Arpit Babbar, Praveen Chandrashekar, Sudarshan Kumar Kenettinkara, "Admissibilit
 Arpit Babbar, Praveen Chandrashekar, Sudarshan Kumar Kenettinkara, "Domain-invariant subcell-based blending limiter for Lax-Wendroff Flux Reconstruction", ICIAM August 20-25, 2023, Waseda Univ., Tokyo, Japan.
 </li>
 
+<li>
+<u>Anshu Yadav</u>, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "Entropy Stable Scheme for Shear Shallow Water model", 26'th Int. Congress of Theoretical and Applied Mechanics, Daegu, Korea, 25-30 August 2024.
+</li>
 
 </ol>
 
