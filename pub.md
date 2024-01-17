@@ -222,15 +222,15 @@ Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stabl
 Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>]
 </li>
 
+<li>
+Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", accepted in Journal of Scientific Computing, 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
-</li>
 
 
 <li>
