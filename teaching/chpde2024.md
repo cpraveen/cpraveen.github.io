@@ -1,7 +1,11 @@
 # Computational hyperbolic PDE (Jan-Apr 2024)
 
-Class: Tuesday at 11 AM, Wednesday at 2 PM, Friday at 9 AM  
-Place: Auditorium
+```text
+Class      : Tuesday at 11 AM, Wednesday at 2 PM, Friday at 9 AM  
+Place      : Auditorium
+Grading    : Homework (30), midterm (30), final (40)
+First class: 3 Jan 2024
+```
 
 ## Students
 
