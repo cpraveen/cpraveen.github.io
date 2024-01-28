@@ -9,14 +9,15 @@ First class: 3 Jan 2024
 
 ## Students
 
-1. Aadi Bhure
-1. Kousik Samanta
-1. Aniket Pal
-1. Keshav Sharma
-1. Nanda Raghunathan
+1. Aadi Bhure (C)
+1. Kousik Samanta (C)
+1. Aniket Pal (C)
+1. Keshav Sharma (C)
+1. Nanda Raghunathan (C)
 1. Arpit Babbar
 1. Jalil Khan
 1. Sandeep Kumar
+1. Venkatesh Parasuram
 
 ## Syllabus
 

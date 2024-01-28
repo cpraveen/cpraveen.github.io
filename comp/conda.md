@@ -46,6 +46,7 @@ conda install fprettify       # tidy f90 code
 conda install fortls          # needed to use vscode fortran
 conda install lfortran        # jupyter fortran kernel
 conda install imageio         # to read images from url
+conda install vtk
 conda install tensorflow      # if you need this
 conda install tensorflow-probability
 conda install scikit-learn
@@ -57,18 +58,12 @@ or together
 ```shell
 conda update conda && conda update --all && \
 conda install numpy scipy sympy matplotlib ipython \
-              jupyterlab \
-              ipympl ipywidgets \
-              prettytable \
-              pandas \
-              pylint autopep8 \
-              clingo \
-              meshio \
+              jupyterlab ipympl ipywidgets \
+              prettytable pandas pylint autopep8 \
+              clingo meshio imageio vtk \
               fprettify fortls lfortran \
-              imageio \
               tensorflow tensorflow-probability \
-              scikit-learn \
-              deepxde
+              scikit-learn deepxde
 ```
 
 I set `PATH` to point to conda directory
