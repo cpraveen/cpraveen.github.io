@@ -301,12 +301,12 @@ Congress of Fluid Mechanics, Schenzen, China, 6-11 December, 1999. [<a href="htt
 <li>
 S. M. Deshpande, K. Anandhanarayanan, C. Praveen and V. Ramesh, "Theory
 and Applications of LSKUM based on Entropy Variables", ICFD Conference on
-Numerical Methods in Fluid Mechanics, Oxford, March, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/icfd_2001.pdf">PDF</a>]
+Numerical Methods in Fluid Mechanics, Oxford, March, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/icfd_2001.pdf">PDF</a>], [<a href="http://eprints.iisc.ernet.in/archive/00000115/01/icfd_2001.pdf">Eprints</a>]
 </li>
 
 <li>
 Praveen C and SM Deshpande, "A new grid-free method for conservation
-laws", presented at the Second ICCFD, Sydney, July 2002. [<a href="http://math.tifrbng.res.in/~praveen/doc/iccfd2002.pdf">PDF</a>]
+laws", presented at the Second ICCFD, Sydney, July 2002. [<a href="http://math.tifrbng.res.in/~praveen/doc/iccfd2002.pdf">PDF</a>], [<a href="http://eprints.iisc.ernet.in/archive/00000112/01/C15.pdf">Eprints</a>]
 </li>
 
 <li>
@@ -493,7 +493,7 @@ Aerospace Engg., IISc, March 2001.
 
 <li>
 Praveen. C, "Positivity and Stability Analysis of LSKUM in one and two
-dimensions", FM Report  2001-FM-05, Dept. of Aerospace Engg., IISc, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/fmreport_lskum_pos.pdf">PDF</a>]
+dimensions", FM Report  2001-FM-05, Dept. of Aerospace Engg., IISc, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/fmreport_lskum_pos.pdf">PDF</a>], [<a href="http://eprints.iisc.ernet.in/archive/00000114/01/pos.pdf">Eprints</a>]
 </li>
 
 <li>
@@ -504,7 +504,7 @@ Praveen. C., "Some results on the least squares formula", FM Report
 <li>
 Praveen. C and S. M. Deshpande, "Rotationally Invariant Grid-less
 Upwind Method for Euler Equations",  FM Report 2001-FM-08, Dept. of
-Aerospace Engg., IISc, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/krime.pdf">PDF</a>]
+Aerospace Engg., IISc, 2001. [<a href="http://math.tifrbng.res.in/~praveen/doc/krime.pdf">PDF</a>], [<a href="http://eprints.iisc.ernet.in/archive/00000117/01/krime.pdf">Eprints</a>]
 </li>
 
 <li>
