@@ -158,6 +158,21 @@ An equation must be numbered ONLY if you refer to the equation number within the
 Equations must be refered as <code>\eqref{eq:foo}</code> or <code>(\ref{eq:foo})</code>. 
 </li>
 
+<li>
+Put space between math symbols and operators. This is unreadable
+<pre>
+\[
+f(x)=x+\sin(x)+\exp(2x)-\log(100x)
+\]
+</pre>
+Put spaces like this
+<pre>
+\[
+f(x) = x + \sin(x) + \exp(2 x) - \log(100 x)
+\]
+</pre>
+</li>
+
 <li>Inline math must be completely enclosed in dollars
 <pre>
 ... and the EOS is $p = \rho R T$ ...
