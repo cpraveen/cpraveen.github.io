@@ -113,6 +113,34 @@ Safari works well; other options are <a href="https://www.mozilla.org/en-US/fire
 softwareupdate -l
 ```
 
+## Creating bootable USB drive on MacOS
+
+Convert iso file to dmg
+
+```shell
+hdiutil convert -format UDRW -o foo foo.iso
+```
+
+This creates `foo.dmg` file. List the drives and find drive `/dev/diskN` associated to the USB device
+
+```shell
+diskutil list
+```
+
+Unmount it
+
+```shell
+diskutil unmountDisk /dev/diskN
+```
+
+Copy the dmg file
+
+```shell
+sudo dd if=foo.dmg of=/dev/rdiskN bs=1m
+```
+
+When it finishes, you can remove the USB drive.
+
 ## Miscellaneous stuff
 
 <ol>
