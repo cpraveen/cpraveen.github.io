@@ -232,13 +232,24 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 
 <ol>
 
-
 <li>
 Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Finite volume approximations of shear shallow water model on unstructured grids.
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws"
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
+</li>
+
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms". [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>]
+</li>
+
+<li>
+"Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping". [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+</li>
+
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in DG/FR framework for linear problems".
 </li>
 
 </ol>

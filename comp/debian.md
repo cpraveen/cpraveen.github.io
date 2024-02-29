@@ -64,6 +64,14 @@ en_US.UTF-8 UTF-8
 
 and run `sudo locale-gen` command in the terminal.
 
+## Changing hostname
+
+Edit `/etc/hostname` and `/etc/hosts` files. If using systemd, run
+
+```shell
+hostnamectl set-hostname HOSTNAME
+```
+
 ## Install packages
 
 I use [Spack](comp/spack.html) to install scientific packages. Before that, install some needed dependencies
