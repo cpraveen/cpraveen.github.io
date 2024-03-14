@@ -87,6 +87,12 @@ Essential compilers can also be installed like this
 sudo apt install build-essential
 ```
 
+To get `GL/gl.h`, install
+
+```shell
+sudo apt install mesa-common-dev
+```
+
 Next see the [Spack](comp/spack.html) tips for installing other softwares. openmpi will also be installed by Spack, so do not install it from apt.
 
 Install locate
@@ -101,4 +107,10 @@ To get ifconfig
 ```shell
 sudo apt install net-tools
 export PATH=$PATH:/sbin
+```
+
+For PDF viewing
+
+```shell
+sudo apt install xpdf evince
 ```

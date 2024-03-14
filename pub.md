@@ -52,7 +52,7 @@ Praveen. C, "Kinetic energy preserving and entropy stable finite volume  schemes
 </li>
 
 <li>
-Deep Ray and Praveen. C, "Entropy stable schemes for compressible Euler  equations", International Journal of Numerical Analysis &amp; Modeling, Series B, vol. 4, no. 4, pp. 335-352, August 2013. [<a href="http://www.math.ualberta.ca/ijnamb/Volume-4-2013/No-4-13/2013-04-02.pdf">Journal</a>]
+Deep Ray and Praveen. C, "Entropy stable schemes for compressible Euler  equations", International Journal of Numerical Analysis &amp; Modeling, Series B, vol. 4, no. 4, pp. 335-352, August 2013. [<a href="https://global-sci.org/intro/article_detail/ijnamb/261.html">Journal</a>]
 </li>
 
 <li>
@@ -219,7 +219,7 @@ Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stabl
 </li>
 
 <li>
-Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chansrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>]
+Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>]
 </li>
 
 <li>
