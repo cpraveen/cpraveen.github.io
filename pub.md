@@ -223,7 +223,7 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy s
 </li>
 
 <li>
-Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", accepted in Journal of Scientific Computing, 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>]
+Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
 </ol>
@@ -250,6 +250,10 @@ Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in DG/FR framework for linear problems".
+</li>
+
+<li>
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for two-fluid plasma flow equations".
 </li>
 
 </ol>
