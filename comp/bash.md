@@ -118,3 +118,11 @@ Ctrl + rr   last remembered search term
 Ctrl + j    run current line
 Ctrl + g    cancel search and restore original
 ```
+
+## Delete files with string like (1) in their name
+
+These files get created sometime in GoogleDrive.
+
+```shell
+find . -type f -name "*\(1\)*" -exec rm {} \;
+```
