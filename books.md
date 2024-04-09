@@ -14,33 +14,12 @@ Every student of science and mathematics must read this
 
 ## Fluid Dynamics
 
-<ol>
-
-<li>
-D. J. Tritton, Physical Fluid Dynamics
-</li>
-
-<li>
-John D. Anderson Jr., Modern compressible flow: With historical perspective
-</li>
-
-<li>
-L. D. Landau and E. M. Lifschitz, Fluid Mechanics
-</li>
-
-<li>
-G. K. Batchelor, An Introduction to Fluid Dynamics
-</li>
-
-<li>
-P. A. Davidson, Turbulence: An introduction for scientists and engineers
-</li>
-
-<li>
-Stephan B. Pope, Turbulent Flows
-</li>
-
-</ol>
+1. D. J. Tritton, Physical Fluid Dynamics
+1. John D. Anderson Jr., Modern compressible flow: With historical perspective
+1. L. D. Landau and E. M. Lifschitz, Fluid Mechanics
+1. G. K. Batchelor, An Introduction to Fluid Dynamics
+1. P. A. Davidson, Turbulence: An introduction for scientists and engineers
+1. Stephan B. Pope, Turbulent Flows
 
 ## Ordinary Differential Equations
 
@@ -48,29 +27,22 @@ Stephan B. Pope, Turbulent Flows
 
 ## Partial Differential Equations
 
-<ol>
-
-<li>
-Karl E. Gustafson, Introduction to PDE and Hilbert Space Methods
-</li>
-
-<li>
-Heinz-Otto Kreiss and Jens Lorenz, Initial-Boundary Value Problems and the Navier-Stokes Equations
-</li>
-
-<li>
-G. B. Whitham, Linear and Non-linear Waves
-</li>
-
-<li>
-L. C. Evans, Partial Differential Equations
-</li>
-
-</ol>
+1. Karl E. Gustafson, Introduction to PDE and Hilbert Space Methods
+1. Heinz-Otto Kreiss and Jens Lorenz, Initial-Boundary Value Problems and the Navier-Stokes Equations
+1. G. B. Whitham, Linear and Non-linear Waves
+1. L. C. Evans, Partial Differential Equations
 
 ## Numerical analysis
 
 1. L. N. Trefethen, Approximation Theory and Approximation Practice, [Book website](https://people.maths.ox.ac.uk/trefethen/ATAP/), [Codes](http://www.chebfun.org/ATAP)
+1. Abner Salgado and Steven Wise, Classical Numerical Analysis: A Comprehensive Course.
+
+## PDE + computations
+
+These books teach a bit of both theory and numerics for ODE and PDE.
+
+1. Vidar Thomee and Stig Larsson, Partial Differential Equations with Numerical Methods
+1. Aslak Tveito and Ragnar Winther, Introduction to Partial Differential Equations: A Computational Approach.
 
 ## Numerical methods for PDE
 
@@ -78,10 +50,6 @@ L. C. Evans, Partial Differential Equations
 
 <li>
 Randall LeVeque, Finite difference methods for ordinary and partial differential equations <a href="https://staff.washington.edu/rjl/fdmbook/">(Book website)</a>
-</li>
-
-<li>
-Vidar Thomee and Stig Larsson, Partial Differential Equations with Numerical Methods
 </li>
 
 <li>

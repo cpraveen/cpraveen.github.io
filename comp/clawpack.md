@@ -4,6 +4,16 @@ layout: default
 
 # Clawpack
 
+## Install using script
+
+I have made a [shell script](https://github.com/cpraveen/cfdlab/blob/master/bin/clawpack.sh) which installs clawpack from source and uses conda to get python packages. 
+
+```shell
+wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
+export CLAW=/path/to/clawpack   # where you want to install clawpack sources
+bash ./clawpack.sh v5.10.0
+```
+
 ## Install from source
 
 [See here for installation steps](http://www.clawpack.org/installing_fortcodes.html)
@@ -12,7 +22,7 @@ layout: default
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
 git tag -l                    # see available versions
-git checkout v5.9.2           # Checkout version you want
+git checkout v5.10.0          # Checkout version you want
 git submodule init            # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update          # clones all the submodule repositories
 export CLAW=/path/to/clawpack # in your shell config
@@ -50,16 +60,6 @@ make .exe      # compile
 make .data     # generate claw.data file
 make .output   # compile and run
 make .plots    # compile, run and make plots
-```
-
-## Install using script
-
-I have made a [shell script](https://github.com/cpraveen/cfdlab/blob/master/bin/clawpack.sh) which installs clawpack from source and uses conda to get python packages. 
-
-```shell
-wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
-export CLAW=/path/to/clawpack   # where you want to install clawpack sources
-bash ./clawpack.sh v5.9.2
 ```
 
 ## Install using conda
