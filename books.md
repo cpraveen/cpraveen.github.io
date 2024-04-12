@@ -212,7 +212,7 @@ Steven Brunton and Nathan Kutz, Data-driven science and engineering (<a href="ht
 
 </ol>
 
-## Video lectures
+## Video and online lectures/resources
 
 <ol>
 
@@ -256,6 +256,18 @@ Steven Brunton and Nathan Kutz, Data-driven science and engineering (<a href="ht
 
 <li>
 <a href="http://www.math.colostate.edu/~bangerth/videos.html" target="_blank">Wolfgang Bangerth: Finite element methods in scientific computing</a> (based on deal.II)
+</li>
+
+<li>
+<a href="https://epcced.github.io/MPI_Intro_Self_Service/">MPI tutorial from EPCC</a>
+</li>
+
+<li>
+<a href="https://swcarpentry.github.io/shell-novice/">Unix shell</a>
+</li>
+
+<li>
+<a href="https://github.com/ARCHER2-HPC/archer2-fortran-intro">Introduction to Modern Fortran</a>
 </li>
 
 </ol>
