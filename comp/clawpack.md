@@ -131,6 +131,7 @@ The book examples are in the directory `apps/fvmbook`.
 ## Documentation
 
 * [Table of contents](https://www.clawpack.org/contents.html)
+* [PyClaw Geometry](https://www.clawpack.org/pyclaw/geometry.html)
 * [Riemann solvers](https://www.clawpack.org/riemann.html)
 * [Shallow water Riemann solvers](https://www.clawpack.org/riemann/Shallow_water_Riemann_solvers.html)
 * [PyClaw modules](https://www.clawpack.org/pyclaw/index.html#pyclaw-modules-reference-documentation)

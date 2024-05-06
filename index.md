@@ -2,10 +2,6 @@
 layout: default
 ---
 
-> [PhD in applied and computational mathematics, 2024](2023/11/01/phd.html)
-
-> [Elective course on Computational Hyperbolic PDE, Jan-May 2024](teaching/chpde2024.html)
-
 > If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me.
 
 > If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html) and write to me if you are interested in doing some project.

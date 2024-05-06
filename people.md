@@ -5,7 +5,6 @@
 * [Souvik Roy](http://roysouvik2.github.io/index.html), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
 * [Deep Ray](http://deepray.github.io/index.html),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
 * Arpit Babbar (2020--present)
-* Aadi Bhure (2023--present)
 
 ## Post-docs
 
@@ -22,6 +21,7 @@
 ## Masters thesis
 
 * Shubham Pandey, IISER Pune, 2014
+* Aadi Bhure, TIFR-CAM, 2023--2024
 
 ## Bachelor thesis
 
@@ -56,6 +56,7 @@
 * Shashwat Tiwari, IIT Guwahati, Jan 2020; joined for Masters in TU, Munich
 * Shreenidhi S, Dept. of Math., IISER Trivandrum
 * Vaishnavi Sharma, Dept. of Mech. Engg., NIT Hamirpur
+* Devansh Tripathi, IISER Trivandrum, June-July, 2024
 
 ## Visiting professors/scientists/postdocs
 
@@ -89,6 +90,7 @@
 1. Herve Guillard, Univ. Cote d'Azur and INRIA Sophia Antipolis, 18 Sep -- 15 Oct, 2023
 1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 18--22 September 2023
 1. Dinshaw Balsara, Univ. Notre Dame, 8--10 Jan, 2024
+1. Deepak Bhoriya, Postdoc, Univ. Notre Dame, 6--9 May, 2024
 
 
 ## Visiting students
@@ -104,3 +106,4 @@
 1. Deepak Varma, pre-PhD student, 25 Nov to 14 Dec, 2018.
 1. Ashish Bhole, PhD student, Univ. of Cote D'Azur, 17 Aug to 17 Sep 2019
 1. Anshu Yadav, Dept. of Mathematics, IIT Delhi, 23-28 Dec 2019
+1. Shubham Goswami, CDS, IISc, 17 April 2024.
