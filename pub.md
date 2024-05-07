@@ -233,7 +233,7 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 <ol>
 
 <li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Finite volume approximations of shear shallow water model on unstructured grids.
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Finite volume approximations of shear shallow water model on unstructured grids. [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
 <li>
@@ -254,6 +254,11 @@ Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in
 
 <li>
 Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for two-fluid plasma flow equations".
+</li>
+
+<li>
+Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
+WENO with Non-Conservative Products".
 </li>
 
 </ol>
