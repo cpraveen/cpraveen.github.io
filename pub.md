@@ -215,15 +215,15 @@ Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "High-order finite-differen
 </li>
 
 <li>
-Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.00353">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-023-02374-4">Journal</a>], [<a href="https://rdcu.be/dq7lf">Read online</a>]
+Anshu Yadav, Harish Kumar, Praveen Chandrashekar, Deepak Bhoriya, "Entropy stable schemes for the shear shallow water model Equations", Journal of Scientific Computing, Vol. 97, Issue 3, Dec 2023. [<a href="https://arxiv.org/abs/2310.00353">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-023-02374-4">Journal</a>], [<a href="https://rdcu.be/dq7lf">Read online</a>]
 </li>
 
 <li>
-Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>]
+Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy stable discontinuous Galerkin schemes for two-fluid relativistic plasma flow equations", Journal of Scientific Computing, Vol. 97, Issue 3, Dec 2023. [<a href="https://arxiv.org/abs/2310.09566">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-023-02387-z">Journal</a>]
 </li>
 
 <li>
-Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
+Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, Issue 2, May 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
 </ol>
