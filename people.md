@@ -4,7 +4,7 @@
 
 * [Souvik Roy](http://roysouvik2.github.io/index.html), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
 * [Deep Ray](http://deepray.github.io/index.html),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
-* Arpit Babbar (2020--present)
+* Arpit Babbar (2020--2024)
 
 ## Post-docs
 
@@ -25,7 +25,7 @@
 
 ## Bachelor thesis
 
-* Nisha Chandramoorthy, IIT Roorkee (jointly with K. Duraisamy), 2013-14; PhD, MIT, 2021.
+* [Nisha Chandramoorthy](https://cse.gatech.edu/people/nisha-chandramoorthy), IIT Roorkee (jointly with K. Duraisamy), 2013-14; PhD, MIT, 2021.
 
 ## Project assistants
 

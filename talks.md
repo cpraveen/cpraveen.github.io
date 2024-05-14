@@ -41,7 +41,7 @@ Lectures on basics of PDE and finite volume method to engineers from Kirloskar-C
 </li>
 
 <li>
-Two lectures given to bachelors students at St. Joseph College on ``Numerical methods for partial differential equations", as part of a workshop  on mathematics sponsored by Indian Academy of Science, 31 Jan 2009. (<a href="http://math.tifrbng.res.in/~praveen/slides/pde1.pdf">Lecture 1</a>), (<a href="http://math.tifrbng.res.in/~praveen/slides/pde2.pdf">Lecture 2</a>)
+Two lectures given to bachelors students at St. Joseph College on "Numerical methods for partial differential equations", as part of a workshop  on mathematics sponsored by Indian Academy of Science, 31 Jan 2009. (<a href="http://math.tifrbng.res.in/~praveen/slides/pde1.pdf">Lecture 1</a>), (<a href="http://math.tifrbng.res.in/~praveen/slides/pde2.pdf">Lecture 2</a>)
 </li>
 
 <li>
@@ -177,11 +177,19 @@ Two lectures given to bachelors students at St. Joseph College on ``Numerical me
 </li>
 
 <li>
-Dept. of Mechanical Engg., IIT Pakakkad, 22 January 2024.
+"Lax-Wendroff Flux Reconstruction for compressible flows", Dept. of Mechanical Engg., IIT Pakakkad, 22 January 2024.
 </li>
 
 <li>
-IISER Trivandrum, February 2024.
+"Lax-Wendroff Flux Reconstruction method for hyperbolic conservation laws", LACAM Conference, IISER Trivandrum, 21-24 February 2024.
+</li>
+
+<li>
+"Entropy stable schemes for hyperbolic conservation laws", Oberseminar, Dept, of Mathematics, Univ. of Wuerzburg, 16 May 2024.
+</li>
+
+<li>
+"Shear shallow water model and its numerical approximation", Oberseminar, Dept, of Mathematics, Univ. of Wuerzburg, 23 May 2024.
 </li>
 
 </ol>
