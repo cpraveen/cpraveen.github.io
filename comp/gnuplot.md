@@ -48,7 +48,19 @@ gfortran anim.f
 
 ## Animate solution from files
 
-```
+Plot by naming files
+
+```gnuplot
 set style data lines
 do for [i=0:6] { plot sprintf('sol-%04d.gnu', i) using 1:2; pause 0.5 }
+```
+
+Plot automatically all files which match some pattern
+
+```gnuplot
+set style data lines
+do for [f in system("ls sol-*.gnu")] { 
+    plot f using 1:2
+    pause 0.5 
+}
 ```
