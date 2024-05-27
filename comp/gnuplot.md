@@ -45,3 +45,10 @@ Compile the fortran program and run it as follows
 gfortran anim.f
 ./a.out | gnuplot
 ```
+
+## Animate solution from files
+
+```
+set style data lines
+do for [i=0:6] { plot sprintf('sol-%04d.gnu', i) using 1:2; pause 0.5 }
+```
