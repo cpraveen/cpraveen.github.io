@@ -20,7 +20,8 @@ For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.
 * 1'st September 2006 to July 2008: Post-doc, Projet OPALE, INRIA, Sophia Antipolis
 * 6 August 2008 to July 2011: Fellow, Tata Institute of Fundamental Research, Center for Applicable Mathematics, Bangalore.
 * July 2011 to June 2018: Reader, Tata Institute of Fundamental Research, Center for Applicable Mathematics, Bangalore.
-* July 2018 to present: Associate Professor (G), Tata Institute of Fundamental Research, Center for Applicable Mathematics, Bangalore.
+* July 2018 to December 2023: Associate Professor (G), Tata Institute of Fundamental Research, Center for Applicable Mathematics, Bangalore.
+* January 2024 to present: Professor (H), Tata Institute of Fundamental Research, Center for Applicable Mathematics, Bangalore.
 
 ## Education
 
