@@ -507,6 +507,10 @@ Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction method for hyperbolic c
 <u>Anshu Yadav</u>, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, "Entropy Stable Scheme for Shear Shallow Water model", 26'th Int. Congress of Theoretical and Applied Mechanics, Daegu, Korea, 25-30 August 2024.
 </li>
 
+<li>
+Boniface Nkonga, Praveen Chandrashekar, Aadi Bhure, "Shear shallow water model : Energy consistent schemes", ECCOMAS, Lisbon, 3-7 June, 2024. [<a href="https://eccomas2024.org/event/contribution/40faf1be-95c5-11ee-8178-000c29ddfc0c">Abstract</a>]
+</li>
+
 </ol>
 
 ## Research reports
