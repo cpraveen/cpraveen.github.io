@@ -207,7 +207,7 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara and Praveen Chandrashekar, Lax-Wendro
 </li>
 
 <li>
-Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations",  Journal of Scientific Computing, Vol. 96, 2023. [<a href="https://arxiv.org/abs/2211.09016">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-023-02238-x">Journal</a>]
+Arijit Hazra, Dinshaw S. Balsara, Praveen Chandrashekar, Sudip Garain, "Multidimensional generalized Riemann problem solver for Maxwell's equations",  Journal of Scientific Computing, Vol. 96, May 2023. [<a href="https://arxiv.org/abs/2211.09016">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-023-02238-x">Journal</a>]
 </li>
 
 <li>
@@ -245,7 +245,7 @@ Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility
 </li>
 
 <li>
-"Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping". [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping". [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
 </li>
 
 <li>
