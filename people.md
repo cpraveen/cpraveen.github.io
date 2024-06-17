@@ -2,9 +2,9 @@
 
 ## PhD students
 
-* [Souvik Roy](http://roysouvik2.github.io/index.html), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
-* [Deep Ray](http://deepray.github.io/index.html),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
-* Arpit Babbar (2020--2024)
+* [Souvik Roy](https://roysouvik2.github.io), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
+* [Deep Ray](https://deepray.github.io),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
+* [Arpit Babbar](https://babbar.dev) (2020--2024)
 
 ## Post-docs
 
@@ -21,7 +21,7 @@
 ## Masters thesis
 
 * Shubham Pandey, IISER Pune, 2014
-* Aadi Bhure, TIFR-CAM, 2023--2024
+* Aadi Bhure, TIFR-CAM, 2023--2024; joined for PhD in NGI/OsloMet
 
 ## Bachelor thesis
 
