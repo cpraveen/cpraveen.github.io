@@ -226,6 +226,10 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy s
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, Issue 2, May 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proc. of ICOSHOM 2023. [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -245,10 +249,6 @@ Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping". [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
-</li>
-
-<li>
 Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in DG/FR framework for linear problems".
 </li>
 
@@ -261,6 +261,8 @@ Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physic
 WENO with Non-Conservative Products".
 </li>
 
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws".
 </ol>
 
 
