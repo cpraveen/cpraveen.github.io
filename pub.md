@@ -263,6 +263,8 @@ WENO with Non-Conservative Products".
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws".
+</li>
+
 </ol>
 
 
