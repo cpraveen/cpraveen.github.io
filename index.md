@@ -7,7 +7,7 @@ layout: default
 > If you are a student looking for internship, project assistant position or postdoc position, please read [this](forstudents.html) and write to me if you are interested in doing some project.
 
 
-I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). My official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
+I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). This is my personal website while my official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
 
 <p style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br/>

@@ -227,7 +227,7 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proc. of ICOSHOM 2023. [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proc. of ICOSAHOM 2023. [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
 </li>
 
 </ol>
