@@ -227,7 +227,11 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proc. of ICOSAHOM 2023. [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proceedings of International Conference   on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+</li>
+
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms", Proceedings of International Conference on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>]
 </li>
 
 </ol>
@@ -242,10 +246,6 @@ Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Fi
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
-</li>
-
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms". [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>]
 </li>
 
 <li>
