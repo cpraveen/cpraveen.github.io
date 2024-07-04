@@ -192,4 +192,8 @@ Two lectures given to bachelors students at St. Joseph College on "Numerical met
 "Shear shallow water model and its numerical approximation", Oberseminar, Dept, of Mathematics, Univ. of Wuerzburg, 23 May 2024.
 </li>
 
+<li>
+"Shear shallow water model and its numerical approximation", Summer School in Saint-Etienne-de-Tinee, 4 July 2024.
+</li>
+
 </ol>
