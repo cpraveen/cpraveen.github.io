@@ -39,7 +39,7 @@ GIAN course on Computational solution of hyperbolic PDES, Dept. of Mathematics, 
 </li>
 
 <li>
-<a href="https://www.atmschools.org/school/2019/NCMW/scltn">NCM workshop on System of conservation laws: Theory and numerics, 5-17 August 2019</a> [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.pdf">Notes</a>], [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.tgz">Codes</a>]
+<a href="https://www.atmschools.org/school/2019/NCMW/scltn">NCM workshop on System of conservation laws: Theory and numerics, TIFR-CAM, Bangalore, 5-17 August 2019</a> [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.pdf">Notes</a>], [<a href="http://math.tifrbng.res.in/~praveen/pub/ncm2019.tgz">Codes</a>]
 </li>
 
 <li>
