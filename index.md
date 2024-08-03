@@ -14,6 +14,16 @@ I am a professor in the [Center for Applicable Mathematics](http://www.math.tifr
 For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.06140">here</a>.
 </p>
 
+## Latest News
+
+<ul>
+  {% for post in site.posts limit:10 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 ## Experience
 
 * 3'rd Jan, 2005 to 14'th August 2006: Scientist, Computational and Theoretical Fluid Dynamics Division, National Aerospace Laboratories, Bangalore
