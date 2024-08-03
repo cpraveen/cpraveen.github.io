@@ -50,7 +50,7 @@ My primary research interest is CFD and its applications. I am also interested i
 
 ## Organizational activities
 
-<ol>
+<ul>
 
 <li>
 <a href="http://math.tifrbng.res.in/~fem2012/Home.html" target="_blank">Instructional workshop on FEM, 2-13 July 2012</a>
@@ -100,7 +100,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="https://www.atmschools.org/school/2023/NCMW/fvsmhp">NCM Workshop on Finite Volume and Spectral Methods for Hyperbolic Problems, December 2023.</a>
 </li>
 
-</ol>
+</ul>
 
 ## Fun in research
 
