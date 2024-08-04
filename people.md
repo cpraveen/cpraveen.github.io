@@ -91,6 +91,7 @@
 1. Harish Kumar, Dept. of Mathematics, IIT Delhi, 18--22 September 2023
 1. Dinshaw Balsara, Univ. Notre Dame, 8--10 Jan, 2024
 1. Deepak Bhoriya, Postdoc, Univ. Notre Dame, 6--9 May, 2024
+1. Deep Ray, Univ. of Maryland, 8-10 August, 2024
 
 
 ## Visiting students

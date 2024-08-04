@@ -17,7 +17,7 @@ For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.
 ## Latest News
 
 <ul>
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url }}">{{ post.date | date_to_string }}: {{ post.title }}</a>
     </li>
