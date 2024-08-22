@@ -54,9 +54,10 @@
 * Anirudh C, IIIT Bangalore, May-July, 2018
 * Aman Saxena, IIT Guwahati, Aug 2018; joined for Masters in TU Munich
 * Shashwat Tiwari, IIT Guwahati, Jan 2020; joined for Masters in TU, Munich
-* Shreenidhi S, Dept. of Math., IISER Trivandrum
+* Shreenidhi S, Dept. of Math., IISER Trivandrum; joined for PhD in Rensselaer Polytechnic Institute
 * Vaishnavi Sharma, Dept. of Mech. Engg., NIT Hamirpur
 * Devansh Tripathi, IISER Trivandrum, June-July, 2024
+* Devansh Sonigra, TIFR-CAM, June-July, 2024
 
 ## Visiting professors/scientists/postdocs
 

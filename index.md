@@ -2,9 +2,11 @@
 layout: default
 ---
 
-> If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me and apply for postdoc position at TIFR-CAM.
+> Teaching: In December 2024, I will be giving some lectures on discontinuous Galerkin methods at the NCM workshop to be held in IIPE, Visakhapatnam. From January 2025, I will be teaching the numerical analysis course at TIFR-CAM for first year master students.
 
-> If you are a student looking for internship, project assistant position or postdoc position in the topic of computational PDE, please read [this](forstudents.html) and write to me if you are interested in doing some project.
+> Postdocs: If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me and apply for postdoc position at TIFR-CAM.
+
+> Projects/internships: If you are a student looking for internship, project assistant position or postdoc position in the topic of computational PDE, please read [this](forstudents.html) and write to me if you are interested in doing some project.
 
 
 I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). This is my personal website while my official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
