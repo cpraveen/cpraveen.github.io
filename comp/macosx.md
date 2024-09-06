@@ -77,7 +77,7 @@ To manage my bibliography, I have come to like <a href="https://www.zotero.org">
 
 <a href="http://texmacs.org/">TexMacs</a> is a wysiwyg editor that seems to be getting very good. I sometimes use it for writing small notes and documents.
 
-<a href="http://get.adobe.com/reader/otherversions/">Acrobat</a>: For viewing pdf files, but I find this a very heavy application and avoid using it normally. I prefer to use builtin Preview. But there are some times when your PDF doesnt display properly and you absolutely need this. Keep it installed for those times.
+The built in Preview app can open and display many file types including pdf. [Skim](https://skim-app.sourceforge.io/) is another good alternative, which I prefer for making pdf presentations, as it is better than Preview. Skim can also open ps/eps files.
 
 <a href="http://djvu.sourceforge.net">djview</a>: For viewing djvu archive files. Most ebooks are packaged as djvu files. The available binaries are old versions; you can install this via brew (<code>brew install djview</code>).
 

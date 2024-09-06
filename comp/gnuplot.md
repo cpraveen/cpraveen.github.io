@@ -64,3 +64,17 @@ do for [f in system("ls sol-*.gnu")] {
     pause 0.5 
 }
 ```
+
+## Setting fonts
+
+```
+set term qt font "Helvetica,30"  # Changes all fonts
+set title   font "Helvetica,30"
+set tics    font "Helvetica,30"
+set xtics   font "Helvetica,30"
+set ytics   font "Helvetica,30"
+set label   font "Helvetica,30"
+set xlabel  font "Helvetica,30"
+set ylabel  font "Helvetica,30"
+set key     font "Helvetica,30"
+```

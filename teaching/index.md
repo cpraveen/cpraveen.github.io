@@ -56,6 +56,10 @@ NCM Workshop on Numerical Methods for Partial Differential Equations, IISER Triv
 NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR-CAM, 4-15 December 2023, Bangalore.</a>
 </li>
 
+<li>
+<a href="https://www.atmschools.org/school/2024/NCMW/nmpde">Numerical methods for PDE, 16--27 Dec 2024, IIPE, Visakhapatnam.</a>
+</li>
+
 </ol>
 
 ## Courses
