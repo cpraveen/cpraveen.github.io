@@ -269,6 +269,10 @@ Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux recon
 Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics".
 </li>
 
+<li>
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations".
+</li>
+
 </ol>
 
 
