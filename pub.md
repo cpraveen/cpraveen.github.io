@@ -226,14 +226,6 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy s
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, Issue 2, May 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proceedings of International Conference   on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
-</li>
-
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms", Proceedings of International Conference on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>]
-</li>
-
 </ol>
 
 ## Papers submitted
@@ -246,10 +238,6 @@ Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Fi
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
-</li>
-
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in DG/FR framework for linear problems". [<a href="https://arxiv.org/abs/2402.18937">ArXiv</a>]
 </li>
 
 <li>
@@ -284,6 +272,10 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S B
 Vikram Singh and Praveen Chandrashekar, On a linear stability issue of split form schemes for compressible flows. [<a href="https://arxiv.org/abs/2104.14941">Arxiv</a>]
 </li>
 
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Equivalence of ADER and Lax-Wendroff in DG/FR framework for linear problems". [<a href="https://arxiv.org/abs/2402.18937">ArXiv</a>]
+</li>
+
 </ol>
 
 ## Book chapters
@@ -313,6 +305,20 @@ Andreas Bauer, Kevin Schaal, Volker Springel, Praveen Chandrashekar, Rudiger Pak
 <li>
 Volker Springel, Christian Klingenberg, Ruediger Pakmor, Thomas Guillet, and Praveen Chandrashekar, "Towards exascale simulations of the magnetic universe", in Lecture Notes in Computational Science and Engineering,  "Software for Exa-Scale Computing -- SPPEXA 2016-2019", Vol. 136, pp. 331-350, Springer (2020). DOI: 10.1007/978-3-030-47956-5
 [<a href="https://ifm.mathematik.uni-wuerzburg.de/~klingen/Publications_files/SPPEXA_Final_Report.pdf">Preprint</a>], [<a href="https://www.springer.com/gp/book/9783030479558">Journal</a>]
+</li>
+
+</ol>
+
+## Conference proceedings
+
+<ol>
+
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for advection-diffusion equations with error-based time stepping", Proceedings of International Conference   on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.12669">Arxiv</a>]
+</li>
+
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms", Proceedings of International Conference on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>]
 </li>
 
 </ol>
