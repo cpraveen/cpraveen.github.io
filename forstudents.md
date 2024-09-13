@@ -8,16 +8,16 @@ I am happy to receive applications from students asking for internships, for the
 
 
 * You need to know some theory. [Here](books.html) is a list of books I recommend.
-* Learn a programming language really well, e.g., Fortran and C/C++. I would recommend learning all three of these. (Matlab is not a programming language.)
+* Learn a programming language really well, e.g., Fortran and C/C++. I would recommend learning all three of these. (Matlab is not a programming language. I dont have any projects that can be done in Matlab.)
 * Learn Python, which is great for scripting, data analysis and visualization.
-* Learn to work on Unix/Linux and the command line. Use a proper text editor like Vi/Vim or Emacs. If you have only worked on Windows, please do not write to me.
-* Learn to use some visualization tools like [gnuplot](http://www.gnuplot.info), [Paraview](http://www.paraview.org) and [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit). Python  also has good support for visualization.
+* Learn to work on Unix/Linux and the command line. Use a proper text editor like Vi/Vim or Emacs.
+* Learn to use some visualization tools like [gnuplot](http://www.gnuplot.info), [Paraview](http://www.paraview.org) and [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit). Python  also has good support for visualization, see also [PyVista](https://docs.pyvista.org/).
 * Learn to use a version control system like [git](http://git-scm.com/book).
 * Learn parallel programming concepts and [MPI](https://computing.llnl.gov/tutorials/mpi).
 * Learn linear algebra libraries like [Petsc](http://www.mcs.anl.gov/petsc) and/or [Trilinos](https://trilinos.org").
 * Learn Latex. Write your reports/cv/application using Latex. [(Video)](https://www.youtube.com/watch?v=NXW4cbHBthY)
 * Put up your scientific computing project work on [github](http://www.github.com), [gitlab](http://www.gitlab.com) or [Bitbucket](http://www.bitbucket.org).
-* Take the many online courses being offered these days on scientific computing topics. Do all the assignments and exams and show me what grade you scored in the course.
+* Take the many online courses being offered these days on scientific computing topics. Do the assignments and exams.
 * Finally, send your cv/application in PDF format ONLY.
 
 When you write to me, it is highly desirable if you can show me some proof for all/some of the above in terms of actual code, results and project reports.  In your CV, mention all the courses, in person or online, that you have done in Physics, Applied Math, Numerical Methods, Scientific Computing, etc.
