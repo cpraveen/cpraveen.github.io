@@ -37,6 +37,7 @@ conda install numpy scipy sympy matplotlib ipython
 conda install jupyterlab
 conda install ipympl          # matplotlib widget for jupyter
 conda install ipywidgets
+conda install pyvista
 conda install prettytable
 conda install pandas
 conda install pylint autopep8 # vscode wants these
@@ -59,7 +60,7 @@ or together
 conda update conda && conda update --all && \
 conda install numpy scipy sympy matplotlib ipython \
               jupyterlab ipympl ipywidgets \
-              prettytable pandas pylint autopep8 \
+              pyvista prettytable pandas pylint autopep8 \
               clingo meshio imageio vtk \
               fprettify fortls lfortran \
               tensorflow tensorflow-probability \

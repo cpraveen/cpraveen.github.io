@@ -4,12 +4,14 @@ layout: default
 
 # Fenics
 
-## Install using Anaconda
+## Install using Conda
 
 Let us create a new environment called `fenics` and install under this.
 
 ```shell
-conda create -n fenics -c conda-forge fenics mshr
+conda create -n fenics
+conda activate fenics
+conda install -c conda-forge fenics-dolfinx mpich pyvista
 ```
 
 You may also want to install some other packages
@@ -21,13 +23,7 @@ conda install -n fenics -c conda-forge ipython notebook matplotlib scipy
 Now activate the environment and do your Fenics work
 
 ```shell
-source activate fenics
-```
-
-After you are done working with Fenics
-
-```shell
-source deactivate
+conda activate fenics
 ```
 
 Show list of installed packages in this environment
@@ -41,8 +37,6 @@ Update the packages in this environment
 ```shell
 conda update -n fenics -c conda-forge --all
 ```
-
-NOTE: Fenics installed via Anaconda does not provide full functionality of Fenics, and Docker images are the best option for this.
 
 ## Installing fenics using Docker
 
