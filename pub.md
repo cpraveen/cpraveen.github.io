@@ -226,15 +226,15 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy s
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, Issue 2, May 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
+<li>
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI J. Comp. Math. [<a href="https://hal.science/hal-04403870">HAL</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, Finite volume approximations of shear shallow water model on unstructured grids. [<a href="https://hal.science/hal-04403870">HAL</a>]
-</li>
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
