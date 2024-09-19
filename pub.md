@@ -230,6 +230,10 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI J. Comp. Math. [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
+<li>
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in J. Sci. Comp.
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -238,10 +242,6 @@ Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "F
 
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
-</li>
-
-<li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for two-fluid plasma flow equations".
 </li>
 
 <li>
@@ -609,7 +609,7 @@ B. R. Rakshith, S. M. Deshpande, C. Praveen and R. Narasimha, "Critical  analysi
 </li>
 
 <li>
-Deep Ray, Praveen Chandrashekar, Ulrik S. Fjordholm and Siddhartha Mishra,&nbsp;<a href="http://www.sam.math.ethz.ch/sam_reports/index.php?id=2014-28">Entropy stable schemes on two-dimensional unstructured grids</a>, Report number 2014-28, SAM, ETH Zurich, October 2014
+Deep Ray, Praveen Chandrashekar, Ulrik S. Fjordholm and Siddhartha Mishra, "Entropy stable schemes on two-dimensional unstructured grids", Report number 2014-28, SAM, ETH Zurich, October 2014. [<a href="http://www.sam.math.ethz.ch/sam_reports/index.php?id=2014-28">PDF</a>]
 </li>
 
 </ol>

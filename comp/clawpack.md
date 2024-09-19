@@ -11,7 +11,7 @@ I have made a [shell script](https://github.com/cpraveen/cfdlab/blob/master/bin/
 ```shell
 wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/clawpack.sh
 export CLAW=/path/to/clawpack   # where you want to install clawpack sources
-bash ./clawpack.sh v5.10.0
+bash ./clawpack.sh v5.11.0
 ```
 
 ## Install from source
@@ -22,7 +22,7 @@ bash ./clawpack.sh v5.10.0
 git clone git@github.com:clawpack/clawpack.git
 cd clawpack
 git tag -l                    # see available versions
-git checkout v5.10.0          # Checkout version you want
+git checkout v5.11.0          # Checkout version you want
 git submodule init            # for repositories pyclaw, clawutil, visclaw, etc.
 git submodule update          # clones all the submodule repositories
 export CLAW=/path/to/clawpack # in your shell config
