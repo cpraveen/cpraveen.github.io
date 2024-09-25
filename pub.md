@@ -179,11 +179,11 @@ Dinshaw S. Balsara, Rakesh Kumar, Praveen C, "Globally divergence-free DG scheme
 </li>
 
 <li>
-Kjetil O. Lye, Siddhartha Mishra, Deep Ray and Praveen Chandrashekar, "Iterative Surrogate Model Optimization (ISMO): An active learning algorithm for PDE constrained optimization with deep neural networks", accepted in Comp. Meth. App. Mech. and Engg., vol. 374, February 2021. [<a href="https://arxiv.org/abs/2008.05730">Arxiv</a>], [<a href="https://doi.org/10.1016/j.cma.2020.113575">Journal</a>]
+Kjetil O. Lye, Siddhartha Mishra, Deep Ray and Praveen Chandrashekar, "Iterative Surrogate Model Optimization (ISMO): An active learning algorithm for PDE constrained optimization with deep neural networks", accepted in Computational Methods in Applied Mechanics and Engineering, vol. 374, February 2021. [<a href="https://arxiv.org/abs/2008.05730">Arxiv</a>], [<a href="https://doi.org/10.1016/j.cma.2020.113575">Journal</a>]
 </li>
 
 <li>
-Jonas Berberich, Praveen Chandrashekar, Christian Klingenberg, "High order well-balanced finite volume methods for multi-dimensional systems of hyperbolic balance laws", Comp. Fluids, vol. 219, April 2021. [<a href="https://arxiv.org/abs/1903.05154">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2021.104858">Journal</a>]
+Jonas Berberich, Praveen Chandrashekar, Christian Klingenberg, "High order well-balanced finite volume methods for multi-dimensional systems of hyperbolic balance laws", Computers and Fluids, vol. 219, April 2021. [<a href="https://arxiv.org/abs/1903.05154">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2021.104858">Journal</a>]
 </li>
 
 <li>
@@ -227,11 +227,11 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 </li>
 
 <li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI J. Comp. Math. [<a href="https://hal.science/hal-04403870">HAL</a>]
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI Journal of Computational Mathematics. [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
 <li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in J. Sci. Comp.
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>]
 </li>
 
 </ol>
@@ -254,7 +254,7 @@ Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux recon
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics".
+Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics". [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>]
 </li>
 
 <li>

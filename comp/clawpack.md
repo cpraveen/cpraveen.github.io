@@ -100,6 +100,14 @@ You can see a list of environments using
 conda env list
 ```
 
+You may have to set some variables to find the petsc and other libraries; if conda is in `/opt/miniforge`, then
+
+```
+export PETSC_DIR=/opt/miniforge/envs/claw
+export PETSC_ARCH=.
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PETSC_DIR
+```
+
 ## Riemann solver book
 
 See here [github.com/clawpack/riemann_book](https://github.com/clawpack/riemann_book) and install like this (do this inside your claw conda environment)
