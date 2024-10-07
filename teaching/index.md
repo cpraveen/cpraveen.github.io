@@ -57,7 +57,7 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 </li>
 
 <li>
-<a href="teaching/ncm2024">Numerical methods for PDE, 16--27 Dec 2024, IIPE, Visakhapatnam.</a>
+<a href="teaching/ncm2024">NCM Workshop on Numerical methods for PDE, 16--27 Dec 2024, IIPE, Visakhapatnam.</a>
 </li>
 
 </ol>

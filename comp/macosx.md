@@ -113,6 +113,12 @@ Safari works well; other options are <a href="https://www.mozilla.org/en-US/fire
 softwareupdate -l
 ```
 
+E.g., to update CLT, find the latest available version with above command and copy the `Label`
+
+```shell
+softwareupdate -i "<Label>" --verbose
+```
+
 ## Creating bootable USB drive on MacOS
 
 Convert iso file to dmg
