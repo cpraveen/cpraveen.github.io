@@ -234,6 +234,10 @@ Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "F
 Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>]
 </li>
 
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", accepted in Communications on Applied Mathematics and Computation. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -247,10 +251,6 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
 WENO with Non-Conservative Products".
-</li>
-
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>]
 </li>
 
 <li>
