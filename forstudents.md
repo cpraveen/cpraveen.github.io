@@ -8,9 +8,9 @@ I am happy to receive applications from students asking for internships, for the
 
 
 * You need to know some theory. [Here](books.html) is a list of books I recommend.
+* Learn to work on Unix/Linux and the [command line](https://swcarpentry.github.io/shell-novice). Use a proper text editor like Vi/Vim or Emacs.
 * Learn a programming language really well, e.g., Fortran and C/C++. I would recommend learning all three of these. (Matlab is not a programming language. I dont have any projects that can be done in Matlab.)
 * Learn Python, which is great for scripting, data analysis and visualization.
-* Learn to work on Unix/Linux and the command line. Use a proper text editor like Vi/Vim or Emacs.
 * Learn to use some visualization tools like [gnuplot](http://www.gnuplot.info), [Paraview](http://www.paraview.org) and [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit). Python  also has good support for visualization, see also [PyVista](https://docs.pyvista.org/).
 * Learn to use a version control system like [git](http://git-scm.com/book).
 * Learn parallel programming concepts and [MPI](https://computing.llnl.gov/tutorials/mpi).

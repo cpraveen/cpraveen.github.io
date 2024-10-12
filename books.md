@@ -263,10 +263,6 @@ Steven Brunton and Nathan Kutz, Data-driven science and engineering (<a href="ht
 </li>
 
 <li>
-<a href="https://swcarpentry.github.io/shell-novice/">Unix shell</a>
-</li>
-
-<li>
 <a href="https://github.com/ARCHER2-HPC/archer2-fortran-intro">Introduction to Modern Fortran</a>
 </li>
 
