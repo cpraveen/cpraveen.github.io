@@ -57,14 +57,14 @@ conda install deepxde
 or together
 
 ```shell
-conda update conda && conda update --all && \
-conda install numpy scipy sympy matplotlib ipython \
-              jupyterlab ipympl ipywidgets \
-              pyvista prettytable pandas pylint autopep8 \
-              clingo meshio imageio vtk \
-              fprettify fortls lfortran \
-              tensorflow tensorflow-probability \
-              scikit-learn deepxde
+conda update -y conda && conda update -y --all && \
+conda install -y numpy scipy sympy matplotlib ipython \
+                 jupyterlab ipympl ipywidgets \
+                 pyvista prettytable pandas pylint autopep8 \
+                 clingo meshio imageio vtk \
+                 fprettify fortls lfortran \
+                 tensorflow tensorflow-probability \
+                 scikit-learn deepxde
 ```
 
 I set `PATH` to point to conda directory
