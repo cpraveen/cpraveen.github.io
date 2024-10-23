@@ -29,11 +29,11 @@ Room No. 120
 
 ## Telephone
 
-(+91)(0)(80) 6695 3719 (My Office)  
-(+91)(0)(80) 6695 3794 (TIFR Reception)  
-(+91)(0)(80) 6695 3700 (TIFR Security)
++91 80 6695 3719 (My Office)  
++91 80 6695 3794 (TIFR Reception)  
++91 80 6695 3700 (TIFR Security)
 
-I am usually available at this number from Monday to Friday between 8:30 AM to 4:00 PM (Indian time). The (0) is for dialling from within India using STD.
+I am usually available at this number from Monday to Friday between 8:30 AM to 3:30 PM (Indian time).
 
 ## Email
 
