@@ -60,9 +60,11 @@ brew install dos2unix
 brew install enscript
 brew install ffmpeg
 brew install gcc
+brew install gifsicle
 brew install gnuplot
 brew install imagemagick
 brew install ispell
+brew install pstoedit
 brew install subversion
 brew install wget
 brew install youtube-dl
