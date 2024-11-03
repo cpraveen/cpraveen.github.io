@@ -26,7 +26,20 @@ sudo xcode-select --install
 
 ## Searching your desktop
 
-<a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled.
+<a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled. In Alfred preferences, specify locations where it should search, e.g.,
+
+```shell
+~
+/Applications
+/Volumes/Samsung_T5
+```
+
+If Spotlight is not indexing external usb drives
+
+```shell
+rm -rf /Volumes/Samsung_T5/.Spotlight-V100
+sudo mdutil -E /Volumes/Samsung_T5
+```
 
 ## Text editors
 
