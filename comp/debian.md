@@ -76,7 +76,6 @@ hostnamectl set-hostname HOSTNAME
 
 I use [Spack](comp/spack.html) to install scientific packages. Before that, install some needed dependencies
 
-
 ```shell
 sudo apt install gcc g++ gfortran gnuplot make curl wget git vim
 ```
@@ -113,4 +112,17 @@ For PDF viewing
 
 ```shell
 sudo apt install xpdf evince
+```
+
+## Enable ssh connections
+
+```shell
+systemctl start  ssh
+systemctl enable ssh  # to automatically start at next boot
+```
+
+Check that sshd is started using
+
+```shell
+systemctl status sshd | grep Active
 ```
