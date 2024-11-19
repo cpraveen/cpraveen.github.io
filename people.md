@@ -93,7 +93,8 @@
 1. Dinshaw Balsara, Univ. Notre Dame, 8--10 Jan, 2024
 1. Deepak Bhoriya, Postdoc, Univ. Notre Dame, 6--9 May, 2024
 1. Deep Ray, Univ. of Maryland, 8-10 August, 2024
-1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 24 Oct -- 24 Nov, 2024
+1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 24 Oct -- 23 Nov, 2024
+1. Asha Meena, Cental Univ. Rajasthan, Ajmer, 17-20 November, 2024.
 
 ## Visiting students
 

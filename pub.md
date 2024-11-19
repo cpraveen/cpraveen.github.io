@@ -227,7 +227,7 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 </li>
 
 <li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI Journal of Computational Mathematics. [<a href="https://hal.science/hal-04403870">HAL</a>]
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI Journal of Computational Mathematics. [<a href="https://doi.org/10.5802/smai-jcm.112">Journal</a>], [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
 <li>
