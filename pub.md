@@ -238,15 +238,15 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw
 Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", accepted in Communications on Applied Mathematics and Computation. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>]
 </li>
 
+<li>
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws". [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
-</li>
 
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
