@@ -253,23 +253,6 @@ and reopen it.
 </li>
 
 <li>
-PulseSecure starts automatically on login. Disable it like this
-
-<pre>
-sudo rm /Library/LaunchAgents/net.pulsesecure.pulsetray.plist
-</pre>
-
-Then, add symlink to `/Applications`
-
-<pre>
-sudo ln -s /Applications/Pulse\ Secure.app/Contents/Plugins/JamUI/PulseTray.app \
-           /Applications/PulseTray.app
-</pre>
-
-and use PulseTray to launch PulseSecure in future.
-</li>
-
-<li>
 Reset NVRAM from terminal
 
 <pre>
@@ -287,19 +270,10 @@ defaults write com.apple.dock ResetLaunchPad -bool true && killall Dock
 </li>
 
 <li>
-BigSur messed up the menu bar design in app windows, to get previous type view do this
-
-<pre>
-defaults write -g NSWindowSupportsAutomaticInlineTitle -bool false
-</pre>
-
-You have to quit and start the app for this to take effect. (Does not seem to work in Monterey)
-</li>
-
-<li>
 Reset Finder views/settings
 
 <pre>
+cd ~
 find . -name ".DS_Store" -delete
 rm ~/Library/Preferences/com.apple.finder.plist
 </pre>
