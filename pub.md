@@ -239,7 +239,7 @@ Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux recon
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
 </li>
 
 </ol>

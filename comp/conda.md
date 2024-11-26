@@ -31,38 +31,13 @@ Now you can install the packages you need.
 ## Install packages
 
 ```shell
-conda update conda
-conda update --all
-conda install numpy scipy sympy matplotlib ipython 
-conda install jupyterlab
-conda install ipympl          # matplotlib widget for jupyter
-conda install ipywidgets
-conda install pyvista
-conda install prettytable
-conda install pandas
-conda install pylint autopep8 # vscode wants these
-conda install clingo          # needed by spack
-conda install meshio          # to read gmsh grids
-conda install fprettify       # tidy f90 code
-conda install fortls          # needed to use vscode fortran
-conda install lfortran        # jupyter fortran kernel
-conda install imageio         # to read images from url
-conda install vtk
-conda install tensorflow      # if you need this
-conda install tensorflow-probability
-conda install scikit-learn
-conda install deepxde
-```
-
-or together
-
-```shell
 conda update -y conda && conda update -y --all && \
 conda install -y numpy scipy sympy matplotlib ipython \
                  jupyterlab ipympl ipywidgets \
                  pyvista prettytable pandas pylint autopep8 \
                  clingo meshio imageio vtk \
                  fprettify fortls lfortran \
+                 mystmd jupytext \
                  jupyter-book sphinx-exercise sphinx-proof ghp-import \
                  tensorflow tensorflow-probability \
                  scikit-learn deepxde
