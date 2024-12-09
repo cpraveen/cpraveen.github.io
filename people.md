@@ -6,6 +6,8 @@
 * [Deep Ray](https://deepray.github.io),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
 * [Arpit Babbar](https://babbar.dev) (2020--2024)
 
+See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=203697).
+
 ## Post-docs
 
 * Tanmay Sarkar (March 2015 - April 2017); subsequent position: Asst. Prof., IIT Jammu.
@@ -15,7 +17,7 @@
 * Arijit Hazra (January 2018 - January 2020); subsequent position: postdoc at BCAM, Spain.
 * Asha Meena (March 2018 - January 2020); subsequent position: Asst. Prof.,  University of Rajasthan.
 * Saurav Samantaray (Jan 2022 -- Dec 2022); subsequent position: visiting fellow in IIT Madras.
-* Sandeep Kumar (Dec 2023 -- present)
+* Sandeep Kumar (Nov 2023 -- present)
 * Jalil Khan (Dec 2023 -- present)
 
 ## Masters thesis

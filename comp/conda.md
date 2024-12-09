@@ -37,7 +37,7 @@ conda install -y numpy scipy sympy matplotlib ipython \
                  pyvista prettytable pandas pylint autopep8 \
                  clingo meshio imageio vtk \
                  fprettify fortls lfortran \
-                 mystmd jupytext \
+                 mystmd pandoc jupytext jupyterlab-myst \
                  jupyter-book sphinx-exercise sphinx-proof ghp-import \
                  tensorflow tensorflow-probability \
                  scikit-learn deepxde
