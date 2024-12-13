@@ -224,6 +224,40 @@ git fetch origin pull/9874/head:9874
 git checkout 9874
 ```
 
+## Mirror github to bitbucket
+
+To mirror `github.com/USERNAME/REPONAME` to bitbucket, create an empty repository on bitbucket and do a mirror
+
+```shell
+cd /tmp
+git clone --mirror git@github.com:USERNAME/REPONAME.git
+cd REPONAME
+git push --mirror git@bitbucket.org:USERNAME/REPONAME.git
+```
+
+Now add bitbucket as another remote
+
+```shell
+cd ~
+git clone git@github.com:USERNAME/REPONAME.git
+cd REPONAME
+git remote set-url --add origin git@bitbucket.org:USERNAME/REPONAME.git
+```
+
+Check that there are now two remotes
+
+```shell
+git remote -v
+```
+
+Now, when you do
+
+```shell
+git push
+```
+
+it will push to both repositories. TODO: What about branches ?
+
 ## git+ssh over https
 
 On some servers ssh may not be allowed but https is allowed. In this case we can use git+ssh over https by adding following lines to your `~/.ssh/config` file.
