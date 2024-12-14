@@ -13,11 +13,11 @@ The following repos contain codes I have developed for teaching purpose.
 <ul>
 
 <li>
-<a href="https://github.com/cpraveen/python" target="_blank">python</a>: A short introduction to Python relevant for numerical analysis courses that I teach. 
+<a href="https://github.com/cpraveen/python" target="_blank">python</a>: A short introduction to Python relevant for numerical analysis courses that I teach. [<a href="https://cpraveen.github.io/python">Website</a>]
 </li>
 
 <li>
-<a href="https://github.com/cpraveen/na" target="_blank">na</a>: Codes for a numerical analysis course
+<a href="https://github.com/cpraveen/na" target="_blank">na</a>: Codes for a numerical analysis course. [<a href="https://cpraveen.github.io/numa">Website</a>]
 </li>
 
 <li>
@@ -33,7 +33,7 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
-<a href="teaching/chebpy.html">chebpy</a>: Based on Trefethen: Spectral Methods in Matlab, rewritten in python
+<a href="teaching/chebpy.html">chebpy</a>: Based on Trefethen: Spectral Methods in Matlab, rewritten in python. [<a href="https://cpraveen.github.io/chebpy">Website</a>]
 </li>
 
 <li>
