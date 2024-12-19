@@ -191,45 +191,17 @@ To see some info on your wireless connection, click Option + wifi icon in menuba
 </li>
 
 <li>
-On new versions like Catalina, the battery discharges overnight even if the laptop is in sleep because it is waking up for network. In System Preferences --> Energy Saver --> Battery, disable "Enable Power Nap while on battery power". To disable network while sleeping on battery
-
-<pre>
-sudo pmset -b tcpkeepalive  0    # Redo if you did SMC/NVRAM reset or os update
-sudo pmset -a hibernatemode 25
-sudo pmset -a standby       1
-</pre>
-
-You can check the settings by (do this check while using battery)
+Use pmset to manage power usage, sleep, etc.  You can check the settings by (do this check while using charger and then on battery)
 
 <pre>
 pmset -g
 </pre>
 
-Use only integrated GPU when on battery
-
-<pre>
-sudo pmset -b gpuswitch 0
-</pre>
-
-Here are the various power states
-
-<pre>
--a - global (same behavior for charging and battery states)
--c - charging
--b - battery
-</pre>
-
-Here are the possible options for gpuswitch
-
-<pre>
-0 - integrated GPU only
-1 - discrete GPU only
-2 - autoswitch GPU
-</pre>
+You can see my settings <a href="https://github.com/cpraveen/cfdlab/blob/master/bin/pmset.sh">here</a>.
 </li>
 
 <li>
-To disable laptop auto booting on lid opening
+(Does not work on arm macs) To disable laptop auto booting on lid opening
 
 <pre>
 sudo nvram AutoBoot=%00 # Redo if NVRAM is reset
