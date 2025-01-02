@@ -21,7 +21,7 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
-<a href="https://github.com/cpraveen/nla" target="_blank">nla</a>: Codes for a numerical linear algebra course
+<a href="https://github.com/cpraveen/nla" target="_blank">nla</a>: Codes for a numerical linear algebra course. [<a href="https://cpraveen.github.io/nla">Website</a>]
 </li>
 
 <li>
