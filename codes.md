@@ -37,7 +37,7 @@ The following repos contain codes I have developed for teaching purpose.
 </li>
 
 <li>
-<a href="https://github.com/cpraveen/fem" target="_blank">fem</a>: Codes for a finite element course
+<a href="https://github.com/cpraveen/fem" target="_blank">fem</a>: Codes for a finite element course: python, fenics, dolfinx, firedrake, deal.II; includes discontinuous Galerkin codes.
 </li>
 
 <li>
