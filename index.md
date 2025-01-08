@@ -2,6 +2,13 @@
 layout: default
 ---
 
+> Here are some notes and tutorials converted into web books
+> [Introduction to Python](https://cpraveen.github.io/python)
+> [Numerical Analysis](https://cpraveen.github.io/numa)
+> [Numerical Linear Algebra](https://cpraveen.github.io/nla)
+> [Spectral Methods](https://cpraveen.github.io/chebpy)
+
+
 > Teaching: In December 2024, I will be giving some lectures on discontinuous Galerkin methods at the [NCM workshop](teaching/ncm2024.html) to be held in IIPE, Visakhapatnam. From January 2025, I will be teaching the [numerical analysis course](teaching/acm2025.html) at TIFR-CAM for first year master students.
 
 > Postdocs: If you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me and apply for postdoc position at TIFR-CAM.
