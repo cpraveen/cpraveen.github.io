@@ -94,14 +94,14 @@ sudo apt install mesa-common-dev
 
 Next see the [Spack](comp/spack.html) tips for installing other softwares. openmpi will also be installed by Spack, so do not install it from apt.
 
-Install locate
+Install `locate`
 
 ```shell
 sudo apt install locate
 sudo updatedb
 ```
 
-To get ifconfig
+To get `ifconfig`
 
 ```shell
 sudo apt install net-tools
@@ -112,6 +112,12 @@ For PDF viewing
 
 ```shell
 sudo apt install xpdf evince
+```
+
+`screen` or `tmux` for working remotely
+
+```shell
+sudo apt install screen tmux
 ```
 
 ## Enable ssh connections
@@ -125,4 +131,34 @@ Check that sshd is started using
 
 ```shell
 systemctl status sshd | grep Active
+```
+
+## Add/remove user
+
+Add new user
+
+```shell
+sudo useradd -m -s /bin/bash <username>
+```
+
+This will create home directory usually in `/home`. You can change the location like this
+
+```shell
+sudo useradd -m -s /bin/bash -d /home2/<username> <username>
+```
+
+To delete a user account
+
+```shell
+sudo userdel -r <username>
+```
+
+`useradd` and `userdel` are usually in `/usr/sbin` which may not be in your path; then add it to your `PATH` variable.
+
+## Give sudo privileges
+
+To add an existing user to sudo group
+
+```shell
+sudo usermod -a -G sudo <username>
 ```
