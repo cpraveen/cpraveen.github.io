@@ -12,7 +12,7 @@ layout: default
 
 <li><a href="teaching/control2013.html">IFCAM Workshop on numerical and control of PDE, 22 July - 2 August, 2013</a></li>
 
-<li><a href="https://sites.google.com/a/tifrbng.res.in/praveen/teaching/femnse2014">Discontinuous Galerkin method for hyperbolic PDE, FEMNSE, SERC, IISc, Sep 2014</a></li>
+<li><a href="teaching/femnse2014.html">Discontinuous Galerkin method for hyperbolic PDE, FEMNSE, SERC, IISc, Sep 2014</a></li>
 
 <li>
 <a href="http://www.lnmiit.ac.in/DisplayDeptPage.aspx?page=om">Advanced Workshop on Hyperbolic PDEs: Theory, Numerics &amp; Applications and Conference on Partial Differential Equations (HPTNA-2014), 1-11 December, 2014, LNMIT, Jaipur</a>
