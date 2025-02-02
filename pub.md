@@ -242,6 +242,10 @@ Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux recon
 Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", accepted in Journal of Computational Physics. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
 </li>
 
+<li>
+Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", accepted in Journal of Comp. Phy, 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -251,10 +255,6 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
 WENO with Non-Conservative Products".
-</li>
-
-<li>
-Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics". [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>]
 </li>
 
 <li>
@@ -523,6 +523,14 @@ Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction method for hyperbolic c
 
 <li>
 Boniface Nkonga, Praveen Chandrashekar, Aadi Bhure, "Shear shallow water model : Energy consistent schemes", ECCOMAS, Lisbon, 3-7 June, 2024. [<a href="https://eccomas2024.org/event/contribution/40faf1be-95c5-11ee-8178-000c29ddfc0c">Abstract</a>]
+</li>
+
+<li>
+Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen, Bound Preserving Lax-Wendroff Flux Reconstruction Method for Special Relativistic Hydrodynamics, ICOSAHOM, 2025.
+</li>
+
+<li>
+Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa, A semi-discrete Active Flux method of arbitrarily high order on 2-d Cartesian grids, ICOSAHOM, 2025.
 </li>
 
 </ol>
