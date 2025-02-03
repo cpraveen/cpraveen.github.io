@@ -181,7 +181,6 @@ Defaults env_keep += "rsync_proxy RSYNC_PROXY"
 </pre>
 </li>
 
-
 <li>
 <a href="https://freemacsoft.net/appcleaner/">AppCleaner</a> allows you to uninstall apps and all associated files.
 </li>
@@ -198,6 +197,15 @@ pmset -g
 </pre>
 
 You can see my settings <a href="https://github.com/cpraveen/cfdlab/blob/master/bin/pmset.sh">here</a>.
+</li>
+
+<li>
+Reset NVRAM from terminal
+
+<pre>
+sudo nvram -c
+sudo shutdown -r now
+</pre>
 </li>
 
 <li>
@@ -222,15 +230,6 @@ rm ~/Library/Preferences/com.apple.ActivityMonitor.plist
 </pre>
 
 and reopen it.
-</li>
-
-<li>
-Reset NVRAM from terminal
-
-<pre>
-sudo nvram -c
-sudo shutdown -r now
-</pre>
 </li>
 
 <li>
