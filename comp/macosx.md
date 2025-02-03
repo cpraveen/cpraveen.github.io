@@ -201,16 +201,16 @@ You can see my settings <a href="https://github.com/cpraveen/cfdlab/blob/master/
 </li>
 
 <li>
-(Does not work on arm macs) To disable laptop auto booting on lid opening
+To disable laptop auto booting on lid opening/power adaptor connection
 
 <pre>
-sudo nvram AutoBoot=%00 # Redo if NVRAM is reset
+sudo nvram BootPreference=%00 # Redo this if NVRAM is reset
 </pre>
 
 To reenable auto boot
 
 <pre>
-sudo nvram AutoBoot=%03
+sudo nvram -d BootPreference
 </pre>
 </li>
 
