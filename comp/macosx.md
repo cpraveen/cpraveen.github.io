@@ -204,7 +204,7 @@ Reset NVRAM from terminal
 
 <pre>
 sudo nvram -c
-sudo shutdown -r now
+sudo reboot
 </pre>
 </li>
 
