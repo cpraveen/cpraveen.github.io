@@ -261,6 +261,11 @@ WENO with Non-Conservative Products".
 Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations".
 </li>
 
+<li>
+Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high
+order in two dimensions".
+</li>
+
 </ol>
 
 
