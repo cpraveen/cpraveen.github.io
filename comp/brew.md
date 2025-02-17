@@ -65,9 +65,9 @@ brew install gnuplot
 brew install imagemagick
 brew install ispell
 brew install pstoedit
-brew install subversion
 brew install wget
-brew install youtube-dl
+brew install xmgrace  # This will install fftw and mpi.
+brew install yt-dlp
 ```
 
 Install specific version of gcc that you need

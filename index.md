@@ -165,7 +165,6 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/fenics.html">Fenics</a> |
 <a href="comp/githowto.html">Git HowTo</a> |
 <a href="comp/gnuplot.html">Gnuplot</a> |
-<a href="comp/xmgrace.html">xmgrace</a> |
 <a href="comp/brew.html">Homebrew</a> |
 <a href="comp/julia.html">Julia</a> |
 <a href="comp/jupyter.html">Jupyter</a> |
@@ -181,7 +180,8 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/texmacs.html">TeXMacs</a> |
 <a href="comp/vim.html">Vim</a> |
 <a href="comp/visit.html">VisIt</a> |
-<a href="comp/wsl.html">WSL</a>
+<a href="comp/wsl.html">WSL</a> |
+<a href="comp/xmgrace.html">xmgrace</a>
 </li>
 
 <li>

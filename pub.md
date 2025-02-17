@@ -231,7 +231,7 @@ Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "F
 </li>
 
 <li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>]
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations", accepted in Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02685-0">Journal</a>]
 </li>
 
 <li>
@@ -243,7 +243,7 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", accepted in Journal of Comp. Phy, 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>]
+Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", accepted in Journal of Comp. Phy, 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
 </li>
 
 </ol>
