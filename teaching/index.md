@@ -4,6 +4,16 @@ layout: default
 
 # Teaching
 
+## Notes
+
+* Spectral Methods
+* Numerical Linear Algebra
+* Numerical Linear Algebra: Iterative Methods
+* Conjugate gradient method
+* Conservation laws, slides
+* Discontinuous Galerkin Method
+* Computational Hyperbolic PDE
+
 ## Workshops
 
 <ol>
