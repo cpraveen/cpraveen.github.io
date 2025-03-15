@@ -78,11 +78,6 @@ I use [Spack](comp/spack.html) to install scientific packages. Before that, inst
 
 ```shell
 sudo apt install gcc g++ gfortran gnuplot make curl wget git vim
-```
-
-Essential compilers can also be installed like this
-
-```shell
 sudo apt install build-essential
 ```
 

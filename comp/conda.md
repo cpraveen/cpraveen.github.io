@@ -35,7 +35,7 @@ conda update -y conda && conda update -y --all && \
 conda install -y numpy scipy sympy matplotlib ipython \
                  jupyterlab ipympl ipywidgets \
                  pyvista prettytable pandas pylint autopep8 \
-                 clingo meshio imageio vtk \
+                 clingo meshio imageio vtk meson \
                  fprettify fortls lfortran \
                  mystmd pandoc jupytext \
                  jupyter-book sphinx-exercise sphinx-proof ghp-import \
