@@ -41,6 +41,15 @@ rm -rf /Volumes/Samsung_T5/.Spotlight-V100
 sudo mdutil -E /Volumes/Samsung_T5
 ```
 
+If search is not finding files, then rebuild Spotlight index
+
+```shell
+sudo mdutil -a -i off
+sudo mdutil -X /System/Volumes/Data  # First try without this, see if it fixes
+sudo mdutil -a -i on
+sudo mdutil -E
+```
+
 ## Text editors
 
 For coding, you can use the editor in XCode but XCode is a big package and I prefer not to install it. Instead I use [VSCode](https://code.visualstudio.com)  which is free and can be installed from Homebrew. You can use the Vim plugin in VSCode if you are a Vim user.  Another option is <a href="https://macvim-dev.github.io/macvim/">MacVim</a> with [NerdTree](https://github.com/preservim/nerdtree) for file browsing.
