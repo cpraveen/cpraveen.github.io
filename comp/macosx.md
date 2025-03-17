@@ -45,7 +45,7 @@ If search is not finding files, then rebuild Spotlight index
 
 ```shell
 sudo mdutil -a -i off
-sudo mdutil -X /System/Volumes/Data  # First try without this, see if it fixes
+sudo mdutil -X /System/Volumes/Data  # First try without this step and see if it fixes
 sudo mdutil -a -i on
 sudo mdutil -E
 ```
