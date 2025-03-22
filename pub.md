@@ -246,6 +246,10 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", Journal of Comp. Phy, 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
 </li>
 
+<li>
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations", accepted in Communications on Applied Mathematics and Computation.
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -255,10 +259,6 @@ Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preser
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
 WENO with Non-Conservative Products".
-</li>
-
-<li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations".
 </li>
 
 <li>
