@@ -235,12 +235,13 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", Journal of Computational Physics, vol. 522, February 2025. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", Journal of Computational Physics, vol. 522, February 2025. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
+Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
 </li>
+
 
 <li>
 Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", Journal of Computational Physics, vol. 527, April 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
