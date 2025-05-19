@@ -227,23 +227,23 @@ Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibilit
 </li>
 
 <li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", accepted in SMAI Journal of Computational Mathematics. [<a href="https://doi.org/10.5802/smai-jcm.112">Journal</a>], [<a href="https://hal.science/hal-04403870">HAL</a>]
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", SMAI Journal of Computational Mathematics, vol. 10, pp. 229-261, November 2024. [<a href="https://doi.org/10.5802/smai-jcm.112">Journal</a>], [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
 <li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations",  Journal of Scientific Computing. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02685-0">Journal</a>]
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations",  Journal of Scientific Computing, vol. 101, October 2024. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02685-0">Journal</a>]
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", accepted in Communications on Applied Mathematics and Computation. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>]
+Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", Journal of Computational Physics. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
+Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on adaptive curvilinear meshes with error based time stepping for hyperbolic conservation laws", Journal of Computational Physics, vol. 522, February 2025. [<a href="https://arxiv.org/abs/2402.11926">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2024.113622">Journal</a>]
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", Journal of Comp. Phy, 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
+Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", Journal of Computational Physics, vol. 527, April 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
 </li>
 
 <li>
@@ -643,5 +643,5 @@ Deep Ray, Praveen Chandrashekar, Ulrik S. Fjordholm and Siddhartha Mishra, "Entr
 ## Patents
 
 1. <a href="http://patentscope.wipo.int/search/en/WO2011021206">WING AND PROPELLER SYSTEM, METHOD OF OPTIMIZING WING AND PROPELLER/ROTOR SYSTEM AND METHOD OF REDUCING INDUCED DRAG</a><br>
-<a href="http://goo.gl/lk5hYW">US Patent No. 8,915,467, December 23, 2014</a><br>
+<a href="https://ppubs.uspto.gov/api/patents/html/8915467?source=USPAT&requestToken=eyJzdWIiOiJlNTdhMzRkMC04MmU2LTRmNjctOTliZS05YTBjNjM5MzQyNWIiLCJ2ZXIiOiI1MGZlMjQ3ZC05MGY2LTRhM2MtYmRmNS1iNjM2ZDUxOWViN2YiLCJleHAiOjB9">US Patent No. 8,915,467, December 23, 2014</a>, <a href="https://ppubs.uspto.gov/api/pdf/downloadPdf/8915467?requestToken=eyJzdWIiOiJlNTdhMzRkMC04MmU2LTRmNjctOTliZS05YTBjNjM5MzQyNWIiLCJ2ZXIiOiI1MGZlMjQ3ZC05MGY2LTRhM2MtYmRmNS1iNjM2ZDUxOWViN2YiLCJleHAiOjB9"> PDF</a><br>
 <a href="http://www.thehindu.com/todays-paper/tp-national/tp-karnataka/bangalore-scientists-working-on-novel-design/article4039975.ece">An article in The Hindu about this work.</a>
