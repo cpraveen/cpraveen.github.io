@@ -226,12 +226,13 @@ Deepak Bhoriya, Biswarup Biswas, Harish Kumar, Praveen Chandrashekar, "Entropy s
 Arpit Babbar, Sudarshan Kumar Kenettinkara, Praveen Chandrashekar, "Admissibility preserving subcell limiter for Lax-Wendroff flux reconstruction", Journal of Scientific Computing, Vol. 99, Issue 2, May 2024 [<a href="https://arxiv.org/abs/2305.10781">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02482-9">Journal</a>]
 </li>
 
-<li>
-Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", SMAI Journal of Computational Mathematics, vol. 10, pp. 229-261, November 2024. [<a href="https://doi.org/10.5802/smai-jcm.112">Journal</a>], [<a href="https://hal.science/hal-04403870">HAL</a>]
-</li>
 
 <li>
 Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, and Dinshaw S. Balsara, "Second order divergence constraint preserving entropy stable finite difference schemes for ideal two-fluid plasma flow equations",  Journal of Scientific Computing, vol. 101, October 2024. [<a href="https://arxiv.org/abs/2409.16004">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-024-02685-0">Journal</a>]
+</li>
+
+<li>
+Shashwat Tiwari, Boniface Nkonga, Praveen Chandrashekar and Sergey Gavrilyuk, "Finite volume approximations of shear shallow water model on unstructured grids", SMAI Journal of Computational Mathematics, vol. 10, pp. 229-261, November 2024. [<a href="https://doi.org/10.5802/smai-jcm.112">Journal</a>], [<a href="https://hal.science/hal-04403870">HAL</a>]
 </li>
 
 <li>
@@ -241,7 +242,6 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 <li>
 Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
 </li>
-
 
 <li>
 Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preserving Lax-Wendroff flux reconstruction method for special relativistic hydrodynamics", Journal of Computational Physics, vol. 527, April 2025. [<a href="https://arxiv.org/abs/2409.15805">Arxiv</a>], [<a href="https://doi.org/10.1016/j.jcp.2025.113815">Journal</a>]
