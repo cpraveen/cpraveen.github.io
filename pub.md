@@ -263,8 +263,7 @@ WENO with Non-Conservative Products".
 </li>
 
 <li>
-Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high
-order in two dimensions".
+Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions". [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
 </li>
 
 </ol>
