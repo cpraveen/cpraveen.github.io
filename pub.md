@@ -266,6 +266,10 @@ WENO with Non-Conservative Products".
 Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions". [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
 </li>
 
+<li>
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State".  
+</li>
+
 </ol>
 
 
