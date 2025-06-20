@@ -302,4 +302,20 @@ sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 
 </li>
 
+<li>
+Add user `USERNAME` to admin group
+
+<pre>
+sudo dscl . -append /Groups/admin GroupMembership USERNAME
+</pre>
+
+See list of admin users
+
+<pre>
+dscacheutil -q group -a name admin
+</pre>
+
+</li>
+
+
 </ol>
