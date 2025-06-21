@@ -303,7 +303,7 @@ sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist
 </li>
 
 <li>
-Add user `USERNAME` to admin group
+Add user <code>USERNAME</code> to admin group
 
 <pre>
 sudo dscl . -append /Groups/admin GroupMembership USERNAME
