@@ -267,7 +267,11 @@ Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State".  
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State".  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>]
+</li>
+
+<li>
+Junming Duan, Praveen Chandrashekar, Christian Klingenberg, "Active flux for ideal magnetohydrodynamics: A positivity-preserving scheme with the Godunov-Powell source term". [<a href="https://arxiv.org/abs/2506.04857">Arxiv</a>]
 </li>
 
 </ol>
