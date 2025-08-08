@@ -24,6 +24,18 @@ sudo rm -rf /Library/Developer/CommandLineTools
 sudo xcode-select --install
 ```
 
+Check SDK path
+
+```shell
+xcrun --show-sdk-path
+```
+
+Check CLT path
+
+```shell
+xcode-select -p
+```
+
 ## Searching your desktop
 
 <a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled. In Alfred preferences, specify locations where it should search, e.g.,
