@@ -57,12 +57,23 @@ which creates the file `packages.yaml` in your `$HOME/.spack` directory. Edit it
 
 To this file, add some variants of other packages you want to install, my example is [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml).
 
-## Install softwares
-
-I install deal.II and its dependencies which provides all the softwares that I need for my work. Since I like to compile deal.II myself, I will install only dependencies. But first check that all variants you need are correct by running
+There are many options for some virtual packages, see e.g.,
 
 ```shell
-spack spec --fresh|--reuse -I dealii
+spack providers mpi
+spack providers blas
+spack providers lapack
+```
+
+You can choose this in your `packages.yaml` file.
+
+## Install softwares
+
+I install `deal.II` and its dependencies which provides all the softwares that I need for my work. Since I like to compile `deal.II` myself, I will install only dependencies. But first check that all variants you need are correct by running
+
+```shell
+spack spec --fresh -I dealii
+spack spec --reuse -I dealii # --reuse is the default
 ```
 
 Select one of `--fresh` or `--reuse`; the second is the default and will use already installed packages even if newer versions are available.
@@ -70,14 +81,14 @@ Select one of `--fresh` or `--reuse`; the second is the default and will use alr
 If this is ok, then we install
 
 ```shell
-spack install -j4 --fail-fast --fresh|--reuse --only dependencies dealii
+spack install -j4 --fail-fast --only dependencies dealii  #  Add --fresh if needed
 ```
 
 The flag `-j4` means that four processes will be used while compiling; increase this if you have more cores on your computer. If you primarily use Petsc and Metis, and dont need other stuff, then do
 
 ```shell
-spack spec --fresh|--reuse petsc
-spack install --fresh|--reuse -j4 --fail-fast petsc
+spack spec petsc
+spack install -j4 --fail-fast petsc
 ```
 
 Now create a Spack view by running the script `spack_view.sh` which will install symlinks into `SPACK_VIEW` directory.
@@ -136,7 +147,7 @@ sh /path/to/spack_view.sh /path/to/install/spack/view
 ## Finding info on an installed package
 
 ```shell
-$ spack find -l petsc
+$ spack find -lv petsc
 ==> 1 installed package
 -- linux-opensuse_tumbleweed20200511-broadwell / gcc@9.3.1 ------
 c67eysz petsc@3.13.1

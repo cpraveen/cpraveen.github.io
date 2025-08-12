@@ -97,7 +97,9 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Deepak Bhoriya, Postdoc, Univ. Notre Dame, 6--9 May, 2024
 1. Deep Ray, Univ. of Maryland, 8-10 August, 2024
 1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 24 Oct -- 23 Nov, 2024
-1. Asha Meena, Cental Univ. Rajasthan, Ajmer, 17-20 November, 2024.
+1. Asha Meena, Cental Univ. Rajasthan, Ajmer, 17 -- 20 November, 2024.
+1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 17 Aug -- 11 Sep, 2025
+1. Arun K. R., IISER Trivandrum, 24 -- 27 Aug, 2025.
 
 ## Visiting students
 
