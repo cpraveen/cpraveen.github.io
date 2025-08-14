@@ -36,6 +36,12 @@ Check CLT path
 xcode-select -p
 ```
 
+See CLT version
+
+```shell
+pkgutil --pkg-info=com.apple.pkg.CLTools_Executables
+```
+
 ## Searching your desktop
 
 <a href="https://www.alfredapp.com">Alfred</a> is so much better than Spotlight, it is now my preferred tool for searching my mac. It uses the Spotlight index to perform the search, so you need to have Spotlight enabled. In Alfred preferences, specify locations where it should search, e.g.,

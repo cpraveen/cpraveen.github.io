@@ -57,6 +57,11 @@ which creates the file `packages.yaml` in your `$HOME/.spack` directory. Edit it
 
 To this file, add some variants of other packages you want to install, my example is [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml).
 
+```shell
+wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml
+grep -v packages: spack_packages.yaml >> $HOME/.spack/packages.yaml
+```
+
 There are many options for some virtual packages, see e.g.,
 
 ```shell
