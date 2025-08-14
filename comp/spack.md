@@ -62,7 +62,9 @@ wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_pack
 grep -v packages: spack_packages.yaml >> $HOME/.spack/packages.yaml
 ```
 
-There are many options for some virtual packages, see e.g.,
+You need to choose providers for mpi, blas and lapack in your `packages.yaml` file. E.g., choose `[openmpi]` for mpi and `[openblas]` for blas and lapack.
+
+To see all available options for some virtual packages,
 
 ```shell
 spack providers mpi
@@ -70,7 +72,6 @@ spack providers blas
 spack providers lapack
 ```
 
-You can choose this in your `packages.yaml` file.
 
 ## Install softwares
 
