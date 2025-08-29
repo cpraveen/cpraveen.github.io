@@ -30,7 +30,7 @@ evince foo.pdf
 * 128 GB RAM
 * [NVIDIA Quadro M5000    (GM204GL)](https://videocardz.net/nvidia-quadro-m5000)
 * Storage: 2 TB + 2 TB
-* OS: OpenSuse Leap 15.3
+* OS: OpenSuse 15.6
 
 ## Fourier (192.168.1.65)
 
@@ -38,7 +38,7 @@ evince foo.pdf
 * 128 GB RAM
 * [NVIDIA Quadro P4000](https://videocardz.net/nvidia-quadro-p4000)
 * Storage: 2 TB + 2 TB
-* OS: Debian 11 (Bullseye)
+* OS: Debian 12 (Bookworm)
 
 ## Commands to get some info
 
@@ -69,4 +69,5 @@ See OS info
 
 ```shell
 lsb_release -a
+cat /etc/os-release
 ```
