@@ -5,7 +5,7 @@
 * [Souvik Roy](https://roysouvik2.github.io), jointly with A. S. Vasudevamurthy, TIFR-CAM (2011--2014)
 * [Deep Ray](https://deepray.github.io),jointly with Siddhartha Mishra, ETH Zurich. (2013--2017)
 * [Arpit Babbar](https://babbar.dev) (2020--2024)
-* Devansh Sonigra (2025 -- present)
+* [Devansh Sonigra](https://www.math.tifrbng.res.in/people/devansh23) (2025 -- present)
 
 See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=203697).
 
