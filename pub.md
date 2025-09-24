@@ -251,6 +251,10 @@ Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preser
 Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations", accepted in Communications on Applied Mathematics and Computation. [<a href="https://arxiv.org/abs/2503.20372">Arxiv</a>]
 </li>
 
+<li>
+Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", accepted as poster in NeurIPS 2025. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
