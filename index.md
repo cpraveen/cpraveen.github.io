@@ -163,6 +163,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/debian.html">Debian</a> |
 <a href="comp/docker.html">Docker</a> |
 <a href="comp/fenics.html">Fenics</a> |
+<a href="comp/firedrake.html">Firedrake</a> |
 <a href="comp/githowto.html">Git HowTo</a> |
 <a href="comp/gnuplot.html">Gnuplot</a> |
 <a href="comp/brew.html">Homebrew</a> |
