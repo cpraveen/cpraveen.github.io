@@ -8,7 +8,9 @@ layout: default
 
 ## Install inside a docker image
 
-Pull debian
+Firedrake does not provide a Docker image for arm, so we build it ourselves.
+
+Pull Debian
 
 ```shell
 docker pull debian:stable
@@ -21,6 +23,14 @@ docker run -it --name debian debian:stable
 ```
 
 Inside the container, run the commands given [here](https://github.com/cpraveen/cfdlab/blob/master/bin/firedrake_debian.sh) to install firedrake and some other needed softwares.
+
+Do some cleanup
+
+```shell
+apt autoremove --purge
+apt clean
+rm -rf `find /root/petsc -name .git`
+```
 
 Add some settings in `.bashrc` file
 
