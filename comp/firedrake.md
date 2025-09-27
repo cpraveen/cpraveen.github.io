@@ -24,14 +24,6 @@ docker run -it --name debian debian:stable
 
 Inside the container, run the commands given [here](https://github.com/cpraveen/cfdlab/blob/master/bin/firedrake_debian.sh) to install firedrake and some other needed softwares.
 
-Do some cleanup
-
-```shell
-apt autoremove --purge
-apt clean
-rm -rf `find /root/petsc -name .git`
-```
-
 Add some settings in `.bashrc` file
 
 ```shell
