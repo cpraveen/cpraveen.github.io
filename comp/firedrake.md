@@ -57,13 +57,13 @@ Now you can run firedrake programs inside the container.
 
 ## Create an image from this container
 
-You can create an image out of this container
+You can create an image out of this container.
 
 ```shell
 docker commit debian firedrake
 ```
 
-Run the image (you may want to share some host folder)
+Run the image
 
 ```shell
 docker run -it --name firedrake -p 8888:8888 \
@@ -78,5 +78,10 @@ You can start jupyter inside container
 jupyter-lab --ip 0.0.0.0 --port 8888 --no-browser --allow-root
 ```
 
-and access it from the host at displayed url.
+and access it from the host at displayed url. Subsequently you can join this container
+
+```shell
+docker start firedrake
+docker attach firedrake
+```
 
