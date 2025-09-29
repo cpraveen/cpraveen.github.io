@@ -157,3 +157,29 @@ To add an existing user to sudo group
 ```shell
 sudo usermod -a -G sudo <username>
 ```
+
+## Show login message when you ssh
+
+Edit the file `/etc/profile.d/greeting.sh` and add your message
+
+```shell
+UNAME=`uname -s -n -r -m -o`
+OS2=`lsb_release -s -r`
+OS3=`lsb_release -s -c`
+OS1=`lsb_release -s -i`
+echo $UNAME $OS1 $OS2 "("$OS3")"
+echo "CPU:" `cat /proc/cpuinfo | grep 'model name' | uniq | cut -d":" -f 2-`
+echo
+echo "----------------------IMPORTANT INFO FOR ALL USERS-----------------------"
+echo " * Regularly check how much disk space you are using in your home."
+echo "   \"du -sh ~\"      -->  Remove data you dont need."
+echo " * Before launching MPI job, check how many jobs are already running."
+echo "   Use \"top\" command to see running jobs"
+echo "   Use only the number of free cores available for your job."
+echo " * Regularly check if you have any old running jobs you may not need;"
+echo "   \"top -U $USER\" or \"ps -u $USER\"  --> kill any that are not needed"
+echo " * Do not install software in your home; first check if they are already"
+echo "   installed and ask admin to install them for you. This prevents waste"
+echo "   of disk space."
+echo "-------------------------------------------------------------------------"
+```
