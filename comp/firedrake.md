@@ -10,7 +10,7 @@ layout: default
 
 Firedrake does not provide a Docker image for arm, so we build it ourselves.
 
-Pull Debian
+Pull Debian image
 
 ```shell
 docker pull debian:stable
@@ -24,7 +24,7 @@ docker run -it --name debian debian:stable
 
 Inside the container, run the commands given [here](https://github.com/cpraveen/cfdlab/blob/master/bin/firedrake_debian.sh) to install firedrake and some other needed softwares.
 
-Add some settings in `.bashrc` file
+Add some settings in `~/.bashrc` file
 
 ```shell
 PS1="$ "
@@ -57,7 +57,7 @@ Activate the env
 
 Now you can run firedrake programs inside the container.
 
-## Create an image from this container
+## Create an image
 
 You can create an image out of this container.
 

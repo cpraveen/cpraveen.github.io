@@ -248,7 +248,7 @@ Sujoy Basak, Arpit Babbar, Harish Kumar and Praveen Chandrashekar, "Bound preser
 </li>
 
 <li>
-Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations", accepted in Communications on Applied Mathematics and Computation. [<a href="https://arxiv.org/abs/2503.20372">Arxiv</a>]
+Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S Balsara, "Second order divergence constraint preserving schemes for two-fluid relativistic plasma flow equations", Communications on Applied Mathematics and Computation, Aug 2025. [<a href="https://arxiv.org/abs/2503.20372">Arxiv</a>], [<a href="https://doi.org/10.1007/s42967-025-00492-4">Journal</a>]
 </li>
 
 <li>

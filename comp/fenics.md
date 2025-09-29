@@ -4,6 +4,8 @@ layout: default
 
 # Fenics
 
+> These instructions refer to the older version of fenics which is no longer under development. The new version dolfinx is much different from fenics, see last section to install dolfinx from Docker.
+
 ## Install using Conda
 
 Let us create a new environment called `fenics` and install under this.
