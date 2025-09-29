@@ -59,19 +59,21 @@ Now you can run firedrake programs inside the container.
 
 ## Create an image
 
-You can create an image out of this container.
+Reate an image called `firedrake` out of the `debian` container.
 
 ```shell
 docker commit debian firedrake
 ```
 
-Run the image
+`cd` to the directory you want to share with the container (dont do this from your `HOME` directory) and run the `firedrake` image (it likely has tag `latest`)
 
 ```shell
 docker run -it --name firedrake -p 8888:8888 \
            -v $(pwd):/root/shared -w /root/shared \
            firedrake:latest
 ```
+
+That directory will now be accessible inside the container at `/root/shared`.
 
 You can start jupyter inside container
 
