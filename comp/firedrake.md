@@ -42,7 +42,7 @@ export OMP_NUM_THREADS=1
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 ```
 
-Subsequently, you can start and attach to this container
+Subsequently, if you exit the container, you can start and attach to it like this
 
 ```shell
 docker start debian
@@ -59,7 +59,7 @@ Now you can run firedrake programs inside the container.
 
 ## Create an image
 
-Reate an image called `firedrake` out of the `debian` container.
+Create an image called `firedrake` out of the `debian` container.
 
 ```shell
 docker commit debian firedrake
@@ -89,3 +89,8 @@ docker start firedrake
 docker attach firedrake
 ```
 
+You can also upload the `firedrake` image to your docker hub and you can use it from another computer and others can also use it
+
+```shell
+docker push firedrake:latest
+```
