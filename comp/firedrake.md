@@ -92,5 +92,9 @@ docker attach firedrake
 You can also upload the `firedrake` image to your docker hub and you can use it from another computer and others can also use it
 
 ```shell
-docker push firedrake:latest
+docker login
+docker tag firedrake:latest cpraveen/firedrake:latest
+docker push cpraveen/firedrake:latest
 ```
+
+You can see the image in [my docker hub](https://hub.docker.com/r/cpraveen/firedrake/tags). Since I have a free account, images may get deleted after some days.
