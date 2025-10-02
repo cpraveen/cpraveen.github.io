@@ -89,10 +89,11 @@ docker start firedrake
 docker attach firedrake
 ```
 
-You can also upload the `firedrake` image to your docker hub and you can use it from another computer and others can also use it
+You can also upload the `firedrake` image to your docker hub and you can use it from another computer and others can also use it.
 
 ```shell
-docker login
+security unlock-keychain                # only needed if logged into mac via ssh
+docker login -u cpraveen
 docker tag firedrake:latest cpraveen/firedrake:latest
 docker push cpraveen/firedrake:latest
 ```
