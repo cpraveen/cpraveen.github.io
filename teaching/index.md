@@ -70,6 +70,10 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 <a href="teaching/ncm2024">NCM Workshop on Numerical methods for PDE, 16--27 Dec 2024, IIPE, Visakhapatnam.</a>
 </li>
 
+<li>
+Finite volume method, NBHM Advanced Training School on Numerical PDE (ATSNPDE25), 1-11 December 2025, IIT Tirupati.
+</li>
+
 </ol>
 
 ## Courses
@@ -108,9 +112,13 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 
 <li><a href="teaching/na2023.html">Numerical Analysis, TIFR-CAM, January-May 2023</a></li>
 
-<li><a href="teaching/chpde2024.html">Computational Hyperbolic PDE, TIFR-CAM, January-May 2024</a></li>
+<li><a href="teaching/chpde2024.html">Computational Hyperbolic PDE (Elective), TIFR-CAM, January-May 2024</a></li>
 
 <li><a href="teaching/acm2025.html">Applied and Computational Methods, TIFR-CAM, January-May 2025</a></li>
+
+<li>
+Numerical Methods for Evolutionary PDE (Elective), January-May 2026
+</li>
 
 </ol>
 
