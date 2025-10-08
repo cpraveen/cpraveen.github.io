@@ -255,6 +255,10 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S B
 Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", accepted as poster in NeurIPS 2025. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>]
 </li>
 
+<li>
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Journal of Scientific Computing.  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -268,10 +272,6 @@ WENO with Non-Conservative Products".
 
 <li>
 Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions". [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
-</li>
-
-<li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State".  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>]
 </li>
 
 <li>
