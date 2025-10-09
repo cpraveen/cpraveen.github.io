@@ -13,11 +13,11 @@ You will find pdf files of talks below. If you cannot get any file, then please 
 </li>
 
 <li>
-Finite volume method, National Workshop on Advances in Computational Fluid Flow and Heat Transfer, Annamalai University, October, 2005. (<a href="http://bitbucket.org/cpraveen/www/downloads/annamalai.pdf">PDF</a>)
+Finite volume method, National Workshop on Advances in Computational Fluid Flow and Heat Transfer, Annamalai University, October, 2005. [<a href="http://bitbucket.org/cpraveen/www/downloads/annamalai.pdf">PDF</a>]
 </li>
 
 <li>
-"Grid-free Methods for Compressible Flows", Fluid Dynamics  Colloquium of Jawaharlal Nehru Center for Advanced Scientific Research, Bangalore, 9 November, 2005. (<a href="http://bitbucket.org/cpraveen/www/downloads/jnc2005.pdf">PDF</a>)
+"Grid-free Methods for Compressible Flows", Fluid Dynamics  Colloquium of Jawaharlal Nehru Center for Advanced Scientific Research, Bangalore, 9 November, 2005. [<a href="http://bitbucket.org/cpraveen/www/downloads/jnc2005.pdf">PDF</a>]
 </li>
 
 <li>
@@ -25,23 +25,23 @@ Finite volume method, National Workshop on Advances in Computational Fluid Flow 
 </li>
 
 <li>
-Lectures on basics of PDE and finite volume method to engineers from Kirloskar-Copeland at CMMACS, Bangalore, April 2006. (<a href="http://bitbucket.org/cpraveen/www/downloads/cmmacs06.pdf">PDF</a>)
+Lectures on basics of PDE and finite volume method to engineers from Kirloskar-Copeland at CMMACS, Bangalore, April 2006. [<a href="http://bitbucket.org/cpraveen/www/downloads/cmmacs06.pdf">PDF</a>]
 </li>
 
 <li>
-"Aerodynamic shape optimization using particle swarms and metamodels",   Mathematics Colloquium of TIFR-CAM, Bangalore, September 30, 2008. (<a href="http://bitbucket.org/cpraveen/www/downloads/tifrcam-30sep2008.pdf">PDF</a>)
+"Aerodynamic shape optimization using particle swarms and metamodels",   Mathematics Colloquium of TIFR-CAM, Bangalore, September 30, 2008. [<a href="http://bitbucket.org/cpraveen/www/downloads/tifrcam-30sep2008.pdf">PDF</a>]
 </li>
 
 <li>
-"Adjoint approach to optimization using automatic differentiation", Indo-German workshop/lecture Series on Computational Models and Methods Driven by Industrial Problems, Dept. of Math., IIT Madras, December 24, 2008. (<a href="http://bitbucket.org/cpraveen/www/downloads/adjoint-iitm-nov2008.pdf">PDF</a>)
+"Adjoint approach to optimization using automatic differentiation", Indo-German workshop/lecture Series on Computational Models and Methods Driven by Industrial Problems, Dept. of Math., IIT Madras, December 24, 2008. [<a href="http://bitbucket.org/cpraveen/www/downloads/adjoint-iitm-nov2008.pdf">PDF</a>]
 </li>
 
 <li>
-"Aerodynamic shape optimization using particle swarms and metamodels",  Indo-German workshop/lecture Series on Computational Models and Methods Driven by Industrial Problems, Dept. of Math., IIT Madras, December 25, 2008. (<a href="http://bitbucket.org/cpraveen/www/downloads/pso-iitm-nov2008.pdf">PDF</a>)
+"Aerodynamic shape optimization using particle swarms and metamodels",  Indo-German workshop/lecture Series on Computational Models and Methods Driven by Industrial Problems, Dept. of Math., IIT Madras, December 25, 2008. [<a href="http://bitbucket.org/cpraveen/www/downloads/pso-iitm-nov2008.pdf">PDF</a>]
 </li>
 
 <li>
-Two lectures given to bachelors students at St. Joseph College on "Numerical methods for partial differential equations", as part of a workshop  on mathematics sponsored by Indian Academy of Science, 31 Jan 2009. (<a href="http://bitbucket.org/cpraveen/www/downloads/pde1.pdf">Lecture 1</a>), (<a href="http://bitbucket.org/cpraveen/www/downloads/pde2.pdf">Lecture 2</a>)
+Two lectures given to bachelors students at St. Joseph College on "Numerical methods for partial differential equations", as part of a workshop  on mathematics sponsored by Indian Academy of Science, 31 Jan 2009. [<a href="http://bitbucket.org/cpraveen/www/downloads/pde1.pdf">Lecture 1</a>], [<a href="http://bitbucket.org/cpraveen/www/downloads/pde2.pdf">Lecture 2</a>]
 </li>
 
 <li>
@@ -49,23 +49,23 @@ Two lectures given to bachelors students at St. Joseph College on "Numerical met
 </li>
 
 <li>
-"Numerical shape optimization, adjoint equations and their uses", Inhouse sumposium of TIFR-CAM, 17-18 August, 2009. (<a href="http://bitbucket.org/cpraveen/www/downloads/tifrcam-18aug2009.pdf">PDF</a>)
+"Numerical shape optimization, adjoint equations and their uses", Inhouse sumposium of TIFR-CAM, 17-18 August, 2009. [<a href="http://bitbucket.org/cpraveen/www/downloads/tifrcam-18aug2009.pdf">PDF</a>]
 </li>
 
 <li>
-"Discrete adjoint approach to CFD-based optimization", Indo-German       Conference on PDE, Scientific Computing and Optimization in Applications, IIT Kanpur, 7-9 October, 2009. (<a href="http://bitbucket.org/cpraveen/www/downloads/iitkan-oct2009.pdf">PDF</a>)
+"Discrete adjoint approach to CFD-based optimization", Indo-German       Conference on PDE, Scientific Computing and Optimization in Applications, IIT Kanpur, 7-9 October, 2009. [<a href="http://bitbucket.org/cpraveen/www/downloads/iitkan-oct2009.pdf">PDF</a>]
 </li>
 
 <li>
-"Numerical shape optimization", IMI Workshop on Control and Inverse      Problems, Dept. of Mathematics, IISc, Bangalore, 1-15 December, 2009. (<a href="http://bitbucket.org/cpraveen/www/downloads/imi-dec2009.pdf">PDF</a>)
+"Numerical shape optimization", IMI Workshop on Control and Inverse      Problems, Dept. of Mathematics, IISc, Bangalore, 1-15 December, 2009. [<a href="http://bitbucket.org/cpraveen/www/downloads/imi-dec2009.pdf">PDF</a>]
 </li>
 
 <li>
-"Adjoint approach to optimization", Health, Safety and Environment Group, BARC, 6 October, 2010. (<a href="http://bitbucket.org/cpraveen/www/downloads/barc-adjopt-6oct2010.pdf">PDF</a>)
+"Adjoint approach to optimization", Health, Safety and Environment Group, BARC, 6 October, 2010. [<a href="http://bitbucket.org/cpraveen/www/downloads/barc-adjopt-6oct2010.pdf">PDF</a>]
 </li>
 
 <li>
-"Accurate uncertainty quantification using adjoint solutions", Health, Safety and Environment Group, BARC, 7 October, 2010. (<a href="http://bitbucket.org/cpraveen/www/downloads/barc-adjuq-7oct2010.pdf">PDF</a>)
+"Accurate uncertainty quantification using adjoint solutions", Health, Safety and Environment Group, BARC, 7 October, 2010. [<a href="http://bitbucket.org/cpraveen/www/downloads/barc-adjuq-7oct2010.pdf">PDF</a>]
 </li>
 
 <li>
@@ -181,7 +181,7 @@ Two lectures given to bachelors students at St. Joseph College on "Numerical met
 </li>
 
 <li>
-"Lax-Wendroff Flux Reconstruction method for hyperbolic conservation laws", LACAM Conference, IISER Trivandrum, 21-24 February 2024.
+"Lax-Wendroff Flux Reconstruction method for hyperbolic conservation laws", LACAM Conference, IISER Trivandrum, 21-24 February 2024. [<a href="https://bitbucket.   org/cpraveen/www/downloads/iiser_tvm_feb2024.pdf">PDF</a>]
 </li>
 
 <li>
