@@ -335,5 +335,16 @@ dscacheutil -q group -a name admin
 
 </li>
 
+<li>
+Disable liquid glass
+
+<pre>
+defaults write com.apple.finder com.apple.SwiftUI.DisableSolarium -bool YES
+defaults write com.apple.Preview com.apple.SwiftUI.DisableSolarium -bool YES
+defaults write com.apple.Mail com.apple.SwiftUI.DisableSolarium -bool YES
+defaults write com.apple.Safari com.apple.SwiftUI.DisableSolarium -bool YES
+defaults write com.apple.Notes com.apple.SwiftUI.DisableSolarium -bool YES
+</pre>
+</li>
 
 </ol>
