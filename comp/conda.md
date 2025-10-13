@@ -79,6 +79,22 @@ Do not add env to prompt, we show it in window bar
 conda config --set changeps1 False
 ```
 
+## PETSc
+
+If you installed PETSc then set
+
+```shell
+export PETSC_DIR=/opt/homebrew/Caskroom/miniforge/base
+export PETSC_ARCH=
+```
+
+or if you installed it inside `ENV` then
+
+```shell
+PETSC_DIR=/opt/homebrew/Caskroom/miniforge/base/envs/ENV
+export PETSC_ARCH=
+```
+
 ## Use Eigen with tensorflow
 
 Install Miniconda and then
