@@ -258,6 +258,20 @@ git push
 
 it will push to both repositories. TODO: What about branches ?
 
+## Reset git history
+
+On your computer
+
+```shell
+cd REPO
+rm -rf .git
+git init
+git remote add origin git@github.com:USERNAME/REPO
+git add .
+git commit -m "Reset history"
+git push -f origin master
+```
+
 ## git+ssh over https
 
 On some servers ssh may not be allowed but https is allowed. In this case we can use git+ssh over https by adding following lines to your `~/.ssh/config` file.
