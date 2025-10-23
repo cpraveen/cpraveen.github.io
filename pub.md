@@ -259,6 +259,10 @@ Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen C
 Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Journal of Scientific Computing.  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>]
 </li>
 
+<li>
+Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", accepted in Computers and Fluids. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -268,10 +272,6 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Pre
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
 WENO with Non-Conservative Products".
-</li>
-
-<li>
-Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions". [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
 </li>
 
 <li>
