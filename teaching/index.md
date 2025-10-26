@@ -4,13 +4,14 @@ layout: default
 
 # Teaching
 
-## Notes and slides
+## Notes,slides, etc.
 
 * Python for computing: [Website](https://cpraveen.github.io/python)
 * Numerical Analysis: [Website](https://cpraveen.github.io/numa)
 * Numerical Linear Algebra: [Website](https://cpraveen.github.io/nla)
 * Numerical Linear Algebra: Iterative Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/nla_demmel.pdf)
 * Conjugate gradient method: [Notes](https://bitbucket.org/cpraveen/www/downloads/cg.pdf)
+* Numerical Methods for PDE: [Codes](https://github.com/cpraveen/numpde)
 * Spectral Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf), [Website](https://cpraveen.github.io/chebpy)
 * Conservation laws: [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
 * Lagrangian formulation and methods: [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
@@ -21,10 +22,10 @@ layout: default
 * Computational Hyperbolic Systems: [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
 * Vorticity-streamfunction formulation: Notes
 * Incompressible Naver-Stokes equations: Notes
-* Finite Element Method: Notes
+* Finite Element Method: Notes, [Website](https://github.com/cpraveen/fem)
 * Finite Element Exterior Calculus
 * Parallel programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf), [Codes](https://github.com/cpraveen/parallel)
-* deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf)
+* deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf), [Website](https://github.com/cpraveen/fem)
 
 ## Workshops
 
