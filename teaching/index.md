@@ -4,15 +4,22 @@ layout: default
 
 # Teaching
 
-## Notes
+## Notes and slides
 
-* Spectral Methods
+* Spectral Methods [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf)
 * Numerical Linear Algebra
-* Numerical Linear Algebra: Iterative Methods
-* Conjugate gradient method
-* Conservation laws, slides
-* Discontinuous Galerkin Method
-* Computational Hyperbolic PDE
+* Numerical Linear Algebra: Iterative Methods [Slides](https://bitbucket.org/cpraveen/www/downloads/nla_demmel.pdf)
+* Conjugate gradient method [Notes](https://bitbucket.org/cpraveen/www/downloads/cg.pdf)
+* Conservation laws [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
+* Lagrangian formulation and methods [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
+* Discontinuous Galerkin Method [Slides](https://bitbucket.org/cpraveen/www/downloads/dg.pdf)
+* Space-time discontinuous Galerkin method [Notes](https://bitbucket.org/cpraveen/www/downloads/stdg.pdf)
+* Computational Hyperbolic PDE [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
+* Vorticity-streamfunction formulation
+* Incompressible Naver-Stokes equations
+* Finite Element Exterior Calculus
+* Parallel programming [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf)
+* deal.II programming [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf)
 
 ## Workshops
 
