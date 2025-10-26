@@ -6,23 +6,25 @@ layout: default
 
 ## Notes and slides
 
-* Spectral Methods [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf)
-* Numerical Linear Algebra
-* Numerical Linear Algebra: Iterative Methods [Slides](https://bitbucket.org/cpraveen/www/downloads/nla_demmel.pdf)
-* Conjugate gradient method [Notes](https://bitbucket.org/cpraveen/www/downloads/cg.pdf)
-* Conservation laws [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
-* Lagrangian formulation and methods [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
-* Computational Fluid Dynamics [Slides](https://bitbucket.org/cpraveen/www/    downloads/acfd.pdf)
-* Discontinuous Galerkin Method [Slides](https://bitbucket.org/cpraveen/www/downloads/dg.pdf)
-* Space-time discontinuous Galerkin method [Notes](https://bitbucket.org/cpraveen/www/downloads/stdg.pdf)
-* Computational Hyperbolic PDE
-* Computational Hyperbolic Systems [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
-* Vorticity-streamfunction formulation
-* Incompressible Naver-Stokes equations
-* Finite Element Method
+* Python for computing: [Website](https://cpraveen.github.io/python)
+* Numerical Analysis: [Website](https://cpraveen.github.io/numa)
+* Numerical Linear Algebra: [Website](https://cpraveen.github.io/nla)
+* Numerical Linear Algebra: Iterative Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/nla_demmel.pdf)
+* Conjugate gradient method: [Notes](https://bitbucket.org/cpraveen/www/downloads/cg.pdf)
+* Spectral Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf), [Website](https://cpraveen.github.io/chebpy)
+* Conservation laws: [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
+* Lagrangian formulation and methods: [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
+* Computational Fluid Dynamics: [Slides](https://bitbucket.org/cpraveen/www/    downloads/acfd.pdf)
+* Discontinuous Galerkin Method: [Slides](https://bitbucket.org/cpraveen/www/downloads/dg.pdf), Notes
+* Space-time discontinuous Galerkin method: [Notes](https://bitbucket.org/cpraveen/www/downloads/stdg.pdf)
+* Computational Hyperbolic PDE: [Codes](https://github.com/cpraveen/chpde)
+* Computational Hyperbolic Systems: [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
+* Vorticity-streamfunction formulation: Notes
+* Incompressible Naver-Stokes equations: Notes
+* Finite Element Method: Notes
 * Finite Element Exterior Calculus
-* Parallel programming [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf)
-* deal.II programming [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf)
+* Parallel programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf), [Codes](https://github.com/cpraveen/parallel)
+* deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf)
 
 ## Workshops
 
