@@ -16,13 +16,13 @@ layout: default
 * Spectral Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf), [Website](https://cpraveen.github.io/chebpy)
 * Conservation laws: [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
 * Lagrangian formulation and methods: [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
-* Computational Fluid Dynamics: [Slides](https://bitbucket.org/cpraveen/www/    downloads/acfd.pdf)
+* Computational Fluid Dynamics: [Slides](https://bitbucket.org/cpraveen/www/downloads/acfd.pdf)
 * Discontinuous Galerkin Method: [Slides](https://bitbucket.org/cpraveen/www/downloads/dg.pdf), Notes
 * Space-time discontinuous Galerkin method: [Notes](https://bitbucket.org/cpraveen/www/downloads/stdg.pdf)
 * Computational Hyperbolic PDE: Slides, [Codes](https://github.com/cpraveen/chpde)
 * Computational Hyperbolic Systems: [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
-* Vorticity-streamfunction formulation: [Notes](https://bitbucket.org/cpraveen/www/ downloads/vte2d.pdf)
-* Incompressible Naver-Stokes equations: [Notes](https://bitbucket.org/cpraveen/www/ downloads/ins2d.pdf)
+* Vorticity-streamfunction formulation: [Notes](https://bitbucket.org/cpraveen/www/downloads/vte2d.pdf)
+* Incompressible Naver-Stokes equations: [Notes](https://bitbucket.org/cpraveen/www/downloads/ins2d.pdf)
 * Finite Element Method: Notes, [Website](https://github.com/cpraveen/fem)
 * Finite Element Exterior Calculus: Slides
 * Parallel programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf), [Codes](https://github.com/cpraveen/parallel)

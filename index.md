@@ -9,7 +9,7 @@ layout: default
 > * [Numerical Linear Algebra](https://cpraveen.github.io/nla)
 > * [Spectral Methods](https://cpraveen.github.io/chebpy)
 
-> Teaching: In December 2025, I will be giving some lectures on finite volume method at the NCM workshop to be held in IIT, Tirupati. From January 2026, I will be teaching a new elective on finite difference methods for evolutionary PDE.
+> Teaching: In December 2025, I will be giving some lectures on finite volume method at the NBHM workshop to be held in IIT, Tirupati. From January 2026, I will be teaching a new elective on finite difference methods for evolutionary PDE.
 
 > Postdocs: I do not have postdoc positions at present but if you have good computational skills and are looking for a postdoc position, then [write](contact.html) to me. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me and apply for postdoc position at TIFR-CAM.
 
