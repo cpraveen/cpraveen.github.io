@@ -8,22 +8,23 @@ layout: default
 
 * Python for computing: [Website](https://cpraveen.github.io/python)
 * Numerical Analysis: [Website](https://cpraveen.github.io/numa)
-* Numerical Linear Algebra: [Website](https://cpraveen.github.io/nla)
+* Numerical Linear Algebra: Slides, [Website](https://cpraveen.github.io/nla)
 * Numerical Linear Algebra: Iterative Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/nla_demmel.pdf)
 * Conjugate gradient method: [Notes](https://bitbucket.org/cpraveen/www/downloads/cg.pdf)
-* Numerical Methods for PDE: [Codes](https://github.com/cpraveen/numpde)
+* FDM for time dependent problems: Notes
+* Numerical Methods for PDE: Notes, [Codes](https://github.com/cpraveen/numpde)
 * Spectral Methods: [Slides](https://bitbucket.org/cpraveen/www/downloads/spectral.pdf), [Website](https://cpraveen.github.io/chebpy)
 * Conservation laws: [Slides](https://bitbucket.org/cpraveen/www/downloads/conlaw_slides.pdf), [Notes](https://bitbucket.org/cpraveen/www/downloads/conlaw.pdf)
 * Lagrangian formulation and methods: [Notes](https://bitbucket.org/cpraveen/www/downloads/lagrangian.pdf)
 * Computational Fluid Dynamics: [Slides](https://bitbucket.org/cpraveen/www/    downloads/acfd.pdf)
 * Discontinuous Galerkin Method: [Slides](https://bitbucket.org/cpraveen/www/downloads/dg.pdf), Notes
 * Space-time discontinuous Galerkin method: [Notes](https://bitbucket.org/cpraveen/www/downloads/stdg.pdf)
-* Computational Hyperbolic PDE: [Codes](https://github.com/cpraveen/chpde)
+* Computational Hyperbolic PDE: Slides, [Codes](https://github.com/cpraveen/chpde)
 * Computational Hyperbolic Systems: [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
-* Vorticity-streamfunction formulation: Notes
-* Incompressible Naver-Stokes equations: Notes
+* Vorticity-streamfunction formulation: [Notes](https://bitbucket.org/cpraveen/www/ downloads/vte2d.pdf)
+* Incompressible Naver-Stokes equations: [Notes](https://bitbucket.org/cpraveen/www/ downloads/ins2d.pdf)
 * Finite Element Method: Notes, [Website](https://github.com/cpraveen/fem)
-* Finite Element Exterior Calculus
+* Finite Element Exterior Calculus: Slides
 * Parallel programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf), [Codes](https://github.com/cpraveen/parallel)
 * deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf), [Website](https://github.com/cpraveen/fem)
 
