@@ -335,7 +335,7 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction for ad
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms", Proceedings of International Conference on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>], [<a href="https://doi.org/10.1007/978-3-031-76988-7_6>Proceedings</a>]
+Arpit Babbar and Praveen Chandrashekar, "Generalized framework for admissibility preserving Lax-Wendroff Flux Reconstruction for hyperbolic conservation laws with source terms", Proceedings of International Conference on Spectral and High Order Methods (ICOSAHOM2023). [<a href="https://arxiv.org/abs/2402.01442">Arxiv</a>], [<a href="https://doi.org/10.1007/978-3-031-76988-7_6">Proceedings</a>]
 </li>
 
 </ol>
