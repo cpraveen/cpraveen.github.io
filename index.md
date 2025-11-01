@@ -159,6 +159,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/amrex.html">Amrex</a> |
 <a href="comp/bash.html">Bash</a> |
 <a href="comp/cchpc19.html">cchpc19</a> |
+<a href="comp/chapel.html">Chapel</a> |
 <a href="comp/clawpack.html">Clawpack</a> |
 <a href="comp/debian.html">Debian</a> |
 <a href="comp/docker.html">Docker</a> |
