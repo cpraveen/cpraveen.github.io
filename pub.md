@@ -256,7 +256,7 @@ Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen C
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Journal of Scientific Computing.  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>]
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Journal of Scientific Computing, Vol. 105, 2025.  [<a href="https://arxiv.org/abs/2505.05128">Arxiv</a>], [<a href="https://doi.org/10.1007/s10915-025-03092-9">Journal</a>]
 </li>
 
 <li>
