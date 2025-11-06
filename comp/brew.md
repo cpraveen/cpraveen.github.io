@@ -111,7 +111,7 @@ brew install alfred
 brew install amazon-music
 brew install appcleaner
 brew install coconutbattery
-brew install djview
+brew install djview4
 brew install dropbox
 brew install firefox
 brew install google-drive
@@ -123,6 +123,7 @@ brew install lyx
 brew install mactex
 brew install meld
 brew install onyx
+brew install openinterminal-lite
 brew install paraview
 brew install sourcetree
 brew install skype
@@ -130,6 +131,7 @@ brew install texmacs
 brew install texstudio
 brew install visit
 brew install visual-studio-code
+brew install xnviewmp
 brew install xquartz
 brew install yed
 brew install zoom

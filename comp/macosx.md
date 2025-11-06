@@ -107,6 +107,8 @@ To generate line plots for publication, <a href="https://matplotlib.org">Matplot
 
 <a href="https://wci.llnl.gov/simulation/computer-codes/visit/executables">VisIt</a> is my favourite program for visualizing PDE solutions coming from finite difference/volume/element methods. You may also want to try <a href="https://www.paraview.org">Paraview</a> which is also very powerful tool.
 
+While these GUI tools are good to have and they also have Python API, it is painful to learn and use the API. I recommend using PyVista, which is a better alternative for scripting your work.
+
 ## Document preparation/viewing
 
 <a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the Latex packages.
@@ -117,9 +119,9 @@ To manage my bibliography, I have come to like <a href="https://www.zotero.org">
 
 <a href="http://texmacs.org/">TexMacs</a> is a wysiwyg editor that seems to be getting very good. I sometimes use it for writing small notes and documents.
 
-The built in Preview app can open and display many file types including pdf. [Skim](https://skim-app.sourceforge.io/) is another good alternative, which I prefer for making pdf presentations, as it is better than Preview. Skim can also open ps/eps files.
+[Skim](https://skim-app.sourceforge.io/) is the best pdf viewer on mac, which I prefer for making pdf presentations, as it is better than Preview. Skim can also open ps/eps files. For viewing images, xnview is a great alternative to Preview.
 
-<a href="http://djvu.sourceforge.net">djview</a>: For viewing djvu archive files. Most ebooks are packaged as djvu files. The available binaries are old versions; you can install this via brew (<code>brew install djview</code>).
+<a href="http://djvu.sourceforge.net">djview</a>: For viewing djvu archive files. Most ebooks are packaged as djvu files. The available binaries are old versions; you can install this via brew (<code>brew install djview4</code>).
 
 Keynote is free with OSX and is surprisingly good, even better than PowerPoint. You also get Pages for free which is an alternative to Word.
 
@@ -333,18 +335,6 @@ See list of admin users
 dscacheutil -q group -a name admin
 </pre>
 
-</li>
-
-<li>
-Disable liquid glass
-
-<pre>
-defaults write com.apple.finder com.apple.SwiftUI.DisableSolarium -bool YES
-defaults write com.apple.Preview com.apple.SwiftUI.DisableSolarium -bool YES
-defaults write com.apple.Mail com.apple.SwiftUI.DisableSolarium -bool YES
-defaults write com.apple.Safari com.apple.SwiftUI.DisableSolarium -bool YES
-defaults write com.apple.Notes com.apple.SwiftUI.DisableSolarium -bool YES
-</pre>
 </li>
 
 </ol>
