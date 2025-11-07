@@ -87,7 +87,7 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 </li>
 
 <li>
-Finite volume method, NBHM Advanced Training School on Numerical PDE (ATSNPDE25), 1-11 December 2025, IIT Tirupati.
+<a href="https://mast.iittp.ac.in/ATSNPDE25/index.html">Finite volume method, NBHM Advanced Training School on Numerical PDE (ATSNPDE25), 1-11 December 2025, IIT Tirupati.</a>
 </li>
 
 </ol>
