@@ -196,4 +196,13 @@ Two lectures given to bachelors students at St. Joseph College on "Numerical met
 "Shear shallow water model and its numerical approximation", Summer School in Saint-Etienne-de-Tinee, 4 July 2024. [<a href="https://bitbucket.org/cpraveen/www/downloads/st_etienne_de_tinee_jul2024.pdf">PDF</a>]
 </li>
 
+<li>
+“Introduction to continuous Galerkin method for hyperbolic PDEs“, Oberseminar,
+Dept, of Mathematics, Univ. of Wuerzburg, Germany, 15 May 2025.
+</li>
+
+<li>
+“On continuous Galerkin methods for the compressible Euler and Navier-Stokes equa tions”, Oberseminar, Dept, of Mathematics, Univ. of Wuerzburg, Germany, 28 May 2025.
+</li>
+
 </ol>

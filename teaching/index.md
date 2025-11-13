@@ -124,16 +124,24 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 
 <li><a href="teaching/cm2021.html">Computational Methods, TIFR-CAM, February-June 2021</a></li>
 
-<li><a href="teaching/cm2022.html">Computational PDE, TIFR-CAM, January-May 2022</a></li>
-
-<li><a href="teaching/na2023.html">Numerical Analysis, TIFR-CAM, January-May 2023</a></li>
-
-<li><a href="teaching/chpde2024.html">Computational Hyperbolic PDE (Elective), TIFR-CAM, January-May 2024</a></li>
-
-<li><a href="teaching/acm2025.html">Applied and Computational Methods, TIFR-CAM, January-May 2025</a></li>
+<li>
+<a href="teaching/cm2022.html">Computational PDE, TIFR-CAM, January-May 2022</a>
+</li>
 
 <li>
-Numerical Methods for Evolutionary PDE (Elective), January-May 2026
+<a href="teaching/na2023.html">Numerical Analysis, TIFR-CAM, January-May 2023</a>
+</li>
+
+<li>
+<a href="teaching/chpde2024.html">Computational Hyperbolic PDE (Elective), TIFR-CAM, January-May 2024</a>
+</li>
+
+<li>
+<a href="teaching/acm2025.html">Applied and Computational Methods, TIFR-CAM, January-May 2025</a>
+</li>
+
+<li>
+<a href="teaching/fdm2026.html">Numerical Methods for Evolutionary PDE (Elective), January-May 2026</a>
 </li>
 
 </ol>
