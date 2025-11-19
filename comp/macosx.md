@@ -111,7 +111,12 @@ While these GUI tools are good to have and they also have Python API, it is pain
 
 ## Document preparation/viewing
 
-<a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the Latex packages.
+<a href="https://www.tug.org/mactex/">MacTex</a> is a nice way to install all the Latex packages. Update TeXLive like this
+
+```shell
+sudo tlmgr update --self
+sudo tlmgr update pdfjam
+```
 
 <a href="https://www.texstudio.org/">TexStudio</a> is a great editor for Latex.
 
