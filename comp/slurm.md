@@ -4,6 +4,8 @@ layout: default
 
 # SLURM
 
+Some important command
+
 ```shell
 sinfo 
 sinfo -N -l
@@ -54,7 +56,7 @@ echo "Time is $(date)"
 In this script, total number of ranks = `nodes * ntasks-per-node = SLURM_NTASKS`.  Instead of specifying `nodes` and `ntasks-per-node`, you can specify the total number of ranks
 
 ```bash
-#SBATCH --nodes=960                     # Total number of ranks
+#SBATCH --ntasks=960                     # Total number of ranks
 ```
 
 and let slurm decide the number of ranks per node.
