@@ -178,6 +178,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/pbs.html">PBS</a> |
 <a href="comp/conda.html">Python</a> |
 <a href="comp/screen.html">Screen</a> |
+<a href="comp/slurm.html">SLURM</a> |
 <a href="comp/spack.html">Spack</a> |
 <a href="comp/ssh.html">SSH</a> |
 <a href="comp/texmacs.html">TeXMacs</a> |
