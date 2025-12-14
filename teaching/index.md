@@ -23,10 +23,10 @@ layout: default
 * Computational Hyperbolic Systems: [Notes](https://bitbucket.org/cpraveen/www/downloads/hypsys.pdf)
 * Vorticity-streamfunction formulation: [Notes](https://bitbucket.org/cpraveen/www/downloads/vte2d.pdf)
 * Incompressible Navier-Stokes equations: [Notes](https://bitbucket.org/cpraveen/www/downloads/ins2d.pdf)
-* Finite Element Method: Notes, [Website](https://github.com/cpraveen/fem)
+* Finite Element Method: Notes, [Codes](https://github.com/cpraveen/fem)
 * Finite Element Exterior Calculus: Slides
 * Parallel programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/parallel.pdf), [Codes](https://github.com/cpraveen/parallel)
-* deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf), [Website](https://github.com/cpraveen/fem)
+* deal.II programming: [Slides](https://bitbucket.org/cpraveen/www/downloads/dealii.pdf), [Codes](https://github.com/cpraveen/fem)
 
 Slides of my talks and other presentations can be found [here](talks.html).
 

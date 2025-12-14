@@ -9,14 +9,14 @@ I am happy to receive applications from students asking for internships, for the
 
 * You need to know some theory. [Here](books.html) is a list of books I recommend.
 * Learn to work on Unix/Linux and the [command line](https://swcarpentry.github.io/shell-novice). Use a proper text editor like Vi/Vim or Emacs.
-* Learn a programming language really well, e.g., Fortran and C/C++. I would recommend learning all three of these. (Matlab is not a programming language. I dont have any projects that can be done in Matlab.)
+* Learn a programming language really well, e.g., Fortran, C/C++, Chapel, Julia. I would recommend learning more than one. (Matlab is not a programming language. I dont have any projects that can be done in Matlab.)
 * Learn Python, which is great for scripting, data analysis and visualization.
 * Learn to use some visualization tools like [gnuplot](http://www.gnuplot.info), [Paraview](http://www.paraview.org) and [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit). Python  also has good support for visualization, see also [PyVista](https://docs.pyvista.org/).
 * Learn to use a version control system like [git](http://git-scm.com/book).
 * Learn parallel programming concepts and [MPI](https://computing.llnl.gov/tutorials/mpi).
 * Learn linear algebra libraries like [Petsc](http://www.mcs.anl.gov/petsc) and/or [Trilinos](https://trilinos.org").
 * Learn Latex. Write your reports/cv/application using Latex. [(Video)](https://www.youtube.com/watch?v=NXW4cbHBthY)
-* Put up your scientific computing project work on [github](http://www.github.com), [gitlab](http://www.gitlab.com) or [Bitbucket](http://www.bitbucket.org).
+* Put up your scientific computing project work on [codeberg](http://codeberg.org), [sourcehut](http://sr.ht), [github](http://www.github.com), [gitlab](http://www.gitlab.com) or [Bitbucket](http://www.bitbucket.org).
 * Take the many online courses being offered these days on scientific computing topics. Do the assignments and exams.
 * Finally, send your cv/application in PDF format ONLY.
 
@@ -27,8 +27,8 @@ When you write to me, it is highly desirable if you can show me some proof for a
 The above advice is fairly general for anybody wanting to work in scientific computing, numerical solution of PDE, finite element methods, computational fluid dynamics, etc. If you want to work with me, it will help if you are able to satisfy some of the above requirements. In addition, you will have a better chance if you have worked with any of the following.
 
 * <a href="http://www.dealii.org" target="_blank">Deal.II</a>: This is a finite element library written in C++. Work through the <a href="http://dealii.org/developer/doxygen/deal.II/Tutorial.html">tutorials</a> and watch the <a href="https://www.math.colostate.edu//~bangerth/videos.html">videos</a>.
+* <a href="http://www.firedrakeproject.org" target="_blank">Firedrake</a>: This is an automated FEM system in python and C++
 * <a href="https://www.mcs.anl.gov/petsc/" target="_blank">PETSc</a>: A suite of data structures and routines for the scalable (parallel) solution of scientific applications modeled by partial differential equations.
 * <a href="http://chapel.cray.com" target="_blank">Chapel</a>: A parallel programming language which is great for solving PDEs.
-* <a href="http://www.fenicsproject.org" target="_blank">FEniCS</a>: This is an automated FEM system in python and C++
 * <a href="http://geuz.org/gmsh/" target="_blank">Gmsh</a>: A mesh generation tool
 * <a href="http://www.salome-platform.org/">Salome</a>: An open-source software that provides a generic platform for Pre- and Post-Processing for numerical simulation.
