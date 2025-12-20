@@ -22,7 +22,18 @@ Start it
 docker run -it --name debian debian:stable
 ```
 
-Inside the container, run the commands given [here](https://github.com/cpraveen/cfdlab/blob/master/bin/firedrake_debian.sh) to install firedrake and some other needed softwares.
+Inside the container, run the commands 
+
+```shell
+cd ~
+apt update
+apt upgrade
+apt install wget vim
+wget https://github.com/cpraveen/cfdlab/raw/refs/heads/master/bin/firedrake_debian.sh
+bash ./firedrake_debian.sh
+```
+
+You can read the commands [here](https://github.com/cpraveen/cfdlab/blob/master/bin/firedrake_debian.sh).
 
 Add some settings in `~/.bashrc` file
 
@@ -40,6 +51,8 @@ export LS_OPTIONS='--color=auto'
 alias ls='ls $LS_OPTIONS'
 export OMP_NUM_THREADS=1
 export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+. /root/firedrake/bin/activate
 ```
 
 Subsequently, if you exit the container, you can start and attach to it like this
@@ -49,7 +62,7 @@ docker start debian
 docker attach debian
 ```
 
-Activate the env
+Activate the env if not already done
 
 ```shell
 . /root/firedrake/bin/activate
@@ -89,13 +102,31 @@ docker start firedrake
 docker attach firedrake
 ```
 
+## Publish image to dockerhub
+
 You can also upload the `firedrake` image to your docker hub and you can use it from another computer and others can also use it.
 
 ```shell
-security unlock-keychain                # only needed if logged into mac via ssh
-docker login -u cpraveen
 docker tag firedrake:latest cpraveen/firedrake:latest
+security unlock-keychain
+docker login -u cpraveen
 docker push cpraveen/firedrake:latest
 ```
 
 You can see the image in [my docker hub](https://hub.docker.com/r/cpraveen/firedrake/tags). Since I have a free account, images may get deleted after some days.
+
+## Using my image
+
+You can pull my image
+
+```shell
+docker pull cpraveen/firedrake:latest
+```
+
+and run it
+
+```shell
+docker run -it --name firedrake -p 8888:8888 \
+           -v $(pwd):/root/shared -w /root/shared \
+           cpraveen/firedrake:latest
+```
