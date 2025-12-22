@@ -9,11 +9,11 @@ layout: default
 > * [Numerical Linear Algebra](https://cpraveen.github.io/nla)
 > * [Spectral Methods](https://cpraveen.github.io/chebpy)
 
-> Teaching: In December 2025, I will be giving some lectures on finite volume method at the NBHM workshop to be held in IIT, Tirupati. From January 2026, I will be teaching a new elective on finite difference methods for evolutionary PDE.
+> Teaching: From January 2026, I will be teaching a new [elective course](teaching/fdm2026.html) on finite difference methods for evolutionary PDE.
 
-> Postdocs: There are some postdoc positions at TIFR-CAM, see [here](https://www.math.tifrbng.res.in/en/career/postdoctoral-fellow-positions). If you are interested, write to me with your CV. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to.
+> Postdocs: There are some postdoc positions at TIFR-CAM, see [here](https://www.math.tifrbng.res.in/en/career/postdoctoral-fellow-positions). If you are interested, write to me with your CV. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me.
 
-> Projects/internships: If you are a student looking for internship, project assistant position or postdoc position in the topic of computational PDE, please read [this](forstudents.html) and write to me if you are interested in doing some project.
+> Projects/internships: If you are a student looking for internship, project assistant position or postdoc position in the topic of computational PDE, please read [this](forstudents.html) and write to me if you are interested in doing some project. Usually, I cannot offer in-person internships in summer due to travel, but if you are very motivated, we can consider online internships.
 
 
 I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). This is my personal website while my official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
