@@ -100,6 +100,7 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Asha Meena, Cental Univ. Rajasthan, Ajmer, 17 -- 20 November, 2024.
 1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 17 Aug -- 11 Sep, 2025
 1. Arun K. R., IISER Trivandrum, 24 -- 27 Aug, 2025.
+1. Arpit Babbar, Univ. Guttenberg, Mainz, 5 -- 7 Jan, 2026.
 
 ## Visiting students
 
@@ -115,3 +116,4 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Ashish Bhole, PhD student, Univ. of Cote D'Azur, 17 Aug to 17 Sep 2019
 1. Anshu Yadav, Dept. of Mathematics, IIT Delhi, 23-28 Dec 2019
 1. Shubham Goswami, CDS, IISc, 17 April 2024.
+1. Punit Yadav, IIT Delhi, 26 Dec 2025 to 12 Jan 2026.

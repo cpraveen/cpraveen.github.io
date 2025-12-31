@@ -16,7 +16,7 @@ layout: default
 > Projects/internships: If you are a student looking for internship, project assistant position or postdoc position in the topic of computational PDE, please read [this](forstudents.html) and write to me if you are interested in doing some project. Usually, I cannot offer in-person internships in summer due to travel, but if you are very motivated, we can consider online internships.
 
 
-I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). This is my personal website while my official page is located [here](http://www.math.tifrbng.res.in/people/praveen).
+I am a professor in the [Center for Applicable Mathematics](http://www.math.tifrbng.res.in), Bangalore, which is part of the [Tata Institute of Fundamental Research](http://www.tifr.res.in). This is my personal website while my official page is located [here](http://www.math.tifrbng.res.in/en/people/praveen).
 
 <p style="text-align:center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cTRQP6DSaqA" frameborder="0" allowfullscreen></iframe> <br/>
@@ -176,6 +176,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/matplotlib.html">Matplotlib</a> |
 <a href="comp/suse.html">OpenSuse</a> |
 <a href="comp/pbs.html">PBS</a> |
+<a href="comp/pdfjam.html">PDFJam</a> |
 <a href="comp/conda.html">Python</a> |
 <a href="comp/screen.html">Screen</a> |
 <a href="comp/slurm.html">SLURM</a> |
