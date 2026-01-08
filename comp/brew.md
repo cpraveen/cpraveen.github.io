@@ -153,3 +153,13 @@ To install Octave
 brew tap octave-app/octave-app
 brew install --cask octave-app
 ```
+
+## Installing Java/JRE
+
+```shell
+brew install openjdk
+sudo ln -sfn $(brew --prefix openjdk)/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+java -version
+```
+
+If you need to use Matlab on a mac, you may want to install a specific version of JRE, see [here](https://mathworks.com/support/requirements/apple-silicon.html)

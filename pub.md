@@ -263,16 +263,16 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Pre
 Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", accepted in Computers and Fluids. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>]
 </li>
 
+<li>
+Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
+WENO with Non-Conservative Products", accepted in Journal of Scientific Computing, 2026.
+</li>
+
 </ol>
 
 ## Papers submitted
 
 <ol>
-
-<li>
-Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
-WENO with Non-Conservative Products".
-</li>
 
 <li>
 Junming Duan, Praveen Chandrashekar, Christian Klingenberg, "Active flux for ideal magnetohydrodynamics: A positivity-preserving scheme with the Godunov-Powell source term". [<a href="https://arxiv.org/abs/2506.04857">Arxiv</a>]
