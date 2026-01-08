@@ -4,7 +4,7 @@ layout: default
 
 # Some of my codes
 
-This is a list of my codes most of which are freely available. A more complete list can be found on my <a href="http://github.com/cpraveen" target="_blank">github</a>, <a href="http://www.bitbucket.org/cpraveen" target="_blank">bitbucket</a> and <a href="http://gitlab.com/cpraveen" target="_blank">gitlab</a> pages.
+This is a list of my codes most of which are freely available. A more complete list can be found on my <a href="https://codeberg.org/cpraveen">codeberg</a>, <a href="https://git.sr.ht">sourcehut</a>, <a href="http://github.com/cpraveen" target="_blank">github</a>, <a href="http://www.bitbucket.org/cpraveen" target="_blank">bitbucket</a> and <a href="http://gitlab.com/cpraveen" target="_blank">gitlab</a> pages.
 
 ## Codes for teaching
 
