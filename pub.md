@@ -260,7 +260,7 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Pre
 </li>
 
 <li>
-Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", accepted in Computers and Fluids. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>], [<a href="https://authors.elsevier.com/c/1mPebAQO4-G-D">Read online</a>]
+Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", accepted in Computers and Fluids. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2025.106886">Journal</a>], [<a href="https://authors.elsevier.com/c/1mPebAQO4-G-D">Read online</a>]
 </li>
 
 <li>
