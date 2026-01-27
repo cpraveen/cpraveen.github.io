@@ -550,6 +550,10 @@ Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen, Bound Preser
 Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa, A semi-discrete Active Flux method of arbitrarily high order on 2-d Cartesian grids, ICOSAHOM, 2025.
 </li>
 
+<li>
+Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State, Hyp2026.
+</li>
+
 </ol>
 
 ## Research reports
