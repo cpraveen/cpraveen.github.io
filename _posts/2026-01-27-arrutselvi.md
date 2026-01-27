@@ -11,7 +11,7 @@ layout: post
 
 **Abstract**:
 
-Many classical discretization techniques for partial differential equations rely on explicitly constructed finite-dimensional approximation spaces defined on simplicial or tensor-product meshes. While highly successful, this paradigm becomes restrictive when one seeks robust and stable methods on general polyg- onal or polyhedral meshes arising from adaptivity, mesh agglomeration, or complex geometries.
+Many classical discretization techniques for partial differential equations rely on explicitly constructed finite-dimensional approximation spaces defined on simplicial or tensor-product meshes. While highly successful, this paradigm becomes restrictive when one seeks robust and stable methods on general polygonal or polyhedral meshes arising from adaptivity, mesh agglomeration, or complex geometries.
 
 The Virtual Element Method (VEM) offers a principled framework for the discretization of partial differential equations on arbitrary meshes without re- quiring explicit knowledge of basis functions inside mesh elements. Instead, the method is formulated through carefully chosen degrees of freedom, computable projection operators, and discrete bilinear forms designed to satisfy polynomial consistency and stability properties.
 
