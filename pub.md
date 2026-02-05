@@ -278,6 +278,10 @@ WENO with Non-Conservative Products", accepted in Journal of Scientific Computin
 Junming Duan, Praveen Chandrashekar, Christian Klingenberg, "Active flux for ideal magnetohydrodynamics: A positivity-preserving scheme with the Godunov-Powell source term". [<a href="https://arxiv.org/abs/2506.04857">Arxiv</a>]
 </li>
 
+<li>
+Rakesh Kumar and Praveen Chandrashekar, Divergence-free reconstruction of 2-D vector fields: application to induction equation.
+</li>
+
 </ol>
 
 
@@ -551,7 +555,11 @@ Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa
 </li>
 
 <li>
-Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State, Hyp2026.
+Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State, Hyp2026, Stuttgart.
+</li>
+
+<li>
+Bhoriya, Deepak; Balsara, Dinshaw S.; Chandrashekar, Praveen; Shu, Chi-Wang, Physical Constraint Preserving Alternative Finite-Difference WENO scheme for Hyperbolic Systems with Non-Conservative Products, Hyp2026, Stuttgart.
 </li>
 
 </ol>
