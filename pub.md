@@ -554,13 +554,19 @@ Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen, Bound Preser
 Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa, A semi-discrete Active Flux method of arbitrarily high order on 2-d Cartesian grids, ICOSAHOM, 2025.
 </li>
 
+<!--
 <li>
-Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State, Hyp2026, Stuttgart.
+Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Hyp2026, Stuttgart.
 </li>
 
 <li>
-Bhoriya, Deepak; Balsara, Dinshaw S.; Chandrashekar, Praveen; Shu, Chi-Wang, Physical Constraint Preserving Alternative Finite-Difference WENO scheme for Hyperbolic Systems with Non-Conservative Products, Hyp2026, Stuttgart.
+Bhoriya, Deepak; Balsara, Dinshaw S.; Chandrashekar, Praveen; Shu, Chi-Wang, "Physical Constraint Preserving Alternative Finite-Difference WENO scheme for Hyperbolic Systems with Non-Conservative Products", Hyp2026, Stuttgart.
 </li>
+
+<li>
+Cheng, Yu-Chen; Chandrashekar, Praveen; Klingenberg, Christian, "A low-dissipation central-upwind schemes for ideal MHD", Hyp2026, Stuttgart.
+</li>
+-->
 
 </ol>
 
