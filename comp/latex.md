@@ -287,3 +287,16 @@ Do not put brackets () around cite, do not use "see" in "see \cite{ref1,ref2} ..
 </li>
 
 </ol>
+
+## Adding movie to beamer
+
+This will add a link to the image, clicking which should open your default movie viewer.
+
+```latex
+\usepackage{multimedia}
+\usepackage{hyperref}
+
+\movie[externalviewer]{
+\includegraphics[width=0.5\text}{image.png}
+}{path/to/movie.mpg}
+```
