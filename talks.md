@@ -205,4 +205,21 @@ Dept, of Mathematics, Univ. of Wuerzburg, Germany, 15 May 2025.
 “On continuous Galerkin methods for the compressible Euler and Navier-Stokes equa tions”, Oberseminar, Dept, of Mathematics, Univ. of Wuerzburg, Germany, 28 May 2025.
 </li>
 
+<li>
+"Lax-Wendroff flux reconstruction method for hyperbolic conservation laws", Dept. of Mathematics, Mahindra University, November 2025.
+</li>
+
+<li>
+"Continuous Galerkin method for convection dominated problems", 
+LACAM Conference 2025, IISER Trivandrum, 8--11 December, 2025.
+</li>
+
+<li>
+"Lax-Wendroff flux reconstruction method for conservation laws", International Conference on Differential Equations: Theory, Modelling & Computing (ICDETML), SRM Institute of Science and Technology, 27--29 January 2026.
+</li>
+
+<li>
+"Continuous Galerkin method for convection dominated problems", Cynosure-9.0 and National Symposium on Advances in Mathematics, Dept. of Mathematics, IIT Ropar, 21 February, 2026.
+</li>
+
 </ol>
