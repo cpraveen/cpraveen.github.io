@@ -219,7 +219,7 @@ LACAM Conference 2025, IISER Trivandrum, 8--11 December, 2025.
 </li>
 
 <li>
-"Continuous Galerkin method for convection dominated problems", Cynosure-9.0 and National Symposium on Advances in Mathematics, Dept. of Mathematics, IIT Ropar, 21 February, 2026.
+"Continuous Galerkin method for compressible flows", Cynosure-9.0 and National Symposium on Advances in Mathematics, Dept. of Mathematics, IIT Ropar, 21 February, 2026.
 </li>
 
 </ol>
