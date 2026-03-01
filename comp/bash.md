@@ -105,6 +105,7 @@ Ctrl + w    cut previous word
 Ctrl + u    cut whole line
 
 Ctrl + l    clear screen
+Cmd  + k    clear screen buffer
 
 Opt  + <    move back one word
 Opt  + >    move forward one word
