@@ -265,7 +265,7 @@ Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A
 
 <li>
 Deepak Bhoriya, Dinshaw S. Balsara, Praveen Chandrashekar, Chi-Wang Shu, "Physical Constraint Preserving Method for Alternative Finite Difference
-WENO with Non-Conservative Products", accepted in Journal of Scientific Computing, 2026.
+WENO with Non-Conservative Products", Journal of Scientific Computing, Vol. 107, Issue 1, February 2026. [<a href="https://doi.org/10.1007/s10915-026-03191-1">Journal</a>]
 </li>
 
 </ol>
