@@ -77,6 +77,8 @@ spack providers lapack
 
 I install `deal.II` and its dependencies which provides all the softwares that I need for my work. Since I like to compile `deal.II` myself, I will install only dependencies. But first check that all variants you need are correct by running
 
+> Before you install any packages from spack, make sure to remove miniforge and anaconda from your `PATH` since this can lead to hard to fix problems.
+
 ```shell
 spack spec --fresh -I dealii
 spack spec --reuse -I dealii # --reuse is the default
@@ -168,3 +170,5 @@ spack spec /c67eysz
 ## Compiling deal.II using spack packages
 
 If you want to compile deal.II on your own, then I have a cmake configure script [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/dealii_spack.sh).
+
+> Again, remove miniforge and anaconda from your `PATH` before compiling deal.II.
