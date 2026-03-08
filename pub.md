@@ -286,11 +286,11 @@ Rakesh Kumar and Praveen Chandrashekar, Divergence-free reconstruction of 2-D ve
 <li>
 Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction with Automatic Differentiation on Unstructured Adaptive Curved Meshes for Relativistic Hydrodynamics"
 </li>
+-->
 
 <li>
-Yu-Chen Cheng, Christian Klingenberg, Praveen Chandrashekar, "A low-dissipation central-upwind scheme for ideal MHD".
+Yu-Chen Cheng, Praveen Chandrashekar, Christian Klingenberg, "A low-dissipation central scheme for ideal MHD".
 </li>
--->
 
 </ol>
 
