@@ -289,7 +289,7 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-
 -->
 
 <li>
-Yu-Chen Cheng, Praveen Chandrashekar, Christian Klingenberg, "A low-dissipation central scheme for ideal MHD".
+Yu-Chen Cheng, Praveen Chandrashekar, Christian Klingenberg, "A low-dissipation central scheme for ideal MHD". [<a href="https://arxiv.org/abs/2603.07738">Arxiv</a>]
 </li>
 
 </ol>
