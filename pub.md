@@ -240,7 +240,7 @@ Arpit Babbar and Praveen Chandrashekar, "Lax-Wendroff Flux Reconstruction on ada
 </li>
 
 <li>
-Arpit Babbar and Praveen Chandrashekar, "Multi-derivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
+Arpit Babbar and Praveen Chandrashekar, "Multiderivative Runge-Kutta flux reconstruction for hyperbolic conservation laws", Communications on Applied Mathematics and Computation, Vol. 8, pp. 664-704, April 2025. [<a href="https://arxiv.org/abs/2403.02141">ArXiv</a>], [<a href="https://doi.org/10.1007/s42967-024-00463-1">Journal</a>]
 </li>
 
 <li>
@@ -564,7 +564,10 @@ Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen, Bound Preser
 Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa, A semi-discrete Active Flux method of arbitrarily high order on 2-d Cartesian grids, ICOSAHOM, 2025.
 </li>
 
-<!--
+<li>
+Praveen Chandrashekar, Jalil Khan, Anil Nemili, "Continuous Galerkin method for compressible flows", Conference on Hyperbolic Problems: A comprehensive approach, Univ. of Wuerzburg, 23-27 March, 2026.
+</li>
+
 <li>
 Basak, Sujoy; Babbar, Arpit; Kumar, Harish; Chandrashekar, Praveen: "Constraints Preserving Lax-Wendroff Flux Reconstruction for Relativistic Hydrodynamics with General Equations of State", Hyp2026, Stuttgart.
 </li>
@@ -576,7 +579,6 @@ Bhoriya, Deepak; Balsara, Dinshaw S.; Chandrashekar, Praveen; Shu, Chi-Wang, "Ph
 <li>
 Cheng, Yu-Chen; Chandrashekar, Praveen; Klingenberg, Christian, "A low-dissipation central-upwind schemes for ideal MHD", Hyp2026, Stuttgart.
 </li>
--->
 
 </ol>
 
