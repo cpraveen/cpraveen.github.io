@@ -6,47 +6,47 @@ layout: default
 
 Create `.o` from `.c` file
 
-```make
+```text
 %.o: %.c
     $(CC) -c $<
 ```
 
 Specify dependency on some include files
 
-```make
+```text
 %.o: %.c a.h b.h c.h
     $(CC) -c $<
 ```
 
 Per file dependency can be specified
 
-```make
+```text
 a.o: a.c x.h y.h
 b.o: b.c y.h z.h
 ```
 
 Create executable from each `.c` file
 
-```make
+```text
 %: %.c
     $(CC) $< -o $@
 ```
 
 Compile several files into an executable (not optimal as it compiles all files each time)
 
-```make
+```text
 exe: a.c b.c c.c
     $(CC) $^ -o $@
 ```
 
 List of all `.c` files
 
-```make
+```text
 SRC = $(wildcard *.c)
 ```
 
 Create list of `.o` files for each `.c` file
 
-```make
+```text
 OBJ = $(SRC:.c=.o)
 ```
