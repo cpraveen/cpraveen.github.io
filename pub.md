@@ -282,11 +282,9 @@ Junming Duan, Praveen Chandrashekar, Christian Klingenberg, "Active flux for ide
 Rakesh Kumar and Praveen Chandrashekar, Divergence-free reconstruction of 2-D vector fields: application to induction equation.
 </li>
 
-<!--
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction with Automatic Differentiation on Unstructured Adaptive Curved Meshes for Relativistic Hydrodynamics"
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction method with Automatic Differentiation on Adaptive Curved Meshes for Relativistic Hydrodynamics"
 </li>
--->
 
 <li>
 Yu-Chen Cheng, Praveen Chandrashekar, Christian Klingenberg, "A low-dissipation central scheme for ideal MHD". [<a href="https://arxiv.org/abs/2603.07738">Arxiv</a>]
