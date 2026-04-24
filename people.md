@@ -61,6 +61,7 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 * Vaishnavi Sharma, Dept. of Mech. Engg., NIT Hamirpur
 * Devansh Tripathi, IISER Trivandrum, June-July, 2024
 * Devansh Sonigra, TIFR-CAM, June-July, 2024
+* V Sai Prabhav, ISI Bangalore, May-July, 2026
 
 ## Visiting professors/scientists/postdocs
 
@@ -101,6 +102,7 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 17 Aug -- 11 Sep, 2025
 1. Arun K. R., IISER Trivandrum, 24 -- 27 Aug, 2025.
 1. Arpit Babbar, Univ. Guttenberg, Mainz, 5 -- 7 Jan, 2026.
+1. Jitendra Kumar, IIT Ropar, 19-20 May, 2026.
 
 ## Visiting students
 
@@ -117,3 +119,4 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Anshu Yadav, Dept. of Mathematics, IIT Delhi, 23-28 Dec 2019
 1. Shubham Goswami, CDS, IISc, 17 April 2024.
 1. Punit Yadav, IIT Delhi, 26 Dec 2025 to 12 Jan 2026.
+1. Moon Hazarika, Univ. Michigan, 20-31 May 2026.
