@@ -25,3 +25,7 @@ or specify it as an argument
 ```
 
 See the Chapel [documentation](https://chapel-lang.org/docs/usingchapel/executing.html#controlling-degree-of-data-parallelism) for more on this.
+
+## Optimization flags `--fast`
+
+With this flag enabled, many checks, like array bounds will not be performed during run time. So if you have bugs, they may be hard to find. If your code is not running correctly, always compile without this flag so that bugs can be found.
