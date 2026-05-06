@@ -29,7 +29,7 @@ Now get Spack
 git clone https://github.com/spack/spack.git $SPACK_ROOT
 ```
 
-You can add following lines to your `.bashrc` or `.profile` file
+You can add following lines to your `.zshrc` or `.bashrc` or `.profile` file
 
 ```bash
 export SPACK_ROOT=/path/to/spack
@@ -55,7 +55,7 @@ spack compiler find
 
 which creates the file `packages.yaml` in your `$HOME/.spack` directory. Edit it if needed, remove compilers you dont want to use
 
-To this file, add some variants of other packages you want to install, my example is [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml).
+To this file, add some variants of other packages you want to install, my example is [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml), but you will have to modify this.
 
 ```shell
 wget https://raw.githubusercontent.com/cpraveen/cfdlab/master/configs/spack_packages.yaml
