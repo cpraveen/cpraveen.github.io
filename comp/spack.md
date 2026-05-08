@@ -172,3 +172,5 @@ spack spec /c67eysz
 If you want to compile deal.II on your own, then I have a cmake configure script [here](https://raw.githubusercontent.com/cpraveen/cfdlab/master/bin/dealii_spack.sh).
 
 > Again, remove miniforge and anaconda from your `PATH` before compiling deal.II.
+
+You may first want to install the [Gmsh SDK](https://gmsh.info) and set its path in `GMSH_DIR` variable. This gives access to Gmsh API that allows to read newer versions of Gmsh files.
