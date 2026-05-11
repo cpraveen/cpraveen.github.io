@@ -252,7 +252,7 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S B
 </li>
 
 <li>
-Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", accepted as poster in NeurIPS 2025. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>]
+Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", NeurIPS 2025, Advances in Neural Information Processing Systems, vol. 38, 2026. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>]
 </li>
 
 <li>
@@ -260,7 +260,7 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Constraints Pre
 </li>
 
 <li>
-Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", accepted in Computers and Fluids. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2025.106886">Journal</a>], [<a href="https://authors.elsevier.com/c/1mPebAQO4-G-D">Read online</a>]
+Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", Computers and Fluids, vol. 307, March 2026. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2025.106886">Journal</a>], [<a href="https://authors.elsevier.com/c/1mPebAQO4-G-D">Read online</a>]
 </li>
 
 <li>
