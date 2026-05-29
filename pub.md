@@ -563,7 +563,7 @@ Barsukow, Wasilij; Chandrashekar, Praveen; Klingenberg, Christian; Lechner, Lisa
 </li>
 
 <li>
-Praveen Chandrashekar, Jalil Khan, Anil Nemili, "Continuous Galerkin method for compressible flows", Conference on Hyperbolic Problems: A comprehensive approach, Univ. of Wuerzburg, 23-27 March, 2026.
+Praveen Chandrashekar, Jalil Khan, Anil Nemili, "Continuous Galerkin method for compressible flows", Conference on Hyperbolic Problems: A comprehensive approach, Univ. of Wuerzburg, 23-27 March, 2026. [<a href="https://indico.math.cnrs.fr/event/14186/">Conference</a>]
 </li>
 
 <li>
