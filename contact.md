@@ -37,7 +37,10 @@ I am usually available at this number from Monday to Friday between 8:30 AM to 3
 
 ## Email
 
-cpraveen AT gmail DOT com
+```text
+praveen  AT tifrbng DOT res DOT in
+cpraveen AT gmail   DOT com
+```
 
 ## Important Note
 
