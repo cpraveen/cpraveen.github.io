@@ -48,6 +48,11 @@ For the details of the numerical scheme, see <a href="http://arxiv.org/abs/1506.
 * ME, Aerospace Engineering, IISc, Bangalore, 1998-2000
 * PhD, Aerospace Engineering, IISc, Bangalore, 2000-2004
 
+## Memberships
+
+* Fellow, National Academy of Science (India)
+* Member, Aeronautical Society of India
+
 ## Research
 
 My primary research interest is CFD and its applications. I am also interested in numerical analysis and numerical solution of PDE in general.

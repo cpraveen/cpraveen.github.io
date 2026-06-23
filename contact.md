@@ -33,7 +33,7 @@ Room No. 120
 +91 80 6695 3794 (TIFR Reception)  
 +91 80 6695 3700 (TIFR Security)
 
-I am usually available at this number from Monday to Friday between 8:30 AM to 3:30 PM (Indian time).
+I am usually available at this number from Monday to Friday between 8:00 AM to 3:00 PM (Indian time).
 
 ## Email
 
