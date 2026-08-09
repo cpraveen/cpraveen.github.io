@@ -252,7 +252,7 @@ Jaya Agnihotri, Deepak Bhoriya, Harish Kumar, Praveen Chandrashekar, Dinshaw S B
 </li>
 
 <li>
-Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", NeurIPS 2025, Advances in Neural Information Processing Systems, vol. 38, 2026. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>]
+Shizheng Wen, Arsh Kumbhat, Levi Lingsch, Sepehr Mousavi, Yizhou Zhao, Praveen Chandrashekar, Siddhartha Mishra, "Geometry aware operator transformer as an efficient and accurate neural surrogate for pdes on arbitrary domains", NeurIPS 2025, Advances in Neural Information Processing Systems, vol. 38, 2026. [<a href="https://arxiv.org/abs/2505.18781">Arxiv</a>], [<a href="https://openreview.net/forum?id=HXFvNkNt0n">OpenReview</a>], [<a href="https://camlab-ethz.github.io/GAOT">Website</a>]
 </li>
 
 <li>
