@@ -84,7 +84,7 @@ or, meld and tkdiff (install via homebrew).
 
 ## Version control
 
-git is already available and I use <a href="https://www.sourcetreeapp.com">SourceTree</a> as a gui for git.
+git is already available and I use git-gui and <a href="https://www.sourcetreeapp.com">SourceTree</a> as a gui for git.
 
 ## Python
 
