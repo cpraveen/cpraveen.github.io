@@ -9,7 +9,7 @@ layout: default
 > * [Numerical Linear Algebra](https://cpraveen.github.io/nla)
 > * [Spectral Methods](https://cpraveen.github.io/chebpy)
 
-> Teaching: From January 2026, I will be teaching a new [elective course](teaching/fdm2026.html) on finite difference methods for evolutionary PDE.
+> Teaching: From January 2027, I will be teaching the basic numerical analysis course for IntPhD students at CAM.
 
 > Postdocs: There are some postdoc positions at TIFR-CAM, see [here](https://www.math.tifrbng.res.in/en/career/postdoctoral-fellow-positions). If you are interested, write to me with your CV. There are limited positions at TIFR-CAM, and if you have your own funding, e.g., via NPDF, NBHM, etc., I encourage you to write to me.
 
