@@ -183,3 +183,14 @@ echo "   installed and ask admin to install them for you. This prevents waste"
 echo "   of disk space."
 echo "-------------------------------------------------------------------------"
 ```
+
+## Add ssh keys for new user
+
+```shell
+sudo -u USERNAME bash
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+touch ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+echo "PUBLIC KEY" >> ~/.ssh/authorized_keys
+```
