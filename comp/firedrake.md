@@ -6,6 +6,24 @@ layout: default
 
 [Firedrake](https://www.firedrakeproject.org) is a finite element software.
 
+## Pull a docker image
+
+There are images for both x86 and arm.
+
+```shell
+docker pull firedrakeproject/firedrake:latest
+```
+
+Start a container
+
+```shell
+docker run -it --name firedrake -p 8888:8888 \
+           -v $(pwd):/root/shared -w /root/shared \
+           firedrakeproject/firedrake:latest
+```
+
+> If you want to create your own docker image, then read on. These instructions do not seem to work correctly now. You will need to use an ubuntu image instead of debian. Even then I had trouble compiling.
+
 ## Install inside a docker image
 
 Firedrake does not provide a Docker image for arm, so we build it ourselves.

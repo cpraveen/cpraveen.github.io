@@ -20,8 +20,8 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 * Saurav Samantaray (Jan 2022 -- Dec 2022); subsequent position: visiting fellow in IIT Madras.
 * Sandeep Kumar (Nov 2023 -- Nov 2025)
 * Jalil Khan (Dec 2023 -- Dec 2025, TIFR-CAM; Jan 2025 -- present, NPDF)
-* Devendra Kumar Swain
-* Balakrishna Chhatria, NBHM Postdoc
+* Debendra Kumar Swain, (May 2026 -- present, TIFR-CAM)
+* Balakrishna Chhatria, (Aug 2026 -- present, NBHM Postdoc)
 
 ## Masters thesis
 
