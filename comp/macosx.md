@@ -342,4 +342,19 @@ dscacheutil -q group -a name admin
 
 </li>
 
+<li>
+Eject an external drive
+
+<pre>
+diskutil unmount /Volumes/NAME
+</pre>
+
+See which process are using this volume
+
+<pre>
+sudo lsof /Volumes/NAME
+</pre>
+
+</li>
+
 </ol>
