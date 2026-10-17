@@ -144,6 +144,10 @@ NCM Workshop on Finite volume and spectral methods for hyperbolic problems, TIFR
 <a href="teaching/fdm2026.html">Numerical Methods for Evolutionary PDE (Elective), January-May 2026</a>
 </li>
 
+<li>
+<a href="teaching/acm2027.html">Applied and Computational Methods, TIFR-CAM, January-May 2027</a>
+</li>
+
 </ol>
 
 ## Miscellaneous
