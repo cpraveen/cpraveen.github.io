@@ -4,7 +4,7 @@ layout: default
 
 # Spectral methods in python
 
-> Read these codes online here https://cpraveen.github.io/chebpy
+> Read these codes online here <https://cpraveen.github.io/chebpy>
 
 I have re-written the codes given in Trefethen's Spectral Methods in Matlab using python. You can find them in the following links as jupyter notebooks.
 
