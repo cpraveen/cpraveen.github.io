@@ -14,4 +14,5 @@ layout: default
 
 ## Tips, etc.
 
+1. Good colormaps: Spectral, Turbo, RdYlBu, RdYlGn, Plasma, Rainbow, Viridis
 1. [Finding min/max over a time dependent dataset and using it for pseudocolor plot](https://github.com/visit-dav/visit/discussions/20015#discussioncomment-11171445)

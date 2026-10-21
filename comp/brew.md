@@ -66,6 +66,7 @@ brew install imagemagick
 brew install ispell
 brew install openjdk        # Needed by tapenade, may not work for Matlab
 brew install pstoedit
+btew install timg
 brew install wget
 brew install xmgrace        # This will install fftw and mpi.
 brew install yt-dlp

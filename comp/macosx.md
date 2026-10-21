@@ -357,4 +357,19 @@ sudo lsof /Volumes/NAME
 
 </li>
 
+<li>
+Better window corner radius
+
+<pre>
+defaults write -g NSConvolutionOverride1 -float 10
+</pre>
+
+To go back to default radius
+
+<pre>
+defaults delete -g NSConvolutionOverride1
+</pre>
+
+<li>
+
 </ol>
