@@ -370,6 +370,6 @@ To go back to default radius
 defaults delete -g NSConvolutionOverride1
 </pre>
 
-<li>
+</li>
 
 </ol>
