@@ -180,6 +180,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/lftp.html">LFTP</a> |
 <a href="comp/make.html">Make</a> |
 <a href="comp/matplotlib.html">Matplotlib</a> |
+<a href="comp/opencode.html">OpenCode</a> |
 <a href="comp/suse.html">OpenSuse</a> |
 <a href="comp/pbs.html">PBS</a> |
 <a href="comp/pdfjam.html">PDFJam</a> |

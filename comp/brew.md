@@ -64,6 +64,7 @@ brew install gifsicle
 brew install gnuplot
 brew install imagemagick
 brew install ispell
+brew install mactop
 brew install openjdk        # Needed by tapenade, may not work for Matlab
 brew install pstoedit
 btew install timg
