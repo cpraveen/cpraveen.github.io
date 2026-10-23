@@ -309,12 +309,22 @@ Disable spelling correction, etc.: System Preferences --> Keyboard --> Text
 </li>
 
 <li>
-Getting display of X11 programs running on remote Mac: On your remote Mac, add following to <code>/etc/ssh/sshd_config</code>
+Disable password ssh and get display of X11 programs running on remote Mac: On your remote Mac, add following to <code>/etc/ssh/sshd_config</code>
 
 <pre>
+# Disable password based ssh login
+PermitRootLogin prohibit-password
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+UsePAM no
+
 X11Forwarding yes
 X11DisplayOffset 10
 X11UseLocalhost yes
+
+ClientAliveInterval 60
+ClientAliveCountMax 3
+
 XauthLocation /opt/X11/bin/xauth
 </pre>
 
