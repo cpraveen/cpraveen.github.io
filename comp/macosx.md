@@ -382,4 +382,15 @@ defaults delete -g NSConvolutionOverride1
 
 </li>
 
+<li>
+Screen sharing from mac to mac
+
+<pre>
+ssh -L 5900:localhost:5900 user@host
+open vnc://localhost:5900
+</pre>
+
+</li>
+
+
 </ol>
