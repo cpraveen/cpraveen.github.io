@@ -192,6 +192,7 @@ My primary research interest is CFD and its applications. I am also interested i
 <a href="comp/spack.html">Spack</a> |
 <a href="comp/ssh.html">SSH</a> |
 <a href="comp/texmacs.html">TeXMacs</a> |
+<a href="comp/ttt.html">TTT editor</a> |
 <a href="comp/vim.html">Vim</a> |
 <a href="comp/visit.html">VisIt</a> |
 <a href="comp/wsl.html">WSL</a> |
