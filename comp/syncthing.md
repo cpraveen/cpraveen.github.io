@@ -58,3 +58,9 @@ Load and enable the daemon:
 ```shell
 sudo launchctl load -w /Library/LaunchDaemons/com.syncthing.syncthing.plist
 ```
+
+See the web interface
+
+```shell
+open http://127.0.0.1:8384
+```
