@@ -76,6 +76,12 @@ See the web interface
 open http://127.0.0.1:8384
 ```
 
+Check status
+
+```shell
+sudo launchctl print system/com.syncthing.syncthing
+```
+
 To disable
 
 ```shell
