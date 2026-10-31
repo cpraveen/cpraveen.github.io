@@ -64,3 +64,46 @@ See the web interface
 ```shell
 open http://127.0.0.1:8384
 ```
+
+## Sharing device and folder
+
+See device id
+
+```shell
+syncthing cli show system | jq .myID
+```
+
+Share device on both local and remote
+
+```shell
+# On remote
+syncthing cli config devices add --device-id $LocalID
+# On local
+syncthing cli config devices add --device-id $RemoteID
+```
+
+Add a folder on local
+
+```shell
+FolderID=`dd if=/dev/urandom count=1024 2> /dev/null | sha1sum --quiet`
+syncthing cli config folders add --label LABEL --path FOLDER --id $FolderID 
+```
+
+Share folder to remote
+
+```shell
+syncthing cli config folders $FolderID devices add --device-id $RemoteID
+```
+
+On remote, check pending invitation
+
+```shell
+syncthing cli show pending folders
+```
+
+On remote, add folder and share it back
+
+```shell
+syncthing cli config folders add --id $FolderID --label LABEL --path FOLDER
+syncthing cli config folders $FolderID devices add --device-id $LocalID
+```
