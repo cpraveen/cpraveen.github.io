@@ -10,6 +10,8 @@ brew install syncthing
 
 ## Start on boot
 
+Do this if you want syncthing to start without having to login in. It is useful on headless servers. This will start the syncthing daemon when your computer boots.
+
 Create a new system LaunchDaemon plist file using `sudo`:
 
 ```shell
