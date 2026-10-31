@@ -18,7 +18,7 @@ Create a new system LaunchDaemon plist file using `sudo`:
 sudo vi /Library/LaunchDaemons/com.syncthing.syncthing.plist
 ```
 
-Paste the following configuration into the file, replacing `YOUR_USERNAME` with your output from `whoami` and `/opt/homebrew/bin/syncthing` with your output from `which syncthing`:
+Paste the following configuration into the file, replacing `USERNAME` with your output from `whoami` and `/opt/homebrew/bin/syncthing` with your output from `which syncthing`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -28,21 +28,31 @@ Paste the following configuration into the file, replacing `YOUR_USERNAME` with 
     <key>Label</key>
     <string>com.syncthing.syncthing</string>
     <key>UserName</key>
-    <string>YOUR_USERNAME</string>
+    <string>USERNAME</string>
+    <key>GroupName</key>
+    <string>staff</string>
     <key>ProgramArguments</key>
     <array>
         <string>/opt/homebrew/bin/syncthing</string>
-        <string>-no-browser</string>
-        <string>-no-restart</string>
+        <string>serve</string>
+        <string>--no-browser</string>
+        <string>--no-restart</string>
     </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>/Users/USERNAME</string>
+    </dict>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
+    <key>WorkingDirectory</key>
+    <string>/Users/USERNAME</string>
     <key>StandardOutPath</key>
-    <string>/var/log/syncthing.log</string>
+    <string>/opt/homebrew/var/log/syncthing/syncthing.log</string>
     <key>StandardErrorPath</key>
-    <string>/var/log/syncthing-err.log</string>
+    <string>/opt/homebrew/var/log/syncthing/syncthing-err.log</string>
 </dict>
 </plist>
 ```
@@ -57,13 +67,19 @@ sudo chmod 644 /Library/LaunchDaemons/com.syncthing.syncthing.plist
 Load and enable the daemon:
 
 ```shell
-sudo launchctl load -w /Library/LaunchDaemons/com.syncthing.syncthing.plist
+sudo launchctl bootstrap system /Library/LaunchDaemons/com.syncthing.syncthing.plist
 ```
 
 See the web interface
 
 ```shell
 open http://127.0.0.1:8384
+```
+
+To disable
+
+```shell
+sudo launchctl bootout system /Library/LaunchDaemons/com.syncthing.syncthing.plist
 ```
 
 ## Sharing device and folder
