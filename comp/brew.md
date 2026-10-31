@@ -64,6 +64,7 @@ brew install gifsicle
 brew install gnuplot
 brew install imagemagick
 brew install ispell
+brew install juliaup
 brew install mactop
 brew install openjdk        # Needed by tapenade, may not work for Matlab
 brew install pstoedit
@@ -83,7 +84,7 @@ brew install gcc@9
 Pin a package to prevent it from being upgraded
 
 ```shell
-brew pin gcc@11
+brew pin gcc@16
 ```
 
 You can see pinned packages
@@ -131,7 +132,6 @@ brew install paraview
 brew install sourcetree
 brew install skype
 brew install texmacs
-brew install texstudio-org/texstudio/texstudio
 brew install visit
 brew install visual-studio-code
 brew install xnviewmp
@@ -145,7 +145,6 @@ Some apps are available as both bottles and casks, and I prefer to install cask 
 
 ```shell
 brew install --cask docker
-brew install --cask julia
 brew install --cask macvim
 brew install --cask miniforge     # installs conda python
 ```
@@ -155,6 +154,14 @@ To install Octave
 ```shell
 brew tap octave-app/octave-app
 brew install --cask octave-app
+```
+
+To install texstudio
+
+```shell
+brew tap texstudio-org/texstudio
+brew trust texstudio-org/texstudio
+brew install texstudio-org/texstudio/texstudio
 ```
 
 ## Installing Java/JRE
