@@ -34,7 +34,6 @@ Paste the following configuration into the file, replacing `YOUR_USERNAME` with 
         <string>/opt/homebrew/bin/syncthing</string>
         <string>-no-browser</string>
         <string>-no-restart</string>
-        <string>-home=/Users/YOUR_USERNAME/.config/syncthing</string>
     </array>
     <key>RunAtLoad</key>
     <true/>

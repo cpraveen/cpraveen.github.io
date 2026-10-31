@@ -131,7 +131,7 @@ brew install paraview
 brew install sourcetree
 brew install skype
 brew install texmacs
-brew install texstudio
+brew install texstudio-org/texstudio/texstudio
 brew install visit
 brew install visual-studio-code
 brew install xnviewmp
