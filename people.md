@@ -105,7 +105,7 @@ See also my [academic family tree](https://www.mathgenealogy.org/id.php?id=20369
 1. Arun K. R., IISER Trivandrum, 24 -- 27 Aug, 2025.
 1. Arpit Babbar, Univ. Guttenberg, Mainz, 5 -- 7 Jan, 2026.
 1. Jitendra Kumar, IIT Ropar, 19-20 May, 2026.
-1. Rahul Bharthwal, Univ. Stuttgart, 30 Aug -- 3 Sep, 2026.
+1. Rahul Barthwal, Univ. Stuttgart, 30 Aug -- 3 Sep, 2026.
 1. Boniface Nkonga, Univ. Cote d'Azur and INRIA Sophia Antipolis, 1-29 Sep, 2026
 1. Sergey Gavrilyuk, Aix-Marseille Univ., 1-29 Sep, 2026
 
