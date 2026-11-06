@@ -290,6 +290,10 @@ Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-
 Yu-Chen Cheng, Praveen Chandrashekar, Christian Klingenberg, "A low-dissipation central scheme for ideal MHD". [<a href="https://arxiv.org/abs/2603.07738">Arxiv</a>]
 </li>
 
+<li>
+Sudarshan Kumar K, Boniface Nkonga, Praveen Chandrashekar, "Energy-conserving scheme for a shallow-water model with capillary effects". [<a href="https://arxiv.org/abs/2611.07360">Arxiv</a>]
+</li>
+
 </ol>
 
 
