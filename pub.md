@@ -283,7 +283,7 @@ Rakesh Kumar and Praveen Chandrashekar, Divergence-free reconstruction of 2-D ve
 </li>
 
 <li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction method with Automatic Differentiation on Adaptive Curved Meshes for Relativistic Hydrodynamics"
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction method with Automatic Differentiation on Adaptive Curved Meshes for Relativistic Hydrodynamics". [<a href="https://arxiv.org/abs/2604.20608">Arxiv</a>]
 </li>
 
 <li>
