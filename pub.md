@@ -268,6 +268,10 @@ WENO with Non-Conservative Products", Journal of Scientific Computing, Vol. 107,
 Wasilij Barsukow, Praveen Chandrashekar, Christian Klingenberg, Lisa Lechner, "A generalized Active Flux method of arbitrarily high order in two dimensions", Computers and Fluids, vol. 307, March 2026. [<a href="https://arxiv.org/abs/2502.05101">Arxiv</a>], [<a href="https://doi.org/10.1016/j.compfluid.2025.106886">Journal</a>], [<a href="https://authors.elsevier.com/c/1mPebAQO4-G-D">Read online</a>]
 </li>
 
+<li>
+Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction method with Automatic Differentiation on Adaptive Curved Meshes for Relativistic Hydrodynamics", Journal of Computational Physics. [<a href="https://arxiv.org/abs/2604.20608">Arxiv</a>]
+</li>
+
 </ol>
 
 ## Papers submitted
@@ -280,10 +284,6 @@ Junming Duan, Praveen Chandrashekar, Christian Klingenberg, "Active flux for ide
 
 <li>
 Rakesh Kumar and Praveen Chandrashekar, Divergence-free reconstruction of 2-D vector fields: application to induction equation.
-</li>
-
-<li>
-Sujoy Basak, Arpit Babbar, Harish Kumar, Praveen Chandrashekar, "Admissible Lax-Wendroff Flux Reconstruction method with Automatic Differentiation on Adaptive Curved Meshes for Relativistic Hydrodynamics". [<a href="https://arxiv.org/abs/2604.20608">Arxiv</a>]
 </li>
 
 <li>
