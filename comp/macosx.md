@@ -194,6 +194,26 @@ sudo dd if=foo.dmg of=/dev/rdiskN bs=1m
 
 When it finishes, you can remove the USB drive.
 
+## Disable Ivanti from starting automatically
+
+Check which Ivanti or Pulse Secure LaunchAgent files exist on your Mac by running:
+
+```shell
+ls -la /Library/LaunchAgents/ ~/Library/LaunchAgents/ | grep -iE "ivanti|pulse"
+```
+
+Disable the user-interface tray agent (typically named `net.pulsesecure.pulsetray.plist` or `com.ivanti.pulsetray.plist` in `/Library/LaunchAgents/`). Run the following command for whichever filename appeared in step 2:
+
+```shell
+sudo launchctl bootout gui/$(id -u) /Library/LaunchAgents/net.pulsesecure.pulsetray.plist
+```
+
+Prevent macOS from re-enabling it on the next reboot by running:
+
+```shell
+sudo launchctl disable gui/$(id -u)/net.pulsesecure.pulsetray
+```
+
 ## Miscellaneous stuff
 
 <ol>
