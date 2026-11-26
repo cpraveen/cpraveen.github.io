@@ -305,6 +305,16 @@ rm ~/Library/Preferences/com.apple.finder.plist
 </li>
 
 <li>
+Reset the background login items database
+
+<pre>
+sudo sfltool resetbtm
+</pre>
+
+and reboot your mac. You may have to add login items again.
+</li>
+
+<li>
 Enable repeat key press, useful for Vim mode in VSCode, overleaf, etc.
 
 <pre>
